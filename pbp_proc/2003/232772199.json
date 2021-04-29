@@ -1,0 +1,745 @@
+{
+"gameId": 232772199,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Broncos",
+"uid": "s:20~l:23~t:2711",
+"alternateColor": "bfa979",
+"color": "B59966",
+"displayName": "Western Michigan Broncos",
+"name": "Broncos",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+"location": "Western Michigan",
+"id": "2711",
+"abbreviation": "WMU",
+"slug": "western-michigan-broncos"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Eagles",
+"uid": "s:20~l:23~t:2199",
+"alternateColor": "f0f0f0",
+"color": "00331b",
+"displayName": "Eastern Michigan Eagles",
+"name": "Eagles",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+"location": "Eastern Michigan",
+"id": "2199",
+"abbreviation": "EMU",
+"slug": "eastern-michigan-eagles"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Broncos",
+"uid": "s:20~l:23~t:2711",
+"alternateColor": "bfa979",
+"color": "B59966",
+"displayName": "Western Michigan Broncos",
+"name": "Broncos",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+"location": "Western Michigan",
+"id": "2711",
+"abbreviation": "WMU",
+"slug": "western-michigan-broncos"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Eagles",
+"uid": "s:20~l:23~t:2199",
+"alternateColor": "f0f0f0",
+"color": "00331b",
+"displayName": "Eastern Michigan Eagles",
+"name": "Eagles",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+"location": "Eastern Michigan",
+"id": "2199",
+"abbreviation": "EMU",
+"slug": "eastern-michigan-eagles"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:232772199",
+"week": 7,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2003-10-04T18:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [],
+"groups": {
+"midsizeName": "Mid-American",
+"name": "Mid-American Conference",
+"id": "15",
+"abbreviation": "midam",
+"shortName": "MAC"
+},
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:232772199~c:232772199",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2199",
+"homeAway": "home",
+"score": "3",
+"winner": false,
+"record": [
+{
+"summary": "1-5",
+"displayValue": "1-5",
+"type": "total"
+},
+{
+"summary": "1-3",
+"displayValue": "1-3",
+"type": "home"
+},
+{
+"summary": "0-2",
+"displayValue": "0-2",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2199",
+"team": {
+"uid": "s:20~l:23~t:2199",
+"alternateColor": "f0f0f0",
+"color": "00331b",
+"displayName": "Eastern Michigan Eagles",
+"name": "Eagles",
+"nickname": "E Michigan",
+"location": "Eastern Michigan",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2199/eastern-michigan-eagles",
+"text": "Clubhouse"
+}
+],
+"id": "2199",
+"abbreviation": "EMU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2199.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "3"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2711",
+"homeAway": "away",
+"score": "31",
+"winner": true,
+"record": [
+{
+"summary": "3-2",
+"displayValue": "3-2",
+"type": "total"
+},
+{
+"summary": "2-1",
+"displayValue": "2-1",
+"type": "road"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2711",
+"team": {
+"uid": "s:20~l:23~t:2711",
+"alternateColor": "bfa979",
+"color": "B59966",
+"displayName": "Western Michigan Broncos",
+"name": "Broncos",
+"nickname": "W Michigan",
+"location": "Western Michigan",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2711/western-michigan-broncos",
+"text": "Clubhouse"
+}
+],
+"id": "2711",
+"abbreviation": "WMU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2711.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "14"
+},
+{
+"displayValue": "17"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": true,
+"id": "232772199",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "full",
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2003,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/232772199",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Box Score",
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/college-football/boxscore/_/gameId/232772199",
+"text": "Box Score",
+"isPremium": false
+},
+{
+"isExternal": false,
+"shortText": "Team Stats",
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/matchup?gameId=232772199",
+"text": "Team Stats",
+"isPremium": false
+}
+],
+"id": "232772199",
+"gameNote": ""
+},
+"broadcasts": [],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2020 Mid-American Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/15/view/fbs-i-a",
+"divisions": [
+{
+"header": "Mid-American - East",
+"standings": {
+"entries": []
+}
+},
+{
+"header": "Mid-American - West",
+"standings": {
+"entries": []
+}
+}
+]
+}
+]
+},
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "2711",
+"uid": "s:20~l:23~t:2711",
+"displayName": "Western Michigan Broncos",
+"abbreviation": "WMU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2711/western-michigan-broncos",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2711",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "2199",
+"uid": "s:20~l:23~t:2199",
+"displayName": "Eastern Michigan Eagles",
+"abbreviation": "EMU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2199/eastern-michigan-eagles",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2199",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2003-10-04T18:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [],
+"groups": {
+"midsizeName": "Mid-American",
+"name": "Mid-American Conference",
+"id": "15",
+"abbreviation": "midam",
+"shortName": "MAC"
+},
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:232772199~c:232772199",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2199",
+"homeAway": "home",
+"score": "3",
+"winner": false,
+"record": [
+{
+"summary": "1-5",
+"displayValue": "1-5",
+"type": "total"
+},
+{
+"summary": "1-3",
+"displayValue": "1-3",
+"type": "home"
+},
+{
+"summary": "0-2",
+"displayValue": "0-2",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2199",
+"team": {
+"uid": "s:20~l:23~t:2199",
+"alternateColor": "f0f0f0",
+"color": "00331b",
+"displayName": "Eastern Michigan Eagles",
+"name": "Eagles",
+"nickname": "E Michigan",
+"location": "Eastern Michigan",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2199/eastern-michigan-eagles",
+"text": "Clubhouse"
+}
+],
+"id": "2199",
+"abbreviation": "EMU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2199.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "3"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2711",
+"homeAway": "away",
+"score": "31",
+"winner": true,
+"record": [
+{
+"summary": "3-2",
+"displayValue": "3-2",
+"type": "total"
+},
+{
+"summary": "2-1",
+"displayValue": "2-1",
+"type": "road"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2711",
+"team": {
+"uid": "s:20~l:23~t:2711",
+"alternateColor": "bfa979",
+"color": "B59966",
+"displayName": "Western Michigan Broncos",
+"name": "Broncos",
+"nickname": "W Michigan",
+"location": "Western Michigan",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2711/western-michigan-broncos",
+"text": "Clubhouse"
+}
+],
+"id": "2711",
+"abbreviation": "WMU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2711.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "14"
+},
+{
+"displayValue": "17"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": true,
+"id": "232772199",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "full",
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2003,
+"type": 2
+}
+}

@@ -1,0 +1,712 @@
+{
+"gameId": 222710254,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Falcons",
+"uid": "s:20~l:23~t:2005",
+"alternateColor": "ffffff",
+"color": "004a7b",
+"displayName": "Air Force Falcons",
+"name": "Falcons",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"location": "Air Force",
+"id": "2005",
+"abbreviation": "AFA",
+"slug": "air-force-falcons"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Utes",
+"uid": "s:20~l:23~t:254",
+"alternateColor": "7e8083",
+"color": "890012",
+"displayName": "Utah Utes",
+"name": "Utes",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"location": "Utah",
+"id": "254",
+"abbreviation": "UTAH",
+"slug": "utah-utes"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Falcons",
+"uid": "s:20~l:23~t:2005",
+"alternateColor": "ffffff",
+"color": "004a7b",
+"displayName": "Air Force Falcons",
+"name": "Falcons",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"location": "Air Force",
+"id": "2005",
+"abbreviation": "AFA",
+"slug": "air-force-falcons"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Utes",
+"uid": "s:20~l:23~t:254",
+"alternateColor": "7e8083",
+"color": "890012",
+"displayName": "Utah Utes",
+"name": "Utes",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"location": "Utah",
+"id": "254",
+"abbreviation": "UTAH",
+"slug": "utah-utes"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:222710254",
+"week": 6,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2002-09-28T19:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:222710254~c:222710254",
+"competitors": [
+{
+"uid": "s:20~l:23~t:254",
+"homeAway": "home",
+"score": "26",
+"winner": false,
+"record": [
+{
+"summary": "2-3",
+"displayValue": "2-3",
+"type": "total"
+},
+{
+"summary": "1-1",
+"displayValue": "1-1",
+"type": "home"
+},
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "254",
+"team": {
+"uid": "s:20~l:23~t:254",
+"alternateColor": "7e8083",
+"color": "890012",
+"displayName": "Utah Utes",
+"name": "Utes",
+"nickname": "Utah",
+"location": "Utah",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/254/utah-utes",
+"text": "Clubhouse"
+}
+],
+"id": "254",
+"abbreviation": "UTAH",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "7"
+},
+{
+"displayValue": "19"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2005",
+"homeAway": "away",
+"score": "30",
+"winner": true,
+"record": [
+{
+"summary": "4-0",
+"displayValue": "4-0",
+"type": "total"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "road"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2005",
+"team": {
+"uid": "s:20~l:23~t:2005",
+"alternateColor": "ffffff",
+"color": "004a7b",
+"displayName": "Air Force Falcons",
+"name": "Falcons",
+"nickname": "Air Force",
+"location": "Air Force",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+"text": "Clubhouse"
+}
+],
+"id": "2005",
+"abbreviation": "AFA",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "6"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "10"
+},
+{
+"displayValue": "14"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"id": "222710254",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2002,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/222710254",
+"text": "Gamecast",
+"isPremium": false
+}
+],
+"id": "222710254"
+},
+"broadcasts": [],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2020 Mountain West Conference Standings",
+"standings": {
+"entries": []
+}
+},
+{
+"header": "2020 Pac-12 Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/9/view/fbs-i-a",
+"divisions": [
+{
+"header": "Pac 12 - North",
+"standings": {
+"entries": []
+}
+},
+{
+"header": "Pac 12 - South",
+"standings": {
+"entries": []
+}
+}
+]
+}
+]
+},
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "2005",
+"uid": "s:20~l:23~t:2005",
+"displayName": "Air Force Falcons",
+"abbreviation": "AFA",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2005",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "254",
+"uid": "s:20~l:23~t:254",
+"displayName": "Utah Utes",
+"abbreviation": "UTAH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/254/utah-utes",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/254",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2002-09-28T19:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:222710254~c:222710254",
+"competitors": [
+{
+"uid": "s:20~l:23~t:254",
+"homeAway": "home",
+"score": "26",
+"winner": false,
+"record": [
+{
+"summary": "2-3",
+"displayValue": "2-3",
+"type": "total"
+},
+{
+"summary": "1-1",
+"displayValue": "1-1",
+"type": "home"
+},
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "254",
+"team": {
+"uid": "s:20~l:23~t:254",
+"alternateColor": "7e8083",
+"color": "890012",
+"displayName": "Utah Utes",
+"name": "Utes",
+"nickname": "Utah",
+"location": "Utah",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/254/utah-utes",
+"text": "Clubhouse"
+}
+],
+"id": "254",
+"abbreviation": "UTAH",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/254.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "7"
+},
+{
+"displayValue": "19"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2005",
+"homeAway": "away",
+"score": "30",
+"winner": true,
+"record": [
+{
+"summary": "4-0",
+"displayValue": "4-0",
+"type": "total"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "road"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2005",
+"team": {
+"uid": "s:20~l:23~t:2005",
+"alternateColor": "ffffff",
+"color": "004a7b",
+"displayName": "Air Force Falcons",
+"name": "Falcons",
+"nickname": "Air Force",
+"location": "Air Force",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+"text": "Clubhouse"
+}
+],
+"id": "2005",
+"abbreviation": "AFA",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "6"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "10"
+},
+{
+"displayValue": "14"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"id": "222710254",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2002,
+"type": 2
+}
+}

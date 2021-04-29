@@ -1,0 +1,716 @@
+{
+"gameId": 222990309,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Mean Green",
+"uid": "s:20~l:23~t:249",
+"alternateColor": "000000",
+"color": "00853D",
+"displayName": "North Texas Mean Green",
+"name": "Mean Green",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+"location": "North Texas",
+"id": "249",
+"abbreviation": "UNT",
+"slug": "north-texas-mean-green"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Ragin' Cajuns",
+"uid": "s:20~l:23~t:309",
+"color": "ce2842",
+"displayName": "Louisiana Ragin' Cajuns",
+"name": "Ragin' Cajuns",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"location": "Louisiana",
+"id": "309",
+"abbreviation": "ULL",
+"slug": "louisiana-ragin-cajuns"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"shortDisplayName": "Mean Green",
+"uid": "s:20~l:23~t:249",
+"alternateColor": "000000",
+"color": "00853D",
+"displayName": "North Texas Mean Green",
+"name": "Mean Green",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+"location": "North Texas",
+"id": "249",
+"abbreviation": "UNT",
+"slug": "north-texas-mean-green"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Ragin' Cajuns",
+"uid": "s:20~l:23~t:309",
+"color": "ce2842",
+"displayName": "Louisiana Ragin' Cajuns",
+"name": "Ragin' Cajuns",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"location": "Louisiana",
+"id": "309",
+"abbreviation": "ULL",
+"slug": "louisiana-ragin-cajuns"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:222990309",
+"week": 10,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2002-10-26T21:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [],
+"groups": {
+"midsizeName": "Sun Belt",
+"name": "Sun Belt Conference",
+"id": "37",
+"abbreviation": "belt",
+"shortName": "Sun Belt"
+},
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:222990309~c:222990309",
+"competitors": [
+{
+"uid": "s:20~l:23~t:309",
+"homeAway": "home",
+"score": "0",
+"winner": false,
+"record": [
+{
+"summary": "1-7",
+"displayValue": "1-7",
+"type": "total"
+},
+{
+"summary": "1-2",
+"displayValue": "1-2",
+"type": "home"
+},
+{
+"summary": "0-3",
+"displayValue": "0-3",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "309",
+"team": {
+"uid": "s:20~l:23~t:309",
+"color": "ce2842",
+"displayName": "Louisiana Ragin' Cajuns",
+"name": "Ragin' Cajuns",
+"nickname": "Louisiana",
+"location": "Louisiana",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns",
+"text": "Clubhouse"
+}
+],
+"id": "309",
+"abbreviation": "ULL",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:249",
+"homeAway": "away",
+"score": "27",
+"winner": true,
+"record": [
+{
+"summary": "3-5",
+"displayValue": "3-5",
+"type": "total"
+},
+{
+"summary": "2-4",
+"displayValue": "2-4",
+"type": "road"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "249",
+"team": {
+"uid": "s:20~l:23~t:249",
+"alternateColor": "000000",
+"color": "00853D",
+"displayName": "North Texas Mean Green",
+"name": "Mean Green",
+"nickname": "North Texas",
+"location": "North Texas",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/249/north-texas-mean-green",
+"text": "Clubhouse"
+}
+],
+"id": "249",
+"abbreviation": "UNT",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/249.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "13"
+},
+{
+"displayValue": "14"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"id": "222990309",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+}
+],
+"season": {
+"year": 2002,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/222990309",
+"text": "Gamecast",
+"isPremium": false
+}
+],
+"id": "222990309"
+},
+"broadcasts": [],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2020 Conference USA Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/12/view/fbs-i-a",
+"divisions": [
+{
+"header": "Conference USA - East",
+"standings": {
+"entries": []
+}
+},
+{
+"header": "Conference USA - West",
+"standings": {
+"entries": []
+}
+}
+]
+}
+]
+},
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "249",
+"uid": "s:20~l:23~t:249",
+"displayName": "North Texas Mean Green",
+"abbreviation": "UNT",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/249/north-texas-mean-green",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/249",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "309",
+"uid": "s:20~l:23~t:309",
+"displayName": "Louisiana Ragin' Cajuns",
+"abbreviation": "ULL",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/309",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"date": "2002-10-26T21:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [],
+"groups": {
+"midsizeName": "Sun Belt",
+"name": "Sun Belt Conference",
+"id": "37",
+"abbreviation": "belt",
+"shortName": "Sun Belt"
+},
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:222990309~c:222990309",
+"competitors": [
+{
+"uid": "s:20~l:23~t:309",
+"homeAway": "home",
+"score": "0",
+"winner": false,
+"record": [
+{
+"summary": "1-7",
+"displayValue": "1-7",
+"type": "total"
+},
+{
+"summary": "1-2",
+"displayValue": "1-2",
+"type": "home"
+},
+{
+"summary": "0-3",
+"displayValue": "0-3",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "309",
+"team": {
+"uid": "s:20~l:23~t:309",
+"color": "ce2842",
+"displayName": "Louisiana Ragin' Cajuns",
+"name": "Ragin' Cajuns",
+"nickname": "Louisiana",
+"location": "Louisiana",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns",
+"text": "Clubhouse"
+}
+],
+"id": "309",
+"abbreviation": "ULL",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/309.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:249",
+"homeAway": "away",
+"score": "27",
+"winner": true,
+"record": [
+{
+"summary": "3-5",
+"displayValue": "3-5",
+"type": "total"
+},
+{
+"summary": "2-4",
+"displayValue": "2-4",
+"type": "road"
+},
+{
+"summary": "2-0",
+"displayValue": "2-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "249",
+"team": {
+"uid": "s:20~l:23~t:249",
+"alternateColor": "000000",
+"color": "00853D",
+"displayName": "North Texas Mean Green",
+"name": "Mean Green",
+"nickname": "North Texas",
+"location": "North Texas",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/249/north-texas-mean-green",
+"text": "Clubhouse"
+}
+],
+"id": "249",
+"abbreviation": "UNT",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/249.png",
+"height": 500
+}
+]
+},
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "13"
+},
+{
+"displayValue": "14"
+},
+{
+"displayValue": "0"
+}
+],
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"id": "222990309",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_FINAL",
+"description": "Final",
+"id": "3",
+"state": "post",
+"completed": true,
+"detail": "Final",
+"shortDetail": "Final"
+}
+}
+},
+"season": {
+"year": 2002,
+"type": 2
+}
+}
