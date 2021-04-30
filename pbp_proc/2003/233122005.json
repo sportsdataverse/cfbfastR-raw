@@ -1,737 +1,737 @@
 {
-"gameId": 233122005,
-"drives": {},
-"plays": [],
-"scoringPlays": [],
-"winprobability": [],
-"boxscore": {
-"teams": [
-{
-"team": {
-"shortDisplayName": "Black Knights",
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"location": "Army",
-"id": "349",
-"abbreviation": "ARMY",
-"slug": "army-black-knights"
-},
-"statistics": []
-},
-{
-"team": {
-"shortDisplayName": "Falcons",
-"uid": "s:20~l:23~t:2005",
-"alternateColor": "ffffff",
-"color": "004a7b",
-"displayName": "Air Force Falcons",
-"name": "Falcons",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-"location": "Air Force",
-"id": "2005",
-"abbreviation": "AFA",
-"slug": "air-force-falcons"
-},
-"statistics": []
-}
-],
-"players": [
-{
-"team": {
-"shortDisplayName": "Black Knights",
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"location": "Army",
-"id": "349",
-"abbreviation": "ARMY",
-"slug": "army-black-knights"
-},
-"statistics": []
-},
-{
-"team": {
-"shortDisplayName": "Falcons",
-"uid": "s:20~l:23~t:2005",
-"alternateColor": "ffffff",
-"color": "004a7b",
-"displayName": "Air Force Falcons",
-"name": "Falcons",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-"location": "Air Force",
-"id": "2005",
-"abbreviation": "AFA",
-"slug": "air-force-falcons"
-},
-"statistics": []
-}
-]
-},
-"header": {
-"uid": "s:20~l:23~e:233122005",
-"week": 12,
-"timeValid": true,
-"league": {
-"uid": "s:20~l:23",
-"midsizeName": "NCAA Football",
-"name": "NCAA - Football",
-"links": [
-{
-"rel": [
-"index",
-"desktop",
-"league"
-],
-"href": "https://www.espn.com/college-football/",
-"text": "Index"
-},
-{
-"rel": [
-"index",
-"sportscenter",
-"app",
-"league"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
-"text": "Index"
-},
-{
-"rel": [
-"schedule",
-"desktop",
-"league"
-],
-"href": "https://www.espn.com/college-football/schedule",
-"text": "Schedule"
-},
-{
-"rel": [
-"schedule",
-"sportscenter",
-"app",
-"league"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
-"text": "Schedule"
-},
-{
-"rel": [
-"standings",
-"desktop",
-"league"
-],
-"href": "http://www.espn.com/college-football/standings",
-"text": "Standings"
-},
-{
-"rel": [
-"standings",
-"sportscenter",
-"app",
-"league"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
-"text": "Standings"
-},
-{
-"rel": [
-"rankings",
-"desktop",
-"league"
-],
-"href": "https://www.espn.com/college-football/rankings",
-"text": "Rankings"
-},
-{
-"rel": [
-"scores",
-"desktop",
-"league"
-],
-"href": "http://www.espn.com/college-football/scoreboard",
-"text": "Scores"
-},
-{
-"rel": [
-"scores",
-"sportscenter",
-"app",
-"league"
-],
-"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
-"text": "Scores"
-},
-{
-"rel": [
-"stats",
-"desktop",
-"league"
-],
-"href": "http://www.espn.com/college-football/stats",
-"text": "Stats"
-},
-{
-"rel": [
-"teams",
-"desktop",
-"league"
-],
-"href": "http://www.espn.com/college-football/teams",
-"text": "Teams"
-},
-{
-"rel": [
-"athletes",
-"desktop",
-"league"
-],
-"href": "http://www.espn.com/college-football/players",
-"text": "Players"
-},
-{
-"rel": [
-"injuries",
-"desktop",
-"league"
-],
-"href": "https://www.espn.com/college-football/injuries",
-"text": "Injuries"
-}
-],
-"id": "23",
-"abbreviation": "NCAAF",
-"slug": "college-football",
-"isTournament": false
-},
-"competitions": [
-{
-"date": "2003-11-08T19:00Z",
-"commentaryAvailable": false,
-"conferenceCompetition": true,
-"liveAvailable": false,
-"broadcasts": [],
-"playByPlaySource": "none",
-"uid": "s:20~l:23~e:233122005~c:233122005",
-"competitors": [
-{
-"uid": "s:20~l:23~t:2005",
-"homeAway": "home",
-"score": "31",
-"winner": true,
-"record": [
-{
-"summary": "7-3",
-"displayValue": "7-3",
-"type": "total"
-},
-{
-"summary": "5-1",
-"displayValue": "5-1",
-"type": "home"
-},
-{
-"summary": "3-2",
-"displayValue": "3-2",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "2005",
-"team": {
-"uid": "s:20~l:23~t:2005",
-"alternateColor": "ffffff",
-"color": "004a7b",
-"displayName": "Air Force Falcons",
-"name": "Falcons",
-"nickname": "Air Force",
-"location": "Air Force",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
-"text": "Clubhouse"
-}
-],
-"id": "2005",
-"abbreviation": "AFA",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "3"
-},
-{
-"displayValue": "13"
-},
-{
-"displayValue": "15"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 0
-},
-{
-"uid": "s:20~l:23~t:349",
-"homeAway": "away",
-"score": "3",
-"winner": false,
-"record": [
-{
-"summary": "0-10",
-"displayValue": "0-10",
-"type": "total"
-},
-{
-"summary": "0-5",
-"displayValue": "0-5",
-"type": "road"
-},
-{
-"summary": "0-7",
-"displayValue": "0-7",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "349",
-"team": {
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"nickname": "Army",
-"location": "Army",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"text": "Clubhouse"
-}
-],
-"id": "349",
-"abbreviation": "ARMY",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "0"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "3"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 1
-}
-],
-"onWatchESPN": false,
-"boxscoreAvailable": true,
-"id": "233122005",
-"neutralSite": false,
-"recent": false,
-"boxscoreSource": "full",
-"status": {
-"type": {
-"name": "STATUS_FINAL",
-"description": "Final",
-"id": "3",
-"state": "post",
-"completed": true,
-"detail": "Final",
-"shortDetail": "Final"
-}
-}
-}
-],
-"season": {
-"year": 2003,
-"type": 2
-},
-"links": [
-{
-"isExternal": false,
-"shortText": "Summary",
-"rel": [
-"summary",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/game/_/gameId/233122005",
-"text": "Gamecast",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Recap",
-"rel": [
-"recap",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/recap?gameId=233122005",
-"text": "Recap",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Box Score",
-"rel": [
-"boxscore",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/college-football/boxscore/_/gameId/233122005",
-"text": "Box Score",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Team Stats",
-"rel": [
-"teamstats",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/matchup?gameId=233122005",
-"text": "Team Stats",
-"isPremium": false
-}
-],
-"id": "233122005",
-"gameNote": ""
-},
-"broadcasts": [],
-"videos": [],
-"standings": {
-"fullViewLink": {
-"text": "Full Standings",
-"href": "http://www.espn.com/college-football/standings"
-},
-"groups": [
-{
-"header": "2020 FBS Independents Standings",
-"standings": {
-"entries": []
-}
-},
-{
-"header": "2020 Mountain West Conference Standings",
-"standings": {
-"entries": []
-}
-}
-]
-},
-"timeouts": {},
-"pickcenter": [],
-"againstTheSpread": [
-{
-"team": {
-"id": "349",
-"uid": "s:20~l:23~t:349",
-"displayName": "Army Black Knights",
-"abbreviation": "ARMY",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/349",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
-},
-"records": []
-},
-{
-"team": {
-"id": "2005",
-"uid": "s:20~l:23~t:2005",
-"displayName": "Air Force Falcons",
-"abbreviation": "AFA",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2005",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png"
-},
-"records": []
-}
-],
-"odds": [],
-"predictor": {},
-"espnWP": [],
-"gameInfo": {
-"date": "2003-11-08T19:00Z",
-"commentaryAvailable": false,
-"conferenceCompetition": true,
-"liveAvailable": false,
-"broadcasts": [],
-"playByPlaySource": "none",
-"uid": "s:20~l:23~e:233122005~c:233122005",
-"competitors": [
-{
-"uid": "s:20~l:23~t:2005",
-"homeAway": "home",
-"score": "31",
-"winner": true,
-"record": [
-{
-"summary": "7-3",
-"displayValue": "7-3",
-"type": "total"
-},
-{
-"summary": "5-1",
-"displayValue": "5-1",
-"type": "home"
-},
-{
-"summary": "3-2",
-"displayValue": "3-2",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "2005",
-"team": {
-"uid": "s:20~l:23~t:2005",
-"alternateColor": "ffffff",
-"color": "004a7b",
-"displayName": "Air Force Falcons",
-"name": "Falcons",
-"nickname": "Air Force",
-"location": "Air Force",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
-"text": "Clubhouse"
-}
-],
-"id": "2005",
-"abbreviation": "AFA",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "3"
-},
-{
-"displayValue": "13"
-},
-{
-"displayValue": "15"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 0
-},
-{
-"uid": "s:20~l:23~t:349",
-"homeAway": "away",
-"score": "3",
-"winner": false,
-"record": [
-{
-"summary": "0-10",
-"displayValue": "0-10",
-"type": "total"
-},
-{
-"summary": "0-5",
-"displayValue": "0-5",
-"type": "road"
-},
-{
-"summary": "0-7",
-"displayValue": "0-7",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "349",
-"team": {
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"nickname": "Army",
-"location": "Army",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"text": "Clubhouse"
-}
-],
-"id": "349",
-"abbreviation": "ARMY",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "0"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "3"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 1
-}
-],
-"onWatchESPN": false,
-"boxscoreAvailable": true,
-"id": "233122005",
-"neutralSite": false,
-"recent": false,
-"boxscoreSource": "full",
-"status": {
-"type": {
-"name": "STATUS_FINAL",
-"description": "Final",
-"id": "3",
-"state": "post",
-"completed": true,
-"detail": "Final",
-"shortDetail": "Final"
-}
-}
-},
-"season": {
-"year": 2003,
-"type": 2
-}
+  "gameId": 233122005,
+  "drives": {},
+  "plays": [],
+  "scoringPlays": [],
+  "winprobability": [],
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "shortDisplayName": "Black Knights",
+          "uid": "s:20~l:23~t:349",
+          "alternateColor": "231f20",
+          "color": "ce9c00",
+          "displayName": "Army Black Knights",
+          "name": "Black Knights",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "location": "Army",
+          "id": "349",
+          "abbreviation": "ARMY",
+          "slug": "army-black-knights"
+        },
+        "statistics": []
+      },
+      {
+        "team": {
+          "shortDisplayName": "Falcons",
+          "uid": "s:20~l:23~t:2005",
+          "alternateColor": "ffffff",
+          "color": "004a7b",
+          "displayName": "Air Force Falcons",
+          "name": "Falcons",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+          "location": "Air Force",
+          "id": "2005",
+          "abbreviation": "AFA",
+          "slug": "air-force-falcons"
+        },
+        "statistics": []
+      }
+    ],
+    "players": [
+      {
+        "team": {
+          "shortDisplayName": "Black Knights",
+          "uid": "s:20~l:23~t:349",
+          "alternateColor": "231f20",
+          "color": "ce9c00",
+          "displayName": "Army Black Knights",
+          "name": "Black Knights",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+          "location": "Army",
+          "id": "349",
+          "abbreviation": "ARMY",
+          "slug": "army-black-knights"
+        },
+        "statistics": []
+      },
+      {
+        "team": {
+          "shortDisplayName": "Falcons",
+          "uid": "s:20~l:23~t:2005",
+          "alternateColor": "ffffff",
+          "color": "004a7b",
+          "displayName": "Air Force Falcons",
+          "name": "Falcons",
+          "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+          "location": "Air Force",
+          "id": "2005",
+          "abbreviation": "AFA",
+          "slug": "air-force-falcons"
+        },
+        "statistics": []
+      }
+    ]
+  },
+  "header": {
+    "uid": "s:20~l:23~e:233122005",
+    "week": 12,
+    "timeValid": true,
+    "league": {
+      "uid": "s:20~l:23",
+      "midsizeName": "NCAA Football",
+      "name": "NCAA - Football",
+      "links": [
+        {
+          "rel": [
+            "index",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/college-football/",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "index",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+          "text": "Index"
+        },
+        {
+          "rel": [
+            "schedule",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/college-football/schedule",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+          "text": "Schedule"
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/college-football/standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+          "text": "Standings"
+        },
+        {
+          "rel": [
+            "rankings",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/college-football/rankings",
+          "text": "Rankings"
+        },
+        {
+          "rel": [
+            "scores",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/college-football/scoreboard",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "scores",
+            "sportscenter",
+            "app",
+            "league"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+          "text": "Scores"
+        },
+        {
+          "rel": [
+            "stats",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/college-football/stats",
+          "text": "Stats"
+        },
+        {
+          "rel": [
+            "teams",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/college-football/teams",
+          "text": "Teams"
+        },
+        {
+          "rel": [
+            "athletes",
+            "desktop",
+            "league"
+          ],
+          "href": "http://www.espn.com/college-football/players",
+          "text": "Players"
+        },
+        {
+          "rel": [
+            "injuries",
+            "desktop",
+            "league"
+          ],
+          "href": "https://www.espn.com/college-football/injuries",
+          "text": "Injuries"
+        }
+      ],
+      "id": "23",
+      "abbreviation": "NCAAF",
+      "slug": "college-football",
+      "isTournament": false
+    },
+    "competitions": [
+      {
+        "date": "2003-11-08T19:00Z",
+        "commentaryAvailable": false,
+        "conferenceCompetition": true,
+        "liveAvailable": false,
+        "broadcasts": [],
+        "playByPlaySource": "none",
+        "uid": "s:20~l:23~e:233122005~c:233122005",
+        "competitors": [
+          {
+            "uid": "s:20~l:23~t:2005",
+            "homeAway": "home",
+            "score": "31",
+            "winner": true,
+            "record": [
+              {
+                "summary": "7-3",
+                "displayValue": "7-3",
+                "type": "total"
+              },
+              {
+                "summary": "5-1",
+                "displayValue": "5-1",
+                "type": "home"
+              },
+              {
+                "summary": "3-2",
+                "displayValue": "3-2",
+                "type": "vsconf"
+              }
+            ],
+            "possession": false,
+            "id": "2005",
+            "team": {
+              "uid": "s:20~l:23~t:2005",
+              "alternateColor": "ffffff",
+              "color": "004a7b",
+              "displayName": "Air Force Falcons",
+              "name": "Falcons",
+              "nickname": "Air Force",
+              "location": "Air Force",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+                  "text": "Clubhouse"
+                }
+              ],
+              "id": "2005",
+              "abbreviation": "AFA",
+              "logos": [
+                {
+                  "width": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+                  "height": 500
+                },
+                {
+                  "width": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png",
+                  "height": 500
+                }
+              ]
+            },
+            "linescores": [
+              {
+                "displayValue": "3"
+              },
+              {
+                "displayValue": "13"
+              },
+              {
+                "displayValue": "15"
+              },
+              {
+                "displayValue": "0"
+              }
+            ],
+            "order": 0
+          },
+          {
+            "uid": "s:20~l:23~t:349",
+            "homeAway": "away",
+            "score": "3",
+            "winner": false,
+            "record": [
+              {
+                "summary": "0-10",
+                "displayValue": "0-10",
+                "type": "total"
+              },
+              {
+                "summary": "0-5",
+                "displayValue": "0-5",
+                "type": "road"
+              },
+              {
+                "summary": "0-7",
+                "displayValue": "0-7",
+                "type": "vsconf"
+              }
+            ],
+            "possession": false,
+            "id": "349",
+            "team": {
+              "uid": "s:20~l:23~t:349",
+              "alternateColor": "231f20",
+              "color": "ce9c00",
+              "displayName": "Army Black Knights",
+              "name": "Black Knights",
+              "nickname": "Army",
+              "location": "Army",
+              "links": [
+                {
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+                  "text": "Clubhouse"
+                }
+              ],
+              "id": "349",
+              "abbreviation": "ARMY",
+              "logos": [
+                {
+                  "width": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+                  "height": 500
+                },
+                {
+                  "width": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
+                  "height": 500
+                }
+              ]
+            },
+            "linescores": [
+              {
+                "displayValue": "0"
+              },
+              {
+                "displayValue": "0"
+              },
+              {
+                "displayValue": "3"
+              },
+              {
+                "displayValue": "0"
+              }
+            ],
+            "order": 1
+          }
+        ],
+        "onWatchESPN": false,
+        "boxscoreAvailable": true,
+        "id": "233122005",
+        "neutralSite": false,
+        "recent": false,
+        "boxscoreSource": "full",
+        "status": {
+          "type": {
+            "name": "STATUS_FINAL",
+            "description": "Final",
+            "id": "3",
+            "state": "post",
+            "completed": true,
+            "detail": "Final",
+            "shortDetail": "Final"
+          }
+        }
+      }
+    ],
+    "season": {
+      "year": 2003,
+      "type": 2
+    },
+    "links": [
+      {
+        "isExternal": false,
+        "shortText": "Summary",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/college-football/game/_/gameId/233122005",
+        "text": "Gamecast",
+        "isPremium": false
+      },
+      {
+        "isExternal": false,
+        "shortText": "Recap",
+        "rel": [
+          "recap",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/college-football/recap?gameId=233122005",
+        "text": "Recap",
+        "isPremium": false
+      },
+      {
+        "isExternal": false,
+        "shortText": "Box Score",
+        "rel": [
+          "boxscore",
+          "desktop",
+          "event"
+        ],
+        "href": "http://www.espn.com/college-football/boxscore/_/gameId/233122005",
+        "text": "Box Score",
+        "isPremium": false
+      },
+      {
+        "isExternal": false,
+        "shortText": "Team Stats",
+        "rel": [
+          "teamstats",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/college-football/matchup?gameId=233122005",
+        "text": "Team Stats",
+        "isPremium": false
+      }
+    ],
+    "id": "233122005",
+    "gameNote": ""
+  },
+  "broadcasts": [],
+  "videos": [],
+  "standings": {
+    "fullViewLink": {
+      "text": "Full Standings",
+      "href": "http://www.espn.com/college-football/standings"
+    },
+    "groups": [
+      {
+        "header": "2020 FBS Independents Standings",
+        "standings": {
+          "entries": []
+        }
+      },
+      {
+        "header": "2020 Mountain West Conference Standings",
+        "standings": {
+          "entries": []
+        }
+      }
+    ]
+  },
+  "timeouts": {},
+  "pickcenter": [],
+  "againstTheSpread": [
+    {
+      "team": {
+        "id": "349",
+        "uid": "s:20~l:23~t:349",
+        "displayName": "Army Black Knights",
+        "abbreviation": "ARMY",
+        "links": [
+          {
+            "href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "http://www.espn.com/college-football/team/schedule/_/id/349",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+      },
+      "records": []
+    },
+    {
+      "team": {
+        "id": "2005",
+        "uid": "s:20~l:23~t:2005",
+        "displayName": "Air Force Falcons",
+        "abbreviation": "AFA",
+        "links": [
+          {
+            "href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+            "text": "Clubhouse"
+          },
+          {
+            "href": "http://www.espn.com/college-football/team/schedule/_/id/2005",
+            "text": "Schedule"
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png"
+      },
+      "records": []
+    }
+  ],
+  "odds": [],
+  "predictor": {},
+  "espnWP": [],
+  "gameInfo": {
+    "date": "2003-11-08T19:00Z",
+    "commentaryAvailable": false,
+    "conferenceCompetition": true,
+    "liveAvailable": false,
+    "broadcasts": [],
+    "playByPlaySource": "none",
+    "uid": "s:20~l:23~e:233122005~c:233122005",
+    "competitors": [
+      {
+        "uid": "s:20~l:23~t:2005",
+        "homeAway": "home",
+        "score": "31",
+        "winner": true,
+        "record": [
+          {
+            "summary": "7-3",
+            "displayValue": "7-3",
+            "type": "total"
+          },
+          {
+            "summary": "5-1",
+            "displayValue": "5-1",
+            "type": "home"
+          },
+          {
+            "summary": "3-2",
+            "displayValue": "3-2",
+            "type": "vsconf"
+          }
+        ],
+        "possession": false,
+        "id": "2005",
+        "team": {
+          "uid": "s:20~l:23~t:2005",
+          "alternateColor": "ffffff",
+          "color": "004a7b",
+          "displayName": "Air Force Falcons",
+          "name": "Falcons",
+          "nickname": "Air Force",
+          "location": "Air Force",
+          "links": [
+            {
+              "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+              ],
+              "href": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+              "text": "Clubhouse"
+            }
+          ],
+          "id": "2005",
+          "abbreviation": "AFA",
+          "logos": [
+            {
+              "width": 500,
+              "alt": "",
+              "rel": [
+                "full",
+                "default"
+              ],
+              "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+              "height": 500
+            },
+            {
+              "width": 500,
+              "alt": "",
+              "rel": [
+                "full",
+                "dark"
+              ],
+              "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2005.png",
+              "height": 500
+            }
+          ]
+        },
+        "linescores": [
+          {
+            "displayValue": "3"
+          },
+          {
+            "displayValue": "13"
+          },
+          {
+            "displayValue": "15"
+          },
+          {
+            "displayValue": "0"
+          }
+        ],
+        "order": 0
+      },
+      {
+        "uid": "s:20~l:23~t:349",
+        "homeAway": "away",
+        "score": "3",
+        "winner": false,
+        "record": [
+          {
+            "summary": "0-10",
+            "displayValue": "0-10",
+            "type": "total"
+          },
+          {
+            "summary": "0-5",
+            "displayValue": "0-5",
+            "type": "road"
+          },
+          {
+            "summary": "0-7",
+            "displayValue": "0-7",
+            "type": "vsconf"
+          }
+        ],
+        "possession": false,
+        "id": "349",
+        "team": {
+          "uid": "s:20~l:23~t:349",
+          "alternateColor": "231f20",
+          "color": "ce9c00",
+          "displayName": "Army Black Knights",
+          "name": "Black Knights",
+          "nickname": "Army",
+          "location": "Army",
+          "links": [
+            {
+              "rel": [
+                "clubhouse",
+                "desktop",
+                "team"
+              ],
+              "href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+              "text": "Clubhouse"
+            }
+          ],
+          "id": "349",
+          "abbreviation": "ARMY",
+          "logos": [
+            {
+              "width": 500,
+              "alt": "",
+              "rel": [
+                "full",
+                "default"
+              ],
+              "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+              "height": 500
+            },
+            {
+              "width": 500,
+              "alt": "",
+              "rel": [
+                "full",
+                "dark"
+              ],
+              "href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
+              "height": 500
+            }
+          ]
+        },
+        "linescores": [
+          {
+            "displayValue": "0"
+          },
+          {
+            "displayValue": "0"
+          },
+          {
+            "displayValue": "3"
+          },
+          {
+            "displayValue": "0"
+          }
+        ],
+        "order": 1
+      }
+    ],
+    "onWatchESPN": false,
+    "boxscoreAvailable": true,
+    "id": "233122005",
+    "neutralSite": false,
+    "recent": false,
+    "boxscoreSource": "full",
+    "status": {
+      "type": {
+        "name": "STATUS_FINAL",
+        "description": "Final",
+        "id": "3",
+        "state": "post",
+        "completed": true,
+        "detail": "Final",
+        "shortDetail": "Final"
+      }
+    }
+  },
+  "season": {
+    "year": 2003,
+    "type": 2
+  }
 }
