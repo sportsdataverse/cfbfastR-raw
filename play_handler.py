@@ -4,10 +4,13 @@ import numpy as np
 import xgboost as xgb
 import os
 import re
-import urllib
-from urllib.error import URLError, HTTPError, ContentTooShortError
 import json
 import time
+import http
+import urllib
+from urllib.error import URLError, HTTPError, ContentTooShortError
+from datetime import datetime
+from itertools import chain, starmap
 
 ep_class_to_score_mapping = {
     0: 7,
@@ -235,15 +238,19 @@ class PlayProcess(object):
         self.path_to_json = path_to_json
 
     def download(self, url, num_retries=5):
-        #     print('Downloading:', url)
         try:
             html = urllib.request.urlopen(url).read()
-        except (URLError, HTTPError, ContentTooShortError) as e:
-            print('Download error:', e.reason,url)
+        except (URLError, HTTPError, ContentTooShortError, http.client.HTTPException, http.client.IncompleteRead) as e:
+            print('Download error:', url)
             html = None
             if num_retries > 0:
                 if hasattr(e, 'code') and 500 <= e.code < 600:
+                    time.sleep(10)
                     # recursively retry 5xx HTTP errors
+                    return self.download(url, num_retries - 1)
+            if num_retries > 0:
+                if e == http.client.IncompleteRead:
+                    time.sleep(10)
                     return self.download(url, num_retries - 1)
         return html
 
@@ -416,6 +423,7 @@ class PlayProcess(object):
             pbp_txt['plays'] = pd.DataFrame(pbp_txt['plays'])
             pbp_txt['plays']['season'] = pbp_txt['header']['season']['year']
             pbp_txt['plays']['seasonType'] = pbp_txt['header']['season']['type']
+            pbp_txt['plays']['week'] = pbp_txt['header']['week']
             pbp_txt['plays']['game_id'] = int(pbp_txt['header']['id'])
             pbp_txt['plays']["homeTeamId"] = homeTeamId
             pbp_txt['plays']["awayTeamId"] = awayTeamId
@@ -440,14 +448,18 @@ class PlayProcess(object):
                 if 'spread' in pbp_txt['pickcenter'][1].keys():
                     gameSpread =  pbp_txt['pickcenter'][1]['spread']
                     homeFavorite = pbp_txt['pickcenter'][1]['homeTeamOdds']['favorite']
+                    gameSpreadAvailable = True
                 else:
                     gameSpread =  pbp_txt['pickcenter'][0]['spread']
                     homeFavorite = pbp_txt['pickcenter'][0]['homeTeamOdds']['favorite']
+                    gameSpreadAvailable = True
 
             else:
                 gameSpread = 2.5
                 homeFavorite = True
+                gameSpreadAvailable = False
             pbp_txt['plays']["gameSpread"] = abs(gameSpread)
+            pbp_txt['plays']["gameSpreadAvailable"] = gameSpreadAvailable
             pbp_txt['plays']["homeTeamSpread"] = np.where(homeFavorite == True, abs(gameSpread), -1*abs(gameSpread))
             pbp_txt['homeTeamSpread'] = np.where(homeFavorite == True, abs(gameSpread), -1*abs(gameSpread))
             pbp_txt['plays']["homeFavorite"] = homeFavorite
@@ -489,6 +501,8 @@ class PlayProcess(object):
             pbp_txt['plays']['text'] = pbp_txt['plays']['text'].astype(str)
             pbp_txt['plays']['id'] = pbp_txt['plays']['id'].apply(lambda x: int(x))
             pbp_txt['plays']["start.team.id"] = pbp_txt['plays']["start.team.id"].fillna(method='ffill').apply(lambda x: int(x))
+            if "end.team.id" not in pbp_txt['plays'].keys():
+                pbp_txt['plays']['end.team.id'] = pbp_txt['plays']["start.team.id"]
             pbp_txt['plays']["end.team.id"] = pbp_txt['plays']["end.team.id"].fillna(value=pbp_txt['plays']["start.team.id"]).apply(lambda x: int(x))
             pbp_txt['plays']['start.posteam.id'] = np.select(
                 [
@@ -748,6 +762,7 @@ class PlayProcess(object):
             pbp_txt['videos'] = np.array([])
         if 'broadcasts' not in pbp_txt.keys():
             pbp_txt['broadcasts'] = np.array([])
+        pbp_txt['plays'] = pbp_txt['plays'].replace({np.nan: None})
         self.plays_json = pbp_txt['plays']
         pbp_json = {
             "gameId": self.gameId,
@@ -776,6 +791,7 @@ class PlayProcess(object):
         with open(os.path.join(self.path_to_json, "{}.json".format(self.gameId))) as json_file:
             json_text = json.load(json_file)
             self.plays_json = pd.json_normalize(json_text,'plays')
+            self.plays_json['week'] = json_text['header']['week']
         return json_text
 
     def setup_penalty_data(self, play_df):
@@ -973,12 +989,15 @@ class PlayProcess(object):
             * id, drive_id, game_id
             * down, ydstogo (distance), game_half, period
         """
-        play_df = play_df.assign(id = play_df.id.astype(float))
-        play_df = play_df.assign(play_id = play_df.id.astype(float))
+        play_df = self.plays_json
+        play_df = play_df.assign(id =  lambda play_df: play_df['id'].astype(float))
+        play_df = play_df.assign(play_id =  lambda play_df: play_df['id'].astype(float))
         play_df = play_df[play_df['type.text'].str.contains("end of| coin toss |end period",case=False, regex=True) == False]
 
-        play_df = play_df.assign(period = lambda play_df: play_df['qtr'].astype(int))
-        play_df = play_df.assign(qtr = lambda play_df: play_df['qtr'].astype(int))
+        play_df = play_df.assign(period = lambda play_df: play_df['period'].astype(int))
+        play_df = play_df.assign(qtr = lambda play_df: play_df['period'].astype(int))
+        play_df.loc[(play_df.qtr <= 2),'half'] = 1
+        play_df.loc[(play_df.qtr > 2),'half'] = 2
         play_df.loc[(play_df.qtr <= 2),'game_half'] = 1
         play_df.loc[(play_df.qtr > 2),'game_half'] = 2
         play_df = play_df.assign(lead_game_half= play_df.game_half.shift(-1))
@@ -2064,20 +2083,122 @@ class PlayProcess(object):
                 "End Half"
             ], default = None
         )
+        play_df['drive_points'] = np.select(
+            [
+                play_df.downs_turnover == 1,
+                (play_df["type.text"] == "Punt")|(play_df["type.text"] == "Punt Return"),
+                (play_df["type.text"] == "Punt (Safety)") & (play_df['safety'] == True),
+                play_df["type.text"] == "Blocked Punt (Safety)",
+                (play_df["type.text"] == "Blocked Punt") & (play_df['safety'] == True),
+                play_df["type.text"] == "Blocked Punt",
+                play_df["type.text"] == "Blocked Punt Touchdown",
+                play_df["type.text"] == "Punt Touchdown",
+                play_df["type.text"] == "Punt Team Fumble Recovery Touchdown",
+                play_df["type.text"] == "Punt Return Touchdown",
+                play_df["type.text"] == "Fumble Recovery (Opponent) Touchdown",
+                play_df["type.text"] == "Fumble Return Touchdown",
+                play_df["type.text"] == "Fumble Recovery (Opponent)",
+                play_df["type.text"] == "Fumble Recovery (Own) Touchdown",
+                play_df["type.text"] == "Interception Return Touchdown",
+                play_df["type.text"] == "Interception Return",
+                play_df["type.text"] == "Sack Touchdown",
+                (play_df["type.text"] == "Safety") & (play_df["kickoff_play"] == 0),
+                (play_df["type.text"] == "Kickoff (Safety)") & (play_df["kickoff_safety"] == 1),
+                (play_df["type.text"] == "Kickoff") & (play_df["kickoff_safety"] == 1),
+                play_df["type.text"] == "Kickoff Return Touchdown",
+                play_df["type.text"] == "Kickoff Touchdown",
+                play_df["type.text"] == "Kickoff Team Fumble Recovery",
+                play_df["type.text"] == "Kickoff Team Fumble Recovery Touchdown",
+                play_df["type.text"] == "Penalty (Safety)",
+                play_df["type.text"] == "Passing Touchdown",
+                play_df["type.text"] == "Pass Reception Touchdown",
+                (play_df["type.text"] == "Pass Completion") & (play_df['pass_touchdown'] == True),
+                play_df["type.text"] == "Rushing Touchdown",
+                (play_df["type.text"] == "Rush") & (play_df['rush_touchdown'] == True),
+                play_df["type.text"] == "Field Goal Good",
+                play_df["type.text"] == "Field Goal Missed",
+                play_df["type.text"] == "Missed Field Goal Return",
+                play_df["type.text"] == "Blocked Field Goal Touchdown",
+                play_df["type.text"] == "Missed Field Goal Return Touchdown",
+                play_df["type.text"] == "Blocked Field Goal",
+                play_df["type.text"] == "Uncategorized Touchdown",
+                play_df["type.text"] == "End of Half",
+                play_df["type.text"] == "End of Game",
+                play_df["type.text"] == "End Half"
+            ],
+            [
+                0,
+                0,
+                -2,
+                -2,
+                -2,
+                0,
+                -7,
+                7,
+                7,
+                -7,
+                -7,
+                -7,
+                0,
+                7,
+                -7,
+                0,
+                -7,
+                -2,
+                -2,
+                -2,
+                7,
+                -7,
+                0,
+                -7,
+                -2,
+                7,
+                7,
+                7,
+                7,
+                7,
+                3,
+                0,
+                0,
+                -7,
+                -7,
+                0,
+                7,
+                0,
+                0,
+                0
+            ], default = None
+        )
+
         drive_df = play_df.groupby('drive.id')['drive_result_detailed']
         drive_df = drive_df.fillna(method='bfill')
+        drive_scores_df = play_df.groupby('drive.id')['drive_points']
+        drive_scores_df = drive_scores_df.fillna(method='bfill')
+
         play_df['drive_result_detailed'] = drive_df
         play_df['lag_drive_result_detailed'] = play_df.drive_result_detailed.shift(1)
+        play_df['lag_drive_points'] = play_df.drive_points.shift(1)
         play_df['drive_result_detailed'] = np.select([
                 (play_df['type.text'] == "Extra Point Good") |
                 (play_df['type.text'] == "Extra Point Missed") |
                 (play_df['type.text'] == "Two Point Pass") |
-                (play_df['type.text'] == "Two Point Rush") 
+                (play_df['type.text'] == "Two Point Rush")
             ],
             [
                 play_df['lag_drive_result_detailed']
             ], default = play_df['drive_result_detailed']
         )
+        play_df['drive_points'] = np.select([
+                (play_df['type.text'] == "Extra Point Good") |
+                (play_df['type.text'] == "Extra Point Missed") |
+                (play_df['type.text'] == "Two Point Pass") |
+                (play_df['type.text'] == "Two Point Rush")
+            ],
+            [
+                play_df['lag_drive_points']
+            ], default = play_df['drive_points']
+        )
+        play_df['drive_points'] = play_df.drive_points.fillna(method='bfill')
         return play_df
 
     def add_yardage_cols(self, play_df):
@@ -2874,6 +2995,18 @@ class PlayProcess(object):
         )
         return play_df
 
+    def add_spread_time(self, play_df):
+        play_df['start.posteam_spread'] = np.where(
+            (play_df["start.posteam.id"] == play_df["homeTeamId"]), play_df['homeTeamSpread'], -1 * play_df['homeTeamSpread']
+        )
+        play_df['start.elapsed_share'] = ((3600 - play_df['start.game_seconds_remaining']) / 3600).clip(0, 3600)
+        play_df['start.spread_time'] = play_df['start.posteam_spread'] * np.exp(-4 * play_df['start.elapsed_share'])
+        #---- prepare variables for wp_after calculations ----
+        play_df['end.posteam_spread'] = np.where(
+            (play_df["end.posteam.id"] == play_df["homeTeamId"]), play_df['homeTeamSpread'], -1 * play_df['homeTeamSpread']
+        )
+        return play_df
+
     def calculate_ep_exp_val(self, matrix):
         return matrix[:,0] * ep_class_to_score_mapping[0] + matrix[:,1] * ep_class_to_score_mapping[1] + matrix[:,2] * ep_class_to_score_mapping[2] + matrix[:,3] * ep_class_to_score_mapping[3] + matrix[:,4] * ep_class_to_score_mapping[4] + matrix[:,5] * ep_class_to_score_mapping[5] + matrix[:,6] * ep_class_to_score_mapping[6]
 
@@ -3174,15 +3307,6 @@ class PlayProcess(object):
         play_df['start.ExpScoreDiff_Time_Ratio_touchback'] = play_df['start.ExpScoreDiff_touchback'] / (play_df['start.game_seconds_remaining'] + 1)
         play_df['start.ExpScoreDiff_Time_Ratio'] = play_df['start.ExpScoreDiff'] / (play_df['start.game_seconds_remaining'] + 1)
 
-        play_df['start.posteam_spread'] = np.where(
-            (play_df["start.posteam.id"] == play_df["homeTeamId"]), play_df['homeTeamSpread'], -1 * play_df['homeTeamSpread']
-        )
-        play_df['start.elapsed_share'] = ((3600 - play_df['start.game_seconds_remaining']) / 3600).clip(0, 3600)
-        play_df['start.spread_time'] = play_df['start.posteam_spread'] * np.exp(-4 * play_df['start.elapsed_share'])
-        #---- prepare variables for wp_after calculations ----
-        play_df['end.posteam_spread'] = np.where(
-            (play_df["end.posteam.id"] == play_df["homeTeamId"]), play_df['homeTeamSpread'], -1 * play_df['homeTeamSpread']
-        )
         play_df['end.ExpScoreDiff'] = np.select(
             [
                 # Flips for Turnovers that aren't kickoffs
@@ -3479,9 +3603,195 @@ class PlayProcess(object):
             "receiver" : json.loads(receiver_box.to_json(orient="records")),
             "team" : json.loads(team_box.to_json(orient="records"))
         }
+    def process():
+        gameId = request.get_json(force=True)['gameId']
+        processed_data = PlayProcess( gameId = gameId)
+        pbp = processed_data.cfb_pbp()
+        processed_data.run_processing_pipeline()
+        tmp_json = processed_data.plays_json.to_json(orient="records")
+        jsonified_df = json.loads(tmp_json)
+
+        box = processed_data.create_box_score()
+        bad_cols = [
+            'start.distance', 'start.yardLine', 'start.team.id', 'start.down', 'start.yardsToEndzone', 'start.posTeamTimeouts', 'start.defTeamTimeouts', 
+            'start.shortDownDistanceText', 'start.possessionText', 'start.downDistanceText', 'start.pos_team_timeouts', 'start.def_pos_team_timeouts',
+            'clock.displayValue',
+            'type.id', 'type.text', 'type.abbreviation',
+            'end.distance', 'end.yardLine', 'end.team.id','end.down', 'end.yardsToEndzone', 'end.posTeamTimeouts','end.defTeamTimeouts', 
+            'end.shortDownDistanceText', 'end.possessionText', 'end.downDistanceText', 'end.pos_team_timeouts', 'end.def_pos_team_timeouts',
+            'expectedPoints.before', 'expectedPoints.after', 'expectedPoints.added', 
+            'winProbability.before', 'winProbability.after', 'winProbability.added', 
+            'scoringType.displayName', 'scoringType.name', 'scoringType.abbreviation'
+        ]
+        # clean records back into ESPN format
+        for record in jsonified_df:
+            record["clock"] = {
+                "displayValue" : record["clock.displayValue"]
+            }
+
+            record["type"] = {
+                "id" : record["type.id"],
+                "text" : record["type.text"],
+                "abbreviation" : record["type.abbreviation"],
+            }
+            record["modelInputs"] = {
+                "start" : {
+                    "down" : record["start.down"],
+                    "distance" : record["start.distance"],
+                    "yardsToEndzone" : record["start.yardsToEndzone"],
+                    "TimeSecsRem": record["start.TimeSecsRem"],
+                    "adj_TimeSecsRem" : record["start.adj_TimeSecsRem"],
+                    "pos_score_diff" : record["start.pos_score_diff"],
+                    "posTeamTimeouts" : record["start.posTeamTimeouts"],
+                    "defTeamTimeouts" : record["start.defPosTeamTimeouts"],
+                    "ExpScoreDiff" : record["start.ExpScoreDiff"],
+                    "ExpScoreDiff_Time_Ratio" : record["start.ExpScoreDiff_Time_Ratio"],
+                    "spread_time" : record['start.spread_time'],
+                    "pos_team_receives_2H_kickoff": record["start.pos_team_receives_2H_kickoff"],
+                    "is_home": record["start.is_home"],
+                    "period": record["period"]
+                },
+                "end" : {
+                    "down" : record["end.down"],
+                    "distance" : record["end.distance"],
+                    "yardsToEndzone" : record["end.yardsToEndzone"],
+                    "TimeSecsRem": record["end.TimeSecsRem"],
+                    "adj_TimeSecsRem" : record["end.adj_TimeSecsRem"],
+                    "posTeamTimeouts" : record["end.posTeamTimeouts"],
+                    "defTeamTimeouts" : record["end.defPosTeamTimeouts"],
+                    "pos_score_diff" : record["end.pos_score_diff"],
+                    "ExpScoreDiff" : record["end.ExpScoreDiff"],
+                    "ExpScoreDiff_Time_Ratio" : record["end.ExpScoreDiff_Time_Ratio"],
+                    "spread_time" : record['end.spread_time'],
+                    "pos_team_receives_2H_kickoff": record["end.pos_team_receives_2H_kickoff"],
+                    "is_home": record["end.is_home"],
+                    "period": record["period"]
+                }
+            }
+
+            record["expectedPoints"] = {
+                "before" : record["EP_start"],
+                "after" : record["EP_end"],
+                "added" : record["EPA"]
+            }
+
+            record["winProbability"] = {
+                "before" : record["wp_before"],
+                "after" : record["wp_after"],
+                "added" : record["wpa"]
+            }
+
+            record["start"] = {
+                "team" : {
+                    "id" : record["start.team.id"],
+                },
+                "pos_team": {
+                    "id" : record["start.pos_team.id"],
+                    "name" : record["start.pos_team.name"]
+                },
+                "def_pos_team": {
+                    "id" : record["start.def_pos_team.id"],
+                    "name" : record["start.def_pos_team.name"],
+                },
+                "distance" : record["start.distance"],
+                "yardLine" : record["start.yardLine"],
+                "down" : record["start.down"],
+                "yardsToEndzone" : record["start.yardsToEndzone"],
+                "homeScore" : record["start.homeScore"],
+                "awayScore" : record["start.awayScore"],
+                "pos_team_score" : record["start.pos_team_score"],
+                "def_pos_team_score" : record["start.def_pos_team_score"],
+                "pos_score_diff" : record["start.pos_score_diff"],
+                "posTeamTimeouts" : record["start.posTeamTimeouts"],
+                "defTeamTimeouts" : record["start.defPosTeamTimeouts"],
+                "ExpScoreDiff" : record["start.ExpScoreDiff"],
+                "ExpScoreDiff_Time_Ratio" : record["start.ExpScoreDiff_Time_Ratio"],
+                "shortDownDistanceText" : record["start.shortDownDistanceText"],
+                "possessionText" : record["start.possessionText"],
+                "downDistanceText" : record["start.downDistanceText"]
+            }
+
+            record["end"] = {
+                "team" : {
+                    "id" : record["end.team.id"],
+                },
+                "pos_team": {
+                    "id" : record["end.pos_team.id"],
+                    "name" : record["end.pos_team.name"],
+                }, 
+                "def_pos_team": {
+                    "id" : record["end.def_pos_team.id"],
+                    "name" : record["end.def_pos_team.name"],
+                }, 
+                "distance" : record["end.distance"],
+                "yardLine" : record["end.yardLine"],
+                "down" : record["end.down"],
+                "yardsToEndzone" : record["end.yardsToEndzone"],
+                "homeScore" : record["end.homeScore"],
+                "awayScore" : record["end.awayScore"],
+                "pos_team_score" : record["end.pos_team_score"],
+                "def_pos_team_score" : record["end.def_pos_team_score"],
+                "pos_score_diff" : record["end.pos_score_diff"],
+                "posTeamTimeouts" : record["end.posTeamTimeouts"],
+                "defPosTeamTimeouts" : record["end.defPosTeamTimeouts"],
+                "ExpScoreDiff" : record["end.ExpScoreDiff"],
+                "ExpScoreDiff_Time_Ratio" : record["end.ExpScoreDiff_Time_Ratio"],
+                "shortDownDistanceText" : record["end.shortDownDistanceText"],
+                "possessionText" : record["end.possessionText"],
+                "downDistanceText" : record["end.downDistanceText"]
+            }
+
+            record["players"] = {
+                'passer_player_name' : record["passer_player_name"],
+                'rusher_player_name' : record["rusher_player_name"],
+                'receiver_player_name' : record["receiver_player_name"],
+                'sack_player_name' : record["sack_player_name"],
+                'sack_player_name2' : record["sack_player_name2"],
+                'pass_breakup_player_name' : record["pass_breakup_player_name"],
+                'interception_player_name' : record["interception_player_name"],
+                'fg_kicker_player_name' : record["fg_kicker_player_name"],
+                'fg_block_player_name' : record["fg_block_player_name"],
+                'fg_return_player_name' : record["fg_return_player_name"],
+                'kickoff_player_name' : record["kickoff_player_name"],
+                'kickoff_return_player_name' : record["kickoff_return_player_name"],
+                'punter_player_name' : record["punter_player_name"],
+                'punt_block_player_name' : record["punt_block_player_name"],
+                'punt_return_player_name' : record["punt_return_player_name"],
+                'punt_block_return_player_name' : record["punt_block_return_player_name"],
+                'fumble_player_name' : record["fumble_player_name"],
+                'fumble_forced_player_name' : record["fumble_forced_player_name"],
+                'fumble_recovered_player_name' : record["fumble_recovered_player_name"],
+            }
+            # remove added columns
+            for col in bad_cols:
+                record.pop(col, None)
+
+        result = {
+            "id": gameId,
+            "count" : len(jsonified_df),
+            "plays" : jsonified_df,
+            "box_score" : box,
+            "homeTeamId": pbp['header']['competitions'][0]['competitors'][0]['team']['id'],
+            "awayTeamId": pbp['header']['competitions'][0]['competitors'][1]['team']['id'],
+            "drives" : pbp['drives'],
+            "scoringPlays" : np.array(pbp['scoringPlays']).tolist(),
+            "winprobability" : np.array(pbp['winprobability']).tolist(),
+            "boxScore" : pbp['boxscore'],
+            "homeTeamSpread" : np.array(pbp['homeTeamSpread']).tolist(),
+            "header" : pbp['header'],
+            "broadcasts" : np.array(pbp['broadcasts']).tolist(),
+            "videos" : np.array(pbp['videos']).tolist(),
+            "standings" : pbp['standings'],
+            "pickcenter" : np.array(pbp['pickcenter']).tolist(),
+            "espnWinProbability" : np.array(pbp['espnWP']).tolist(),
+            "gameInfo" : np.array(pbp['gameInfo']).tolist(),
+            "season" : np.array(pbp['season']).tolist()
+        }
+        # logging.getLogger("root").info(result)
+        return jsonify(result)
 
     def run_processing_pipeline(self):
-        if (self.ran_pipeline == False):
+        if ((self.ran_clean_pipeline == False) & (len(self.plays_json.index)>0)):
             self.plays_json = self.add_downs_data(self.plays_json)
             self.plays_json = self.add_play_type_flags(self.plays_json)
             self.plays_json = self.add_rush_pass_flags(self.plays_json)
@@ -3492,13 +3802,12 @@ class PlayProcess(object):
             self.plays_json = self.add_yardage_cols(self.plays_json)
             self.plays_json = self.add_player_cols(self.plays_json)
             self.plays_json = self.after_cols(self.plays_json)
+            self.plays_json = self.add_spread_time(self.plays_json)
             self.plays_json = self.process_epa(self.plays_json)
             self.plays_json = self.process_wpa(self.plays_json)
             self.plays_json = self.add_drive_data(self.plays_json)
             self.plays_json = self.plays_json.replace({np.nan: None})
             self.ran_pipeline = True
-        else:
-            self.logger.info("Already ran pipeline for this game. Doing nothing.")
         return self.plays_json
 
     def run_cleaning_pipeline(self):
@@ -3512,5 +3821,6 @@ class PlayProcess(object):
             self.plays_json = self.add_yardage_cols(self.plays_json)
             self.plays_json = self.add_player_cols(self.plays_json)
             self.plays_json = self.after_cols(self.plays_json)
+            self.plays_json = self.add_spread_time(self.plays_json)
             self.ran_clean_pipeline = True
         return self.plays_json
