@@ -56,14 +56,14 @@ find_next_score <- function(play_i, score_plays_i, dat_drive){
     # Identify current and next score teams
     # if they are the same then you are good
     # if it is different then flip the negative sign
-    current_team <- dat_drive$offense_play[play_i]
+    current_team <- dat_drive$posteam_name[play_i]
     
     ## If the defense scores
     ## we need to make sure the next_score_team is correct
-    next_score_team <- dat_drive$offense_play[next_score_i]
+    next_score_team <- dat_drive$posteam_name[next_score_i]
     
     if(dat_drive$drive_result_detailed[next_score_i] %in% defense_tds){
-      next_score_team <- dat_drive$defense_play[next_score_i]
+      next_score_team <- dat_drive$defteam_name[next_score_i]
     }
     
     if(dat_drive$drive_result_detailed[next_score_i] %in% defense_tds){

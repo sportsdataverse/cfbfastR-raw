@@ -70,9 +70,9 @@ model_data <- pbp_full %>%
     ),
     Under_two = half_seconds_remaining <= 120,
     down_1 = ifelse(down == 1, 1, 0),
-    down_2 = ifelse(down==2, 1, 0),
-    down_3 = ifelse(down==3,1,0),
-    down_4 = ifelse(down==4, 1, 0)
+    down_2 = ifelse(down == 2, 1, 0),
+    down_3 = ifelse(down == 3,1,0),
+    down_4 = ifelse(down == 4, 1, 0)
     #id_play = as.numeric(id_play,digits=20)
   ) %>% filter(!is.na(game_id)) %>% 
   filter(!(game_id %in% c(400603838, 401020760,400933849,
@@ -86,11 +86,11 @@ model_data <- pbp_full %>%
 
 
 # 
-# model_data <- model_data %>%
-#   mutate(
-#     label = as.numeric(label),
-#     label = label - 1
-#   )
+model_data <- model_data %>%
+  mutate(
+    label = as.numeric(.data$label),
+    label = .data$label - 1
+  )
 
 seasons <- unique(model_data$season)
 

@@ -3,7 +3,7 @@ library(tidyverse)
 library(dplyr)
 library(stringr)
 library(arrow)
-source('06_data_ingest_utils.R')
+source('model_training/06_data_ingest_utils.R')
 
 years_vec <- 2002:2020
 # --- compile into play_by_play_{year}.parquet ---------
@@ -88,8 +88,8 @@ pbp_games_own_KO_recovery <- pbp_games %>%
 clean_all_years = pbp %>%
   mutate(
     # make sure all kick off downs are -1
-    down = ifelse(start_down == 5 &
-                    str_detect(type_text, "Kickoff"),-1, start_down)
+    down = ifelse(down == 5 &
+                    str_detect(type_text, "Kickoff"),-1, down)
   ) %>% filter(down < 5)
 
 ## Figure out the next score now
@@ -175,7 +175,7 @@ clean_removed %>% dplyr::filter(qtr>4)
 clean_removed %>% dplyr::filter(qtr<1)
 ## get the next score half
 ## with the drive_details
-source('06_data_ingest_utils.R')
+source('model_training/06_data_ingest_utils.R')
 clean_removed$drive_id <- as.numeric(clean_removed$drive_id)
 # drive_df = clean_removed %>% arrange(drive_id)
 # score_plays <- which(drive_df$scoring_play == TRUE & 
