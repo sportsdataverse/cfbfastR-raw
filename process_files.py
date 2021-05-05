@@ -20,7 +20,7 @@ def main():
             processed_data = PlayProcess( gameId = js, path_to_json = path_to_raw_json)
             pbp = processed_data.cfb_pbp_disk()
             processed_data.run_cleaning_pipeline()
-            processed_data.run_cleaning_pipeline()
+            
             tmp_json = processed_data.plays_json.to_json(orient="records")
             jsonified_df = json.loads(tmp_json)
             pbp["plays"] = jsonified_df

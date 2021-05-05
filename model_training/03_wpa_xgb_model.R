@@ -84,7 +84,6 @@ pbp_full <- pbp_full %>%
 
 model_data <- pbp_full %>% 
   select("label","season",
-         "game_seconds_remaining",
          "half_seconds_remaining","yardline_100",
          "ydstogo","down_1","down_2","down_3","down_4",
          "posteam_score_differential","ScoreDiff_W")
