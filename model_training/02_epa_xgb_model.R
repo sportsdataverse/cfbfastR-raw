@@ -71,7 +71,7 @@ model_data <- pbp_full %>%
     Under_two = half_seconds_remaining <= 120,
     down_1 = ifelse(down == 1, 1, 0),
     down_2 = ifelse(down == 2, 1, 0),
-    down_3 = ifelse(down == 3,1,0),
+    down_3 = ifelse(down == 3, 1,0),
     down_4 = ifelse(down == 4, 1, 0)
     #id_play = as.numeric(id_play,digits=20)
   ) %>% filter(!is.na(game_id)) %>% 
@@ -80,9 +80,15 @@ model_data <- pbp_full %>%
                           401021693, 400787470, 401112262, 
                           401114227, 401147693, 401015042,
                           400986609, 400763439))) %>% 
-  filter(!is.na(posteam_score_differential)) %>% 
-  select("label","season","half_seconds_remaining","yardline_100",
-         "ydstogo","down_1","down_2","down_3","down_4","posteam_score_differential","ScoreDiff_W")
+  filter(!is.na(posteam_score_differential),
+         !is.na(game_seconds_remaining),
+         !is.na(half_seconds_remaining),
+         !is.na(yardline_100),
+         !is.na(ydstogo)) %>% 
+  select("label","season",
+         "half_seconds_remaining","yardline_100",
+         "ydstogo","down_1","down_2","down_3","down_4",
+         "posteam_score_differential","ScoreDiff_W")
 
 
 # 
@@ -109,10 +115,11 @@ params <-
     max_depth = 5,
     min_child_weight = 1
   )
-progressr::with_progress({
+
+ep_training <- function(model_data = model_data, seasons = seasons){
   p <- progressr::progressor(along = seasons)
   
-  cv_results <- map_dfr(seasons, function(x) {
+  cv_results <- furrr::future_map_dfr(seasons, function(x) {
     test_data <- model_data %>%
       filter(season == x) %>%
       select(-season) %>% 
@@ -137,11 +144,23 @@ progressr::with_progress({
     )
     
     cv_data <- bind_cols(test_data, preds) %>% mutate(season = x)
-    xgboost::xgb.save(xgb_ep_model, glue::glue("models/{model_name}.model"))
     p(sprintf("x=%s", as.integer(x)))
     return(cv_data)
   })
+  return(cv_results)
+}
+
+options(future.globals.maxSize= 1250*1024^2)
+future::plan("multisession")
+progressr::with_progress({
+  cv_results <- ep_training(model_data = model_data, 
+                            seasons = seasons)
 })
+write.csv(cv_results,file=gzfile(glue::glue("pbp_model_preds/csv/play_by_play_ep.csv.gz")),row.names = FALSE)
+saveRDS(cv_results,glue::glue("pbp_model_preds/rds/play_by_play_{y}_ep.rds"))
+arrow::write_parquet(cv_results, glue::glue("pbp_model_preds/parquet/play_by_play_ep.parquet"))
+cv_results <- arrow::read_parquet(glue::glue("pbp_model_preds/parquet/play_by_play_ep.parquet"))
+
 # get the BINS for the calibration plot
 plot <- cv_results %>%
   select(Touchdown, Opp_Touchdown, Field_Goal, Opp_Field_Goal, Safety, Opp_Safety, No_Score, label) %>%
@@ -289,7 +308,7 @@ plot %>%
   scale_x_continuous(limits = c(0,1)) + 
   scale_y_continuous(limits = c(0,1)) + 
   labs(title = "Calibration plots for Expected Points Model by Scoring Event",
-       subtitle = "Leave-One-Season-Out Cross-Validation, EP Model - cfbscrapR",
+       subtitle = "Leave-One-Season-Out Cross-Validation, EP Model - cfbfastR",
        caption = plot_caption,
        size = "Number of plays",
        x = "Estimated Next Score Probability",
@@ -317,9 +336,10 @@ plot %>%
                                 lineheight=0.7, family = "Gill Sans MT", face = "bold"),
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
-    panel.background = element_rect(fill = "grey85", color="black"),
+    panel.background = element_rect(fill = "grey95", color="black"),
     plot.background = element_rect(fill = "grey99", color="black"),
     plot.margin=unit(c(1.5,0.3,0.3,0.3),"cm"),
+    strip.background = element_rect(fill = "grey95"),
     strip.text = element_text(size=12, margin=margin(t=0, r=0, b=0.2,l=0,unit=c("mm")),
                               lineheight=0.7, family = "Gill Sans MT", face = "bold"))+      
   facet_wrap(~ type, ncol = 4)+  
@@ -331,6 +351,6 @@ EPA_Big_Plot_logo <- add_logo(
   plot_path = EPA_Big_Plot,
   logo_path = "logo.png",
   logo_position = "bottom right",
-  logo_scale = 12
+  logo_scale = 11
 )
 magick::image_write(EPA_Big_Plot_logo, figure_name)
