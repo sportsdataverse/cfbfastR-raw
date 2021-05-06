@@ -157,7 +157,7 @@ progressr::with_progress({
                             seasons = seasons)
 })
 write.csv(cv_results,file=gzfile(glue::glue("pbp_model_preds/csv/play_by_play_ep.csv.gz")),row.names = FALSE)
-saveRDS(cv_results,glue::glue("pbp_model_preds/rds/play_by_play_{y}_ep.rds"))
+saveRDS(cv_results,glue::glue("pbp_model_preds/rds/play_by_play_ep.rds"))
 arrow::write_parquet(cv_results, glue::glue("pbp_model_preds/parquet/play_by_play_ep.parquet"))
 cv_results <- arrow::read_parquet(glue::glue("pbp_model_preds/parquet/play_by_play_ep.parquet"))
 

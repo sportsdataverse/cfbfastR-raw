@@ -467,6 +467,7 @@
 },
 "broadcasts": [],
 "videos": [],
+"playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -772,6 +773,174 @@
 "id": "253"
 },
 {
+"uid": "s:20~l:23~t:149",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-0",
+"displayValue": "2-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/149/montana-grizzlies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+"height": 500
+}
+],
+"team": "Montana",
+"id": "149"
+},
+{
+"uid": "s:20~l:23~t:147",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/147/montana-state-bobcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+"height": 500
+}
+],
+"team": "Montana State",
+"id": "147"
+},
+{
+"uid": "s:20~l:23~t:2458",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2458/northern-colorado-bears",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+"height": 500
+}
+],
+"team": "Northern Colorado",
+"id": "2458"
+},
+{
+"uid": "s:20~l:23~t:2502",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2502/portland-state-vikings",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+"height": 500
+}
+],
+"team": "Portland State",
+"id": "2502"
+},
+{
 "uid": "s:20~l:23~t:13",
 "stats": [
 {
@@ -812,75 +981,22 @@
 ],
 "team": "Cal Poly",
 "id": "13"
-},
-{
-"uid": "s:20~l:23~t:149",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "2-0",
-"displayValue": "2-0",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/149/montana-grizzlies",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
-"height": 500
-}
-],
-"team": "Montana",
-"id": "149"
-},
-{
-"uid": "s:20~l:23~t:2502",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2502/portland-state-vikings",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-"height": 500
-}
-],
-"team": "Portland State",
-"id": "2502"
 }
 ]
 }
 }
 ]
 },
-"timeouts": {},
+"timeouts": {
+"149": {
+"1": [],
+"2": []
+},
+"70": {
+"1": [],
+"2": []
+}
+},
 "pickcenter": [],
 "againstTheSpread": [
 {

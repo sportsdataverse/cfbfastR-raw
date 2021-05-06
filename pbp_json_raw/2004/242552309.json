@@ -2173,6 +2173,7 @@
 },
 "broadcasts": [],
 "videos": [],
+"playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -2182,7 +2183,218 @@
 {
 "header": "2020 FBS Independents Standings",
 "standings": {
-"entries": []
+"entries": [
+{
+"uid": "s:20~l:23~t:2335",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "10-1",
+"displayValue": "10-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+"height": 500
+}
+],
+"team": "Liberty",
+"id": "2335"
+},
+{
+"uid": "s:20~l:23~t:252",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "11-1",
+"displayValue": "11-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/252/byu-cougars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+"height": 500
+}
+],
+"team": "BYU",
+"id": "252"
+},
+{
+"uid": "s:20~l:23~t:349",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "9-3",
+"displayValue": "9-3",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+"height": 500
+}
+],
+"team": "Army",
+"id": "349"
+},
+{
+"uid": "s:20~l:23~t:166",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/166/new-mexico-state-aggies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+"height": 500
+}
+],
+"team": "New Mexico State",
+"id": "166"
+},
+{
+"uid": "s:20~l:23~t:113",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-4",
+"displayValue": "0-4",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/113/umass-minutemen",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+"height": 500
+}
+],
+"team": "UMass",
+"id": "113"
+}
+]
 }
 },
 {
@@ -2192,20 +2404,535 @@
 {
 "header": "Mid-American - East",
 "standings": {
-"entries": []
+"entries": [
+{
+"uid": "s:20~l:23~t:2084",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "6-1",
+"displayValue": "6-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-0",
+"displayValue": "5-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2084/buffalo-bulls",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+"height": 500
+}
+],
+"team": "Buffalo",
+"id": "2084"
+},
+{
+"uid": "s:20~l:23~t:2309",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "3-1",
+"displayValue": "3-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-1",
+"displayValue": "3-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2309/kent-state-golden-flashes",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+"height": 500
+}
+],
+"team": "Kent State",
+"id": "2309"
+},
+{
+"uid": "s:20~l:23~t:193",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/193/miami-oh-redhawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+"height": 500
+}
+],
+"team": "Miami (OH)",
+"id": "193"
+},
+{
+"uid": "s:20~l:23~t:195",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-1",
+"displayValue": "2-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/195/ohio-bobcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+"height": 500
+}
+],
+"team": "Ohio",
+"id": "195"
+},
+{
+"uid": "s:20~l:23~t:2006",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-5",
+"displayValue": "1-5",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-5",
+"displayValue": "1-5",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2006/akron-zips",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+"height": 500
+}
+],
+"team": "Akron",
+"id": "2006"
+},
+{
+"uid": "s:20~l:23~t:189",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-5",
+"displayValue": "0-5",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-5",
+"displayValue": "0-5",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/189/bowling-green-falcons",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+"height": 500
+}
+],
+"team": "Bowling Green",
+"id": "189"
+}
+]
 }
 },
 {
 "header": "Mid-American - West",
 "standings": {
-"entries": []
+"entries": [
+{
+"uid": "s:20~l:23~t:2050",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "7-1",
+"displayValue": "7-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-1",
+"displayValue": "5-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2050/ball-state-cardinals",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+"height": 500
+}
+],
+"team": "Ball State",
+"id": "2050"
+},
+{
+"uid": "s:20~l:23~t:2711",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "4-2",
+"displayValue": "4-2",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-2",
+"displayValue": "4-2",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2711/western-michigan-broncos",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+"height": 500
+}
+],
+"team": "Western Michigan",
+"id": "2711"
+},
+{
+"uid": "s:20~l:23~t:2649",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "4-2",
+"displayValue": "4-2",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-2",
+"displayValue": "4-2",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2649/toledo-rockets",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+"height": 500
+}
+],
+"team": "Toledo",
+"id": "2649"
+},
+{
+"uid": "s:20~l:23~t:2117",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "3-3",
+"displayValue": "3-3",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-3",
+"displayValue": "3-3",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2117/central-michigan-chippewas",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+"height": 500
+}
+],
+"team": "Central Michigan",
+"id": "2117"
+},
+{
+"uid": "s:20~l:23~t:2199",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2199/eastern-michigan-eagles",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+"height": 500
+}
+],
+"team": "Eastern Michigan",
+"id": "2199"
+},
+{
+"uid": "s:20~l:23~t:2459",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-6",
+"displayValue": "0-6",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-6",
+"displayValue": "0-6",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2459/northern-illinois-huskies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+"height": 500
+}
+],
+"team": "Northern Illinois",
+"id": "2459"
+}
+]
 }
 }
 ]
 }
 ]
 },
-"timeouts": {},
+"timeouts": {
+"2309": {
+"1": [],
+"2": []
+},
+"2335": {
+"1": [],
+"2": []
+}
+},
 "pickcenter": [],
 "againstTheSpread": [
 {

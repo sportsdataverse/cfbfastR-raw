@@ -2980,6 +2980,7 @@
 }
 ],
 "videos": [],
+"playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -2995,8 +2996,8 @@
 "stats": [
 {
 "shortDisplayName": "OVER",
-"summary": "7-0",
-"displayValue": "7-0",
+"summary": "8-0",
+"displayValue": "8-0",
 "displayName": "Overall",
 "name": "overall",
 "description": "Overall Record",
@@ -3297,6 +3298,17 @@
 "id": "0",
 "abbreviation": "overall",
 "type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
 }
 ],
 "link": "https://www.espn.com/college-football/team/_/id/2617/stephen-f-austin-lumberjacks",
@@ -3328,6 +3340,17 @@
 "id": "0",
 "abbreviation": "overall",
 "type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
 }
 ],
 "link": "https://www.espn.com/college-football/team/_/id/2110/central-arkansas-bears",
@@ -3359,6 +3382,17 @@
 "id": "0",
 "abbreviation": "overall",
 "type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
 }
 ],
 "link": "https://www.espn.com/college-football/team/_/id/2277/houston-baptist-huskies",
@@ -3390,6 +3424,17 @@
 "id": "0",
 "abbreviation": "overall",
 "type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
 }
 ],
 "link": "https://www.espn.com/college-football/team/_/id/2000/abilene-christian-wildcats",
@@ -3413,7 +3458,16 @@
 }
 ]
 },
-"timeouts": {},
+"timeouts": {
+"309": {
+"1": [],
+"2": []
+},
+"2320": {
+"1": [],
+"2": []
+}
+},
 "pickcenter": [
 {
 "provider": {

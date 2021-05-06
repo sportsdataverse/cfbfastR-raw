@@ -1114,6 +1114,7 @@
 },
 "broadcasts": [],
 "videos": [],
+"playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -1127,20 +1128,619 @@
 {
 "header": "Big Ten - East",
 "standings": {
-"entries": []
+"entries": [
+{
+"uid": "s:20~l:23~t:194",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "7-1",
+"displayValue": "7-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "5-0",
+"displayValue": "5-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+"height": 500
+}
+],
+"team": "Ohio State",
+"id": "194"
+},
+{
+"uid": "s:20~l:23~t:84",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "6-2",
+"displayValue": "6-2",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-1",
+"displayValue": "6-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/84/indiana-hoosiers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+"height": 500
+}
+],
+"team": "Indiana",
+"id": "84"
+},
+{
+"uid": "s:20~l:23~t:213",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "4-5",
+"displayValue": "4-5",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "4-5",
+"displayValue": "4-5",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/213/penn-state-nittany-lions",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+"height": 500
+}
+],
+"team": "Penn State",
+"id": "213"
+},
+{
+"uid": "s:20~l:23~t:120",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-3",
+"displayValue": "2-3",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-3",
+"displayValue": "2-3",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/120/maryland-terrapins",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+"height": 500
+}
+],
+"team": "Maryland",
+"id": "120"
+},
+{
+"uid": "s:20~l:23~t:164",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "3-6",
+"displayValue": "3-6",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-6",
+"displayValue": "3-6",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/164/rutgers-scarlet-knights",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+"height": 500
+}
+],
+"team": "Rutgers",
+"id": "164"
+},
+{
+"uid": "s:20~l:23~t:130",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/130/michigan-wolverines",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+"height": 500
+}
+],
+"team": "Michigan",
+"id": "130"
+},
+{
+"uid": "s:20~l:23~t:127",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-5",
+"displayValue": "2-5",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-5",
+"displayValue": "2-5",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/127/michigan-state-spartans",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+"height": 500
+}
+],
+"team": "Michigan State",
+"id": "127"
+}
+]
 }
 },
 {
 "header": "Big Ten - West",
 "standings": {
-"entries": []
+"entries": [
+{
+"uid": "s:20~l:23~t:77",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "7-2",
+"displayValue": "7-2",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-1",
+"displayValue": "6-1",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/77/northwestern-wildcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+"height": 500
+}
+],
+"team": "Northwestern",
+"id": "77"
+},
+{
+"uid": "s:20~l:23~t:2294",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "6-2",
+"displayValue": "6-2",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "6-2",
+"displayValue": "6-2",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2294/iowa-hawkeyes",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+"height": 500
+}
+],
+"team": "Iowa",
+"id": "2294"
+},
+{
+"uid": "s:20~l:23~t:275",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "4-3",
+"displayValue": "4-3",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-3",
+"displayValue": "3-3",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/275/wisconsin-badgers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+"height": 500
+}
+],
+"team": "Wisconsin",
+"id": "275"
+},
+{
+"uid": "s:20~l:23~t:135",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "3-4",
+"displayValue": "3-4",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-4",
+"displayValue": "3-4",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/135/minnesota-golden-gophers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+"height": 500
+}
+],
+"team": "Minnesota",
+"id": "135"
+},
+{
+"uid": "s:20~l:23~t:158",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "3-5",
+"displayValue": "3-5",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "3-5",
+"displayValue": "3-5",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/158/nebraska-cornhuskers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+"height": 500
+}
+],
+"team": "Nebraska",
+"id": "158"
+},
+{
+"uid": "s:20~l:23~t:2509",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-4",
+"displayValue": "2-4",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2509/purdue-boilermakers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+"height": 500
+}
+],
+"team": "Purdue",
+"id": "2509"
+},
+{
+"uid": "s:20~l:23~t:356",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "2-6",
+"displayValue": "2-6",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "2-6",
+"displayValue": "2-6",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/356/illinois-fighting-illini",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+"height": 500
+}
+],
+"team": "Illinois",
+"id": "356"
+}
+]
 }
 }
 ]
 }
 ]
 },
-"timeouts": {},
+"timeouts": {
+"2294": {
+"1": [],
+"2": []
+},
+"127": {
+"1": [],
+"2": []
+}
+},
 "pickcenter": [],
 "againstTheSpread": [
 {

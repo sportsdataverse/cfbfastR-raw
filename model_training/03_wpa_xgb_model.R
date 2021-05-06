@@ -179,7 +179,7 @@ wp_spread_training <- function(model_data = model_data, seasons = seasons){
     xgb_wp_spread_model <- xgboost::xgboost(params = params, 
                                             data = full_train, 
                                             nrounds = nrounds, verbose = 0)
-    xgboost::xgb.save(xgb_wp_spread_model, glue::glue("models/{model_name}.model"))
+    xgboost::xgb.save(xgb_wp_spread_model, glue::glue("models/xgb_wp_spread_model.model"))
     preds <- as.data.frame(
       matrix(predict(xgb_wp_spread_model, as.matrix(test_data %>% select(-label, -ScoreDiff_W))), byrow = TRUE)
     )
@@ -211,7 +211,7 @@ wp_model_spread <- xgboost::xgboost(params = params,
 importance <- xgboost::xgb.importance(feature_names = colnames(full_train), model = wp_model_spread)
 xgboost::xgb.ggplot.importance(importance_matrix = importance)
 
-xgboost::xgb.save(wp_model_spread, glue::glue("models/{model_name}.model"))
+xgboost::xgb.save(wp_model_spread, glue::glue("models/xgb_wp_spread_model.model"))
 wp_model_spread <- xgb.load("models/xgb_wp_spread_model.model")
 pbp_full <- pbp_full %>% 
   dplyr::mutate(
