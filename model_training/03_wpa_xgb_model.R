@@ -453,6 +453,7 @@ wp_naive_training <- function(model_data = model_data, seasons = seasons){
   return(cv_naive_results)
 }
 
+set.seed(2013) #GoNoles
 options(future.globals.maxSize= 1250*1024^2)
 future::plan("multisession")
 progressr::with_progress({

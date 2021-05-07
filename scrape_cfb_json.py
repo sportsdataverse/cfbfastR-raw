@@ -13,7 +13,7 @@ from play_handler import PlayProcess
 path_to_raw = "pbp_json_raw"
 path_to_final = "pbp_json_final"
 def main():
-    years_arr = range(2003,2021)
+    years_arr = range(2002,2021)
     schedule = pd.read_csv('cfb_games_info_2002_2020.csv', encoding='latin-1')
     schedule = schedule.sort_values(by=['season', 'week'], ascending = False)
 
