@@ -19,8 +19,13 @@ progressr::with_progress({
       return(pbp)
     })
     pbp_g <- pbp_g %>% janitor::clean_names()
+    ifelse(!dir.exists(file.path("pbp_final")), dir.create(file.path("pbp_final")), FALSE)
+    ifelse(!dir.exists(file.path("pbp_final/csv")), dir.create(file.path("pbp_final/csv")), FALSE)
     write.csv(pbp_g,file=gzfile(glue::glue("pbp_final/csv/play_by_play_{y}.csv.gz")),row.names = FALSE)
+    ifelse(!dir.exists(file.path("pbp_final/rds")), dir.create(file.path("pbp_final/rds")), FALSE)
     saveRDS(pbp_g,glue::glue("pbp_final/rds/play_by_play_{y}.rds"))
+    ifelse(!dir.exists(file.path("pbp_final/parquet")), dir.create(file.path("pbp_final/parquet")), FALSE)
+    
     arrow::write_parquet(pbp_g, glue::glue("pbp_final/parquet/play_by_play_{y}.parquet"))
     p(sprintf("y=%s", as.integer(y)))
     return(pbp_g)
