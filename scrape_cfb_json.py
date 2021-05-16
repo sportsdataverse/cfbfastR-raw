@@ -57,7 +57,6 @@ def main():
             except (ValueError) as e:
                 print("DecodeError: yo", e)
                 i+=1
-                
                 if i < len(games):
                     print(f"Skipping game {i+1} of {len(games)}, gameId: {games[i]}")
                 else:
@@ -72,6 +71,8 @@ def main():
             tmp_json = processor.plays_json.to_json(orient="records")
             jsonified_df = json.loads(tmp_json)
             g["plays"] = jsonified_df
+            adv_box =processor.create_box_score()
+            g["advBoxScore"] = adv_box
             fp = "{}{}.json".format(path_to_final_json, game)
             with open(fp,'w') as f:
                 json.dump(g, f, indent=0, sort_keys=False)
