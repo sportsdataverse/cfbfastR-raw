@@ -71,7 +71,7 @@ def main():
             tmp_json = processor.plays_json.to_json(orient="records")
             jsonified_df = json.loads(tmp_json)
             g["plays"] = jsonified_df
-            adv_box =processor.create_box_score()
+            adv_box = processor.create_box_score()
             g["advBoxScore"] = adv_box
             fp = "{}{}.json".format(path_to_final_json, game)
             with open(fp,'w') as f:

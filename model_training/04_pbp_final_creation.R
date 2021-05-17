@@ -31,3 +31,24 @@ progressr::with_progress({
     return(pbp_g)
   })
 })
+
+sched <- read.csv('cfb_games_info_2002_2020.csv')
+
+
+
+df_game_ids <- as.data.frame(
+  dplyr::distinct(pbp_games %>% 
+                    dplyr::select(game_id, season, season_type, home_team_name, away_team_name))) %>% 
+  dplyr::arrange(-season)
+
+sched <- sched %>% 
+  dplyr::left_join(df_game_ids %>% dplyr::select(game_id,season), by = "game_id",
+                   suffix = c("", ".y"),)
+sched <- sched %>% 
+  dplyr::mutate(
+    PBP = ifelse(is.na(.data$season.y), FALSE, TRUE)
+  ) %>% 
+  dplyr::select(-.data$season.y)
+
+write.csv(sched, 'cfb_games_info_2002_2020.csv', row.names = FALSE)
+write.csv(sched %>% dplyr::filter(.data$PBP == TRUE), 'pbp_final/cfb_games_in_data_repo.csv', row.names = FALSE)
