@@ -3,10 +3,10 @@ import pandas as pd
 from pathlib import Path
 from play_handler import PlayProcess
 path_to_raw = "pbp_json_raw"
-path_to_proc = "pbp_proc"
+path_to_proc = "pbp_json_proc"
 
 def main():
-    years_arr = range(2002,2021)
+    years_arr = range(2002,2013)
     for year in years_arr:
         print(year)
         # this finds our json files
@@ -24,6 +24,8 @@ def main():
             tmp_json = processed_data.plays_json.to_json(orient="records")
             jsonified_df = json.loads(tmp_json)
             pbp["plays"] = jsonified_df
+            adv_box = processed_data.create_box_score( play_df = processed_data.plays_json)
+            pbp["advBoxScore"] = adv_box
             fp = "{}{}.json".format(path_to_proc_json, js)
             with open(fp,'w') as f:
                 json.dump(pbp, f, indent=2, sort_keys=False)
