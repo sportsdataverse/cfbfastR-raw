@@ -16,8 +16,8 @@ suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc="C:/Users/
 options(stringsAsFactors = FALSE)
 options(scipen = 999)
 years_vec <- 2021:2021
-path_to_raw <- 'pbp_json_raw'
-path_to_pbp <- '../pbp'
+path_to_raw <- 'pbp_json_final'
+path_to_pbp <- '../../pbp'
 # --- compile into play_by_play_{year}.parquet ---------
 future::plan("multisession")
 progressr::with_progress({

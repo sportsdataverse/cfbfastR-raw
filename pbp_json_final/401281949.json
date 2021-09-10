@@ -10905,12 +10905,12 @@
 "label": "Penalties"
 },
 {
-"displayValue": "4",
+"displayValue": "6",
 "name": "turnovers",
 "label": "Turnovers"
 },
 {
-"displayValue": "3",
+"displayValue": "5",
 "name": "fumblesLost",
 "label": "Fumbles lost"
 },
@@ -11969,7 +11969,7 @@
 "totals": [
 "1",
 "1",
-"4"
+"5"
 ],
 "descriptions": [
 "Fumbles",
@@ -13400,7 +13400,7 @@
 },
 "stats": [
 "2/3",
-"67.0",
+"66.7",
 "33",
 "4/4",
 "10"
@@ -13476,9 +13476,9 @@
 "7",
 "270",
 "38.6",
-"1",
-"2",
-"48"
+"0",
+"0",
+"51"
 ]
 }
 ],
@@ -13487,9 +13487,9 @@
 "7",
 "270",
 "38.6",
-"1",
-"2",
-"48"
+"0",
+"0",
+"51"
 ],
 "descriptions": [
 "Punts",
@@ -14360,8 +14360,8 @@
 ],
 "text": "Mississippi State Fumbles",
 "totals": [
-"3",
-"3",
+"5",
+"5",
 "1"
 ],
 "descriptions": [
@@ -15432,9 +15432,63 @@
 },
 {
 "name": "puntReturns",
-"athletes": [],
+"athletes": [
+{
+"athlete": {
+"uid": "s:20~l:23~a:4242248",
+"firstName": "Austin",
+"lastName": "Williams",
+"displayName": "Austin Williams",
+"guid": "10b8613a5126979412ce90ed6461b7bc",
+"links": [
+{
+"href": "http://www.espn.com/college-football/player/_/id/4242248/austin-williams",
+"text": "Player Card"
+},
+{
+"href": "http://www.espn.com/college-football/player/stats/_/id/4242248/austin-williams",
+"text": "Stats"
+},
+{
+"href": "http://www.espn.com/college-football/player/splits/_/id/4242248/austin-williams",
+"text": "Splits"
+},
+{
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/4242248/austin-williams",
+"text": "Game Log"
+},
+{
+"href": "http://www.espn.com/college-football/player/news/_/id/4242248/austin-williams",
+"text": "News"
+},
+{
+"href": "http://www.espn.com/college-football/player/bio/_/id/4242248/austin-williams",
+"text": "Bio"
+},
+{
+"href": "http://www.espn.com/college-football/player/_/id/4242248/austin-williams",
+"text": "Overview"
+}
+],
+"id": "4242248"
+},
+"stats": [
+"1",
+"0",
+"0.0",
+"0",
+"0"
+]
+}
+],
 "text": "Mississippi State Punt Returns",
-"totals": [],
+"totals": [
+"0",
+"0",
+"0.0",
+"0",
+"0"
+],
 "descriptions": [
 "Punt Returns",
 "Yards",
