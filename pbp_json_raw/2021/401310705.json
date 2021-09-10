@@ -1,0 +1,1277 @@
+{
+"gameId": 401310705,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Spartans",
+"uid": "s:20~l:23~t:23",
+"alternateColor": "fdba31",
+"color": "005893",
+"displayName": "San Jos\u00e9 State Spartans",
+"name": "Spartans",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"location": "San Jos\u00e9 State",
+"id": "23",
+"abbreviation": "SJSU",
+"slug": "san-jose-state-spartans"
+},
+"statistics": [
+{
+"displayValue": "45.0",
+"name": "totalPointsPerGame",
+"label": "Points Per Game"
+},
+{
+"displayValue": "543.0",
+"name": "yardsPerGame",
+"label": "Total Yards"
+},
+{
+"displayValue": "410.0",
+"name": "passingYardsPerGame",
+"label": "Yards Passing"
+},
+{
+"displayValue": "133.0",
+"name": "rushingYardsPerGame",
+"label": "Yards Rushing"
+},
+{
+"displayValue": "14.0",
+"name": "totalPointsPerGameAllowed",
+"label": "Points Allowed Per Game"
+},
+{
+"displayValue": "250.0",
+"name": "yardsPerGameAllowed",
+"label": "Yards Allowed"
+},
+{
+"displayValue": "139.0",
+"name": "passingYardsPerGameAllowed",
+"label": "Pass Yards Allowed"
+},
+{
+"displayValue": "111.0",
+"name": "rushingYardsPerGameAllowed",
+"label": "Rush Yards Allowed"
+}
+]
+},
+{
+"team": {
+"shortDisplayName": "Rainbow Warriors",
+"uid": "s:20~l:23~t:62",
+"alternateColor": "ffffff",
+"color": "003420",
+"displayName": "Hawai'i Rainbow Warriors",
+"name": "Rainbow Warriors",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+"location": "Hawai'i",
+"id": "62",
+"abbreviation": "HAW",
+"slug": "hawaii-rainbow-warriors"
+},
+"statistics": [
+{
+"displayValue": "10.0",
+"name": "totalPointsPerGame",
+"label": "Points Per Game"
+},
+{
+"displayValue": "269.0",
+"name": "yardsPerGame",
+"label": "Total Yards"
+},
+{
+"displayValue": "243.0",
+"name": "passingYardsPerGame",
+"label": "Yards Passing"
+},
+{
+"displayValue": "26.0",
+"name": "rushingYardsPerGame",
+"label": "Yards Rushing"
+},
+{
+"displayValue": "44.0",
+"name": "totalPointsPerGameAllowed",
+"label": "Points Allowed Per Game"
+},
+{
+"displayValue": "392.0",
+"name": "yardsPerGameAllowed",
+"label": "Yards Allowed"
+},
+{
+"displayValue": "148.0",
+"name": "passingYardsPerGameAllowed",
+"label": "Pass Yards Allowed"
+},
+{
+"displayValue": "244.0",
+"name": "rushingYardsPerGameAllowed",
+"label": "Rush Yards Allowed"
+}
+]
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:401310705",
+"week": 3,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2021-09-19T04:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "FS1"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"groups": {
+"midsizeName": "Mountain West",
+"name": "Mountain West Conference",
+"id": "17",
+"abbreviation": "mwest",
+"shortName": "Mountain West"
+},
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401310705~c:401310705",
+"competitors": [
+{
+"uid": "s:20~l:23~t:62",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "62",
+"team": {
+"uid": "s:20~l:23~t:62",
+"alternateColor": "ffffff",
+"color": "003420",
+"displayName": "Hawai'i Rainbow Warriors",
+"name": "Rainbow Warriors",
+"nickname": "Hawai'i",
+"location": "Hawai'i",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/62/hawaii-rainbow-warriors",
+"text": "Clubhouse"
+}
+],
+"id": "62",
+"abbreviation": "HAW",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/62.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:23",
+"homeAway": "away",
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "23",
+"team": {
+"uid": "s:20~l:23~t:23",
+"alternateColor": "fdba31",
+"color": "005893",
+"displayName": "San Jos\u00e9 State Spartans",
+"name": "Spartans",
+"nickname": "San Jos\u00e9 State",
+"location": "San Jos\u00e9 State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/23/san-jose-state-spartans",
+"text": "Clubhouse"
+}
+],
+"id": "23",
+"abbreviation": "SJSU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/23.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"id": "401310705",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sun, September 18th at 12:30 AM EDT",
+"shortDetail": "9/19 - 12:30 AM EDT"
+}
+}
+}
+],
+"season": {
+"year": 2021,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/401310705",
+"text": "Gamecast",
+"isPremium": false
+}
+],
+"id": "401310705"
+},
+"broadcasts": [],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2021 Mountain West Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/17/view/fbs-i-a",
+"divisions": [
+{
+"header": "Mountain West - Mountain",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:167",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/167/new-mexico-lobos",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+"height": 500
+}
+],
+"team": "New Mexico",
+"id": "167"
+},
+{
+"uid": "s:20~l:23~t:2005",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+"height": 500
+}
+],
+"team": "Air Force",
+"id": "2005"
+},
+{
+"uid": "s:20~l:23~t:36",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/36/colorado-state-rams",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+"height": 500
+}
+],
+"team": "Colorado State",
+"id": "36"
+},
+{
+"uid": "s:20~l:23~t:328",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/328/utah-state-aggies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+"height": 500
+}
+],
+"team": "Utah State",
+"id": "328"
+},
+{
+"uid": "s:20~l:23~t:2751",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2751/wyoming-cowboys",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+"height": 500
+}
+],
+"team": "Wyoming",
+"id": "2751"
+},
+{
+"uid": "s:20~l:23~t:68",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/68/boise-state-broncos",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+"height": 500
+}
+],
+"team": "Boise State",
+"id": "68"
+}
+]
+}
+},
+{
+"header": "Mountain West - West",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:278",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/278/fresno-state-bulldogs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+"height": 500
+}
+],
+"team": "Fresno State",
+"id": "278"
+},
+{
+"uid": "s:20~l:23~t:23",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/23/san-jose-state-spartans",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"height": 500
+}
+],
+"team": "San Jos\u00e9 State",
+"id": "23"
+},
+{
+"uid": "s:20~l:23~t:2440",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2440/nevada-wolf-pack",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+"height": 500
+}
+],
+"team": "Nevada",
+"id": "2440"
+},
+{
+"uid": "s:20~l:23~t:21",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/21/san-diego-state-aztecs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+"height": 500
+}
+],
+"team": "San Diego State",
+"id": "21"
+},
+{
+"uid": "s:20~l:23~t:62",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/62/hawaii-rainbow-warriors",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+"height": 500
+}
+],
+"team": "Hawai'i",
+"id": "62"
+},
+{
+"uid": "s:20~l:23~t:2439",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2439/unlv-rebels",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+"height": 500
+}
+],
+"team": "UNLV",
+"id": "2439"
+}
+]
+}
+}
+]
+}
+]
+},
+"timeouts": {
+"62": {
+"1": [],
+"2": []
+},
+"23": {
+"1": [],
+"2": []
+}
+},
+"pickcenter": [
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"awayTeamOdds": {
+"averageScore": 30.7,
+"favorite": false,
+"underdog": true,
+"spreadRecord": {
+"wins": 1,
+"losses": 0,
+"pushes": 0,
+"summary": "1-0-0"
+},
+"teamId": "23"
+},
+"homeTeamOdds": {
+"averageScore": 27.6,
+"favorite": true,
+"underdog": false,
+"spreadRecord": {
+"wins": 0,
+"losses": 1,
+"pushes": 0,
+"summary": "0-1-0"
+},
+"teamId": "62"
+},
+"links": []
+}
+],
+"againstTheSpread": [
+{
+"team": {
+"id": "23",
+"uid": "s:20~l:23~t:23",
+"displayName": "San Jos\u00e9 State Spartans",
+"abbreviation": "SJSU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/23/san-jose-state-spartans",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/23",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "62",
+"uid": "s:20~l:23~t:62",
+"displayName": "Hawai'i Rainbow Warriors",
+"abbreviation": "HAW",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/62/hawaii-rainbow-warriors",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/62",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "62",
+"gameProjection": "42.4",
+"teamChanceLoss": "57.6"
+},
+"awayTeam": {
+"id": "23",
+"gameProjection": "57.6",
+"teamChanceLoss": "42.4"
+}
+},
+"espnWP": [],
+"gameInfo": {
+"date": "2021-09-19T04:30Z",
+"commentaryAvailable": false,
+"conferenceCompetition": true,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "FS1"
+},
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"groups": {
+"midsizeName": "Mountain West",
+"name": "Mountain West Conference",
+"id": "17",
+"abbreviation": "mwest",
+"shortName": "Mountain West"
+},
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401310705~c:401310705",
+"competitors": [
+{
+"uid": "s:20~l:23~t:62",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "62",
+"team": {
+"uid": "s:20~l:23~t:62",
+"alternateColor": "ffffff",
+"color": "003420",
+"displayName": "Hawai'i Rainbow Warriors",
+"name": "Rainbow Warriors",
+"nickname": "Hawai'i",
+"location": "Hawai'i",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/62/hawaii-rainbow-warriors",
+"text": "Clubhouse"
+}
+],
+"id": "62",
+"abbreviation": "HAW",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/62.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:23",
+"homeAway": "away",
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "23",
+"team": {
+"uid": "s:20~l:23~t:23",
+"alternateColor": "fdba31",
+"color": "005893",
+"displayName": "San Jos\u00e9 State Spartans",
+"name": "Spartans",
+"nickname": "San Jos\u00e9 State",
+"location": "San Jos\u00e9 State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/23/san-jose-state-spartans",
+"text": "Clubhouse"
+}
+],
+"id": "23",
+"abbreviation": "SJSU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/23.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"id": "401310705",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sun, September 18th at 12:30 AM EDT",
+"shortDetail": "9/19 - 12:30 AM EDT"
+}
+}
+},
+"season": {
+"year": 2021,
+"type": 2
+}
+}

@@ -1,0 +1,1956 @@
+{
+"gameId": 401301003,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Tigers",
+"uid": "s:20~l:23~t:235",
+"alternateColor": "898d8d",
+"color": "003087",
+"displayName": "Memphis Tigers",
+"name": "Tigers",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"location": "Memphis",
+"id": "235",
+"abbreviation": "MEM",
+"slug": "memphis-tigers"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Red Wolves",
+"uid": "s:20~l:23~t:2032",
+"alternateColor": "000000",
+"color": "e81018",
+"displayName": "Arkansas State Red Wolves",
+"name": "Red Wolves",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+"location": "Arkansas State",
+"id": "2032",
+"abbreviation": "ARST",
+"slug": "arkansas-state-red-wolves"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:401301003",
+"week": 2,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2021-09-11T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401301003~c:401301003",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2032",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2032",
+"team": {
+"uid": "s:20~l:23~t:2032",
+"alternateColor": "000000",
+"color": "e81018",
+"displayName": "Arkansas State Red Wolves",
+"name": "Red Wolves",
+"nickname": "Arkansas State",
+"location": "Arkansas State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves",
+"text": "Clubhouse"
+}
+],
+"id": "2032",
+"abbreviation": "ARST",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2032.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:235",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "235",
+"team": {
+"uid": "s:20~l:23~t:235",
+"alternateColor": "898d8d",
+"color": "003087",
+"displayName": "Memphis Tigers",
+"name": "Tigers",
+"nickname": "Memphis",
+"location": "Memphis",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
+"text": "Clubhouse"
+}
+],
+"id": "235",
+"abbreviation": "MEM",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401301003",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/1533f567-693c-44bf-9d31-a7c712c03c12",
+"name": "Sun Belt Conference",
+"id": "1533f567-693c-44bf-9d31-a7c712c03c12",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/56d874fa-ff97-41c3-8bc6-07b208281482",
+"name": "American Athletic Conference",
+"id": "56d874fa-ff97-41c3-8bc6-07b208281482",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-11T23:00:00.000+0000",
+"program": "ec1f81a9-1f51-4642-80e2-43ac4d1ff1a1",
+"createdOn": "2021-08-12T22:33:35.240+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401301003",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/8e2fe08c-83d3-4d16-aa02-28b3f6ccc49f",
+"network_displayName": "ESPN+",
+"end": "2021-09-12T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401301003?gameId=401301003&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "8e2fe08c-83d3-4d16-aa02-28b3f6ccc49f",
+"createdOn": "2021-08-12T22:33:35.540Z",
+"lastModifiedOn": "2021-08-12T22:33:35.540Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Memphis vs. Arkansas State",
+"peers": [
+{
+"width": 360,
+"name": "Memphis vs. Arkansas State",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/31cbbe49-c171-489e-93e9-6a08ea9d7cd8/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/31cbbe49-c171-489e-93e9-6a08ea9d7cd8/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"start": "2021-09-11T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608692",
+"lastModifiedOn": "2021-09-02T15:46:48.706+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"program_originalAirDate": "2021-09-11T23:00:00+0000",
+"program_shortTitle": "Memphis vs. Arkansas St",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401301003",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "Memphis vs. Arkansas St",
+"trueOriginal": "true",
+"title": "Memphis vs. Arkansas State (Football)",
+"simulcastAiringId": "114608692",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-11T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-11T23:00:00Z",
+"origination": "SCHOOL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04837",
+"name": "Memphis vs. Arkansas State",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401301003",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 11th at 7:00 PM EDT",
+"shortDetail": "9/11 - 7:00 PM EDT"
+}
+}
+}
+],
+"season": {
+"year": 2021,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/401301003",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": true,
+"shortText": "Tickets",
+"rel": [
+"tickets",
+"desktop"
+],
+"href": "https://www.vividseats.com/ncaaf/arkansas-state-red-wolves-tickets/asu-red-wolves-9-11-3579001.html?wsUser=717",
+"text": "Tickets",
+"isPremium": false
+}
+],
+"id": "401301003"
+},
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"station": "ESPN+",
+"media": {
+"callLetters": "ESPN+",
+"name": "ESPN+",
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web",
+"slug": "web",
+"longName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2021 American Athletic Conference Standings",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2116",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2116/ucf-knights",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+"height": 500
+}
+],
+"team": "UCF",
+"id": "2116"
+},
+{
+"uid": "s:20~l:23~t:2132",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2132/cincinnati-bearcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+"height": 500
+}
+],
+"team": "Cincinnati",
+"id": "2132"
+},
+{
+"uid": "s:20~l:23~t:248",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+"height": 500
+}
+],
+"team": "Houston",
+"id": "248"
+},
+{
+"uid": "s:20~l:23~t:235",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"height": 500
+}
+],
+"team": "Memphis",
+"id": "235"
+},
+{
+"uid": "s:20~l:23~t:2426",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+"height": 500
+}
+],
+"team": "Navy",
+"id": "2426"
+},
+{
+"uid": "s:20~l:23~t:2567",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2567/smu-mustangs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+"height": 500
+}
+],
+"team": "SMU",
+"id": "2567"
+},
+{
+"uid": "s:20~l:23~t:218",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/218/temple-owls",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+"height": 500
+}
+],
+"team": "Temple",
+"id": "218"
+},
+{
+"uid": "s:20~l:23~t:2655",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+"height": 500
+}
+],
+"team": "Tulane",
+"id": "2655"
+},
+{
+"uid": "s:20~l:23~t:151",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/151/east-carolina-pirates",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+"height": 500
+}
+],
+"team": "East Carolina",
+"id": "151"
+},
+{
+"uid": "s:20~l:23~t:58",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/58/south-florida-bulls",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+"height": 500
+}
+],
+"team": "South Florida",
+"id": "58"
+},
+{
+"uid": "s:20~l:23~t:202",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/202/tulsa-golden-hurricane",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+"height": 500
+}
+],
+"team": "Tulsa",
+"id": "202"
+}
+]
+}
+},
+{
+"header": "2021 Sun Belt Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/37/view/fbs-i-a",
+"divisions": [
+{
+"header": "Sun Belt - East",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2026",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2026/appalachian-state-mountaineers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+"height": 500
+}
+],
+"team": "Appalachian State",
+"id": "2026"
+},
+{
+"uid": "s:20~l:23~t:324",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/324/coastal-carolina-chanticleers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+"height": 500
+}
+],
+"team": "Coastal Carolina",
+"id": "324"
+},
+{
+"uid": "s:20~l:23~t:290",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/290/georgia-southern-eagles",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+"height": 500
+}
+],
+"team": "Georgia Southern",
+"id": "290"
+},
+{
+"uid": "s:20~l:23~t:2247",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2247/georgia-state-panthers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+"height": 500
+}
+],
+"team": "Georgia State",
+"id": "2247"
+},
+{
+"uid": "s:20~l:23~t:2653",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+"height": 500
+}
+],
+"team": "Troy",
+"id": "2653"
+}
+]
+}
+},
+{
+"header": "Sun Belt - West",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2032",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+"height": 500
+}
+],
+"team": "Arkansas State",
+"id": "2032"
+},
+{
+"uid": "s:20~l:23~t:309",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"height": 500
+}
+],
+"team": "Louisiana",
+"id": "309"
+},
+{
+"uid": "s:20~l:23~t:6",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/6/south-alabama-jaguars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+"height": 500
+}
+],
+"team": "South Alabama",
+"id": "6"
+},
+{
+"uid": "s:20~l:23~t:326",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/326/texas-state-bobcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+"height": 500
+}
+],
+"team": "Texas State",
+"id": "326"
+},
+{
+"uid": "s:20~l:23~t:2433",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2433/ul-monroe-warhawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+"height": 500
+}
+],
+"team": "UL Monroe",
+"id": "2433"
+}
+]
+}
+}
+]
+}
+]
+},
+"timeouts": {
+"2032": {
+"1": [],
+"2": []
+},
+"235": {
+"1": [],
+"2": []
+}
+},
+"pickcenter": [
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"awayTeamOdds": {
+"averageScore": 25.4,
+"favorite": false,
+"underdog": true,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"teamId": "235"
+},
+"homeTeamOdds": {
+"averageScore": 26.1,
+"favorite": true,
+"underdog": false,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"teamId": "2032"
+},
+"links": []
+}
+],
+"againstTheSpread": [
+{
+"team": {
+"id": "235",
+"uid": "s:20~l:23~t:235",
+"displayName": "Memphis Tigers",
+"abbreviation": "MEM",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/235",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "2032",
+"uid": "s:20~l:23~t:2032",
+"displayName": "Arkansas State Red Wolves",
+"abbreviation": "ARST",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2032",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "2032",
+"gameProjection": "33.0",
+"teamChanceLoss": "67.0"
+},
+"awayTeam": {
+"id": "235",
+"gameProjection": "67.0",
+"teamChanceLoss": "33.0"
+}
+},
+"espnWP": [],
+"gameInfo": {
+"date": "2021-09-11T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401301003~c:401301003",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2032",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2032",
+"team": {
+"uid": "s:20~l:23~t:2032",
+"alternateColor": "000000",
+"color": "e81018",
+"displayName": "Arkansas State Red Wolves",
+"name": "Red Wolves",
+"nickname": "Arkansas State",
+"location": "Arkansas State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves",
+"text": "Clubhouse"
+}
+],
+"id": "2032",
+"abbreviation": "ARST",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2032.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:235",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "235",
+"team": {
+"uid": "s:20~l:23~t:235",
+"alternateColor": "898d8d",
+"color": "003087",
+"displayName": "Memphis Tigers",
+"name": "Tigers",
+"nickname": "Memphis",
+"location": "Memphis",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
+"text": "Clubhouse"
+}
+],
+"id": "235",
+"abbreviation": "MEM",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401301003",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/1533f567-693c-44bf-9d31-a7c712c03c12",
+"name": "Sun Belt Conference",
+"id": "1533f567-693c-44bf-9d31-a7c712c03c12",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/56d874fa-ff97-41c3-8bc6-07b208281482",
+"name": "American Athletic Conference",
+"id": "56d874fa-ff97-41c3-8bc6-07b208281482",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-11T23:00:00.000+0000",
+"program": "ec1f81a9-1f51-4642-80e2-43ac4d1ff1a1",
+"createdOn": "2021-08-12T22:33:35.240+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401301003",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/8e2fe08c-83d3-4d16-aa02-28b3f6ccc49f",
+"network_displayName": "ESPN+",
+"end": "2021-09-12T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401301003?gameId=401301003&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "8e2fe08c-83d3-4d16-aa02-28b3f6ccc49f",
+"createdOn": "2021-08-12T22:33:35.540Z",
+"lastModifiedOn": "2021-08-12T22:33:35.540Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Memphis vs. Arkansas State",
+"peers": [
+{
+"width": 360,
+"name": "Memphis vs. Arkansas State",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/31cbbe49-c171-489e-93e9-6a08ea9d7cd8/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/31cbbe49-c171-489e-93e9-6a08ea9d7cd8/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"start": "2021-09-11T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608692",
+"lastModifiedOn": "2021-09-02T15:46:48.706+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"program_originalAirDate": "2021-09-11T23:00:00+0000",
+"program_shortTitle": "Memphis vs. Arkansas St",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401301003",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "Memphis vs. Arkansas St",
+"trueOriginal": "true",
+"title": "Memphis vs. Arkansas State (Football)",
+"simulcastAiringId": "114608692",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "31cbbe49-c171-489e-93e9-6a08ea9d7cd8",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-11T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-11T23:00:00Z",
+"origination": "SCHOOL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04837",
+"name": "Memphis vs. Arkansas State",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401301003",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 11th at 7:00 PM EDT",
+"shortDetail": "9/11 - 7:00 PM EDT"
+}
+}
+},
+"season": {
+"year": 2021,
+"type": 2
+}
+}

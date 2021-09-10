@@ -1,0 +1,1924 @@
+{
+"gameId": 401287897,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Salukis",
+"uid": "s:20~l:23~t:79",
+"alternateColor": "c2c3c0",
+"color": "85283D",
+"displayName": "Southern Illinois Salukis",
+"name": "Salukis",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+"location": "Southern Illinois",
+"id": "79",
+"abbreviation": "SIU",
+"slug": "southern-illinois-salukis"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Wildcats",
+"uid": "s:20~l:23~t:2306",
+"alternateColor": "e7d2ad",
+"color": "633194",
+"displayName": "Kansas State Wildcats",
+"name": "Wildcats",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+"location": "Kansas State",
+"id": "2306",
+"abbreviation": "KSU",
+"slug": "kansas-state-wildcats"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:401287897",
+"week": 2,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2021-09-11T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "BIG12|ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401287897~c:401287897",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2306",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2306",
+"team": {
+"uid": "s:20~l:23~t:2306",
+"alternateColor": "e7d2ad",
+"color": "633194",
+"displayName": "Kansas State Wildcats",
+"name": "Wildcats",
+"nickname": "Kansas State",
+"location": "Kansas State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2306/kansas-state-wildcats",
+"text": "Clubhouse"
+}
+],
+"id": "2306",
+"abbreviation": "KSU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2306.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:79",
+"homeAway": "away",
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "79",
+"team": {
+"uid": "s:20~l:23~t:79",
+"alternateColor": "c2c3c0",
+"color": "85283D",
+"displayName": "Southern Illinois Salukis",
+"name": "Salukis",
+"nickname": "S Illinois",
+"location": "Southern Illinois",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/79/southern-illinois-salukis",
+"text": "Clubhouse"
+}
+],
+"id": "79",
+"abbreviation": "SIU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/79.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401287897",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/3121c931-16c2-4beb-92dd-92e15c784afd",
+"name": "Missouri Valley Football Conference",
+"id": "3121c931-16c2-4beb-92dd-92e15c784afd",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/4f080ef0-4cf0-4e0f-9c60-b43a982d5cc8",
+"name": "Big 12 Conference",
+"id": "4f080ef0-4cf0-4e0f-9c60-b43a982d5cc8",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0ce3542e-d057-4001-80aa-1d9649289920",
+"name": "Big 12 Now",
+"id": "0ce3542e-d057-4001-80aa-1d9649289920",
+"type": "compilation"
+}
+],
+"program_firstPresented": "2021-09-11T23:00:00.000+0000",
+"program": "21fd7a1c-798c-4611-bd47-50929d365c6c",
+"createdOn": "2021-07-23T21:36:52.436+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401287897",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/53666445-5f1a-4b44-a546-e0ad73036d63",
+"network_displayName": "ESPN+",
+"end": "2021-09-12T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401287897?gameId=401287897&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "53666445-5f1a-4b44-a546-e0ad73036d63",
+"createdOn": "2021-07-23T21:36:52.790Z",
+"lastModifiedOn": "2021-07-23T21:36:52.790Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Southern Illinois vs. Kansas State",
+"peers": [
+{
+"width": 360,
+"name": "Southern Illinois vs. Kansas State",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/dea019c6-000b-482f-98d6-e7cfbdd167fc/16x9.png?timestamp=202108191931",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/dea019c6-000b-482f-98d6-e7cfbdd167fc/16x9.png?timestamp=202108191931",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"start": "2021-09-11T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608701",
+"lastModifiedOn": "2021-09-02T15:48:50.180+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"program_originalAirDate": "2021-09-11T23:00:00+0000",
+"program_shortTitle": "S Illinois vs. Kansas St",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401287897",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "S Illinois vs. Kansas St",
+"trueOriginal": "true",
+"title": "Southern Illinois vs. Kansas State (Football)",
+"simulcastAiringId": "114608701",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"artworkLastModified": "202108191931",
+"allowStartOver": "true",
+"trackingId": "dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-11T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-11T23:00:00Z",
+"origination": "EXCL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04839",
+"name": "Southern Illinois vs. Kansas State",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401287897",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 11th at 7:00 PM EDT",
+"shortDetail": "9/11 - 7:00 PM EDT"
+}
+}
+}
+],
+"season": {
+"year": 2021,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/401287897",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": true,
+"shortText": "Tickets",
+"rel": [
+"tickets",
+"desktop"
+],
+"href": "https://www.vividseats.com/ncaaf/kansas-state-wildcats-tickets/kansas-state-vs-southern-illinois-9-11-3565884.html?wsUser=717",
+"text": "Tickets",
+"isPremium": false
+}
+],
+"id": "401287897"
+},
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"station": "BIG 12 NOW",
+"media": {
+"callLetters": "BIG 12 NOW",
+"name": "BIG12|ESPN+",
+"shortName": "BIG12|ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web",
+"slug": "web",
+"longName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2021 Missouri Valley Football Conference Standings",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:282",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/282/indiana-state-sycamores",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
+"height": 500
+}
+],
+"team": "Indiana State",
+"id": "282"
+},
+{
+"uid": "s:20~l:23~t:79",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/79/southern-illinois-salukis",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+"height": 500
+}
+],
+"team": "Southern Illinois",
+"id": "79"
+},
+{
+"uid": "s:20~l:23~t:2754",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2754/youngstown-state-penguins",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
+"height": 500
+}
+],
+"team": "Youngstown State",
+"id": "2754"
+},
+{
+"uid": "s:20~l:23~t:2287",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2287/illinois-state-redbirds",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
+"height": 500
+}
+],
+"team": "Illinois State",
+"id": "2287"
+},
+{
+"uid": "s:20~l:23~t:2623",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2623/missouri-state-bears",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+"height": 500
+}
+],
+"team": "Missouri State",
+"id": "2623"
+},
+{
+"uid": "s:20~l:23~t:155",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/155/north-dakota-fighting-hawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+"height": 500
+}
+],
+"team": "North Dakota",
+"id": "155"
+},
+{
+"uid": "s:20~l:23~t:2449",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2449/north-dakota-state-bison",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+"height": 500
+}
+],
+"team": "North Dakota State",
+"id": "2449"
+},
+{
+"uid": "s:20~l:23~t:2460",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2460/northern-iowa-panthers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+"height": 500
+}
+],
+"team": "Northern Iowa",
+"id": "2460"
+},
+{
+"uid": "s:20~l:23~t:233",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/233/south-dakota-coyotes",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+"height": 500
+}
+],
+"team": "South Dakota",
+"id": "233"
+},
+{
+"uid": "s:20~l:23~t:2571",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2571/south-dakota-state-jackrabbits",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+"height": 500
+}
+],
+"team": "South Dakota State",
+"id": "2571"
+},
+{
+"uid": "s:20~l:23~t:2710",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2710/western-illinois-leathernecks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
+"height": 500
+}
+],
+"team": "Western Illinois",
+"id": "2710"
+}
+]
+}
+},
+{
+"header": "2021 Big 12 Conference Standings",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:239",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/239/baylor-bears",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+"height": 500
+}
+],
+"team": "Baylor",
+"id": "239"
+},
+{
+"uid": "s:20~l:23~t:66",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/66/iowa-state-cyclones",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+"height": 500
+}
+],
+"team": "Iowa State",
+"id": "66"
+},
+{
+"uid": "s:20~l:23~t:2305",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2305/kansas-jayhawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+"height": 500
+}
+],
+"team": "Kansas",
+"id": "2305"
+},
+{
+"uid": "s:20~l:23~t:2306",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2306/kansas-state-wildcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+"height": 500
+}
+],
+"team": "Kansas State",
+"id": "2306"
+},
+{
+"uid": "s:20~l:23~t:201",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/201/oklahoma-sooners",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+"height": 500
+}
+],
+"team": "Oklahoma",
+"id": "201"
+},
+{
+"uid": "s:20~l:23~t:197",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/197/oklahoma-state-cowboys",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+"height": 500
+}
+],
+"team": "Oklahoma State",
+"id": "197"
+},
+{
+"uid": "s:20~l:23~t:2628",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2628/tcu-horned-frogs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+"height": 500
+}
+],
+"team": "TCU",
+"id": "2628"
+},
+{
+"uid": "s:20~l:23~t:251",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+"height": 500
+}
+],
+"team": "Texas",
+"id": "251"
+},
+{
+"uid": "s:20~l:23~t:2641",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2641/texas-tech-red-raiders",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+"height": 500
+}
+],
+"team": "Texas Tech",
+"id": "2641"
+},
+{
+"uid": "s:20~l:23~t:277",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/277/west-virginia-mountaineers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+"height": 500
+}
+],
+"team": "West Virginia",
+"id": "277"
+}
+]
+}
+}
+]
+},
+"timeouts": {
+"2306": {
+"1": [],
+"2": []
+},
+"79": {
+"1": [],
+"2": []
+}
+},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "79",
+"uid": "s:20~l:23~t:79",
+"displayName": "Southern Illinois Salukis",
+"abbreviation": "SIU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/79/southern-illinois-salukis",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/79",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "2306",
+"uid": "s:20~l:23~t:2306",
+"displayName": "Kansas State Wildcats",
+"abbreviation": "KSU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2306/kansas-state-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2306",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "2306",
+"gameProjection": "90.1",
+"teamChanceLoss": "9.9"
+},
+"awayTeam": {
+"id": "79",
+"gameProjection": "9.9",
+"teamChanceLoss": "90.1"
+}
+},
+"espnWP": [],
+"gameInfo": {
+"date": "2021-09-11T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "BIG12|ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401287897~c:401287897",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2306",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2306",
+"team": {
+"uid": "s:20~l:23~t:2306",
+"alternateColor": "e7d2ad",
+"color": "633194",
+"displayName": "Kansas State Wildcats",
+"name": "Wildcats",
+"nickname": "Kansas State",
+"location": "Kansas State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2306/kansas-state-wildcats",
+"text": "Clubhouse"
+}
+],
+"id": "2306",
+"abbreviation": "KSU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2306.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:79",
+"homeAway": "away",
+"record": [
+{
+"summary": "1-0",
+"displayValue": "1-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "79",
+"team": {
+"uid": "s:20~l:23~t:79",
+"alternateColor": "c2c3c0",
+"color": "85283D",
+"displayName": "Southern Illinois Salukis",
+"name": "Salukis",
+"nickname": "S Illinois",
+"location": "Southern Illinois",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/79/southern-illinois-salukis",
+"text": "Clubhouse"
+}
+],
+"id": "79",
+"abbreviation": "SIU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/79.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": false,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401287897",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/3121c931-16c2-4beb-92dd-92e15c784afd",
+"name": "Missouri Valley Football Conference",
+"id": "3121c931-16c2-4beb-92dd-92e15c784afd",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/4f080ef0-4cf0-4e0f-9c60-b43a982d5cc8",
+"name": "Big 12 Conference",
+"id": "4f080ef0-4cf0-4e0f-9c60-b43a982d5cc8",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0ce3542e-d057-4001-80aa-1d9649289920",
+"name": "Big 12 Now",
+"id": "0ce3542e-d057-4001-80aa-1d9649289920",
+"type": "compilation"
+}
+],
+"program_firstPresented": "2021-09-11T23:00:00.000+0000",
+"program": "21fd7a1c-798c-4611-bd47-50929d365c6c",
+"createdOn": "2021-07-23T21:36:52.436+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401287897",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/53666445-5f1a-4b44-a546-e0ad73036d63",
+"network_displayName": "ESPN+",
+"end": "2021-09-12T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401287897?gameId=401287897&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "53666445-5f1a-4b44-a546-e0ad73036d63",
+"createdOn": "2021-07-23T21:36:52.790Z",
+"lastModifiedOn": "2021-07-23T21:36:52.790Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Southern Illinois vs. Kansas State",
+"peers": [
+{
+"width": 360,
+"name": "Southern Illinois vs. Kansas State",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/dea019c6-000b-482f-98d6-e7cfbdd167fc/16x9.png?timestamp=202108191931",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/dea019c6-000b-482f-98d6-e7cfbdd167fc/16x9.png?timestamp=202108191931",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"start": "2021-09-11T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608701",
+"lastModifiedOn": "2021-09-02T15:48:50.180+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"program_originalAirDate": "2021-09-11T23:00:00+0000",
+"program_shortTitle": "S Illinois vs. Kansas St",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401287897",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "S Illinois vs. Kansas St",
+"trueOriginal": "true",
+"title": "Southern Illinois vs. Kansas State (Football)",
+"simulcastAiringId": "114608701",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"artworkLastModified": "202108191931",
+"allowStartOver": "true",
+"trackingId": "dea019c6-000b-482f-98d6-e7cfbdd167fc",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-11T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-11T23:00:00Z",
+"origination": "EXCL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04839",
+"name": "Southern Illinois vs. Kansas State",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401287897",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 11th at 7:00 PM EDT",
+"shortDetail": "9/11 - 7:00 PM EDT"
+}
+}
+},
+"season": {
+"year": 2021,
+"type": 2
+}
+}

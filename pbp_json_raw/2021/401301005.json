@@ -1,0 +1,1995 @@
+{
+"gameId": 401301005,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Tigers",
+"uid": "s:20~l:23~t:2755",
+"alternateColor": "ffd10a",
+"color": "ee8601",
+"displayName": "Grambling Tigers",
+"name": "Tigers",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+"location": "Grambling",
+"id": "2755",
+"abbreviation": "GRAM",
+"slug": "grambling-tigers"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Cougars",
+"uid": "s:20~l:23~t:248",
+"alternateColor": "231f20",
+"color": "C90822",
+"displayName": "Houston Cougars",
+"name": "Cougars",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+"location": "Houston",
+"id": "248",
+"abbreviation": "HOU",
+"slug": "houston-cougars"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:401301005",
+"week": 3,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2021-09-18T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401301005~c:401301005",
+"competitors": [
+{
+"uid": "s:20~l:23~t:248",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "248",
+"team": {
+"uid": "s:20~l:23~t:248",
+"alternateColor": "231f20",
+"color": "C90822",
+"displayName": "Houston Cougars",
+"name": "Cougars",
+"nickname": "Houston",
+"location": "Houston",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
+"text": "Clubhouse"
+}
+],
+"id": "248",
+"abbreviation": "HOU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/248.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2755",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2755",
+"team": {
+"uid": "s:20~l:23~t:2755",
+"alternateColor": "ffd10a",
+"color": "ee8601",
+"displayName": "Grambling Tigers",
+"name": "Tigers",
+"nickname": "Grambling",
+"location": "Grambling",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2755/grambling-tigers",
+"text": "Clubhouse"
+}
+],
+"id": "2755",
+"abbreviation": "GRAM",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2755.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401301005",
+"program_categories": [
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/56d874fa-ff97-41c3-8bc6-07b208281482",
+"name": "American Athletic Conference",
+"id": "56d874fa-ff97-41c3-8bc6-07b208281482",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-18T23:00:00.000+0000",
+"program": "a4bd37ba-181d-4093-bb09-dde35f8575a9",
+"createdOn": "2021-07-23T21:39:55.814+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401301005",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/2483e169-018c-487a-8c43-19d621cfd71d",
+"network_displayName": "ESPN+",
+"end": "2021-09-19T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401301005?gameId=401301005&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "2483e169-018c-487a-8c43-19d621cfd71d",
+"createdOn": "2021-07-23T21:39:55.968Z",
+"lastModifiedOn": "2021-07-23T21:39:55.968Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Grambling vs. Houston",
+"peers": [
+{
+"width": 360,
+"name": "Grambling vs. Houston",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/452da5e8-f4bb-435c-9cf7-64a013b8a91b/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/452da5e8-f4bb-435c-9cf7-64a013b8a91b/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"start": "2021-09-18T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608943",
+"lastModifiedOn": "2021-09-01T16:21:20.575+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"program_originalAirDate": "2021-09-18T23:00:00+0000",
+"program_shortTitle": "Grambling vs. Houston",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401301005",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "Grambling vs. Houston",
+"trueOriginal": "true",
+"title": "Grambling vs. Houston (Football)",
+"simulcastAiringId": "114608943",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-18T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-18T23:00:00Z",
+"origination": "EXCL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04844",
+"name": "Grambling vs. Houston",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401301005",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 18th at 7:00 PM EDT",
+"shortDetail": "9/18 - 7:00 PM EDT"
+}
+}
+}
+],
+"season": {
+"year": 2021,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/401301005",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": true,
+"shortText": "Tickets",
+"rel": [
+"tickets",
+"desktop"
+],
+"href": "https://www.vividseats.com/ncaaf/houston-cougars-tickets/houston-9-18-3569625.html?wsUser=717",
+"text": "Tickets",
+"isPremium": false
+}
+],
+"id": "401301005"
+},
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"station": "ESPN+",
+"media": {
+"callLetters": "ESPN+",
+"name": "ESPN+",
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web",
+"slug": "web",
+"longName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2021 Southwestern Athletic Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/31/view/fcs-i-aa",
+"divisions": [
+{
+"header": "Southwestern Athletic - East",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2010",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2010/alabama-am-bulldogs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
+"height": 500
+}
+],
+"team": "Alabama A&M",
+"id": "2010"
+},
+{
+"uid": "s:20~l:23~t:2011",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2011/alabama-state-hornets",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+"height": 500
+}
+],
+"team": "Alabama State",
+"id": "2011"
+},
+{
+"uid": "s:20~l:23~t:2065",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2065/bethune-cookman-wildcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png",
+"height": 500
+}
+],
+"team": "Bethune-Cookman",
+"id": "2065"
+},
+{
+"uid": "s:20~l:23~t:50",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/50/florida-am-rattlers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+"height": 500
+}
+],
+"team": "Florida A&M",
+"id": "50"
+},
+{
+"uid": "s:20~l:23~t:2296",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2296/jackson-state-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+"height": 500
+}
+],
+"team": "Jackson State",
+"id": "2296"
+},
+{
+"uid": "s:20~l:23~t:2400",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2400/mississippi-valley-state-delta-devils",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
+"height": 500
+}
+],
+"team": "Mississippi Valley State",
+"id": "2400"
+}
+]
+}
+},
+{
+"header": "Southwestern Athletic - West",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2029",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2029/arkansas-pine-bluff-golden-lions",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+"height": 500
+}
+],
+"team": "Arkansas-Pine Bluff",
+"id": "2029"
+},
+{
+"uid": "s:20~l:23~t:2755",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2755/grambling-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+"height": 500
+}
+],
+"team": "Grambling",
+"id": "2755"
+},
+{
+"uid": "s:20~l:23~t:2504",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2504/prairie-view-am-panthers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+"height": 500
+}
+],
+"team": "Prairie View A&M",
+"id": "2504"
+},
+{
+"uid": "s:20~l:23~t:2582",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2582/southern-jaguars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+"height": 500
+}
+],
+"team": "Southern",
+"id": "2582"
+},
+{
+"uid": "s:20~l:23~t:2640",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2640/texas-southern-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+"height": 500
+}
+],
+"team": "Texas Southern",
+"id": "2640"
+},
+{
+"uid": "s:20~l:23~t:2016",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2016/alcorn-state-braves",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+"height": 500
+}
+],
+"team": "Alcorn State",
+"id": "2016"
+}
+]
+}
+}
+]
+},
+{
+"header": "2021 American Athletic Conference Standings",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2116",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2116/ucf-knights",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+"height": 500
+}
+],
+"team": "UCF",
+"id": "2116"
+},
+{
+"uid": "s:20~l:23~t:2132",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2132/cincinnati-bearcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+"height": 500
+}
+],
+"team": "Cincinnati",
+"id": "2132"
+},
+{
+"uid": "s:20~l:23~t:248",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+"height": 500
+}
+],
+"team": "Houston",
+"id": "248"
+},
+{
+"uid": "s:20~l:23~t:235",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"height": 500
+}
+],
+"team": "Memphis",
+"id": "235"
+},
+{
+"uid": "s:20~l:23~t:2426",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+"height": 500
+}
+],
+"team": "Navy",
+"id": "2426"
+},
+{
+"uid": "s:20~l:23~t:2567",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2567/smu-mustangs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+"height": 500
+}
+],
+"team": "SMU",
+"id": "2567"
+},
+{
+"uid": "s:20~l:23~t:218",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/218/temple-owls",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+"height": 500
+}
+],
+"team": "Temple",
+"id": "218"
+},
+{
+"uid": "s:20~l:23~t:2655",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+"height": 500
+}
+],
+"team": "Tulane",
+"id": "2655"
+},
+{
+"uid": "s:20~l:23~t:151",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/151/east-carolina-pirates",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+"height": 500
+}
+],
+"team": "East Carolina",
+"id": "151"
+},
+{
+"uid": "s:20~l:23~t:58",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/58/south-florida-bulls",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+"height": 500
+}
+],
+"team": "South Florida",
+"id": "58"
+},
+{
+"uid": "s:20~l:23~t:202",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/202/tulsa-golden-hurricane",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+"height": 500
+}
+],
+"team": "Tulsa",
+"id": "202"
+}
+]
+}
+}
+]
+},
+"timeouts": {
+"248": {
+"1": [],
+"2": []
+},
+"2755": {
+"1": [],
+"2": []
+}
+},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "2755",
+"uid": "s:20~l:23~t:2755",
+"displayName": "Grambling Tigers",
+"abbreviation": "GRAM",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2755/grambling-tigers",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2755",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "248",
+"uid": "s:20~l:23~t:248",
+"displayName": "Houston Cougars",
+"abbreviation": "HOU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/248",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "248",
+"gameProjection": "97.5",
+"teamChanceLoss": "2.5"
+},
+"awayTeam": {
+"id": "2755",
+"gameProjection": "2.5",
+"teamChanceLoss": "97.5"
+}
+},
+"espnWP": [],
+"gameInfo": {
+"date": "2021-09-18T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401301005~c:401301005",
+"competitors": [
+{
+"uid": "s:20~l:23~t:248",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "248",
+"team": {
+"uid": "s:20~l:23~t:248",
+"alternateColor": "231f20",
+"color": "C90822",
+"displayName": "Houston Cougars",
+"name": "Cougars",
+"nickname": "Houston",
+"location": "Houston",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
+"text": "Clubhouse"
+}
+],
+"id": "248",
+"abbreviation": "HOU",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/248.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2755",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2755",
+"team": {
+"uid": "s:20~l:23~t:2755",
+"alternateColor": "ffd10a",
+"color": "ee8601",
+"displayName": "Grambling Tigers",
+"name": "Tigers",
+"nickname": "Grambling",
+"location": "Grambling",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2755/grambling-tigers",
+"text": "Clubhouse"
+}
+],
+"id": "2755",
+"abbreviation": "GRAM",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2755.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401301005",
+"program_categories": [
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/56d874fa-ff97-41c3-8bc6-07b208281482",
+"name": "American Athletic Conference",
+"id": "56d874fa-ff97-41c3-8bc6-07b208281482",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-18T23:00:00.000+0000",
+"program": "a4bd37ba-181d-4093-bb09-dde35f8575a9",
+"createdOn": "2021-07-23T21:39:55.814+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401301005",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/2483e169-018c-487a-8c43-19d621cfd71d",
+"network_displayName": "ESPN+",
+"end": "2021-09-19T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401301005?gameId=401301005&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "2483e169-018c-487a-8c43-19d621cfd71d",
+"createdOn": "2021-07-23T21:39:55.968Z",
+"lastModifiedOn": "2021-07-23T21:39:55.968Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Grambling vs. Houston",
+"peers": [
+{
+"width": 360,
+"name": "Grambling vs. Houston",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/452da5e8-f4bb-435c-9cf7-64a013b8a91b/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/452da5e8-f4bb-435c-9cf7-64a013b8a91b/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"start": "2021-09-18T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608943",
+"lastModifiedOn": "2021-09-01T16:21:20.575+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"program_originalAirDate": "2021-09-18T23:00:00+0000",
+"program_shortTitle": "Grambling vs. Houston",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401301005",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "Grambling vs. Houston",
+"trueOriginal": "true",
+"title": "Grambling vs. Houston (Football)",
+"simulcastAiringId": "114608943",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "452da5e8-f4bb-435c-9cf7-64a013b8a91b",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-18T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-18T23:00:00Z",
+"origination": "EXCL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04844",
+"name": "Grambling vs. Houston",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401301005",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 18th at 7:00 PM EDT",
+"shortDetail": "9/18 - 7:00 PM EDT"
+}
+}
+},
+"season": {
+"year": 2021,
+"type": 2
+}
+}

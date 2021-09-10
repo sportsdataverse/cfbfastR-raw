@@ -8,14 +8,16 @@ from urllib.error import URLError, HTTPError, ContentTooShortError
 from datetime import datetime
 from itertools import chain, starmap
 import pandas as pd
+import numpy as np
 from pathlib import Path
-from play_handler import PlayProcess
+from play_handler import PlayProcess, process_cfb_raw_for_gop
 path_to_raw = "pbp_json_raw"
 path_to_final = "pbp_json_final"
 def main():
-    years_arr = range(2002,2021)
-    schedule = pd.read_csv('cfb_games_info_2002_2020.csv', encoding='latin-1')
+    years_arr = range(2021,2022)
+    schedule = pd.read_csv('cfb_schedule_2002_2021.csv', encoding='latin-1')
     schedule = schedule.sort_values(by=['season', 'week'], ascending = False)
+    schedule = schedule[schedule['status.type.completed']==True]
 
     for year in years_arr:
         print(year)
@@ -33,18 +35,18 @@ def main():
             if i == len(games):
                 print("done with year")
                 continue
-            if (i % 100 == 0 ):
-                print("Working on game {}/{}, gameId: {}".format(i+1, len(games[i:]) + i, game))
+            # if (i % 100 == 0 ):
+            print("Working on game {}/{}, gameId: {}".format(i+1, len(games[i:]) + i, game))
             if len(str(game))<9:
                 i+=1
                 continue
             try:
-                processor = PlayProcess( gameId = game, path_to_json = path_to_raw_json)
-                g = processor.cfb_pbp()
+                processed_data= PlayProcess( gameId = game, path_to_json = path_to_raw_json)
+                g = processed_data.cfb_pbp()
 
             except (TypeError) as e:
                 print("TypeError: yo", e)
-                g = processor.cfb_pbp()
+                g = processed_data.cfb_pbp()
 
             except (KeyError) as e:
                 print("KeyError: yo", e)
@@ -66,16 +68,22 @@ def main():
             with open(fp,'w') as f:
                 json.dump(g, f, indent=0, sort_keys=False)
         #     time.sleep(1)
+            if processed_data.playByPlaySource != "none":
+                processed_data.run_processing_pipeline()
+                tmp_json = processed_data.plays_json.to_json(orient="records")
+                jsonified_df = json.loads(tmp_json)
+                g['plays'] = jsonified_df
+                print(processed_data.plays_json.index.size)
+                if processed_data.plays_json.index.size > 50:
+                    box = processed_data.create_box_score()
+                else:
+                    box = np.array([]).tolist()
 
-            processor.run_processing_pipeline()
-            tmp_json = processor.plays_json.to_json(orient="records")
-            jsonified_df = json.loads(tmp_json)
-            g["plays"] = jsonified_df
-            adv_box = processor.create_box_score()
-            g["advBoxScore"] = adv_box
-            fp = "{}{}.json".format(path_to_final_json, game)
-            with open(fp,'w') as f:
-                json.dump(g, f, indent=0, sort_keys=False)
+                result = process_cfb_raw_for_gop(game, g, jsonified_df, box)
+                g["box_score"] = box
+                fp = "{}/{}.json".format(path_to_final, game)
+                with open(fp,'w') as f:
+                    json.dump(g, f, indent=0, sort_keys=False)
             i+=1
 
 if __name__ == "__main__":

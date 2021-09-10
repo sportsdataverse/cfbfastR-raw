@@ -144,7 +144,7 @@ normalplay = [
     "Fumble Recovery (Own)"
 ]
 penalty = [
-    'Penalty', 
+    'Penalty',
     'Penalty (Kickoff)',
     'Penalty (Safety)'
 ]
@@ -216,7 +216,7 @@ end_change_vec = [
     "Uncategorized Touchdown"
 ]
 kickoff_turnovers = [
-    "Kickoff Team Fumble Recovery", 
+    "Kickoff Team Fumble Recovery",
     "Kickoff Team Fumble Recovery Touchdown"
 ]
     #---------------------------------
@@ -260,7 +260,7 @@ class PlayProcess(object):
             url = f"https://raw.githubusercontent.com/saiemgilani/cfbfastR-raw/main/pbp_json_final/{self.gameId}.json"
             html = urllib.request.urlopen(url).read()
             return html
-        except (URLError, HTTPError, ContentTooShortError) as e: 
+        except (URLError, HTTPError, ContentTooShortError) as e:
             return None
 
     def cfb_pbp(self):
@@ -341,7 +341,7 @@ class PlayProcess(object):
         homeTeamNameAlt = re.sub("Stat(.+)", "St", str(homeTeamName))
         awayTeamNameAlt = re.sub("Stat(.+)", "St", str(awayTeamName))
 
-        
+
         if len(pbp_txt['pickcenter']) > 1:
             if 'spread' in pbp_txt['pickcenter'][1].keys():
                 gameSpread =  pbp_txt['pickcenter'][1]['spread']
@@ -410,7 +410,7 @@ class PlayProcess(object):
                     pbp_txt['plays'] = pd.concat([curr_drives, prev_drives], ignore_index=True)
                 else:
                     pbp_txt['plays'] = prev_drives
-                
+
                 pbp_txt['plays']['season'] = pbp_txt['header']['season']['year']
                 pbp_txt['plays']['seasonType'] = pbp_txt['header']['season']['type']
                 pbp_txt['plays']["awayTeamId"] = awayTeamId
@@ -2065,13 +2065,12 @@ class PlayProcess(object):
         play_df["fumble_player"] = play_df["fumble_player"].str.replace("(\\d{1,2})", "", case = False, regex = True)
         play_df["fumble_player"] = play_df["fumble_player"].str.replace(", ", "", case = False, regex = True)
         play_df["fumble_player"] = np.where(play_df["type.text"] == "Penalty", None, play_df.fumble_player)
-        
+
         play_df["fumble_forced_player"] = np.where(
-            (play_df.text.str.contains("fumble", case=False, flags=0, na=False, regex=True)) & 
+            (play_df.text.str.contains("fumble", case=False, flags=0, na=False, regex=True)) &
             (play_df.text.str.contains("forced by", case=False, flags=0, na=False, regex=True)),
-            play_df.text.str.extract("forced by(.{0,25})"), 
+            play_df.text.str.extract("forced by(.{0,25})"),
             play_df.fumble_forced_player)
-        
         play_df["fumble_forced_player"] = play_df["fumble_forced_player"].str.replace("(.+)forced by", "", case = False, regex = True)
         play_df["fumble_forced_player"] = play_df["fumble_forced_player"].str.replace("forced by", "", case = False, regex = True)
         play_df["fumble_forced_player"] = play_df["fumble_forced_player"].str.replace(", recove(.+)", "", case = False, regex = True)
@@ -2080,13 +2079,13 @@ class PlayProcess(object):
         play_df["fumble_forced_player"] = play_df["fumble_forced_player"].str.replace(", r", "", case = False, regex = True)
         play_df["fumble_forced_player"] = play_df["fumble_forced_player"].str.replace(", ", "", case = False, regex = True)
         play_df["fumble_forced_player"] = np.where(play_df["type.text"] == "Penalty", None, play_df.fumble_forced_player)
-        
+
         play_df["fumble_recovered_player"] = np.where(
-            (play_df.text.str.contains("fumble", case=False, flags=0, na=False, regex=True)) & 
+            (play_df.text.str.contains("fumble", case=False, flags=0, na=False, regex=True)) &
             (play_df.text.str.contains("recovered by", case=False, flags=0, na=False, regex=True)),
-            play_df.text.str.extract("recovered by(.{0,30})"), 
+            play_df.text.str.extract("recovered by(.{0,30})"),
             play_df.fumble_recovered_player)
-        
+
         play_df["fumble_recovered_player"] = play_df["fumble_recovered_player"].str.replace("for a 1ST down", "", case = False, regex = True)
         play_df["fumble_recovered_player"] = play_df["fumble_recovered_player"].str.replace("for a 1st down", "", case = False, regex = True)
         play_df["fumble_recovered_player"] = play_df["fumble_recovered_player"].str.replace("(.+)recovered", "", case = False, regex = True)
@@ -2126,21 +2125,21 @@ class PlayProcess(object):
         play_df['fumble_player_name'] = play_df['fumble_player'].str.strip()
         play_df['fumble_forced_player_name'] = play_df['fumble_forced_player'].str.strip()
         play_df['fumble_recovered_player_name'] = play_df['fumble_recovered_player'].str.strip()
-        
+
         play_df.drop([
-            'rush_player', 
-            'receiver_player', 
-            'pass_player', 
-            'sack_player1', 
+            'rush_player',
+            'receiver_player',
+            'pass_player',
+            'sack_player1',
             'sack_player2',
-            'pass_breakup_player', 
-            'interception_player', 
-            'punter_player', 
-            'fg_kicker_player', 
+            'pass_breakup_player',
+            'interception_player',
+            'punter_player',
+            'fg_kicker_player',
             'fg_block_player',
             'fg_return_player',
             'kickoff_player',
-            'kickoff_return_player', 
+            'kickoff_return_player',
             'punt_return_player',
             'punt_block_player',
             'punt_block_return_player',
@@ -2148,7 +2147,6 @@ class PlayProcess(object):
             'fumble_forced_player',
             'fumble_recovered_player'
         ],axis=1, inplace=True)
-        
         return play_df
 
     def __after_cols(self, play_df):
@@ -2572,7 +2570,7 @@ class PlayProcess(object):
         )
         return play_df
 
-    def __process_wpa__(self, play_df):
+    def __process_wpa(self, play_df):
         #---- prepare variables for wp_before calculations ----
         play_df['start.ExpScoreDiff_touchback'] = np.select(
             [
@@ -2908,7 +2906,7 @@ class PlayProcess(object):
             self.plays_json = self.__add_player_cols(self.plays_json)
             self.plays_json = self.__after_cols(self.plays_json)
             self.plays_json = self.__process_epa(self.plays_json)
-            self.plays_json = self.__process_wpa__(self.plays_json)
+            self.plays_json = self.__process_wpa(self.plays_json)
             self.plays_json = self.__add_drive_data(self.plays_json)
             self.plays_json = self.plays_json.replace({np.nan: None})
             self.ran_pipeline = True
@@ -2916,7 +2914,7 @@ class PlayProcess(object):
             self.logger.info("Already ran pipeline for this game. Doing nothing.")
         return self.plays_json
 
-    def __rename__(self, play_df):
+    def __rename(self, play_df):
         play_df.rename(columns={
             "posteam":"pos_team",
             "start.half_seconds_remaining":"start.TimeSecsRem",
@@ -2932,7 +2930,6 @@ class PlayProcess(object):
             "start.posteam_score":"start.pos_team_score",
             "start.defteam_score":"start.def_pos_team_score",
             "start.posteam_score_differential":"start.pos_team_score_differential",
-            
             "end.half_seconds_remaining":"end.TimeSecsRem",
             "end.game_seconds_remaining":"end.adj_TimeSecsRem",
             "end.posteam_score_differential":"end.pos_score_diff",
@@ -2952,14 +2949,14 @@ class PlayProcess(object):
 
 def process_cfb_raw_for_gop(js, pbp, jsonified_df, box):
     bad_cols = [
-                'start.distance', 'start.yardLine', 'start.team.id', 'start.down', 'start.yardsToEndzone', 'start.posTeamTimeouts', 'start.defTeamTimeouts', 
+                'start.distance', 'start.yardLine', 'start.team.id', 'start.down', 'start.yardsToEndzone', 'start.posTeamTimeouts', 'start.defTeamTimeouts',
                 'start.shortDownDistanceText', 'start.possessionText', 'start.downDistanceText', 'start.pos_team_timeouts', 'start.def_pos_team_timeouts',
                 'clock.displayValue',
                 'type.id', 'type.text', 'type.abbreviation',
-                'end.distance', 'end.yardLine', 'end.team.id','end.down', 'end.yardsToEndzone', 'end.posTeamTimeouts','end.defTeamTimeouts', 
+                'end.distance', 'end.yardLine', 'end.team.id','end.down', 'end.yardsToEndzone', 'end.posTeamTimeouts','end.defTeamTimeouts',
                 'end.shortDownDistanceText', 'end.possessionText', 'end.downDistanceText', 'end.pos_team_timeouts', 'end.def_pos_team_timeouts',
-                'expectedPoints.before', 'expectedPoints.after', 'expectedPoints.added', 
-                'winProbability.before', 'winProbability.after', 'winProbability.added', 
+                'expectedPoints.before', 'expectedPoints.after', 'expectedPoints.added',
+                'winProbability.before', 'winProbability.after', 'winProbability.added',
                 'scoringType.displayName', 'scoringType.name', 'scoringType.abbreviation'
             ]
             # clean records back into ESPN format

@@ -324,6 +324,7 @@ class PlayProcess(object):
         pbp_txt['gameInfo'] = pbp_txt['header']['competitions'][0]
         pbp_txt['season'] = pbp_txt['header']['season']
         pbp_txt['playByPlaySource'] = pbp_txt['header']['competitions'][0]['playByPlaySource']
+        self.playByPlaySource = pbp_txt['playByPlaySource'] 
         pbp_txt['pickcenter'] = summary_txt
         pbp_txt['againstTheSpread'] = summary_ats
         pbp_txt['odds'] = summary_odds
@@ -2747,7 +2748,7 @@ class PlayProcess(object):
         return play_df
 
     def create_box_score(self):
-        if (self.ran_pipeline == False):
+        if (self.ran_pipeline == False) && (self.playByPlaySource != "none"):
             self.run_processing_pipeline()
         # have to run the pipeline before pulling this in
         self.plays_json['completion'] = self.plays_json['completion'].astype(float)
@@ -2902,7 +2903,7 @@ class PlayProcess(object):
         }
 
     def run_processing_pipeline(self):
-        if (self.ran_pipeline == False):
+        if (self.ran_pipeline == False) && (self.playByPlaySource != "none"):
             self.plays_json = self.__clean_pbp_data(self.plays_json)
             self.plays_json = self.__add_yardage_cols(self.plays_json)
             self.plays_json = self.__add_player_cols(self.plays_json)

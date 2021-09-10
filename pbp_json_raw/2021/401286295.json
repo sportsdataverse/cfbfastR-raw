@@ -1,0 +1,1776 @@
+{
+"gameId": 401286295,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Flames",
+"uid": "s:20~l:23~t:2335",
+"alternateColor": "a61f21",
+"color": "071740",
+"displayName": "Liberty Flames",
+"name": "Flames",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+"location": "Liberty",
+"id": "2335",
+"abbreviation": "LIB",
+"slug": "liberty-flames"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Trojans",
+"uid": "s:20~l:23~t:2653",
+"alternateColor": "88898c",
+"color": "AE0210",
+"displayName": "Troy Trojans",
+"name": "Trojans",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+"location": "Troy",
+"id": "2653",
+"abbreviation": "TROY",
+"slug": "troy-trojans"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:401286295",
+"week": 2,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2021-09-11T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401286295~c:401286295",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2653",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2653",
+"team": {
+"uid": "s:20~l:23~t:2653",
+"alternateColor": "88898c",
+"color": "AE0210",
+"displayName": "Troy Trojans",
+"name": "Trojans",
+"nickname": "Troy",
+"location": "Troy",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans",
+"text": "Clubhouse"
+}
+],
+"id": "2653",
+"abbreviation": "TROY",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2653.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2335",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2335",
+"team": {
+"uid": "s:20~l:23~t:2335",
+"alternateColor": "a61f21",
+"color": "071740",
+"displayName": "Liberty Flames",
+"name": "Flames",
+"nickname": "Liberty",
+"location": "Liberty",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
+"text": "Clubhouse"
+}
+],
+"id": "2335",
+"abbreviation": "LIB",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2335.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401286295",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/1533f567-693c-44bf-9d31-a7c712c03c12",
+"name": "Sun Belt Conference",
+"id": "1533f567-693c-44bf-9d31-a7c712c03c12",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-11T23:00:00.000+0000",
+"program": "8b849826-5cb1-431e-ad22-c476a1e45338",
+"createdOn": "2021-08-12T22:33:35.655+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401286295",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/cf12f53a-f5e2-44b4-a414-a70eeab17ae6",
+"network_displayName": "ESPN+",
+"end": "2021-09-12T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401286295?gameId=401286295&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "cf12f53a-f5e2-44b4-a414-a70eeab17ae6",
+"createdOn": "2021-08-12T22:33:35.920Z",
+"lastModifiedOn": "2021-08-12T22:33:35.920Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Liberty vs. Troy",
+"peers": [
+{
+"width": 360,
+"name": "Liberty vs. Troy",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/c88c79cb-5143-4ee7-bfdc-838988ef41af/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/c88c79cb-5143-4ee7-bfdc-838988ef41af/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"start": "2021-09-11T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608696",
+"lastModifiedOn": "2021-09-02T15:48:51.488+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"program_originalAirDate": "2021-09-11T23:00:00+0000",
+"program_shortTitle": "Liberty vs. Troy",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401286295",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "Liberty vs. Troy",
+"trueOriginal": "true",
+"title": "Liberty vs. Troy (Football)",
+"simulcastAiringId": "114608696",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-11T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-11T23:00:00Z",
+"origination": "SCHOOL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04838",
+"name": "Liberty vs. Troy",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401286295",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 11th at 7:00 PM EDT",
+"shortDetail": "9/11 - 7:00 PM EDT"
+}
+}
+}
+],
+"season": {
+"year": 2021,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/401286295",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": true,
+"shortText": "Tickets",
+"rel": [
+"tickets",
+"desktop"
+],
+"href": "https://www.vividseats.com/ncaaf/troy-trojans-tickets/troy-trojans-9-11-3578994.html?wsUser=717",
+"text": "Tickets",
+"isPremium": false
+}
+],
+"id": "401286295"
+},
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"station": "ESPN+",
+"media": {
+"callLetters": "ESPN+",
+"name": "ESPN+",
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web",
+"slug": "web",
+"longName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2021 FBS Independents Standings",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:349",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+"height": 500
+}
+],
+"team": "Army",
+"id": "349"
+},
+{
+"uid": "s:20~l:23~t:252",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/252/byu-cougars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+"height": 500
+}
+],
+"team": "BYU",
+"id": "252"
+},
+{
+"uid": "s:20~l:23~t:2335",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+"height": 500
+}
+],
+"team": "Liberty",
+"id": "2335"
+},
+{
+"uid": "s:20~l:23~t:87",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+"height": 500
+}
+],
+"team": "Notre Dame",
+"id": "87"
+},
+{
+"uid": "s:20~l:23~t:113",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/113/umass-minutemen",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+"height": 500
+}
+],
+"team": "UMass",
+"id": "113"
+},
+{
+"uid": "s:20~l:23~t:166",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/166/new-mexico-state-aggies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+"height": 500
+}
+],
+"team": "New Mexico State",
+"id": "166"
+},
+{
+"uid": "s:20~l:23~t:41",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/41/uconn-huskies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+"height": 500
+}
+],
+"team": "UConn",
+"id": "41"
+}
+]
+}
+},
+{
+"header": "2021 Sun Belt Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/37/view/fbs-i-a",
+"divisions": [
+{
+"header": "Sun Belt - East",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2026",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2026/appalachian-state-mountaineers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+"height": 500
+}
+],
+"team": "Appalachian State",
+"id": "2026"
+},
+{
+"uid": "s:20~l:23~t:324",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/324/coastal-carolina-chanticleers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+"height": 500
+}
+],
+"team": "Coastal Carolina",
+"id": "324"
+},
+{
+"uid": "s:20~l:23~t:290",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/290/georgia-southern-eagles",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+"height": 500
+}
+],
+"team": "Georgia Southern",
+"id": "290"
+},
+{
+"uid": "s:20~l:23~t:2247",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2247/georgia-state-panthers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+"height": 500
+}
+],
+"team": "Georgia State",
+"id": "2247"
+},
+{
+"uid": "s:20~l:23~t:2653",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+"height": 500
+}
+],
+"team": "Troy",
+"id": "2653"
+}
+]
+}
+},
+{
+"header": "Sun Belt - West",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2032",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+"height": 500
+}
+],
+"team": "Arkansas State",
+"id": "2032"
+},
+{
+"uid": "s:20~l:23~t:309",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"height": 500
+}
+],
+"team": "Louisiana",
+"id": "309"
+},
+{
+"uid": "s:20~l:23~t:6",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/6/south-alabama-jaguars",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+"height": 500
+}
+],
+"team": "South Alabama",
+"id": "6"
+},
+{
+"uid": "s:20~l:23~t:326",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/326/texas-state-bobcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+"height": 500
+}
+],
+"team": "Texas State",
+"id": "326"
+},
+{
+"uid": "s:20~l:23~t:2433",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2433/ul-monroe-warhawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+"height": 500
+}
+],
+"team": "UL Monroe",
+"id": "2433"
+}
+]
+}
+}
+]
+}
+]
+},
+"timeouts": {
+"2653": {
+"1": [],
+"2": []
+},
+"2335": {
+"1": [],
+"2": []
+}
+},
+"pickcenter": [
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"awayTeamOdds": {
+"averageScore": 29.1,
+"favorite": false,
+"underdog": true,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"teamId": "2335"
+},
+"homeTeamOdds": {
+"averageScore": 21.4,
+"favorite": true,
+"underdog": false,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"teamId": "2653"
+},
+"links": []
+}
+],
+"againstTheSpread": [
+{
+"team": {
+"id": "2335",
+"uid": "s:20~l:23~t:2335",
+"displayName": "Liberty Flames",
+"abbreviation": "LIB",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2335",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "2653",
+"uid": "s:20~l:23~t:2653",
+"displayName": "Troy Trojans",
+"abbreviation": "TROY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2653",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "2653",
+"gameProjection": "60.8",
+"teamChanceLoss": "39.2"
+},
+"awayTeam": {
+"id": "2335",
+"gameProjection": "39.2",
+"teamChanceLoss": "60.8"
+}
+},
+"espnWP": [],
+"gameInfo": {
+"date": "2021-09-11T23:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401286295~c:401286295",
+"competitors": [
+{
+"uid": "s:20~l:23~t:2653",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2653",
+"team": {
+"uid": "s:20~l:23~t:2653",
+"alternateColor": "88898c",
+"color": "AE0210",
+"displayName": "Troy Trojans",
+"name": "Trojans",
+"nickname": "Troy",
+"location": "Troy",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans",
+"text": "Clubhouse"
+}
+],
+"id": "2653",
+"abbreviation": "TROY",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2653.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2335",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2335",
+"team": {
+"uid": "s:20~l:23~t:2335",
+"alternateColor": "a61f21",
+"color": "071740",
+"displayName": "Liberty Flames",
+"name": "Flames",
+"nickname": "Liberty",
+"location": "Liberty",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
+"text": "Clubhouse"
+}
+],
+"id": "2335",
+"abbreviation": "LIB",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2335.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401286295",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/1533f567-693c-44bf-9d31-a7c712c03c12",
+"name": "Sun Belt Conference",
+"id": "1533f567-693c-44bf-9d31-a7c712c03c12",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-11T23:00:00.000+0000",
+"program": "8b849826-5cb1-431e-ad22-c476a1e45338",
+"createdOn": "2021-08-12T22:33:35.655+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401286295",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/cf12f53a-f5e2-44b4-a414-a70eeab17ae6",
+"network_displayName": "ESPN+",
+"end": "2021-09-12T02:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401286295?gameId=401286295&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "cf12f53a-f5e2-44b4-a414-a70eeab17ae6",
+"createdOn": "2021-08-12T22:33:35.920Z",
+"lastModifiedOn": "2021-08-12T22:33:35.920Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Liberty vs. Troy",
+"peers": [
+{
+"width": 360,
+"name": "Liberty vs. Troy",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/c88c79cb-5143-4ee7-bfdc-838988ef41af/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/c88c79cb-5143-4ee7-bfdc-838988ef41af/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"start": "2021-09-11T23:00:00.000+0000",
+"externalId": "ncs.airingId:a114608696",
+"lastModifiedOn": "2021-09-02T15:48:51.488+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"program_originalAirDate": "2021-09-11T23:00:00+0000",
+"program_shortTitle": "Liberty vs. Troy",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401286295",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "Liberty vs. Troy",
+"trueOriginal": "true",
+"title": "Liberty vs. Troy (Football)",
+"simulcastAiringId": "114608696",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "c88c79cb-5143-4ee7-bfdc-838988ef41af",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-11T23:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-11T23:00:00Z",
+"origination": "SCHOOL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBPA04838",
+"name": "Liberty vs. Troy",
+"shortName": "ESPN's Primetime College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401286295",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 11th at 7:00 PM EDT",
+"shortDetail": "9/11 - 7:00 PM EDT"
+}
+}
+},
+"season": {
+"year": 2021,
+"type": 2
+}
+}

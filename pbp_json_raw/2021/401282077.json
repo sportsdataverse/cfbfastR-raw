@@ -1,0 +1,1973 @@
+{
+"gameId": 401282077,
+"drives": {},
+"plays": [],
+"scoringPlays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"shortDisplayName": "Redhawks",
+"uid": "s:20~l:23~t:2546",
+"alternateColor": "080808",
+"color": "cc0000",
+"displayName": "Southeast Missouri State Redhawks",
+"name": "Redhawks",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+"location": "Southeast Missouri State",
+"id": "2546",
+"abbreviation": "SEMO",
+"slug": "southeast-missouri-state-redhawks"
+},
+"statistics": []
+},
+{
+"team": {
+"shortDisplayName": "Tigers",
+"uid": "s:20~l:23~t:142",
+"alternateColor": "000000",
+"color": "000000",
+"displayName": "Missouri Tigers",
+"name": "Tigers",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+"location": "Missouri",
+"id": "142",
+"abbreviation": "MIZ",
+"slug": "missouri-tigers"
+},
+"statistics": []
+}
+]
+},
+"header": {
+"uid": "s:20~l:23~e:401282077",
+"week": 3,
+"timeValid": true,
+"league": {
+"uid": "s:20~l:23",
+"midsizeName": "NCAA Football",
+"name": "NCAA - Football",
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+],
+"id": "23",
+"abbreviation": "NCAAF",
+"slug": "college-football",
+"isTournament": false
+},
+"competitions": [
+{
+"date": "2021-09-18T16:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+},
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "SECN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401282077~c:401282077",
+"competitors": [
+{
+"uid": "s:20~l:23~t:142",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "142",
+"team": {
+"uid": "s:20~l:23~t:142",
+"alternateColor": "000000",
+"color": "000000",
+"displayName": "Missouri Tigers",
+"name": "Tigers",
+"nickname": "Missouri",
+"location": "Missouri",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/142/missouri-tigers",
+"text": "Clubhouse"
+}
+],
+"id": "142",
+"abbreviation": "MIZ",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2546",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2546",
+"team": {
+"uid": "s:20~l:23~t:2546",
+"alternateColor": "080808",
+"color": "cc0000",
+"displayName": "Southeast Missouri State Redhawks",
+"name": "Redhawks",
+"nickname": "SE Missouri St",
+"location": "Southeast Missouri State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2546/southeast-missouri-state-redhawks",
+"text": "Clubhouse"
+}
+],
+"id": "2546",
+"abbreviation": "SEMO",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401282077",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/8323f79f-3ce0-41c6-852b-75fb33ff0c96",
+"name": "Southeastern Conference",
+"id": "8323f79f-3ce0-41c6-852b-75fb33ff0c96",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/c2de4f43-d983-4893-aaed-892250da7e80",
+"name": "Ohio Valley Conference",
+"id": "c2de4f43-d983-4893-aaed-892250da7e80",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-18T16:00:00.000+0000",
+"program": "d2bd885b-2a76-4098-88bf-1aff1baba4ab",
+"createdOn": "2021-07-23T21:38:50.007+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401282077",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/acfc0297-e2ed-4588-a8c5-4880d24fcc77",
+"network_displayName": "ESPN+",
+"end": "2021-09-18T19:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401282077?gameId=401282077&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "acfc0297-e2ed-4588-a8c5-4880d24fcc77",
+"createdOn": "2021-07-23T21:38:50.232Z",
+"lastModifiedOn": "2021-07-23T21:38:50.232Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Southeast Missouri State vs. Missouri",
+"peers": [
+{
+"width": 360,
+"name": "Southeast Missouri State vs. Missouri",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/a84a90ae-d326-49c8-b26f-5c5ad0ae243f/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/a84a90ae-d326-49c8-b26f-5c5ad0ae243f/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"start": "2021-09-18T16:00:00.000+0000",
+"externalId": "ncs.airingId:a114608817",
+"lastModifiedOn": "2021-08-27T16:10:15.019+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"program_originalAirDate": "2021-09-18T16:00:00+0000",
+"program_shortTitle": "SEMO vs. Missouri",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401282077",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "SEMO vs. Missouri",
+"trueOriginal": "true",
+"title": "Southeast Missouri State vs. Missouri (Football)",
+"simulcastAiringId": "114608817",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-18T16:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-18T16:00:00Z",
+"origination": "EXCL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBSA05417",
+"name": "Southeast Missouri State vs. Missouri",
+"shortName": "ESPN's Afternoon College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401282077",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 18th at 12:00 PM EDT",
+"shortDetail": "9/18 - 12:00 PM EDT"
+}
+}
+}
+],
+"season": {
+"year": 2021,
+"type": 2
+},
+"links": [
+{
+"isExternal": false,
+"shortText": "Summary",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/401282077",
+"text": "Gamecast",
+"isPremium": false
+},
+{
+"isExternal": true,
+"shortText": "Tickets",
+"rel": [
+"tickets",
+"desktop"
+],
+"href": "https://www.vividseats.com/ncaaf/missouri-tigers-tickets/missouri-9-18-3539750.html?wsUser=717",
+"text": "Tickets",
+"isPremium": false
+}
+],
+"id": "401282077"
+},
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"station": "ESPN+",
+"media": {
+"callLetters": "ESPN+",
+"name": "ESPN+",
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web",
+"slug": "web",
+"longName": "Web"
+},
+"lang": "en",
+"region": "us"
+},
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"station": "SECN+",
+"media": {
+"callLetters": "SECN+",
+"name": "SEC Network+",
+"shortName": "SECN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web",
+"slug": "web",
+"longName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"header": "2021 Ohio Valley Conference Standings",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2046",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2046/austin-peay-governors",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
+"height": 500
+}
+],
+"team": "Austin Peay",
+"id": "2046"
+},
+{
+"uid": "s:20~l:23~t:93",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/93/murray-state-racers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png",
+"height": 500
+}
+],
+"team": "Murray State",
+"id": "93"
+},
+{
+"uid": "s:20~l:23~t:2634",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2634/tennessee-state-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png",
+"height": 500
+}
+],
+"team": "Tennessee State",
+"id": "2634"
+},
+{
+"uid": "s:20~l:23~t:2197",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2197/eastern-illinois-panthers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png",
+"height": 500
+}
+],
+"team": "Eastern Illinois",
+"id": "2197"
+},
+{
+"uid": "s:20~l:23~t:2546",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2546/southeast-missouri-state-redhawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+"height": 500
+}
+],
+"team": "Southeast Missouri State",
+"id": "2546"
+},
+{
+"uid": "s:20~l:23~t:2635",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2635/tennessee-tech-golden-eagles",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+"height": 500
+}
+],
+"team": "Tennessee Tech",
+"id": "2635"
+},
+{
+"uid": "s:20~l:23~t:2630",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-1",
+"displayValue": "0-1",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2630/ut-martin-skyhawks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
+"height": 500
+}
+],
+"team": "UT Martin",
+"id": "2630"
+}
+]
+}
+},
+{
+"header": "2021 Southeastern Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/8/view/fbs-i-a",
+"divisions": [
+{
+"header": "SEC - East",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:2633",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "1-0",
+"displayValue": "1-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2633/tennessee-volunteers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+"height": 500
+}
+],
+"team": "Tennessee",
+"id": "2633"
+},
+{
+"uid": "s:20~l:23~t:57",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/57/florida-gators",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+"height": 500
+}
+],
+"team": "Florida",
+"id": "57"
+},
+{
+"uid": "s:20~l:23~t:61",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/61/georgia-bulldogs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+"height": 500
+}
+],
+"team": "Georgia",
+"id": "61"
+},
+{
+"uid": "s:20~l:23~t:96",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/96/kentucky-wildcats",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+"height": 500
+}
+],
+"team": "Kentucky",
+"id": "96"
+},
+{
+"uid": "s:20~l:23~t:142",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/142/missouri-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+"height": 500
+}
+],
+"team": "Missouri",
+"id": "142"
+},
+{
+"uid": "s:20~l:23~t:2579",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2579/south-carolina-gamecocks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+"height": 500
+}
+],
+"team": "South Carolina",
+"id": "2579"
+},
+{
+"uid": "s:20~l:23~t:238",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/238/vanderbilt-commodores",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+"height": 500
+}
+],
+"team": "Vanderbilt",
+"id": "238"
+}
+]
+}
+},
+{
+"header": "SEC - West",
+"standings": {
+"entries": [
+{
+"uid": "s:20~l:23~t:333",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/333/alabama-crimson-tide",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+"height": 500
+}
+],
+"team": "Alabama",
+"id": "333"
+},
+{
+"uid": "s:20~l:23~t:8",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/8/arkansas-razorbacks",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+"height": 500
+}
+],
+"team": "Arkansas",
+"id": "8"
+},
+{
+"uid": "s:20~l:23~t:2",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/2/auburn-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+"height": 500
+}
+],
+"team": "Auburn",
+"id": "2"
+},
+{
+"uid": "s:20~l:23~t:99",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+"height": 500
+}
+],
+"team": "LSU",
+"id": "99"
+},
+{
+"uid": "s:20~l:23~t:344",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/344/mississippi-state-bulldogs",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+"height": 500
+}
+],
+"team": "Mississippi State",
+"id": "344"
+},
+{
+"uid": "s:20~l:23~t:145",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/145/ole-miss-rebels",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+"height": 500
+}
+],
+"team": "Ole Miss",
+"id": "145"
+},
+{
+"uid": "s:20~l:23~t:245",
+"stats": [
+{
+"shortDisplayName": "OVER",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "Overall",
+"name": "overall",
+"description": "Overall Record",
+"id": "0",
+"abbreviation": "overall",
+"type": "total"
+},
+{
+"shortDisplayName": "CONF",
+"summary": "0-0",
+"displayValue": "0-0",
+"displayName": "vs. Conference",
+"name": "vsConf",
+"description": "Conference Record",
+"id": "9",
+"abbreviation": "CONF",
+"type": "vsconf"
+}
+],
+"link": "https://www.espn.com/college-football/team/_/id/245/texas-am-aggies",
+"logo": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+"height": 500
+}
+],
+"team": "Texas A&M",
+"id": "245"
+}
+]
+}
+}
+]
+}
+]
+},
+"timeouts": {
+"142": {
+"1": [],
+"2": []
+},
+"2546": {
+"1": [],
+"2": []
+}
+},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "2546",
+"uid": "s:20~l:23~t:2546",
+"displayName": "Southeast Missouri State Redhawks",
+"abbreviation": "SEMO",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2546/southeast-missouri-state-redhawks",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2546",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "142",
+"uid": "s:20~l:23~t:142",
+"displayName": "Missouri Tigers",
+"abbreviation": "MIZ",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/142/missouri-tigers",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/142",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png"
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "142",
+"gameProjection": "98.2",
+"teamChanceLoss": "1.8"
+},
+"awayTeam": {
+"id": "2546",
+"gameProjection": "1.8",
+"teamChanceLoss": "98.2"
+}
+},
+"espnWP": [],
+"gameInfo": {
+"date": "2021-09-18T16:00Z",
+"commentaryAvailable": false,
+"conferenceCompetition": false,
+"liveAvailable": false,
+"broadcasts": [
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+},
+{
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "SECN+"
+},
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"playByPlaySource": "none",
+"uid": "s:20~l:23~e:401282077~c:401282077",
+"competitors": [
+{
+"uid": "s:20~l:23~t:142",
+"homeAway": "home",
+"record": [
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "142",
+"team": {
+"uid": "s:20~l:23~t:142",
+"alternateColor": "000000",
+"color": "000000",
+"displayName": "Missouri Tigers",
+"name": "Tigers",
+"nickname": "Missouri",
+"location": "Missouri",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/142/missouri-tigers",
+"text": "Clubhouse"
+}
+],
+"id": "142",
+"abbreviation": "MIZ",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png",
+"height": 500
+}
+]
+},
+"order": 0
+},
+{
+"uid": "s:20~l:23~t:2546",
+"homeAway": "away",
+"record": [
+{
+"summary": "0-1",
+"displayValue": "0-1",
+"type": "total"
+},
+{
+"summary": "0-0",
+"displayValue": "0-0",
+"type": "vsconf"
+}
+],
+"possession": false,
+"id": "2546",
+"team": {
+"uid": "s:20~l:23~t:2546",
+"alternateColor": "080808",
+"color": "cc0000",
+"displayName": "Southeast Missouri State Redhawks",
+"name": "Redhawks",
+"nickname": "SE Missouri St",
+"location": "Southeast Missouri State",
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2546/southeast-missouri-state-redhawks",
+"text": "Clubhouse"
+}
+],
+"id": "2546",
+"abbreviation": "SEMO",
+"logos": [
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+"height": 500
+},
+{
+"width": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2546.png",
+"height": 500
+}
+]
+},
+"order": 1
+}
+],
+"onWatchESPN": true,
+"boxscoreAvailable": false,
+"airings": [
+{
+"withinPlayWindow": false,
+"program_eventId": "401282077",
+"program_categories": [
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/8323f79f-3ce0-41c6-852b-75fb33ff0c96",
+"name": "Southeastern Conference",
+"id": "8323f79f-3ce0-41c6-852b-75fb33ff0c96",
+"type": "conference"
+},
+{
+"sportId": "23",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"name": "NCAA Football",
+"id": "0f8e3d42-fa27-3f60-9e8d-276e4892f50e",
+"type": "league"
+},
+{
+"sportId": "20",
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"name": "Football",
+"id": "60459870-f8fc-3b3a-a6b9-d8af4bf19223",
+"type": "sport"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/c2de4f43-d983-4893-aaed-892250da7e80",
+"name": "Ohio Valley Conference",
+"id": "c2de4f43-d983-4893-aaed-892250da7e80",
+"type": "conference"
+},
+{
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/categories/cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"name": "NCAA",
+"id": "cbb67d00-f4b6-4e03-933e-76bfc23ea306",
+"type": "organizer"
+}
+],
+"program_firstPresented": "2021-09-18T16:00:00.000+0000",
+"program": "d2bd885b-2a76-4098-88bf-1aff1baba4ab",
+"createdOn": "2021-07-23T21:38:50.007+0000",
+"network": "espn_dtc",
+"appGameLink": "sportscenter://x-callback-url/showWatchStream?playGameID=401282077",
+"policyUrl": "https://restrictions.api.espn.com/restrictions/policies/acfc0297-e2ed-4588-a8c5-4880d24fcc77",
+"network_displayName": "ESPN+",
+"end": "2021-09-18T19:00:00.000+0000",
+"networkId": "a698f0a3-dcfc-4684-9ca2-3082a28111cc",
+"id": "a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"program_language": "English",
+"webAiringLink": "https://www.espn.com/watch/player/_/id/a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"webGameLink": "https://www.espn.com/watch/player/_/eventCalendarId/401282077?gameId=401282077&sourceLang=en",
+"policy": {
+"viewingPolicies": [
+{
+"audience": {
+"name": "Audience for US and territories whitelist",
+"match": "NONE",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "78f1ce73-384f-483f-b4de-dc959651a7e9",
+"properties": {
+"iso3166": [
+"AS",
+"GU",
+"MP",
+"PR",
+"US",
+"VI"
+]
+}
+},
+"name": "Viewing policy for US and territories allow list",
+"externalId": "AS_GU_MP_PR_US_VI",
+"id": "e2fdc729-4ba1-413e-9a02-6ddc74d89689",
+"actions": [
+"reject_blackout"
+]
+},
+{
+"audience": {
+"name": "ESPN_PLUS entitlement audience",
+"match": "ANY",
+"externalId": "ESPN_PLUS",
+"id": "fab7975c-b5b6-47bb-9ec7-227b81ca8518",
+"properties": {
+"subscription": [
+"ESPN_PLUS"
+]
+}
+},
+"name": "Viewing policy for ESPN_PLUS entitlement",
+"externalId": "ESPN_PLUS",
+"id": "d922dd59-10ff-4c9c-bd1e-cae6560698ef",
+"actions": [
+"allow_entitlement"
+]
+},
+{
+"audience": {
+"name": "Audience for ESPN base tier",
+"match": "ANY",
+"externalId": "ESPN_BASE",
+"id": "52a51035-cfc5-46ad-890e-1c8e6b8d2fa8",
+"properties": {
+"subscription": [
+"ESPN_BASE"
+]
+}
+},
+"name": "Viewing policy to allow startover",
+"externalId": "ALLOW_STARTOVER",
+"id": "08397749-a2c3-41a9-93b8-22c833b861f3",
+"actions": [
+"allow_startover"
+]
+}
+],
+"createdBy": "anonymous",
+"lastModifiedBy": "anonymous",
+"id": "acfc0297-e2ed-4588-a8c5-4880d24fcc77",
+"createdOn": "2021-07-23T21:38:50.232Z",
+"lastModifiedOn": "2021-07-23T21:38:50.232Z"
+},
+"images": [
+{
+"width": 640,
+"name": "Southeast Missouri State vs. Missouri",
+"peers": [
+{
+"width": 360,
+"name": "Southeast Missouri State vs. Missouri",
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/a84a90ae-d326-49c8-b26f-5c5ad0ae243f/16x9.png",
+"height": 640
+}
+],
+"url": "https://s.secure.espncdn.com/stitcher/artwork/collections/airings/a84a90ae-d326-49c8-b26f-5c5ad0ae243f/16x9.png",
+"height": 360
+}
+],
+"artworkUrl": "https://artwork.api.espn.com/artwork/collections/airings/a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"start": "2021-09-18T16:00:00.000+0000",
+"externalId": "ncs.airingId:a114608817",
+"lastModifiedOn": "2021-08-27T16:10:15.019+0000",
+"appAiringLink": "sportscenter://x-callback-url/showWatchStream?playID=a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"program_originalAirDate": "2021-09-18T16:00:00+0000",
+"program_shortTitle": "SEMO vs. Missouri",
+"program_eventUrl": "https://events.api.espn.com/eventcalendar/api/events/ec1/401282077",
+"network_shortName": "ESPN+",
+"properties": {
+"hasEspnId3Heartbeats": "false",
+"language": "en-US",
+"shortTitle": "SEMO vs. Missouri",
+"trueOriginal": "true",
+"title": "Southeast Missouri State vs. Missouri (Football)",
+"simulcastAiringId": "114608817",
+"contentCleared": "true",
+"hasPassThroughAds": "false",
+"dtcPackages": [
+"ESPN_PLUS"
+],
+"isLive": "true",
+"hasNielsenWatermarks": "false",
+"allowStartOver": "true",
+"trackingId": "a84a90ae-d326-49c8-b26f-5c5ad0ae243f",
+"commercialReplacement": "TBD",
+"allowedAccess": "domestic",
+"reAir": "false",
+"killDateTimestamp": "2021-10-18T16:00:00Z",
+"sponsored": "false",
+"liveReplay": "live_replay",
+"nbStartTimestamp": "2021-09-18T16:00:00Z",
+"origination": "EXCL",
+"feedType": "NATIONAL FEED",
+"ratingsId": "FBSA05417",
+"name": "Southeast Missouri State vs. Missouri",
+"shortName": "ESPN's Afternoon College Football",
+"canIpAuthenticate": "false"
+}
+}
+],
+"id": "401282077",
+"neutralSite": false,
+"recent": false,
+"boxscoreSource": "none",
+"status": {
+"type": {
+"name": "STATUS_SCHEDULED",
+"description": "Scheduled",
+"id": "1",
+"state": "pre",
+"completed": false,
+"detail": "Sat, September 18th at 12:00 PM EDT",
+"shortDetail": "9/18 - 12:00 PM EDT"
+}
+}
+},
+"season": {
+"year": 2021,
+"type": 2
+}
+}
