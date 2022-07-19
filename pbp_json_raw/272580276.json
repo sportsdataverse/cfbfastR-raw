@@ -1,0 +1,10340 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"slug": "new-hampshire-wildcats",
+"location": "New Hampshire",
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"color": "004990",
+"alternateColor": "c3c4c6",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"statistics": [
+{
+"name": "firstDowns",
+"displayValue": "27",
+"label": "1st Downs"
+},
+{
+"name": "thirdDownEff",
+"displayValue": "11-16",
+"label": "3rd down efficiency"
+},
+{
+"name": "fourthDownEff",
+"displayValue": "0-0",
+"label": "4th down efficiency"
+},
+{
+"name": "totalYards",
+"displayValue": "502",
+"label": "Total Yards"
+},
+{
+"name": "netPassingYards",
+"displayValue": "289",
+"label": "Passing"
+},
+{
+"name": "completionAttempts",
+"displayValue": "23-33",
+"label": "Comp-Att"
+},
+{
+"name": "yardsPerPass",
+"displayValue": "8.8",
+"label": "Yards per pass"
+},
+{
+"name": "rushingYards",
+"displayValue": "213",
+"label": "Rushing"
+},
+{
+"name": "rushingAttempts",
+"displayValue": "49",
+"label": "Rushing Attempts"
+},
+{
+"name": "yardsPerRushAttempt",
+"displayValue": "4.3",
+"label": "Yards per rush"
+},
+{
+"name": "totalPenaltiesYards",
+"displayValue": "4-29",
+"label": "Penalties"
+},
+{
+"name": "turnovers",
+"displayValue": "1",
+"label": "Turnovers"
+},
+{
+"name": "fumblesLost",
+"displayValue": "1",
+"label": "Fumbles lost"
+},
+{
+"name": "interceptions",
+"displayValue": "0",
+"label": "Interceptions thrown"
+},
+{
+"name": "possessionTime",
+"displayValue": "19:32",
+"label": "Possession"
+}
+]
+},
+{
+"team": {
+"id": "276",
+"uid": "s:20~l:23~t:276",
+"slug": "marshall-thundering-herd",
+"location": "Marshall",
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"color": "00ae42",
+"alternateColor": "be854c",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+},
+"statistics": [
+{
+"name": "firstDowns",
+"displayValue": "29",
+"label": "1st Downs"
+},
+{
+"name": "thirdDownEff",
+"displayValue": "7-14",
+"label": "3rd down efficiency"
+},
+{
+"name": "fourthDownEff",
+"displayValue": "1-2",
+"label": "4th down efficiency"
+},
+{
+"name": "totalYards",
+"displayValue": "562",
+"label": "Total Yards"
+},
+{
+"name": "netPassingYards",
+"displayValue": "483",
+"label": "Passing"
+},
+{
+"name": "completionAttempts",
+"displayValue": "38-58",
+"label": "Comp-Att"
+},
+{
+"name": "yardsPerPass",
+"displayValue": "8.2",
+"label": "Yards per pass"
+},
+{
+"name": "rushingYards",
+"displayValue": "87",
+"label": "Rushing"
+},
+{
+"name": "rushingAttempts",
+"displayValue": "23",
+"label": "Rushing Attempts"
+},
+{
+"name": "yardsPerRushAttempt",
+"displayValue": "3.8",
+"label": "Yards per rush"
+},
+{
+"name": "totalPenaltiesYards",
+"displayValue": "4-35",
+"label": "Penalties"
+},
+{
+"name": "turnovers",
+"displayValue": "1",
+"label": "Turnovers"
+},
+{
+"name": "fumblesLost",
+"displayValue": "0",
+"label": "Fumbles lost"
+},
+{
+"name": "interceptions",
+"displayValue": "1",
+"label": "Interceptions thrown"
+},
+{
+"name": "possessionTime",
+"displayValue": "17:08",
+"label": "Possession"
+}
+]
+}
+],
+"players": [
+{
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"slug": "new-hampshire-wildcats",
+"location": "New Hampshire",
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"color": "004990",
+"alternateColor": "c3c4c6",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"statistics": [
+{
+"name": "passing",
+"keys": [
+"completions/passingAttempts",
+"passingYards",
+"yardsPerPassAttempt",
+"passingTouchdowns",
+"interceptions",
+"adjQBR"
+],
+"text": "New Hampshire Passing",
+"labels": [
+"C/ATT",
+"YDS",
+"AVG",
+"TD",
+"INT",
+"QBR"
+],
+"descriptions": [
+"Completions/Attempts",
+"Yards",
+"Yards Per Pass Attempt",
+"Touchdowns",
+"Interceptions",
+"Adjusted QBR"
+],
+"athletes": [
+{
+"athlete": {
+"id": "149238",
+"uid": "s:20~l:23~a:149238",
+"guid": "f29efb63cd46b0a59a505a75204a3f00",
+"firstName": "Ricky",
+"lastName": "Santos",
+"displayName": "Ricky Santos",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149238/ricky-santos",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149238/ricky-santos",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149238/ricky-santos",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149238/ricky-santos",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149238/ricky-santos",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149238/ricky-santos",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149238/ricky-santos",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"23/33",
+"289",
+"8.8",
+"3",
+"0",
+"--"
+]
+}
+],
+"totals": [
+"23/33",
+"289",
+"8.8",
+"3",
+"0",
+"--"
+]
+},
+{
+"name": "rushing",
+"keys": [
+"rushingAttempts",
+"rushingYards",
+"yardsPerRushAttempt",
+"rushingTouchdowns",
+"longRushing"
+],
+"text": "New Hampshire Rushing",
+"labels": [
+"CAR",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Rushing Attempts",
+"Yards",
+"Yards Per Rushing Attempt",
+"Touchdowns",
+"Longest Run"
+],
+"athletes": [
+{
+"athlete": {
+"id": "149252",
+"uid": "s:20~l:23~a:149252",
+"guid": "5491b166043586d801c967ba0981cf36",
+"firstName": "Chris",
+"lastName": "Ward",
+"displayName": "Chris Ward",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149252/chris-ward",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149252/chris-ward",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149252/chris-ward",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149252/chris-ward",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149252/chris-ward",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149252/chris-ward",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149252/chris-ward",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"19",
+"99",
+"5.2",
+"1",
+"12"
+]
+},
+{
+"athlete": {
+"id": "149238",
+"uid": "s:20~l:23~a:149238",
+"guid": "f29efb63cd46b0a59a505a75204a3f00",
+"firstName": "Ricky",
+"lastName": "Santos",
+"displayName": "Ricky Santos",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149238/ricky-santos",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149238/ricky-santos",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149238/ricky-santos",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149238/ricky-santos",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149238/ricky-santos",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149238/ricky-santos",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149238/ricky-santos",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"13",
+"45",
+"3.5",
+"1",
+"15"
+]
+},
+{
+"athlete": {
+"id": "163710",
+"uid": "s:20~l:23~a:163710",
+"guid": "c394bffd022a96611b0915e34236b209",
+"firstName": "Robert",
+"lastName": "Simpson",
+"displayName": "Robert Simpson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163710/robert-simpson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/163710/robert-simpson",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/163710/robert-simpson",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/163710/robert-simpson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/163710/robert-simpson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/163710/robert-simpson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163710/robert-simpson",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"11",
+"42",
+"3.8",
+"1",
+"11"
+]
+},
+{
+"athlete": {
+"id": "149222",
+"uid": "s:20~l:23~a:149222",
+"guid": "25e13d898afa125f98932d808a3606fb",
+"firstName": "Keith",
+"lastName": "LeVan",
+"displayName": "Keith LeVan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149222/keith-levan",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149222/keith-levan",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149222/keith-levan",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149222/keith-levan",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149222/keith-levan",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149222/keith-levan",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149222/keith-levan",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"4",
+"28",
+"7.0",
+"0",
+"10"
+]
+},
+{
+"athlete": {
+"id": "234285",
+"uid": "s:20~l:23~a:234285",
+"guid": "23c84ef3e9e79621469fc92aa0b4b1ad",
+"firstName": "Terrance",
+"lastName": "Fox",
+"displayName": "Terrance Fox",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/234285/terrance-fox",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/234285/terrance-fox",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/234285/terrance-fox",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/234285/terrance-fox",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/234285/terrance-fox",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/234285/terrance-fox",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/234285/terrance-fox",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"1",
+"1.0",
+"0",
+"1"
+]
+}
+],
+"totals": [
+"49",
+"213",
+"4.3",
+"3",
+"15"
+]
+},
+{
+"name": "receiving",
+"keys": [
+"receptions",
+"receivingYards",
+"yardsPerReception",
+"receivingTouchdowns",
+"longReception"
+],
+"text": "New Hampshire Receiving",
+"labels": [
+"REC",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Receptions",
+"Yards",
+"Yards Per Reception",
+"Touchdowns",
+"Longest Reception"
+],
+"athletes": [
+{
+"athlete": {
+"id": "189781",
+"uid": "s:20~l:23~a:189781",
+"guid": "7899ed4bd1a52d00b74b1dd45d1ad69e",
+"firstName": "Scott",
+"lastName": "Sicko",
+"displayName": "Scott Sicko",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/189781/scott-sicko",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/189781/scott-sicko",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/189781/scott-sicko",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/189781/scott-sicko",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/189781/scott-sicko",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/189781/scott-sicko",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/189781/scott-sicko",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"6",
+"78",
+"13.0",
+"0",
+"30"
+]
+},
+{
+"athlete": {
+"id": "163807",
+"uid": "s:20~l:23~a:163807",
+"guid": "1b50b63c26f5644e7f4b85669fb59de1",
+"firstName": "Mike",
+"lastName": "Boyle",
+"displayName": "Mike Boyle",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163807/mike-boyle",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/163807/mike-boyle",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/163807/mike-boyle",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/163807/mike-boyle",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/163807/mike-boyle",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/163807/mike-boyle",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163807/mike-boyle",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"6",
+"75",
+"12.5",
+"1",
+"29"
+]
+},
+{
+"athlete": {
+"id": "149222",
+"uid": "s:20~l:23~a:149222",
+"guid": "25e13d898afa125f98932d808a3606fb",
+"firstName": "Keith",
+"lastName": "LeVan",
+"displayName": "Keith LeVan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149222/keith-levan",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149222/keith-levan",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149222/keith-levan",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149222/keith-levan",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149222/keith-levan",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149222/keith-levan",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149222/keith-levan",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"4",
+"66",
+"16.5",
+"1",
+"35"
+]
+},
+{
+"athlete": {
+"id": "163710",
+"uid": "s:20~l:23~a:163710",
+"guid": "c394bffd022a96611b0915e34236b209",
+"firstName": "Robert",
+"lastName": "Simpson",
+"displayName": "Robert Simpson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163710/robert-simpson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/163710/robert-simpson",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/163710/robert-simpson",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/163710/robert-simpson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/163710/robert-simpson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/163710/robert-simpson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163710/robert-simpson",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"27",
+"27.0",
+"1",
+"27"
+]
+},
+{
+"athlete": {
+"id": "234294",
+"uid": "s:20~l:23~a:234294",
+"guid": "c3bb07ea80ddf044ea115b7e48f78916",
+"firstName": "J.T.",
+"lastName": "Wright",
+"displayName": "J.T. Wright",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/234294/jt-wright",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/234294/jt-wright",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/234294/jt-wright",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/234294/jt-wright",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/234294/jt-wright",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/234294/jt-wright",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/234294/jt-wright",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"21",
+"10.5",
+"0",
+"11"
+]
+},
+{
+"athlete": {
+"id": "245220",
+"uid": "s:20~l:23~a:245220",
+"guid": "f69eb87603b23fc1c09e7ba520a274b3",
+"firstName": "J",
+"lastName": "T. Wright",
+"displayName": "J T. Wright",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/245220/j-t-wright",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/245220/j-t-wright",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/245220/j-t-wright",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/245220/j-t-wright",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/245220/j-t-wright",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/245220/j-t-wright",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/245220/j-t-wright",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"21",
+"10.5",
+"0",
+"11"
+]
+},
+{
+"athlete": {
+"id": "234285",
+"uid": "s:20~l:23~a:234285",
+"guid": "23c84ef3e9e79621469fc92aa0b4b1ad",
+"firstName": "Terrance",
+"lastName": "Fox",
+"displayName": "Terrance Fox",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/234285/terrance-fox",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/234285/terrance-fox",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/234285/terrance-fox",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/234285/terrance-fox",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/234285/terrance-fox",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/234285/terrance-fox",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/234285/terrance-fox",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"15",
+"15.0",
+"0",
+"15"
+]
+},
+{
+"athlete": {
+"id": "149252",
+"uid": "s:20~l:23~a:149252",
+"guid": "5491b166043586d801c967ba0981cf36",
+"firstName": "Chris",
+"lastName": "Ward",
+"displayName": "Chris Ward",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149252/chris-ward",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149252/chris-ward",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149252/chris-ward",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149252/chris-ward",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149252/chris-ward",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149252/chris-ward",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149252/chris-ward",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3",
+"7",
+"2.3",
+"0",
+"5"
+]
+}
+],
+"totals": [
+"25",
+"310",
+"12.4",
+"3",
+"35"
+]
+},
+{
+"name": "interceptions",
+"keys": [
+"interceptions",
+"interceptionYards",
+"interceptionTouchdowns"
+],
+"text": "New Hampshire Interceptions",
+"labels": [
+"INT",
+"YDS",
+"TD"
+],
+"descriptions": [
+"Interceptions",
+"Yards",
+"Touchdowns"
+],
+"athletes": [
+{
+"athlete": {
+"id": "189784",
+"uid": "s:20~l:23~a:189784",
+"guid": "9fde6f397bee6dbece7882a09ac50087",
+"firstName": "Dino",
+"lastName": "Vasso",
+"displayName": "Dino Vasso",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/189784/dino-vasso",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/189784/dino-vasso",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/189784/dino-vasso",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/189784/dino-vasso",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/189784/dino-vasso",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/189784/dino-vasso",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/189784/dino-vasso",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"30",
+"0"
+]
+}
+],
+"totals": [
+"1",
+"30",
+"0"
+]
+},
+{
+"name": "kickReturns",
+"keys": [
+"kickReturns",
+"kickReturnYards",
+"yardsPerKickReturn",
+"longKickReturn",
+"kickReturnTouchdowns"
+],
+"text": "New Hampshire Kick Returns",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
+],
+"descriptions": [
+"Kick Returns",
+"Yards",
+"Yards Per Kick Return",
+"Longest Kick Return",
+"Touchdowns"
+],
+"athletes": [
+{
+"athlete": {
+"id": "149222",
+"uid": "s:20~l:23~a:149222",
+"guid": "25e13d898afa125f98932d808a3606fb",
+"firstName": "Keith",
+"lastName": "LeVan",
+"displayName": "Keith LeVan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149222/keith-levan",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149222/keith-levan",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149222/keith-levan",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149222/keith-levan",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149222/keith-levan",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149222/keith-levan",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149222/keith-levan",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"106",
+"53.0",
+"78",
+"0"
+]
+},
+{
+"athlete": {
+"id": "175436",
+"uid": "s:20~l:23~a:175436",
+"guid": "327bae5ccb45778d1cc341e3af791f5b",
+"firstName": "John",
+"lastName": "Clements",
+"displayName": "John Clements",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/175436/john-clements",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/175436/john-clements",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/175436/john-clements",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/175436/john-clements",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/175436/john-clements",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/175436/john-clements",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/175436/john-clements",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3",
+"76",
+"25.3",
+"37",
+"0"
+]
+},
+{
+"athlete": {
+"id": "175453",
+"uid": "s:20~l:23~a:175453",
+"guid": "192ad8587f38b0d552d780dcdfdfce4f",
+"firstName": "Dan",
+"lastName": "Ruhl",
+"displayName": "Dan Ruhl",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/175453/dan-ruhl",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/175453/dan-ruhl",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/175453/dan-ruhl",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/175453/dan-ruhl",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/175453/dan-ruhl",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/175453/dan-ruhl",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/175453/dan-ruhl",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"17",
+"17.0",
+"17",
+"0"
+]
+}
+],
+"totals": [
+"6",
+"199",
+"33.2",
+"78",
+"0"
+]
+},
+{
+"name": "puntReturns",
+"keys": [
+"puntReturns",
+"puntReturnYards",
+"yardsPerPuntReturn",
+"longPuntReturn",
+"puntReturnTouchdowns"
+],
+"text": "New Hampshire Punt Returns",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
+],
+"descriptions": [
+"Punt Returns",
+"Yards",
+"Yards Per Punt Return",
+"Longest Punt Return",
+"Touchdowns"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "kicking",
+"keys": [
+"fieldGoalsMade/fieldGoalAttempts",
+"fieldGoalPct",
+"longFieldGoalMade",
+"extraPointsMade/extraPointAttempts",
+"totalKickingPoints"
+],
+"text": "New Hampshire Kicking",
+"labels": [
+"FG",
+"PCT",
+"LONG",
+"XP",
+"PTS"
+],
+"descriptions": [
+"Field Goals Made/Attempts",
+"Field Goal Percentage",
+"Longest Field Goal Made",
+"Extra Points Made/Attempts",
+"Kicking Points"
+],
+"athletes": [
+{
+"athlete": {
+"id": "175445",
+"uid": "s:20~l:23~a:175445",
+"guid": "fb80e8b5038bf3610e0d3f7faa8cc7db",
+"firstName": "Tom",
+"lastName": "Manning",
+"displayName": "Tom Manning",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/175445/tom-manning",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/175445/tom-manning",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/175445/tom-manning",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/175445/tom-manning",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/175445/tom-manning",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/175445/tom-manning",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/175445/tom-manning",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2/2",
+"100.0",
+"47",
+"6/6",
+"12"
+]
+}
+],
+"totals": [
+"2/2",
+"100.0",
+"47",
+"6/6",
+"12"
+]
+},
+{
+"name": "punting",
+"keys": [
+"punts",
+"puntYards",
+"grossAvgPuntYards",
+"touchbacks",
+"puntsInside20",
+"longPunt"
+],
+"text": "New Hampshire Punting",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"TB",
+"In 20",
+"LONG"
+],
+"descriptions": [
+"Punts",
+"Yards",
+"Average Punt Yards",
+"Touchbacks",
+"Punts Inside 20",
+"Longest Punt"
+],
+"athletes": [
+{
+"athlete": {
+"id": "163668",
+"uid": "s:20~l:23~a:163668",
+"guid": "4773128f38108e7d29872946efaf7606",
+"firstName": "Tom",
+"lastName": "Bishop",
+"displayName": "Tom Bishop",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163668/tom-bishop",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/163668/tom-bishop",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/163668/tom-bishop",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/163668/tom-bishop",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/163668/tom-bishop",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/163668/tom-bishop",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/163668/tom-bishop",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3",
+"125",
+"41.7",
+"0",
+"0",
+"50"
+]
+}
+],
+"totals": [
+"3",
+"125",
+"41.7",
+"0",
+"0",
+"50"
+]
+}
+]
+},
+{
+"team": {
+"id": "276",
+"uid": "s:20~l:23~t:276",
+"slug": "marshall-thundering-herd",
+"location": "Marshall",
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"color": "00ae42",
+"alternateColor": "be854c",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+},
+"statistics": [
+{
+"name": "passing",
+"keys": [
+"completions/passingAttempts",
+"passingYards",
+"yardsPerPassAttempt",
+"passingTouchdowns",
+"interceptions",
+"adjQBR"
+],
+"text": "Marshall Passing",
+"labels": [
+"C/ATT",
+"YDS",
+"AVG",
+"TD",
+"INT",
+"QBR"
+],
+"descriptions": [
+"Completions/Attempts",
+"Yards",
+"Yards Per Pass Attempt",
+"Touchdowns",
+"Interceptions",
+"Adjusted QBR"
+],
+"athletes": [
+{
+"athlete": {
+"id": "149492",
+"uid": "s:20~l:23~a:149492",
+"guid": "c0c645186117000f52db9eb34e131610",
+"firstName": "Bernard",
+"lastName": "Morris",
+"displayName": "Bernard Morris",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149492/bernard-morris",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149492/bernard-morris",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149492/bernard-morris",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149492/bernard-morris",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149492/bernard-morris",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149492/bernard-morris",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149492/bernard-morris",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"31/42",
+"417",
+"9.9",
+"3",
+"0",
+"84.9"
+]
+},
+{
+"athlete": {
+"id": "184187",
+"uid": "s:20~l:23~a:184187",
+"guid": "32a166d96b51186cf00a5d3a7c57fbb2",
+"firstName": "Brian",
+"lastName": "Anderson",
+"displayName": "Brian Anderson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184187/brian-anderson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184187/brian-anderson",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184187/brian-anderson",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184187/brian-anderson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184187/brian-anderson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184187/brian-anderson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184187/brian-anderson",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"7/14",
+"58",
+"4.1",
+"0",
+"1",
+"4.0"
+]
+}
+],
+"totals": [
+"38/58",
+"483",
+"8.2",
+"3",
+"1",
+"--"
+]
+},
+{
+"name": "rushing",
+"keys": [
+"rushingAttempts",
+"rushingYards",
+"yardsPerRushAttempt",
+"rushingTouchdowns",
+"longRushing"
+],
+"text": "Marshall Rushing",
+"labels": [
+"CAR",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Rushing Attempts",
+"Yards",
+"Yards Per Rushing Attempt",
+"Touchdowns",
+"Longest Run"
+],
+"athletes": [
+{
+"athlete": {
+"id": "170265",
+"uid": "s:20~l:23~a:170265",
+"guid": "63ebdb42456848e0241f7202ecbf4135",
+"firstName": "Chubb",
+"lastName": "Small",
+"displayName": "Chubb Small",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170265/chubb-small",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/170265/chubb-small",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/170265/chubb-small",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/170265/chubb-small",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/170265/chubb-small",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/170265/chubb-small",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170265/chubb-small",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"5",
+"45",
+"9.0",
+"0",
+"26"
+]
+},
+{
+"athlete": {
+"id": "241378",
+"uid": "s:20~l:23~a:241378",
+"guid": "0681126f80d8037e2a6998976309a912",
+"firstName": "Darius",
+"lastName": "Marshall",
+"displayName": "Darius Marshall",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/241378/darius-marshall",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/241378/darius-marshall",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/241378/darius-marshall",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/241378/darius-marshall",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/241378/darius-marshall",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/241378/darius-marshall",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/241378/darius-marshall",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"7",
+"29",
+"4.1",
+"0",
+"14"
+]
+},
+{
+"athlete": {
+"id": "149492",
+"uid": "s:20~l:23~a:149492",
+"guid": "c0c645186117000f52db9eb34e131610",
+"firstName": "Bernard",
+"lastName": "Morris",
+"displayName": "Bernard Morris",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149492/bernard-morris",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149492/bernard-morris",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149492/bernard-morris",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149492/bernard-morris",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149492/bernard-morris",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149492/bernard-morris",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149492/bernard-morris",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"5",
+"11",
+"2.2",
+"0",
+"9"
+]
+},
+{
+"athlete": {
+"id": "170355",
+"uid": "s:20~l:23~a:170355",
+"guid": "6b2584bc9840106e33b951970522d8f2",
+"firstName": "Kelvin",
+"lastName": "Turner",
+"displayName": "Kelvin Turner",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170355/kelvin-turner",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/170355/kelvin-turner",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/170355/kelvin-turner",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/170355/kelvin-turner",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/170355/kelvin-turner",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/170355/kelvin-turner",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170355/kelvin-turner",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3",
+"3",
+"1.0",
+"2",
+"2"
+]
+},
+{
+"athlete": {
+"id": "184203",
+"uid": "s:20~l:23~a:184203",
+"guid": "c649dadc3ea87c74a03ee80978154873",
+"firstName": "Darius",
+"lastName": "Passmore",
+"displayName": "Darius Passmore",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184203/darius-passmore",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184203/darius-passmore",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184203/darius-passmore",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184203/darius-passmore",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184203/darius-passmore",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184203/darius-passmore",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184203/darius-passmore",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"0",
+"0.0",
+"0",
+"0"
+]
+},
+{
+"athlete": {
+"id": "184187",
+"uid": "s:20~l:23~a:184187",
+"guid": "32a166d96b51186cf00a5d3a7c57fbb2",
+"firstName": "Brian",
+"lastName": "Anderson",
+"displayName": "Brian Anderson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184187/brian-anderson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184187/brian-anderson",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184187/brian-anderson",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184187/brian-anderson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184187/brian-anderson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184187/brian-anderson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184187/brian-anderson",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"-1",
+"-0.5",
+"0",
+"3"
+]
+}
+],
+"totals": [
+"23",
+"87",
+"3.8",
+"2",
+"26"
+]
+},
+{
+"name": "receiving",
+"keys": [
+"receptions",
+"receivingYards",
+"yardsPerReception",
+"receivingTouchdowns",
+"longReception"
+],
+"text": "Marshall Receiving",
+"labels": [
+"REC",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Receptions",
+"Yards",
+"Yards Per Reception",
+"Touchdowns",
+"Longest Reception"
+],
+"athletes": [
+{
+"athlete": {
+"id": "184184",
+"uid": "s:20~l:23~a:184184",
+"guid": "2a274f9dabe0851767b66b5d519dd5b9",
+"firstName": "Cody",
+"lastName": "Slate",
+"displayName": "Cody Slate",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184184/cody-slate",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184184/cody-slate",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184184/cody-slate",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184184/cody-slate",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184184/cody-slate",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184184/cody-slate",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184184/cody-slate",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"11",
+"177",
+"16.1",
+"1",
+"80"
+]
+},
+{
+"athlete": {
+"id": "184203",
+"uid": "s:20~l:23~a:184203",
+"guid": "c649dadc3ea87c74a03ee80978154873",
+"firstName": "Darius",
+"lastName": "Passmore",
+"displayName": "Darius Passmore",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184203/darius-passmore",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184203/darius-passmore",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184203/darius-passmore",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184203/darius-passmore",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184203/darius-passmore",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184203/darius-passmore",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184203/darius-passmore",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"8",
+"91",
+"11.4",
+"1",
+"25"
+]
+},
+{
+"athlete": {
+"id": "164450",
+"uid": "s:20~l:23~a:164450",
+"guid": "c2005700bec540c3c78649a4be3b05f1",
+"firstName": "Emmanuel",
+"lastName": "Spann",
+"displayName": "Emmanuel Spann",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/164450/emmanuel-spann",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/164450/emmanuel-spann",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/164450/emmanuel-spann",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/164450/emmanuel-spann",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/164450/emmanuel-spann",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/164450/emmanuel-spann",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/164450/emmanuel-spann",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"4",
+"69",
+"17.3",
+"0",
+"22"
+]
+},
+{
+"athlete": {
+"id": "184190",
+"uid": "s:20~l:23~a:184190",
+"guid": "f5f34bd62dabe54b88977b2234e181ec",
+"firstName": "Courtney",
+"lastName": "Edmonson",
+"displayName": "Courtney Edmonson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184190/courtney-edmonson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184190/courtney-edmonson",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184190/courtney-edmonson",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184190/courtney-edmonson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184190/courtney-edmonson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184190/courtney-edmonson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184190/courtney-edmonson",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"5",
+"55",
+"11.0",
+"0",
+"16"
+]
+},
+{
+"athlete": {
+"id": "184201",
+"uid": "s:20~l:23~a:184201",
+"guid": "ce2e7ce27f223775ece99a47ba6de618",
+"firstName": "Bryant",
+"lastName": "Milligan",
+"displayName": "Bryant Milligan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184201/bryant-milligan",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/184201/bryant-milligan",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/184201/bryant-milligan",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/184201/bryant-milligan",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/184201/bryant-milligan",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/184201/bryant-milligan",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184201/bryant-milligan",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3",
+"22",
+"7.3",
+"0",
+"20"
+]
+},
+{
+"athlete": {
+"id": "149488",
+"uid": "s:20~l:23~a:149488",
+"guid": "ae2d1cf7059da75e14aa116805b5de94",
+"firstName": "Shawn",
+"lastName": "Lauzon",
+"displayName": "Shawn Lauzon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149488/shawn-lauzon",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149488/shawn-lauzon",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149488/shawn-lauzon",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149488/shawn-lauzon",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149488/shawn-lauzon",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149488/shawn-lauzon",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149488/shawn-lauzon",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"20",
+"10.0",
+"0",
+"18"
+]
+},
+{
+"athlete": {
+"id": "170355",
+"uid": "s:20~l:23~a:170355",
+"guid": "6b2584bc9840106e33b951970522d8f2",
+"firstName": "Kelvin",
+"lastName": "Turner",
+"displayName": "Kelvin Turner",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170355/kelvin-turner",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/170355/kelvin-turner",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/170355/kelvin-turner",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/170355/kelvin-turner",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/170355/kelvin-turner",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/170355/kelvin-turner",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170355/kelvin-turner",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"18",
+"9.0",
+"1",
+"11"
+]
+},
+{
+"athlete": {
+"id": "170265",
+"uid": "s:20~l:23~a:170265",
+"guid": "63ebdb42456848e0241f7202ecbf4135",
+"firstName": "Chubb",
+"lastName": "Small",
+"displayName": "Chubb Small",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170265/chubb-small",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/170265/chubb-small",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/170265/chubb-small",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/170265/chubb-small",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/170265/chubb-small",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/170265/chubb-small",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170265/chubb-small",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"17",
+"8.5",
+"0",
+"11"
+]
+},
+{
+"athlete": {
+"id": "149499",
+"uid": "s:20~l:23~a:149499",
+"guid": "14d76d0449805a3e7b51f720bf4a3c6d",
+"firstName": "Brian",
+"lastName": "Shope",
+"displayName": "Brian Shope",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149499/brian-shope",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149499/brian-shope",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149499/brian-shope",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149499/brian-shope",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149499/brian-shope",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149499/brian-shope",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149499/brian-shope",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"6",
+"6.0",
+"0",
+"6"
+]
+}
+],
+"totals": [
+"38",
+"475",
+"12.5",
+"3",
+"80"
+]
+},
+{
+"name": "interceptions",
+"keys": [
+"interceptions",
+"interceptionYards",
+"interceptionTouchdowns"
+],
+"text": "Marshall Interceptions",
+"labels": [
+"INT",
+"YDS",
+"TD"
+],
+"descriptions": [
+"Interceptions",
+"Yards",
+"Touchdowns"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "kickReturns",
+"keys": [
+"kickReturns",
+"kickReturnYards",
+"yardsPerKickReturn",
+"longKickReturn",
+"kickReturnTouchdowns"
+],
+"text": "Marshall Kick Returns",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
+],
+"descriptions": [
+"Kick Returns",
+"Yards",
+"Yards Per Kick Return",
+"Longest Kick Return",
+"Touchdowns"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "puntReturns",
+"keys": [
+"puntReturns",
+"puntReturnYards",
+"yardsPerPuntReturn",
+"longPuntReturn",
+"puntReturnTouchdowns"
+],
+"text": "Marshall Punt Returns",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
+],
+"descriptions": [
+"Punt Returns",
+"Yards",
+"Yards Per Punt Return",
+"Longest Punt Return",
+"Touchdowns"
+],
+"athletes": [
+{
+"athlete": {
+"id": "164450",
+"uid": "s:20~l:23~a:164450",
+"guid": "c2005700bec540c3c78649a4be3b05f1",
+"firstName": "Emmanuel",
+"lastName": "Spann",
+"displayName": "Emmanuel Spann",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/164450/emmanuel-spann",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/164450/emmanuel-spann",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/164450/emmanuel-spann",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/164450/emmanuel-spann",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/164450/emmanuel-spann",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/164450/emmanuel-spann",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/164450/emmanuel-spann",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"0",
+"0.0",
+"0",
+"0"
+]
+}
+],
+"totals": [
+"0",
+"0",
+"0.0",
+"0",
+"0"
+]
+},
+{
+"name": "kicking",
+"keys": [
+"fieldGoalsMade/fieldGoalAttempts",
+"fieldGoalPct",
+"longFieldGoalMade",
+"extraPointsMade/extraPointAttempts",
+"totalKickingPoints"
+],
+"text": "Marshall Kicking",
+"labels": [
+"FG",
+"PCT",
+"LONG",
+"XP",
+"PTS"
+],
+"descriptions": [
+"Field Goals Made/Attempts",
+"Field Goal Percentage",
+"Longest Field Goal Made",
+"Extra Points Made/Attempts",
+"Kicking Points"
+],
+"athletes": [
+{
+"athlete": {
+"id": "149918",
+"uid": "s:20~l:23~a:149918",
+"guid": "d11790b36c582e15cb7d3adbb6709527",
+"firstName": "Anthony",
+"lastName": "Binswanger",
+"displayName": "Anthony Binswanger",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149918/anthony-binswanger",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149918/anthony-binswanger",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149918/anthony-binswanger",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149918/anthony-binswanger",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149918/anthony-binswanger",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149918/anthony-binswanger",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149918/anthony-binswanger",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"0/1",
+"0.0",
+"0",
+"5/5",
+"5"
+]
+}
+],
+"totals": [
+"0/1",
+"0.0",
+"42",
+"5/5",
+"5"
+]
+},
+{
+"name": "punting",
+"keys": [
+"punts",
+"puntYards",
+"grossAvgPuntYards",
+"touchbacks",
+"puntsInside20",
+"longPunt"
+],
+"text": "Marshall Punting",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"TB",
+"In 20",
+"LONG"
+],
+"descriptions": [
+"Punts",
+"Yards",
+"Average Punt Yards",
+"Touchbacks",
+"Punts Inside 20",
+"Longest Punt"
+],
+"athletes": [
+{
+"athlete": {
+"id": "149918",
+"uid": "s:20~l:23~a:149918",
+"guid": "d11790b36c582e15cb7d3adbb6709527",
+"firstName": "Anthony",
+"lastName": "Binswanger",
+"displayName": "Anthony Binswanger",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149918/anthony-binswanger",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/149918/anthony-binswanger",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/149918/anthony-binswanger",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/149918/anthony-binswanger",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/149918/anthony-binswanger",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/149918/anthony-binswanger",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149918/anthony-binswanger",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"4",
+"178",
+"44.5",
+"0",
+"0",
+"54"
+]
+}
+],
+"totals": [
+"4",
+"178",
+"44.5",
+"0",
+"0",
+"54"
+]
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 900.0
+}
+},
+"gameInfo": {
+"venue": {
+"id": "3775",
+"fullName": "Joan C. Edwards Stadium",
+"address": {
+"city": "Huntington",
+"state": "WV",
+"zipCode": "25703"
+},
+"capacity": 38016,
+"grass": false,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/college-football/day/interior/3775.jpg",
+"width": 2000,
+"height": 1125,
+"alt": "",
+"rel": [
+"full",
+"day",
+"interior"
+]
+}
+]
+},
+"attendance": 27255
+},
+"drives": {
+"previous": [
+{
+"id": "27258027602",
+"description": "marshall drive: 3 plays 1 yard, 01:43 marshall punt, 1:43",
+"team": {
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"yardLine": 59,
+"text": "UNH 41"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "13:17"
+},
+"yardLine": 60,
+"text": "UNH 40"
+},
+"timeElapsed": {
+"displayValue": "1:43"
+},
+"yards": 1,
+"isScore": false,
+"offensivePlays": 3,
+"result": "PUNT",
+"shortDisplayResult": "PUNT",
+"displayResult": "Punt",
+"plays": [
+{
+"id": "272580276002",
+"sequenceNumber": "2",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush over right end for a loss of 2 yards to the NHamp 43, tackled by Matt Parent and Dino Vasso.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 59,
+"yardsToEndzone": 41,
+"downDistanceText": "1st & 10 at UNH 41",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 41",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 12,
+"yardLine": 57,
+"yardsToEndzone": 43,
+"downDistanceText": "2nd & 12 at UNH 43",
+"shortDownDistanceText": "2nd & 12",
+"possessionText": "UNH 43",
+"team": {
+"id": "276"
+}
+},
+"statYardage": -2
+},
+{
+"id": "272580276003",
+"sequenceNumber": "3",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Brian Anderson rush quarterback draw for 3 yards to the NHamp 40, tackled by T.J. Taylor and Husain Karim.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 2,
+"distance": 12,
+"yardLine": 57,
+"yardsToEndzone": 43,
+"downDistanceText": "2nd & 12 at UNH 43",
+"shortDownDistanceText": "2nd & 12",
+"possessionText": "UNH 43",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 9,
+"yardLine": 60,
+"yardsToEndzone": 40,
+"downDistanceText": "3rd & 9 at UNH 40",
+"shortDownDistanceText": "3rd & 9",
+"possessionText": "UNH 40",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276004",
+"sequenceNumber": "4",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Brian Anderson middle pass incomplete to N/A.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 3,
+"distance": 9,
+"yardLine": 60,
+"yardsToEndzone": 40,
+"downDistanceText": "3rd & 9 at UNH 40",
+"shortDownDistanceText": "3rd & 9",
+"possessionText": "UNH 40",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 4,
+"distance": 9,
+"yardLine": 60,
+"yardsToEndzone": 40,
+"downDistanceText": "4th & 9 at UNH 40",
+"shortDownDistanceText": "4th & 9",
+"possessionText": "UNH 40",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276005",
+"sequenceNumber": "5",
+"type": {
+"id": "52",
+"text": "Punt",
+"abbreviation": "PUNT"
+},
+"text": "Anthony Binswanger punt for 40 yards for a touchback.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 4,
+"distance": 9,
+"yardLine": 60,
+"yardsToEndzone": 40,
+"downDistanceText": "4th & 9 at UNH 40",
+"shortDownDistanceText": "4th & 9",
+"possessionText": "UNH 40",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "1st & 10 at UNH 20",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+}
+]
+},
+{
+"id": "27258027603",
+"description": "unh drive: 3 plays 0 yards, 01:50 unh punt, 1:50",
+"team": {
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"yardLine": 80,
+"text": "UNH 20"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "11:27"
+},
+"yardLine": 80,
+"text": "UNH 20"
+},
+"timeElapsed": {
+"displayValue": "1:50"
+},
+"yards": 0,
+"isScore": false,
+"offensivePlays": 3,
+"result": "PUNT",
+"shortDisplayResult": "PUNT",
+"displayResult": "Punt",
+"plays": [
+{
+"id": "272580276006",
+"sequenceNumber": "6",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Ricky Santos rush over left end for no gain to the NHamp 20, tackled by Byron Tinker.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "13:17"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "1st & 10 at UNH 20",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "2nd & 10 at UNH 20",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276007",
+"sequenceNumber": "7",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos slant pass complete to Mike Boyle for 5 yards to the NHamp 25, tackled by James Johnson.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "13:17"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "2nd & 10 at UNH 20",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 5,
+"yardLine": 75,
+"yardsToEndzone": 75,
+"downDistanceText": "3rd & 5 at UNH 25",
+"shortDownDistanceText": "3rd & 5",
+"possessionText": "UNH 25",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 5
+},
+{
+"id": "272580276008",
+"sequenceNumber": "8",
+"type": {
+"id": "7",
+"text": "Sack"
+},
+"text": "Ricky Santos sacked by Josh Johnson at the NHamp 20 for a loss of 5 yards.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "13:17"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 3,
+"distance": 5,
+"yardLine": 75,
+"yardsToEndzone": 75,
+"downDistanceText": "3rd & 5 at UNH 25",
+"shortDownDistanceText": "3rd & 5",
+"possessionText": "UNH 25",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 4,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "4th & 10 at UNH 20",
+"shortDownDistanceText": "4th & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276009",
+"sequenceNumber": "9",
+"type": {
+"id": "52",
+"text": "Punt",
+"abbreviation": "PUNT"
+},
+"text": "Tom Bishop punt for 43 yards, fair catch by Emmanuel Spann at the Marsh 37.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "13:17"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 4,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "4th & 10 at UNH 20",
+"shortDownDistanceText": "4th & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at MRSH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+}
+]
+},
+{
+"id": "27258027604",
+"description": "marshall drive: 3 plays 0 yards, 01:02 marshall punt, 1:02",
+"team": {
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "13:17"
+},
+"yardLine": 37,
+"text": "MRSH 37"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"yardLine": 37,
+"text": "MRSH 37"
+},
+"timeElapsed": {
+"displayValue": "1:02"
+},
+"yards": 0,
+"isScore": false,
+"offensivePlays": 3,
+"result": "PUNT",
+"shortDisplayResult": "PUNT",
+"displayResult": "Punt",
+"plays": [
+{
+"id": "272580276010",
+"sequenceNumber": "10",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Passmore rush over right tackle for no gain to the Marsh 37, tackled by Hugo Souza.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "11:27"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at MRSH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "2nd & 10 at MRSH 37",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276011",
+"sequenceNumber": "11",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Brian Anderson sideline pass incomplete to N/A.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "11:27"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:57Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "2nd & 10 at MRSH 37",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "3rd & 10 at MRSH 37",
+"shortDownDistanceText": "3rd & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276012",
+"sequenceNumber": "12",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Brian Anderson flag pass incomplete to N/A.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "11:27"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 3,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "3rd & 10 at MRSH 37",
+"shortDownDistanceText": "3rd & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 4,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "4th & 10 at MRSH 37",
+"shortDownDistanceText": "4th & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276013",
+"sequenceNumber": "13",
+"type": {
+"id": "52",
+"text": "Punt",
+"abbreviation": "PUNT"
+},
+"text": "Anthony Binswanger punt for 35 yards, fair catch by Jeff Pammer at the NHamp 28.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "11:27"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 4,
+"distance": 10,
+"yardLine": 37,
+"yardsToEndzone": 63,
+"downDistanceText": "4th & 10 at MRSH 37",
+"shortDownDistanceText": "4th & 10",
+"possessionText": "MRSH 37",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 72,
+"yardsToEndzone": 72,
+"downDistanceText": "1st & 10 at UNH 28",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 28",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+}
+]
+},
+{
+"id": "27258027605",
+"description": "unh drive: 8 plays 72 yards, 02:20 unh td, 2:20",
+"team": {
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "11:27"
+},
+"yardLine": 10,
+"text": "MRSH 10"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"yardLine": 0,
+"text": "MRSH 0"
+},
+"timeElapsed": {
+"displayValue": "2:20"
+},
+"yards": 72,
+"isScore": true,
+"offensivePlays": 8,
+"result": "RUSHING TD",
+"shortDisplayResult": "RUSHING TD",
+"displayResult": "Rushing Touchdown",
+"plays": [
+{
+"id": "272580276014",
+"sequenceNumber": "14",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos sideline pass complete to Keith LeVan for 3 yards to the NHamp 31, tackled by DeNathian Robinson out-of-bounds.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 72,
+"yardsToEndzone": 72,
+"downDistanceText": "1st & 10 at UNH 28",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 28",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 7,
+"yardLine": 69,
+"yardsToEndzone": 69,
+"downDistanceText": "2nd & 7 at UNH 31",
+"shortDownDistanceText": "2nd & 7",
+"possessionText": "UNH 31",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276015",
+"sequenceNumber": "15",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Robert Simpson rush over left tackle for 11 yards to the NHamp 42 for a 1ST down, tackled by Byron Tinker and Ian Hoskins.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 7,
+"yardLine": 69,
+"yardsToEndzone": 69,
+"downDistanceText": "2nd & 7 at UNH 31",
+"shortDownDistanceText": "2nd & 7",
+"possessionText": "UNH 31",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 58,
+"yardsToEndzone": 58,
+"downDistanceText": "1st & 10 at UNH 42",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 42",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 11
+},
+{
+"id": "272580276016",
+"sequenceNumber": "16",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos sideline pass incomplete to Scott Sicko.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 58,
+"yardsToEndzone": 58,
+"downDistanceText": "1st & 10 at UNH 42",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 42",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 58,
+"yardsToEndzone": 58,
+"downDistanceText": "2nd & 10 at UNH 42",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 42",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276017",
+"sequenceNumber": "17",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Keith LeVan rush over left end for 10 yards to the Marsh 48 for a 1ST down, tackled by DeNathian Robinson.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 58,
+"yardsToEndzone": 58,
+"downDistanceText": "2nd & 10 at UNH 42",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 42",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 48,
+"yardsToEndzone": 48,
+"downDistanceText": "1st & 10 at MRSH 48",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 48",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 10
+},
+{
+"id": "272580276018",
+"sequenceNumber": "18",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Robert Simpson rush over right end for 5 yards to the Marsh 43, tackled by James Johnson and Byron Tinker.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 48,
+"yardsToEndzone": 48,
+"downDistanceText": "1st & 10 at MRSH 48",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 48",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 5,
+"yardLine": 43,
+"yardsToEndzone": 43,
+"downDistanceText": "2nd & 5 at MRSH 43",
+"shortDownDistanceText": "2nd & 5",
+"possessionText": "MRSH 43",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 5
+},
+{
+"id": "272580276019",
+"sequenceNumber": "19",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Ricky Santos rush quarterback draw for 3 yards to the Marsh 40, tackled by Ian Hoskins.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 5,
+"yardLine": 43,
+"yardsToEndzone": 43,
+"downDistanceText": "2nd & 5 at MRSH 43",
+"shortDownDistanceText": "2nd & 5",
+"possessionText": "MRSH 43",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 2,
+"yardLine": 40,
+"yardsToEndzone": 40,
+"downDistanceText": "3rd & 2 at MRSH 40",
+"shortDownDistanceText": "3rd & 2",
+"possessionText": "MRSH 40",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276020",
+"sequenceNumber": "20",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos middle pass complete to Scott Sicko for 30 yards to the Marsh 10 for a 1ST down, tackled by C.J. Spillman and John Saunders.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "10:25"
+},
+"scoringPlay": false,
+"priority": true,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 3,
+"distance": 2,
+"yardLine": 40,
+"yardsToEndzone": 40,
+"downDistanceText": "3rd & 2 at MRSH 40",
+"shortDownDistanceText": "3rd & 2",
+"possessionText": "MRSH 40",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 10,
+"yardsToEndzone": 10,
+"downDistanceText": "1st & Goal at MRSH 10",
+"shortDownDistanceText": "1st & Goal",
+"possessionText": "MRSH 10",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 30
+},
+{
+"id": "272580276021",
+"sequenceNumber": "21",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Robert Simpson rush over left tackle for 10 yards for a TOUCHDOWN.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"priority": true,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 0,
+"yardLine": 10,
+"yardsToEndzone": 10,
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": -1,
+"distance": -1,
+"yardLine": 0,
+"yardsToEndzone": 0,
+"team": {
+"id": "160"
+}
+},
+"statYardage": 10
+},
+{
+"id": "272580276022",
+"sequenceNumber": "22",
+"type": {
+"id": "61",
+"text": "Extra Point Good",
+"abbreviation": "XP"
+},
+"text": "Tom Manning extra point GOOD.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": -1,
+"distance": -1,
+"yardLine": 3,
+"yardsToEndzone": 3,
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": -1,
+"distance": -1,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0,
+"scoringType": {
+"name": "extra-point",
+"displayName": "Extra Point",
+"abbreviation": "XP"
+}
+},
+{
+"id": "272580276023",
+"sequenceNumber": "23",
+"type": {
+"id": "53",
+"text": "Kickoff",
+"abbreviation": "K"
+},
+"text": "Tom Manning kickoff for 59 yards returned by Emmanuel Spann for 41 yards to the NHamp 48, tackled by Hugo Souza.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": -1,
+"distance": -1,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 52,
+"yardsToEndzone": 48,
+"downDistanceText": "1st & 10 at UNH 48",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 48",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 41
+}
+]
+},
+{
+"id": "27258027606",
+"description": "marshall drive: 3 plays -6 yards, 02:36 marshall punt, 2:36",
+"team": {
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"yardLine": 52,
+"text": "UNH 48"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"yardLine": 46,
+"text": "MRSH 46"
+},
+"timeElapsed": {
+"displayValue": "2:36"
+},
+"yards": -6,
+"isScore": false,
+"offensivePlays": 3,
+"result": "PUNT",
+"shortDisplayResult": "PUNT",
+"displayResult": "Punt",
+"plays": [
+{
+"id": "272580276024",
+"sequenceNumber": "24",
+"type": {
+"id": "8",
+"text": "Penalty",
+"abbreviation": "PEN"
+},
+"text": "Marshall penalty 10 yard holding accepted, no play.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 52,
+"yardsToEndzone": 48,
+"downDistanceText": "1st & 10 at UNH 48",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 48",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 20,
+"yardLine": 42,
+"yardsToEndzone": 58,
+"downDistanceText": "1st & 20 at MRSH 42",
+"shortDownDistanceText": "1st & 20",
+"possessionText": "MRSH 42",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 5
+},
+{
+"id": "272580276025",
+"sequenceNumber": "25",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson crossing pass complete to Bryant Miligan for 3 yards to the Marsh 45, tackled by Jeff Pammer.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 20,
+"yardLine": 42,
+"yardsToEndzone": 58,
+"downDistanceText": "1st & 20 at MRSH 42",
+"shortDownDistanceText": "1st & 20",
+"possessionText": "MRSH 42",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 17,
+"yardLine": 45,
+"yardsToEndzone": 55,
+"downDistanceText": "2nd & 17 at MRSH 45",
+"shortDownDistanceText": "2nd & 17",
+"possessionText": "MRSH 45",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276026",
+"sequenceNumber": "26",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson screen pass complete to Darius Passmore for 5 yards to the 50 yard line, tackled by Kyle Maroney and Hugo Souza.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 17,
+"yardLine": 45,
+"yardsToEndzone": 55,
+"downDistanceText": "2nd & 17 at MRSH 45",
+"shortDownDistanceText": "2nd & 17",
+"possessionText": "MRSH 45",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 12,
+"yardLine": 50,
+"yardsToEndzone": 50,
+"downDistanceText": "3rd & 12 at 50",
+"shortDownDistanceText": "3rd & 12",
+"possessionText": "50",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 5
+},
+{
+"id": "272580276027",
+"sequenceNumber": "27",
+"type": {
+"id": "7",
+"text": "Sack"
+},
+"text": "Brian Anderson sacked by T.J. Taylor at the Marsh 46 for a loss of 4 yards.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 3,
+"distance": 12,
+"yardLine": 50,
+"yardsToEndzone": 50,
+"downDistanceText": "3rd & 12 at 50",
+"shortDownDistanceText": "3rd & 12",
+"possessionText": "50",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 4,
+"distance": 16,
+"yardLine": 46,
+"yardsToEndzone": 54,
+"downDistanceText": "4th & 16 at MRSH 46",
+"shortDownDistanceText": "4th & 16",
+"possessionText": "MRSH 46",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276028",
+"sequenceNumber": "28",
+"type": {
+"id": "52",
+"text": "Punt",
+"abbreviation": "PUNT"
+},
+"text": "Anthony Binswanger punt for 54 yards for a touchback.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 4,
+"distance": 16,
+"yardLine": 46,
+"yardsToEndzone": 54,
+"downDistanceText": "4th & 16 at MRSH 46",
+"shortDownDistanceText": "4th & 16",
+"possessionText": "MRSH 46",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "1st & 10 at UNH 20",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+}
+]
+},
+{
+"id": "27258027607",
+"description": "unh drive: 9 plays 80 yards, 02:57 unh td, 2:57",
+"team": {
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "8:05"
+},
+"yardLine": 80,
+"text": "UNH 20"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"yardLine": 0,
+"text": "MRSH 0"
+},
+"timeElapsed": {
+"displayValue": "2:57"
+},
+"yards": 80,
+"isScore": true,
+"offensivePlays": 9,
+"result": "PASSING TD",
+"shortDisplayResult": "PASSING TD",
+"displayResult": "Passing Touchdown",
+"plays": [
+{
+"id": "272580276029",
+"sequenceNumber": "29",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Ricky Santos rush over right tackle for 3 yards to the NHamp 23, tackled by John Saunders and C.J. Spillman.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 80,
+"yardsToEndzone": 80,
+"downDistanceText": "1st & 10 at UNH 20",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 20",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 7,
+"yardLine": 77,
+"yardsToEndzone": 77,
+"downDistanceText": "2nd & 7 at UNH 23",
+"shortDownDistanceText": "2nd & 7",
+"possessionText": "UNH 23",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276030",
+"sequenceNumber": "30",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos crossing pass complete to Scott Sicko for 4 yards to the NHamp 27, tackled by C.J. Spillman.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 7,
+"yardLine": 77,
+"yardsToEndzone": 77,
+"downDistanceText": "2nd & 7 at UNH 23",
+"shortDownDistanceText": "2nd & 7",
+"possessionText": "UNH 23",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 3,
+"yardLine": 73,
+"yardsToEndzone": 73,
+"downDistanceText": "3rd & 3 at UNH 27",
+"shortDownDistanceText": "3rd & 3",
+"possessionText": "UNH 27",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 4
+},
+{
+"id": "272580276031",
+"sequenceNumber": "31",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos sideline pass complete to J T. Wright for 10 yards to the NHamp 37 for a 1ST down, tackled by Ashton Hall out-of-bounds.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 3,
+"distance": 3,
+"yardLine": 73,
+"yardsToEndzone": 73,
+"downDistanceText": "3rd & 3 at UNH 27",
+"shortDownDistanceText": "3rd & 3",
+"possessionText": "UNH 27",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 63,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at UNH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 37",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 10
+},
+{
+"id": "272580276032",
+"sequenceNumber": "32",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Chris Ward rush over right end for 7 yards to the NHamp 44, tackled by Montel Glasco and DeNathian Robinson.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 63,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at UNH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 37",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 3,
+"yardLine": 56,
+"yardsToEndzone": 56,
+"downDistanceText": "2nd & 3 at UNH 44",
+"shortDownDistanceText": "2nd & 3",
+"possessionText": "UNH 44",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 7
+},
+{
+"id": "272580276033",
+"sequenceNumber": "33",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos pass incomplete.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 3,
+"yardLine": 56,
+"yardsToEndzone": 56,
+"downDistanceText": "2nd & 3 at UNH 44",
+"shortDownDistanceText": "2nd & 3",
+"possessionText": "UNH 44",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 3,
+"yardLine": 56,
+"yardsToEndzone": 56,
+"downDistanceText": "3rd & 3 at UNH 44",
+"shortDownDistanceText": "3rd & 3",
+"possessionText": "UNH 44",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276034",
+"sequenceNumber": "34",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Ricky Santos rush over left end for 15 yards to the Marsh 41 for a 1ST down, tackled by John Saunders.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 3,
+"distance": 3,
+"yardLine": 56,
+"yardsToEndzone": 56,
+"downDistanceText": "3rd & 3 at UNH 44",
+"shortDownDistanceText": "3rd & 3",
+"possessionText": "UNH 44",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 41,
+"yardsToEndzone": 41,
+"downDistanceText": "1st & 10 at MRSH 41",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 41",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 15
+},
+{
+"id": "272580276035",
+"sequenceNumber": "35",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Chris Ward rush over left tackle for 1 yard to the Marsh 40, tackled by Ian Hoskins and Ashton Hall.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 41,
+"yardsToEndzone": 41,
+"downDistanceText": "1st & 10 at MRSH 41",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 41",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 9,
+"yardLine": 40,
+"yardsToEndzone": 40,
+"downDistanceText": "2nd & 9 at MRSH 40",
+"shortDownDistanceText": "2nd & 9",
+"possessionText": "MRSH 40",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 1
+},
+{
+"id": "272580276036",
+"sequenceNumber": "36",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos crossing pass complete to Mike Boyle for 13 yards to the Marsh 27 for a 1ST down, tackled by Will Albin.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "5:29"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T20:58Z",
+"start": {
+"down": 2,
+"distance": 9,
+"yardLine": 40,
+"yardsToEndzone": 40,
+"downDistanceText": "2nd & 9 at MRSH 40",
+"shortDownDistanceText": "2nd & 9",
+"possessionText": "MRSH 40",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 27,
+"yardsToEndzone": 27,
+"downDistanceText": "1st & 10 at MRSH 27",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 27",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 13
+},
+{
+"id": "272580276037",
+"sequenceNumber": "37",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos sideline pass complete to Robert Simpson for 27 yards for a TOUCHDOWN.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": true,
+"priority": true,
+"modified": "2007-09-15T20:59Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 27,
+"yardsToEndzone": 27,
+"downDistanceText": "1st & 10 at MRSH 27",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 27",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": -1,
+"distance": -1,
+"yardLine": 0,
+"yardsToEndzone": 0,
+"team": {
+"id": "160"
+}
+},
+"statYardage": 27
+},
+{
+"id": "272580276038",
+"sequenceNumber": "38",
+"type": {
+"id": "61",
+"text": "Extra Point Good",
+"abbreviation": "XP"
+},
+"text": "Tom Manning extra point GOOD.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": true,
+"priority": false,
+"modified": "2007-09-15T20:59Z",
+"start": {
+"down": -1,
+"distance": -1,
+"yardLine": 3,
+"yardsToEndzone": 3,
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": -1,
+"distance": -1,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0,
+"scoringType": {
+"name": "extra-point",
+"displayName": "Extra Point",
+"abbreviation": "XP"
+}
+},
+{
+"id": "272580276039",
+"sequenceNumber": "39",
+"type": {
+"id": "53",
+"text": "Kickoff",
+"abbreviation": "K"
+},
+"text": "Tom Manning kickoff for 54 yards returned by Emmanuel Spann for 26 yards to the Marsh 32, tackled by Devon Jackson.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:01Z",
+"start": {
+"down": -1,
+"distance": -1,
+"yardLine": 60,
+"yardsToEndzone": 60,
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 32,
+"yardsToEndzone": 68,
+"downDistanceText": "1st & 10 at MRSH 32",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 32",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 26
+}
+]
+},
+{
+"id": "27258027608",
+"description": "marshall drive: 8 plays 43 yards, 02:37 marshall fga, 2:37",
+"team": {
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"yardLine": 32,
+"text": "MRSH 32"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"yardLine": 75,
+"text": "UNH 25"
+},
+"timeElapsed": {
+"displayValue": "2:37"
+},
+"yards": 43,
+"isScore": false,
+"offensivePlays": 8,
+"result": "FG MISSED",
+"shortDisplayResult": "FG MISSED",
+"displayResult": "Field Goal Missed",
+"plays": [
+{
+"id": "272580276040",
+"sequenceNumber": "40",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush over left end for 14 yards to the Marsh 46 for a 1ST down, tackled by Jeff Pammer.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 32,
+"yardsToEndzone": 68,
+"downDistanceText": "1st & 10 at MRSH 32",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 32",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 46,
+"yardsToEndzone": 54,
+"downDistanceText": "1st & 10 at MRSH 46",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 46",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 14
+},
+{
+"id": "272580276041",
+"sequenceNumber": "41",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush over left tackle for 1 yard to the Marsh 47, tackled by Husain Karim and Hugo Souza.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 46,
+"yardsToEndzone": 54,
+"downDistanceText": "1st & 10 at MRSH 46",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 46",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 9,
+"yardLine": 47,
+"yardsToEndzone": 53,
+"downDistanceText": "2nd & 9 at MRSH 47",
+"shortDownDistanceText": "2nd & 9",
+"possessionText": "MRSH 47",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 1
+},
+{
+"id": "272580276042",
+"sequenceNumber": "42",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Brian Anderson screen pass incomplete to N/A, Marshall penalty ineligible downfield on pass declined.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 2,
+"distance": 9,
+"yardLine": 47,
+"yardsToEndzone": 53,
+"downDistanceText": "2nd & 9 at MRSH 47",
+"shortDownDistanceText": "2nd & 9",
+"possessionText": "MRSH 47",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 9,
+"yardLine": 47,
+"yardsToEndzone": 53,
+"downDistanceText": "3rd & 9 at MRSH 47",
+"shortDownDistanceText": "3rd & 9",
+"possessionText": "MRSH 47",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276043",
+"sequenceNumber": "43",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson sideline pass complete to Cody Slate for 21 yards to the NHamp 32 for a 1ST down, tackled by Dino Vasso.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 3,
+"distance": 9,
+"yardLine": 47,
+"yardsToEndzone": 53,
+"downDistanceText": "3rd & 9 at MRSH 47",
+"shortDownDistanceText": "3rd & 9",
+"possessionText": "MRSH 47",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 68,
+"yardsToEndzone": 32,
+"downDistanceText": "1st & 10 at UNH 32",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 32",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 21
+},
+{
+"id": "272580276044",
+"sequenceNumber": "44",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush over right tackle for 3 yards to the NHamp 29, tackled by Matt Parent and Husain Karim.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 68,
+"yardsToEndzone": 32,
+"downDistanceText": "1st & 10 at UNH 32",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 32",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 7,
+"yardLine": 71,
+"yardsToEndzone": 29,
+"downDistanceText": "2nd & 7 at UNH 29",
+"shortDownDistanceText": "2nd & 7",
+"possessionText": "UNH 29",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276045",
+"sequenceNumber": "45",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush up the middle for 4 yards to the NHamp 25, tackled by Dino Vasso and Matt Parent.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "2:32"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 2,
+"distance": 7,
+"yardLine": 71,
+"yardsToEndzone": 29,
+"downDistanceText": "2nd & 7 at UNH 29",
+"shortDownDistanceText": "2nd & 7",
+"possessionText": "UNH 29",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 3,
+"yardLine": 75,
+"yardsToEndzone": 25,
+"downDistanceText": "3rd & 3 at UNH 25",
+"shortDownDistanceText": "3rd & 3",
+"possessionText": "UNH 25",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 4
+},
+{
+"id": "272580276046",
+"sequenceNumber": "46",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Kelvin Turner rush over left end for no gain to the NHamp 25, tackled by Hugo Souza and Matthew Perdoni.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"displayValue": "15:00"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:10Z",
+"start": {
+"down": 3,
+"distance": 3,
+"yardLine": 75,
+"yardsToEndzone": 25,
+"downDistanceText": "3rd & 3 at UNH 25",
+"shortDownDistanceText": "3rd & 3",
+"possessionText": "UNH 25",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 4,
+"distance": 3,
+"yardLine": 75,
+"yardsToEndzone": 25,
+"downDistanceText": "4th & 3 at UNH 25",
+"shortDownDistanceText": "4th & 3",
+"possessionText": "UNH 25",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276048",
+"sequenceNumber": "49",
+"type": {
+"id": "60",
+"text": "Field Goal Missed",
+"abbreviation": "FGM"
+},
+"text": "Anthony Binswanger 42 yard field goal MISSED.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:14Z",
+"start": {
+"down": 4,
+"distance": 3,
+"yardLine": 75,
+"yardsToEndzone": 25,
+"downDistanceText": "4th & 3 at UNH 25",
+"shortDownDistanceText": "4th & 3",
+"possessionText": "UNH 25",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 75,
+"yardsToEndzone": 75,
+"downDistanceText": "1st & 10 at UNH 25",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 25",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 42
+}
+]
+},
+{
+"id": "27258027609",
+"description": "unh drive: 5 plays 14 yards, 00:00 unh punt, 0:00",
+"team": {
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"yardLine": 74,
+"text": "UNH 26"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"yardLine": 61,
+"text": "UNH 39"
+},
+"timeElapsed": {
+"displayValue": "0:00"
+},
+"yards": 14,
+"isScore": false,
+"offensivePlays": 5,
+"result": "PUNT",
+"shortDisplayResult": "PUNT",
+"displayResult": "Punt",
+"plays": [
+{
+"id": "272580276050",
+"sequenceNumber": "50",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos sideline pass incomplete to Mike Boyle, broken up by DeNathian Robinson.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:18Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 75,
+"yardsToEndzone": 75,
+"downDistanceText": "1st & 10 at UNH 25",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 25",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 75,
+"yardsToEndzone": 75,
+"downDistanceText": "2nd & 10 at UNH 25",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 25",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276051",
+"sequenceNumber": "51",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Chris Ward rush up the middle for 12 yards to the NHamp 37 for a 1ST down, tackled by John Saunders and Johnny Jones.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:18Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 75,
+"yardsToEndzone": 75,
+"downDistanceText": "2nd & 10 at UNH 25",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 25",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 63,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at UNH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 37",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 12
+},
+{
+"id": "272580276052",
+"sequenceNumber": "52",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos screen pass complete to Chris Ward for a loss of 2 yards to the NHamp 35.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:18Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 63,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at UNH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 37",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 12,
+"yardLine": 65,
+"yardsToEndzone": 65,
+"downDistanceText": "2nd & 12 at UNH 35",
+"shortDownDistanceText": "2nd & 12",
+"possessionText": "UNH 35",
+"team": {
+"id": "160"
+}
+},
+"statYardage": -2
+},
+{
+"id": "272580276053",
+"sequenceNumber": "53",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos crossing pass incomplete to Keith LeVan, New Hampshire penalty ineligible downfield on pass declined.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:18Z",
+"start": {
+"down": 2,
+"distance": 12,
+"yardLine": 65,
+"yardsToEndzone": 65,
+"downDistanceText": "2nd & 12 at UNH 35",
+"shortDownDistanceText": "2nd & 12",
+"possessionText": "UNH 35",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 12,
+"yardLine": 65,
+"yardsToEndzone": 65,
+"downDistanceText": "3rd & 12 at UNH 35",
+"shortDownDistanceText": "3rd & 12",
+"possessionText": "UNH 35",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276054",
+"sequenceNumber": "54",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos screen pass complete to Chris Ward for 4 yards to the NHamp 39, tackled by Byron Tinker.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:18Z",
+"start": {
+"down": 3,
+"distance": 12,
+"yardLine": 65,
+"yardsToEndzone": 65,
+"downDistanceText": "3rd & 12 at UNH 35",
+"shortDownDistanceText": "3rd & 12",
+"possessionText": "UNH 35",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 4,
+"distance": 8,
+"yardLine": 61,
+"yardsToEndzone": 61,
+"downDistanceText": "4th & 8 at UNH 39",
+"shortDownDistanceText": "4th & 8",
+"possessionText": "UNH 39",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 4
+},
+{
+"id": "272580276055",
+"sequenceNumber": "55",
+"type": {
+"id": "52",
+"text": "Punt",
+"abbreviation": "PUNT"
+},
+"text": "Tom Bishop punt for 32 yards punt out-of-bounds at the Marsh 29.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:18Z",
+"start": {
+"down": 4,
+"distance": 8,
+"yardLine": 61,
+"yardsToEndzone": 61,
+"downDistanceText": "4th & 8 at UNH 39",
+"shortDownDistanceText": "4th & 8",
+"possessionText": "UNH 39",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 29,
+"yardsToEndzone": 71,
+"downDistanceText": "1st & 10 at MRSH 29",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 29",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+}
+]
+},
+{
+"id": "27258027610",
+"description": "marshall drive: 8 plays 41 yards, 02:35 marshall int, 2:35",
+"team": {
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "14:55"
+},
+"yardLine": 29,
+"text": "MRSH 29"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"yardLine": 70,
+"text": "UNH 30"
+},
+"timeElapsed": {
+"displayValue": "2:35"
+},
+"yards": 41,
+"isScore": false,
+"offensivePlays": 8,
+"result": "INT",
+"shortDisplayResult": "INT",
+"displayResult": "Interception",
+"plays": [
+{
+"id": "272580276056",
+"sequenceNumber": "56",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson crossing pass complete to Brian Shope for 6 yards to the Marsh 35, tackled by Husain Karim and Terrence Klein.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:20Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 29,
+"yardsToEndzone": 71,
+"downDistanceText": "1st & 10 at MRSH 29",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 29",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 4,
+"yardLine": 35,
+"yardsToEndzone": 65,
+"downDistanceText": "2nd & 4 at MRSH 35",
+"shortDownDistanceText": "2nd & 4",
+"possessionText": "MRSH 35",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 6
+},
+{
+"id": "272580276057",
+"sequenceNumber": "57",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Chubb Small rush draw play for 3 yards to the Marsh 38, tackled by Jeff Pammer.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:20Z",
+"start": {
+"down": 2,
+"distance": 4,
+"yardLine": 35,
+"yardsToEndzone": 65,
+"downDistanceText": "2nd & 4 at MRSH 35",
+"shortDownDistanceText": "2nd & 4",
+"possessionText": "MRSH 35",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 1,
+"yardLine": 38,
+"yardsToEndzone": 62,
+"downDistanceText": "3rd & 1 at MRSH 38",
+"shortDownDistanceText": "3rd & 1",
+"possessionText": "MRSH 38",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 3
+},
+{
+"id": "272580276058",
+"sequenceNumber": "58",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Chubb Small rush up the middle for 2 yards to the Marsh 40 for a 1ST down, tackled by Matt Parent and Marvin Wright.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:24Z",
+"start": {
+"down": 3,
+"distance": 1,
+"yardLine": 38,
+"yardsToEndzone": 62,
+"downDistanceText": "3rd & 1 at MRSH 38",
+"shortDownDistanceText": "3rd & 1",
+"possessionText": "MRSH 38",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 40,
+"yardsToEndzone": 60,
+"downDistanceText": "1st & 10 at MRSH 40",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 40",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 2
+},
+{
+"id": "272580276059",
+"sequenceNumber": "59",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Brian Anderson deep out pass incomplete to Courtney Edmonson, hurried by Husain Karim.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:24Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 40,
+"yardsToEndzone": 60,
+"downDistanceText": "1st & 10 at MRSH 40",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 40",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 40,
+"yardsToEndzone": 60,
+"downDistanceText": "2nd & 10 at MRSH 40",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 40",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276060",
+"sequenceNumber": "60",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson middle pass complete to Courtney Edmonson for 14 yards to the NHamp 46 for a 1ST down.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:24Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 40,
+"yardsToEndzone": 60,
+"downDistanceText": "2nd & 10 at MRSH 40",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 40",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 54,
+"yardsToEndzone": 46,
+"downDistanceText": "1st & 10 at UNH 46",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 46",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 14
+},
+{
+"id": "272580276061",
+"sequenceNumber": "61",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson sideline pass complete to Darius Passmore for 7 yards to the NHamp 39, tackled by John Clements and Kevin Peters.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:24Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 54,
+"yardsToEndzone": 46,
+"downDistanceText": "1st & 10 at UNH 46",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 46",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 3,
+"yardLine": 61,
+"yardsToEndzone": 39,
+"downDistanceText": "2nd & 3 at UNH 39",
+"shortDownDistanceText": "2nd & 3",
+"possessionText": "UNH 39",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 7
+},
+{
+"id": "272580276062",
+"sequenceNumber": "62",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush over left end for 9 yards to the NHamp 30 for a 1ST down, tackled by Jeff Pammer.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:24Z",
+"start": {
+"down": 2,
+"distance": 3,
+"yardLine": 61,
+"yardsToEndzone": 39,
+"downDistanceText": "2nd & 3 at UNH 39",
+"shortDownDistanceText": "2nd & 3",
+"possessionText": "UNH 39",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 70,
+"yardsToEndzone": 30,
+"downDistanceText": "1st & 10 at UNH 30",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 30",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 9
+},
+{
+"id": "272580276063",
+"sequenceNumber": "63",
+"type": {
+"id": "6",
+"text": "Pass Interception",
+"abbreviation": "INT"
+},
+"text": "Brian Anderson flag pass intercepted by Dino Vasso at the NHamp 0, returned for 30 yards to the NHamp 30, tackled by Josh Evans.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": true,
+"modified": "2007-09-15T21:26Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 70,
+"yardsToEndzone": 30,
+"downDistanceText": "1st & 10 at UNH 30",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 30",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"downDistanceText": "1st & 10 at UNH 30",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 30",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 30
+}
+]
+},
+{
+"id": "27258027611",
+"description": "unh drive: 9 plays 40 yards, 02:16 unh fg, 2:16",
+"team": {
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "12:54"
+},
+"yardLine": 70,
+"text": "UNH 30"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "8:03"
+},
+"yardLine": 30,
+"text": "MRSH 30"
+},
+"timeElapsed": {
+"displayValue": "2:16"
+},
+"yards": 40,
+"isScore": true,
+"offensivePlays": 9,
+"result": "FG GOOD",
+"shortDisplayResult": "FG GOOD",
+"displayResult": "Field Goal Good",
+"plays": [
+{
+"id": "272580276064",
+"sequenceNumber": "64",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Ricky Santos rush quarterback draw for 8 yards to the NHamp 38, tackled by C.J. Spillman and Maurice Kitchens.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:26Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"downDistanceText": "1st & 10 at UNH 30",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 30",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 2,
+"yardLine": 62,
+"yardsToEndzone": 62,
+"downDistanceText": "2nd & 2 at UNH 38",
+"shortDownDistanceText": "2nd & 2",
+"possessionText": "UNH 38",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 8
+},
+{
+"id": "272580276065",
+"sequenceNumber": "65",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos sideline pass complete to J T. Wright for 11 yards to the NHamp 49 for a 1ST down, tackled by James Johnson.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:26Z",
+"start": {
+"down": 2,
+"distance": 2,
+"yardLine": 62,
+"yardsToEndzone": 62,
+"downDistanceText": "2nd & 2 at UNH 38",
+"shortDownDistanceText": "2nd & 2",
+"possessionText": "UNH 38",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 51,
+"yardsToEndzone": 51,
+"downDistanceText": "1st & 10 at UNH 49",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 49",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 11
+},
+{
+"id": "272580276066",
+"sequenceNumber": "66",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos sideline pass incomplete to Keith LeVan, hurried by Husain Karim.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:26Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 51,
+"yardsToEndzone": 51,
+"downDistanceText": "1st & 10 at UNH 49",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 49",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 51,
+"yardsToEndzone": 51,
+"downDistanceText": "2nd & 10 at UNH 49",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 49",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276067",
+"sequenceNumber": "67",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Robert Simpson rush over left end for a loss of 1 yard to the NHamp 48, tackled by Josh Johnson.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:29Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 51,
+"yardsToEndzone": 51,
+"downDistanceText": "2nd & 10 at UNH 49",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "UNH 49",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 11,
+"yardLine": 52,
+"yardsToEndzone": 52,
+"downDistanceText": "3rd & 11 at UNH 48",
+"shortDownDistanceText": "3rd & 11",
+"possessionText": "UNH 48",
+"team": {
+"id": "160"
+}
+},
+"statYardage": -1
+},
+{
+"id": "272580276068",
+"sequenceNumber": "68",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos crossing pass complete to Scott Sicko for 16 yards to the Marsh 36 for a 1ST down, tackled by Ashton Hall and Josh Johnson.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:29Z",
+"start": {
+"down": 3,
+"distance": 11,
+"yardLine": 52,
+"yardsToEndzone": 52,
+"downDistanceText": "3rd & 11 at UNH 48",
+"shortDownDistanceText": "3rd & 11",
+"possessionText": "UNH 48",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 36,
+"yardsToEndzone": 36,
+"downDistanceText": "1st & 10 at MRSH 36",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 36",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 16
+},
+{
+"id": "272580276069",
+"sequenceNumber": "69",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Robert Simpson rush over left end for 6 yards to the Marsh 30, tackled by Josh Johnson and Ashton Hall.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "10:19"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:29Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 36,
+"yardsToEndzone": 36,
+"downDistanceText": "1st & 10 at MRSH 36",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 36",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 4,
+"yardLine": 30,
+"yardsToEndzone": 30,
+"downDistanceText": "2nd & 4 at MRSH 30",
+"shortDownDistanceText": "2nd & 4",
+"possessionText": "MRSH 30",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 6
+},
+{
+"id": "272580276070",
+"sequenceNumber": "70",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos flag pass incomplete to N/A, hurried by Maurice Kitchens.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:30Z",
+"start": {
+"down": 2,
+"distance": 4,
+"yardLine": 30,
+"yardsToEndzone": 30,
+"downDistanceText": "2nd & 4 at MRSH 30",
+"shortDownDistanceText": "2nd & 4",
+"possessionText": "MRSH 30",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 3,
+"distance": 4,
+"yardLine": 30,
+"yardsToEndzone": 30,
+"downDistanceText": "3rd & 4 at MRSH 30",
+"shortDownDistanceText": "3rd & 4",
+"possessionText": "MRSH 30",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276071",
+"sequenceNumber": "71",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Ricky Santos sideline pass incomplete to Keith LeVan, hurried by Josh Johnson.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:30Z",
+"start": {
+"down": 3,
+"distance": 4,
+"yardLine": 30,
+"yardsToEndzone": 30,
+"downDistanceText": "3rd & 4 at MRSH 30",
+"shortDownDistanceText": "3rd & 4",
+"possessionText": "MRSH 30",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 4,
+"distance": 4,
+"yardLine": 30,
+"yardsToEndzone": 30,
+"downDistanceText": "4th & 4 at MRSH 30",
+"shortDownDistanceText": "4th & 4",
+"possessionText": "MRSH 30",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276072",
+"sequenceNumber": "72",
+"type": {
+"id": "59",
+"text": "Field Goal Good",
+"abbreviation": "FG"
+},
+"text": "Tom Manning 47 yard field goal GOOD.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": true,
+"priority": false,
+"modified": "2007-09-15T21:30Z",
+"start": {
+"down": 4,
+"distance": 4,
+"yardLine": 30,
+"yardsToEndzone": 30,
+"downDistanceText": "4th & 4 at MRSH 30",
+"shortDownDistanceText": "4th & 4",
+"possessionText": "MRSH 30",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": -1,
+"distance": -1,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"team": {
+"id": "160"
+}
+},
+"statYardage": 47,
+"scoringType": {
+"name": "field-goal",
+"displayName": "Field Goal",
+"abbreviation": "FG"
+}
+},
+{
+"id": "272580276073",
+"sequenceNumber": "73",
+"type": {
+"id": "53",
+"text": "Kickoff",
+"abbreviation": "K"
+},
+"text": "Tom Manning kickoff for 69 yards returned by Emmanuel Spann for 25 yards to the Marsh 26, tackled by Mike Perkins.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "6:24"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:37Z",
+"start": {
+"down": -1,
+"distance": -1,
+"yardLine": 70,
+"yardsToEndzone": 70,
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 26,
+"yardsToEndzone": 74,
+"downDistanceText": "1st & 10 at MRSH 26",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 26",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 25
+}
+]
+},
+{
+"id": "27258027612",
+"description": "marshall drive: 3 plays 2 yards, 01:39 marshall punt, 1:39",
+"team": {
+"name": "Thundering Herd",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"shortDisplayName": "Thundering Herd",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "8:03"
+},
+"yardLine": 26,
+"text": "MRSH 26"
+},
+"end": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "6:24"
+},
+"yardLine": 28,
+"text": "MRSH 28"
+},
+"timeElapsed": {
+"displayValue": "1:39"
+},
+"yards": 2,
+"isScore": false,
+"offensivePlays": 3,
+"result": "PUNT",
+"shortDisplayResult": "PUNT",
+"displayResult": "Punt",
+"plays": [
+{
+"id": "272580276074",
+"sequenceNumber": "74",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Darius Marshall rush draw play for no gain to the Marsh 26, tackled by T.J. Taylor and Husain Karim.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:37Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 26,
+"yardsToEndzone": 74,
+"downDistanceText": "1st & 10 at MRSH 26",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 26",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 26,
+"yardsToEndzone": 74,
+"downDistanceText": "2nd & 10 at MRSH 26",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 26",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276075",
+"sequenceNumber": "75",
+"type": {
+"id": "21",
+"text": "Timeout",
+"abbreviation": "TO"
+},
+"text": "Timeout MARSHALL, clock 07:22.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:37Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 26,
+"yardsToEndzone": 74,
+"downDistanceText": "2nd & 10 at MRSH 26",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 26",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 2,
+"distance": 10,
+"yardLine": 26,
+"yardsToEndzone": 74,
+"downDistanceText": "2nd & 10 at MRSH 26",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 26",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276076",
+"sequenceNumber": "76",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Brian Anderson crossing pass complete to Shawn Lauzon for 2 yards to the Marsh 28.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:37Z",
+"start": {
+"down": 2,
+"distance": 10,
+"yardLine": 26,
+"yardsToEndzone": 74,
+"downDistanceText": "2nd & 10 at MRSH 26",
+"shortDownDistanceText": "2nd & 10",
+"possessionText": "MRSH 26",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 3,
+"distance": 8,
+"yardLine": 28,
+"yardsToEndzone": 72,
+"downDistanceText": "3rd & 8 at MRSH 28",
+"shortDownDistanceText": "3rd & 8",
+"possessionText": "MRSH 28",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 2
+},
+{
+"id": "272580276077",
+"sequenceNumber": "77",
+"type": {
+"id": "3",
+"text": "Pass Incompletion"
+},
+"text": "Brian Anderson sideline pass incomplete to Shawn Lauzon, hurried by Josh Johnson.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:37Z",
+"start": {
+"down": 3,
+"distance": 8,
+"yardLine": 28,
+"yardsToEndzone": 72,
+"downDistanceText": "3rd & 8 at MRSH 28",
+"shortDownDistanceText": "3rd & 8",
+"possessionText": "MRSH 28",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 4,
+"distance": 8,
+"yardLine": 28,
+"yardsToEndzone": 72,
+"downDistanceText": "4th & 8 at MRSH 28",
+"shortDownDistanceText": "4th & 8",
+"possessionText": "MRSH 28",
+"team": {
+"id": "276"
+}
+},
+"statYardage": 0
+},
+{
+"id": "272580276078",
+"sequenceNumber": "78",
+"type": {
+"id": "52",
+"text": "Punt",
+"abbreviation": "PUNT"
+},
+"text": "Anthony Binswanger punt for 49 yards downed at the NHamp 23.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "7:22"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:37Z",
+"start": {
+"down": 4,
+"distance": 8,
+"yardLine": 28,
+"yardsToEndzone": 72,
+"downDistanceText": "4th & 8 at MRSH 28",
+"shortDownDistanceText": "4th & 8",
+"possessionText": "MRSH 28",
+"team": {
+"id": "276"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 77,
+"yardsToEndzone": 77,
+"downDistanceText": "1st & 10 at UNH 23",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 23",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 0
+}
+]
+},
+{
+"id": "27258027613",
+"team": {
+"name": "Wildcats",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"shortDisplayName": "Wildcats",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"start": {
+"period": {
+"type": "quarter",
+"number": 2
+},
+"clock": {
+"displayValue": "7:22"
+},
+"yardLine": 77,
+"text": "UNH 23"
+},
+"timeElapsed": {
+"displayValue": "0:58"
+},
+"yards": 28,
+"isScore": false,
+"offensivePlays": 4,
+"plays": [
+{
+"id": "272580276079",
+"sequenceNumber": "79",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Keith LeVan rush over left end for 9 yards to the NHamp 32, tackled by Maurice Kitchens and C.J. Spillman.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "6:24"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:42Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 77,
+"yardsToEndzone": 77,
+"downDistanceText": "1st & 10 at UNH 23",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 23",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 1,
+"yardLine": 68,
+"yardsToEndzone": 68,
+"downDistanceText": "2nd & 1 at UNH 32",
+"shortDownDistanceText": "2nd & 1",
+"possessionText": "UNH 32",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 9
+},
+{
+"id": "272580276080",
+"sequenceNumber": "80",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "Ricky Santos crossing pass complete to Mike Boyle for 5 yards to the NHamp 37 for a 1ST down, tackled by Ashton Hall.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "6:24"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:42Z",
+"start": {
+"down": 2,
+"distance": 1,
+"yardLine": 68,
+"yardsToEndzone": 68,
+"downDistanceText": "2nd & 1 at UNH 32",
+"shortDownDistanceText": "2nd & 1",
+"possessionText": "UNH 32",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 63,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at UNH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 37",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 5
+},
+{
+"id": "272580276081",
+"sequenceNumber": "81",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Ricky Santos rush over right tackle for 7 yards to the NHamp 44, tackled by Josh Johnson.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "6:24"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:42Z",
+"start": {
+"down": 1,
+"distance": 10,
+"yardLine": 63,
+"yardsToEndzone": 63,
+"downDistanceText": "1st & 10 at UNH 37",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "UNH 37",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 2,
+"distance": 3,
+"yardLine": 56,
+"yardsToEndzone": 56,
+"downDistanceText": "2nd & 3 at UNH 44",
+"shortDownDistanceText": "2nd & 3",
+"possessionText": "UNH 44",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 7
+},
+{
+"id": "272580276082",
+"sequenceNumber": "82",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "Chris Ward rush up the middle for 7 yards to the Marsh 49 for a 1ST down, tackled by Montel Glasco and Maurice Kitchens.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"displayValue": "6:24"
+},
+"scoringPlay": false,
+"priority": false,
+"modified": "2007-09-15T21:42Z",
+"start": {
+"down": 2,
+"distance": 3,
+"yardLine": 56,
+"yardsToEndzone": 56,
+"downDistanceText": "2nd & 3 at UNH 44",
+"shortDownDistanceText": "2nd & 3",
+"possessionText": "UNH 44",
+"team": {
+"id": "160"
+}
+},
+"end": {
+"down": 1,
+"distance": 10,
+"yardLine": 49,
+"yardsToEndzone": 49,
+"downDistanceText": "1st & 10 at MRSH 49",
+"shortDownDistanceText": "1st & 10",
+"possessionText": "MRSH 49",
+"team": {
+"id": "160"
+}
+},
+"statYardage": 7
+}
+]
+}
+]
+},
+"leaders": [
+{
+"team": {
+"id": "276",
+"uid": "s:20~l:23~t:276",
+"displayName": "Marshall Thundering Herd",
+"abbreviation": "MRSH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/276/marshall-thundering-herd",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/276",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+},
+"leaders": [
+{
+"name": "passingYards",
+"displayName": "Passing Yards",
+"leaders": [
+{
+"displayValue": "31-42, 417 YDS, 3 TD",
+"athlete": {
+"id": "149492",
+"uid": "s:20~l:23~a:149492",
+"guid": "c0c645186117000f52db9eb34e131610",
+"lastName": "Morris",
+"fullName": "Bernard Morris",
+"displayName": "Bernard Morris",
+"shortName": "B. Morris",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149492/bernard-morris",
+"text": "Player Card"
+}
+],
+"jersey": "5  ",
+"position": {
+"abbreviation": "QB"
+}
+}
+}
+]
+},
+{
+"name": "rushingYards",
+"displayName": "Rushing Yards",
+"leaders": [
+{
+"displayValue": "5 CAR, 45 YDS",
+"athlete": {
+"id": "170265",
+"uid": "s:20~l:23~a:170265",
+"guid": "63ebdb42456848e0241f7202ecbf4135",
+"lastName": "Small",
+"fullName": "Chubb Small",
+"displayName": "Chubb Small",
+"shortName": "C. Small",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/170265/chubb-small",
+"text": "Player Card"
+}
+],
+"jersey": "28 ",
+"position": {
+"abbreviation": "RB"
+}
+}
+}
+]
+},
+{
+"name": "receivingYards",
+"displayName": "Receiving Yards",
+"leaders": [
+{
+"displayValue": "11 REC, 177 YDS, 1 TD",
+"athlete": {
+"id": "184184",
+"uid": "s:20~l:23~a:184184",
+"guid": "2a274f9dabe0851767b66b5d519dd5b9",
+"lastName": "Slate",
+"fullName": "Cody Slate",
+"displayName": "Cody Slate",
+"shortName": "C. Slate",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/184184/cody-slate",
+"text": "Player Card"
+}
+],
+"jersey": "85 ",
+"position": {
+"abbreviation": "TE"
+}
+}
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"leaders": [
+{
+"name": "passingYards",
+"displayName": "Passing Yards",
+"leaders": [
+{
+"displayValue": "23-33, 289 YDS, 3 TD",
+"athlete": {
+"id": "149238",
+"uid": "s:20~l:23~a:149238",
+"guid": "f29efb63cd46b0a59a505a75204a3f00",
+"lastName": "Santos",
+"fullName": "Ricky Santos",
+"displayName": "Ricky Santos",
+"shortName": "R. Santos",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149238/ricky-santos",
+"text": "Player Card"
+}
+],
+"jersey": "15 ",
+"position": {
+"abbreviation": "QB"
+}
+}
+}
+]
+},
+{
+"name": "rushingYards",
+"displayName": "Rushing Yards",
+"leaders": [
+{
+"displayValue": "19 CAR, 99 YDS, 1 TD",
+"athlete": {
+"id": "149252",
+"uid": "s:20~l:23~a:149252",
+"guid": "5491b166043586d801c967ba0981cf36",
+"lastName": "Ward",
+"fullName": "Chris Ward",
+"displayName": "Chris Ward",
+"shortName": "C. Ward",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/149252/chris-ward",
+"text": "Player Card"
+}
+],
+"jersey": "32 ",
+"position": {
+"abbreviation": "RB"
+}
+}
+}
+]
+},
+{
+"name": "receivingYards",
+"displayName": "Receiving Yards",
+"leaders": [
+{
+"displayValue": "6 REC, 78 YDS",
+"athlete": {
+"id": "189781",
+"uid": "s:20~l:23~a:189781",
+"guid": "7899ed4bd1a52d00b74b1dd45d1ad69e",
+"lastName": "Sicko",
+"fullName": "Scott Sicko",
+"displayName": "Scott Sicko",
+"shortName": "S. Sicko",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/189781/scott-sicko",
+"text": "Player Card"
+}
+],
+"jersey": "89 ",
+"position": {
+"abbreviation": "TE"
+}
+}
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "276"
+},
+"awayTeam": {
+"id": "160"
+}
+},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "276",
+"uid": "s:20~l:23~t:276",
+"displayName": "Marshall Thundering Herd",
+"abbreviation": "MRSH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/276/marshall-thundering-herd",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/276",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "272580276",
+"uid": "s:20~l:23~e:272580276",
+"season": {
+"year": 2007,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "272580276",
+"uid": "s:20~l:23~e:272580276~c:272580276",
+"date": "2007-09-15T20:30Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "full",
+"competitors": [
+{
+"id": "276",
+"uid": "s:20~l:23~t:276",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "276",
+"uid": "s:20~l:23~t:276",
+"location": "Marshall",
+"name": "Thundering Herd",
+"nickname": "Marshall",
+"abbreviation": "MRSH",
+"displayName": "Marshall Thundering Herd",
+"color": "00ae42",
+"alternateColor": "be854c",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/276.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-09-02T21:23Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/276/marshall-thundering-herd",
+"text": "Clubhouse"
+}
+]
+},
+"score": "35",
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "21"
+},
+{
+"displayValue": "14"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "0-3",
+"displayValue": "0-3"
+},
+{
+"type": "home",
+"summary": "0-2",
+"displayValue": "0-2"
+},
+{
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"possession": false
+},
+{
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"location": "New Hampshire",
+"name": "Wildcats",
+"nickname": "UNH",
+"abbreviation": "UNH",
+"displayName": "New Hampshire Wildcats",
+"color": "004990",
+"alternateColor": "c3c4c6",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+}
+]
+},
+"score": "48",
+"linescores": [
+{
+"displayValue": "14"
+},
+{
+"displayValue": "10"
+},
+{
+"displayValue": "7"
+},
+{
+"displayValue": "17"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"type": "road",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"type": "vsconf",
+"summary": "0-1",
+"displayValue": "0-1"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": []
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/272580276",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/recap?gameId=272580276",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/college-football/boxscore/_/gameId/272580276",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/college-football/playbyplay/_/gameId/272580276",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/matchup?gameId=272580276",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 3,
+"league": {
+"id": "23",
+"uid": "s:20~l:23",
+"name": "NCAA - Football",
+"abbreviation": "NCAAF",
+"midsizeName": "NCAA Football",
+"slug": "college-football",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"scoringPlays": [
+{
+"id": "272580276021",
+"type": {
+"id": "5",
+"text": "Rush",
+"abbreviation": "RUSH"
+},
+"text": "New Hampshire rush for a touchdown.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"value": 485.0,
+"displayValue": "8:05"
+},
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+}
+},
+{
+"id": "272580276022",
+"type": {
+"id": "61",
+"text": "Extra Point Good",
+"abbreviation": "XP"
+},
+"text": "New Hampshire Extra point GOOD.",
+"awayScore": 7,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"value": 485.0,
+"displayValue": "8:05"
+},
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"scoringType": {
+"name": "extra-point",
+"displayName": "Extra Point",
+"abbreviation": "XP"
+}
+},
+{
+"id": "272580276037",
+"type": {
+"id": "4",
+"text": "Pass Completion",
+"abbreviation": "PASS"
+},
+"text": "New Hampshire pass complete for a touchdown.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"value": 152.0,
+"displayValue": "2:32"
+},
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+}
+},
+{
+"id": "272580276038",
+"type": {
+"id": "61",
+"text": "Extra Point Good",
+"abbreviation": "XP"
+},
+"text": "New Hampshire Extra point GOOD.",
+"awayScore": 14,
+"homeScore": 0,
+"period": {
+"number": 1
+},
+"clock": {
+"value": 152.0,
+"displayValue": "2:32"
+},
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"scoringType": {
+"name": "extra-point",
+"displayName": "Extra Point",
+"abbreviation": "XP"
+}
+},
+{
+"id": "272580276072",
+"type": {
+"id": "59",
+"text": "Field Goal Good",
+"abbreviation": "FG"
+},
+"text": "New Hampshire 47 yard field goal GOOD.",
+"awayScore": 17,
+"homeScore": 0,
+"period": {
+"number": 2
+},
+"clock": {
+"value": 483.0,
+"displayValue": "8:03"
+},
+"team": {
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"displayName": "New Hampshire Wildcats",
+"abbreviation": "UNH",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/160",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+},
+"scoringType": {
+"name": "field-goal",
+"displayName": "Field Goal",
+"abbreviation": "FG"
+}
+}
+],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Villanova",
+"link": "https://www.espn.com/college-football/team/_/id/222/villanova-wildcats",
+"id": "222",
+"uid": "s:20~l:23~t:222",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-3",
+"displayValue": "10-3"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-1",
+"displayValue": "7-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "James Madison",
+"link": "https://www.espn.com/college-football/team/_/id/256/james-madison-dukes",
+"id": "256",
+"uid": "s:20~l:23~t:256",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-2",
+"displayValue": "12-2"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-1",
+"displayValue": "7-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Elon",
+"link": "https://www.espn.com/college-football/team/_/id/2210/elon-phoenix",
+"id": "2210",
+"uid": "s:20~l:23~t:2210",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-5",
+"displayValue": "6-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-3",
+"displayValue": "5-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-09-10T14:34Z"
+}
+]
+},
+{
+"team": "Stony Brook",
+"link": "https://www.espn.com/college-football/team/_/id/2619/stony-brook-seawolves",
+"id": "2619",
+"uid": "s:20~l:23~t:2619",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-6",
+"displayValue": "5-6"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Maine",
+"link": "https://www.espn.com/college-football/team/_/id/311/maine-black-bears",
+"id": "311",
+"uid": "s:20~l:23~t:311",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-5",
+"displayValue": "6-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/311.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-07-16T20:42Z"
+}
+]
+},
+{
+"team": "Rhode Island",
+"link": "https://www.espn.com/college-football/team/_/id/227/rhode-island-rams",
+"id": "227",
+"uid": "s:20~l:23~t:227",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-4",
+"displayValue": "7-4"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-13T14:30Z"
+}
+]
+},
+{
+"team": "Richmond",
+"link": "https://www.espn.com/college-football/team/_/id/257/richmond-spiders",
+"id": "257",
+"uid": "s:20~l:23~t:257",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-5",
+"displayValue": "6-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "William & Mary",
+"link": "https://www.espn.com/college-football/team/_/id/2729/william-mary-tribe",
+"id": "2729",
+"uid": "s:20~l:23~t:2729",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-5",
+"displayValue": "6-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-09-05T22:10Z"
+}
+]
+},
+{
+"team": "Delaware",
+"link": "https://www.espn.com/college-football/team/_/id/48/delaware-blue-hens",
+"id": "48",
+"uid": "s:20~l:23~t:48",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-6",
+"displayValue": "5-6"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-11-02T19:24Z"
+}
+]
+},
+{
+"team": "Towson",
+"link": "https://www.espn.com/college-football/team/_/id/119/towson-tigers",
+"id": "119",
+"uid": "s:20~l:23~t:119",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-7",
+"displayValue": "4-7"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "New Hampshire",
+"link": "https://www.espn.com/college-football/team/_/id/160/new-hampshire-wildcats",
+"id": "160",
+"uid": "s:20~l:23~t:160",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-8",
+"displayValue": "3-8"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Albany",
+"link": "https://www.espn.com/college-football/team/_/id/399/albany-great-danes",
+"id": "399",
+"uid": "s:20~l:23~t:399",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-9",
+"displayValue": "2-9"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-7",
+"displayValue": "1-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-27T14:41Z"
+}
+]
+}
+]
+},
+"header": "2021 Colonial Athletic Association Standings"
+},
+{
+"divisions": [
+{
+"header": "Sun Belt - East",
+"standings": {
+"entries": [
+{
+"team": "Appalachian State",
+"link": "https://www.espn.com/college-football/team/_/id/2026/appalachian-state-mountaineers",
+"id": "2026",
+"uid": "s:20~l:23~t:2026",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-4",
+"displayValue": "10-4"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-1",
+"displayValue": "7-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-06-14T20:01Z"
+}
+]
+},
+{
+"team": "Georgia State",
+"link": "https://www.espn.com/college-football/team/_/id/2247/georgia-state-panthers",
+"id": "2247",
+"uid": "s:20~l:23~t:2247",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-5",
+"displayValue": "8-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "6-2",
+"displayValue": "6-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Coastal Carolina",
+"link": "https://www.espn.com/college-football/team/_/id/324/coastal-carolina-chanticleers",
+"id": "324",
+"uid": "s:20~l:23~t:324",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-2",
+"displayValue": "11-2"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "6-2",
+"displayValue": "6-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Troy",
+"link": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans",
+"id": "2653",
+"uid": "s:20~l:23~t:2653",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-7",
+"displayValue": "5-7"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-06-04T16:47Z"
+}
+]
+},
+{
+"team": "Georgia Southern",
+"link": "https://www.espn.com/college-football/team/_/id/290/georgia-southern-eagles",
+"id": "290",
+"uid": "s:20~l:23~t:290",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-9",
+"displayValue": "3-9"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+}
+]
+}
+},
+{
+"header": "Sun Belt - West",
+"standings": {
+"entries": [
+{
+"team": "Louisiana",
+"link": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns",
+"id": "309",
+"uid": "s:20~l:23~t:309",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-1",
+"displayValue": "13-1"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-0",
+"displayValue": "8-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-01T17:54Z"
+}
+]
+},
+{
+"team": "Texas State",
+"link": "https://www.espn.com/college-football/team/_/id/326/texas-state-bobcats",
+"id": "326",
+"uid": "s:20~l:23~t:326",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-8",
+"displayValue": "4-8"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "UL Monroe",
+"link": "https://www.espn.com/college-football/team/_/id/2433/ul-monroe-warhawks",
+"id": "2433",
+"uid": "s:20~l:23~t:2433",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-8",
+"displayValue": "4-8"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-08-02T17:22Z"
+}
+]
+},
+{
+"team": "South Alabama",
+"link": "https://www.espn.com/college-football/team/_/id/6/south-alabama-jaguars",
+"id": "6",
+"uid": "s:20~l:23~t:6",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-7",
+"displayValue": "5-7"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2022-01-24T22:41Z"
+}
+]
+},
+{
+"team": "Arkansas State",
+"link": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves",
+"id": "2032",
+"uid": "s:20~l:23~t:2032",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-10",
+"displayValue": "2-10"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-7",
+"displayValue": "1-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+}
+]
+}
+}
+],
+"header": "2021 Sun Belt Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/37/view/fbs-i-a"
+}
+]
+}
+}
