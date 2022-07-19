@@ -1,472 +1,186 @@
 {
-"gameId": 400941794,
-"drives": {},
-"plays": [],
-"scoringPlays": [
-{
-"period": {
-"number": 1
-},
-"homeScore": 7,
-"awayScore": 0,
-"scoringType": {
-"displayName": "Touchdown",
-"name": "touchdown",
-"abbreviation": "TD"
-},
-"id": "4009417941",
-"text": "Chris High 9 Yd Run (Bennett Moehring Kick)",
-"clock": {
-"displayValue": "8:08",
-"value": 488
-},
-"team": {
-"uid": "s:20~l:23~t:2426",
-"displayName": "Navy Midshipmen",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
-"text": "Schedule"
-}
-],
-"id": "2426",
-"abbreviation": "NAVY"
-},
-"type": {
-"id": "68",
-"text": "Rushing Touchdown",
-"abbreviation": "TD"
-}
-},
-{
-"period": {
-"number": 2
-},
-"homeScore": 7,
-"awayScore": 7,
-"scoringType": {
-"displayName": "Touchdown",
-"name": "touchdown",
-"abbreviation": "TD"
-},
-"id": "4009417942",
-"text": "Roderic Teamer 52 Yd Fumble Return (Coby Neenan Kick)",
-"clock": {
-"displayValue": "12:34",
-"value": 754
-},
-"team": {
-"uid": "s:20~l:23~t:2655",
-"displayName": "Tulane Green Wave",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
-"text": "Schedule"
-}
-],
-"id": "2655",
-"abbreviation": "TULN"
-},
-"type": {
-"id": "39",
-"text": "Fumble Return Touchdown",
-"abbreviation": "TD"
-}
-},
-{
-"period": {
-"number": 2
-},
-"homeScore": 7,
-"awayScore": 13,
-"scoringType": {
-"displayName": "Touchdown",
-"name": "touchdown",
-"abbreviation": "TD"
-},
-"id": "4009417943",
-"text": "Johnathan Brantley 3 Yd Run (Coby Neenan PAT failed)",
-"clock": {
-"displayValue": "4:13",
-"value": 253
-},
-"team": {
-"uid": "s:20~l:23~t:2655",
-"displayName": "Tulane Green Wave",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
-"text": "Schedule"
-}
-],
-"id": "2655",
-"abbreviation": "TULN"
-},
-"type": {
-"id": "68",
-"text": "Rushing Touchdown",
-"abbreviation": "TD"
-}
-},
-{
-"period": {
-"number": 2
-},
-"homeScore": 14,
-"awayScore": 13,
-"scoringType": {
-"displayName": "Touchdown",
-"name": "touchdown",
-"abbreviation": "TD"
-},
-"id": "4009417944",
-"text": "Tyler Carmona 79 Yd pass from Zach Abey (Bennett Moehring Kick)",
-"clock": {
-"displayValue": "3:16",
-"value": 196
-},
-"team": {
-"uid": "s:20~l:23~t:2426",
-"displayName": "Navy Midshipmen",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
-"text": "Schedule"
-}
-],
-"id": "2426",
-"abbreviation": "NAVY"
-},
-"type": {
-"id": "67",
-"text": "Passing Touchdown",
-"abbreviation": "TD"
-}
-},
-{
-"period": {
-"number": 3
-},
-"homeScore": 21,
-"awayScore": 13,
-"scoringType": {
-"displayName": "Touchdown",
-"name": "touchdown",
-"abbreviation": "TD"
-},
-"id": "4009417945",
-"text": "Andrew Wood 1 Yd Fumble Return (Bennett Moehring Kick)",
-"clock": {
-"displayValue": "8:30",
-"value": 510
-},
-"team": {
-"uid": "s:20~l:23~t:2426",
-"displayName": "Navy Midshipmen",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
-"text": "Schedule"
-}
-],
-"id": "2426",
-"abbreviation": "NAVY"
-},
-"type": {
-"id": "39",
-"text": "Fumble Return Touchdown",
-"abbreviation": "TD"
-}
-},
-{
-"period": {
-"number": 3
-},
-"homeScore": 23,
-"awayScore": 13,
-"scoringType": {
-"displayName": "Safety",
-"name": "safety",
-"abbreviation": "SF"
-},
-"id": "4009417946",
-"text": "Team Safety",
-"clock": {
-"displayValue": "7:11",
-"value": 431
-},
-"team": {
-"uid": "s:20~l:23~t:2426",
-"displayName": "Navy Midshipmen",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
-"text": "Schedule"
-}
-],
-"id": "2426",
-"abbreviation": "NAVY"
-},
-"type": {
-"id": "20",
-"text": "Safety",
-"abbreviation": "SF"
-}
-},
-{
-"period": {
-"number": 4
-},
-"homeScore": 23,
-"awayScore": 21,
-"scoringType": {
-"displayName": "Touchdown",
-"name": "touchdown",
-"abbreviation": "TD"
-},
-"id": "4009417947",
-"text": "Dontrell Hilliard 1 Yd Run (Johnathan Brantley Pass to Charles Jones II for Two-Point Conversion)",
-"clock": {
-"displayValue": "12:56",
-"value": 776
-},
-"team": {
-"uid": "s:20~l:23~t:2655",
-"displayName": "Tulane Green Wave",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
-"text": "Schedule"
-}
-],
-"id": "2655",
-"abbreviation": "TULN"
-},
-"type": {
-"id": "68",
-"text": "Rushing Touchdown",
-"abbreviation": "TD"
-}
-}
-],
-"winprobability": [],
 "boxscore": {
 "teams": [
 {
 "team": {
-"shortDisplayName": "Green Wave",
-"uid": "s:20~l:23~t:2655",
-"alternateColor": "3baf29",
-"color": "005837",
-"displayName": "Tulane Green Wave",
-"name": "Green Wave",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"location": "Tulane",
 "id": "2655",
+"uid": "s:20~l:23~t:2655",
+"slug": "tulane-green-wave",
+"location": "Tulane",
+"name": "Green Wave",
 "abbreviation": "TULN",
-"slug": "tulane-green-wave"
+"displayName": "Tulane Green Wave",
+"shortDisplayName": "Green Wave",
+"color": "005837",
+"alternateColor": "3baf29",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
 },
 "statistics": [
 {
-"displayValue": "11",
 "name": "firstDowns",
+"displayValue": "11",
 "label": "1st Downs"
 },
 {
-"displayValue": "3-14",
 "name": "thirdDownEff",
+"displayValue": "3-14",
 "label": "3rd down efficiency"
 },
 {
-"displayValue": "2-4",
 "name": "fourthDownEff",
+"displayValue": "2-4",
 "label": "4th down efficiency"
 },
 {
-"displayValue": "262",
 "name": "totalYards",
+"displayValue": "262",
 "label": "Total Yards"
 },
 {
-"displayValue": "71",
 "name": "netPassingYards",
+"displayValue": "71",
 "label": "Passing"
 },
 {
-"displayValue": "8-13",
 "name": "completionAttempts",
+"displayValue": "8-13",
 "label": "Comp-Att"
 },
 {
-"displayValue": "5.5",
 "name": "yardsPerPass",
+"displayValue": "5.5",
 "label": "Yards per pass"
 },
 {
-"displayValue": "191",
 "name": "rushingYards",
+"displayValue": "191",
 "label": "Rushing"
 },
 {
-"displayValue": "46",
 "name": "rushingAttempts",
+"displayValue": "46",
 "label": "Rushing Attempts"
 },
 {
-"displayValue": "4.2",
 "name": "yardsPerRushAttempt",
+"displayValue": "4.2",
 "label": "Yards per rush"
 },
 {
-"displayValue": "7-41",
 "name": "totalPenaltiesYards",
+"displayValue": "7-41",
 "label": "Penalties"
 },
 {
-"displayValue": "0",
 "name": "turnovers",
+"displayValue": "0",
 "label": "Turnovers"
 },
 {
-"displayValue": "0",
 "name": "fumblesLost",
+"displayValue": "0",
 "label": "Fumbles lost"
 },
 {
-"displayValue": "0",
 "name": "interceptions",
+"displayValue": "0",
 "label": "Interceptions thrown"
 },
 {
-"displayValue": "29:37",
 "name": "possessionTime",
+"displayValue": "29:37",
 "label": "Possession"
 }
 ]
 },
 {
 "team": {
-"shortDisplayName": "Midshipmen",
-"uid": "s:20~l:23~t:2426",
-"alternateColor": "b6a77c",
-"color": "131630",
-"displayName": "Navy Midshipmen",
-"name": "Midshipmen",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"location": "Navy",
 "id": "2426",
+"uid": "s:20~l:23~t:2426",
+"slug": "navy-midshipmen",
+"location": "Navy",
+"name": "Midshipmen",
 "abbreviation": "NAVY",
-"slug": "navy-midshipmen"
+"displayName": "Navy Midshipmen",
+"shortDisplayName": "Midshipmen",
+"color": "131630",
+"alternateColor": "b6a77c",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
 },
 "statistics": [
 {
-"displayValue": "15",
 "name": "firstDowns",
+"displayValue": "15",
 "label": "1st Downs"
 },
 {
-"displayValue": "6-15",
 "name": "thirdDownEff",
+"displayValue": "6-15",
 "label": "3rd down efficiency"
 },
 {
-"displayValue": "1-2",
 "name": "fourthDownEff",
+"displayValue": "1-2",
 "label": "4th down efficiency"
 },
 {
-"displayValue": "326",
 "name": "totalYards",
+"displayValue": "326",
 "label": "Total Yards"
 },
 {
-"displayValue": "132",
 "name": "netPassingYards",
+"displayValue": "132",
 "label": "Passing"
 },
 {
-"displayValue": "4-12",
 "name": "completionAttempts",
+"displayValue": "4-12",
 "label": "Comp-Att"
 },
 {
-"displayValue": "11.0",
 "name": "yardsPerPass",
+"displayValue": "11.0",
 "label": "Yards per pass"
 },
 {
-"displayValue": "194",
 "name": "rushingYards",
+"displayValue": "194",
 "label": "Rushing"
 },
 {
-"displayValue": "52",
 "name": "rushingAttempts",
+"displayValue": "52",
 "label": "Rushing Attempts"
 },
 {
-"displayValue": "3.7",
 "name": "yardsPerRushAttempt",
+"displayValue": "3.7",
 "label": "Yards per rush"
 },
 {
-"displayValue": "0-0",
 "name": "totalPenaltiesYards",
+"displayValue": "0-0",
 "label": "Penalties"
 },
 {
-"displayValue": "2",
 "name": "turnovers",
+"displayValue": "2",
 "label": "Turnovers"
 },
 {
-"displayValue": "1",
 "name": "fumblesLost",
+"displayValue": "1",
 "label": "Fumbles lost"
 },
 {
-"displayValue": "1",
 "name": "interceptions",
+"displayValue": "1",
 "label": "Interceptions thrown"
 },
 {
-"displayValue": "30:23",
 "name": "possessionTime",
+"displayValue": "30:23",
 "label": "Possession"
 }
 ]
@@ -475,60 +189,120 @@
 "players": [
 {
 "team": {
-"shortDisplayName": "Green Wave",
-"uid": "s:20~l:23~t:2655",
-"alternateColor": "3baf29",
-"color": "005837",
-"displayName": "Tulane Green Wave",
-"name": "Green Wave",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"location": "Tulane",
 "id": "2655",
+"uid": "s:20~l:23~t:2655",
+"slug": "tulane-green-wave",
+"location": "Tulane",
+"name": "Green Wave",
 "abbreviation": "TULN",
-"slug": "tulane-green-wave"
+"displayName": "Tulane Green Wave",
+"shortDisplayName": "Green Wave",
+"color": "005837",
+"alternateColor": "3baf29",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
 },
 "statistics": [
 {
 "name": "passing",
+"keys": [
+"completions/passingAttempts",
+"passingYards",
+"yardsPerPassAttempt",
+"passingTouchdowns",
+"interceptions",
+"adjQBR"
+],
+"text": "Tulane Passing",
+"labels": [
+"C/ATT",
+"YDS",
+"AVG",
+"TD",
+"INT",
+"QBR"
+],
+"descriptions": [
+"Completions/Attempts",
+"Yards",
+"Yards Per Pass Attempt",
+"Touchdowns",
+"Interceptions",
+"Adjusted QBR"
+],
 "athletes": [
 {
 "athlete": {
+"id": "4040641",
 "uid": "s:20~l:23~a:4040641",
+"guid": "288848050dde86862e5b9d5c9f36fc40",
 "firstName": "Johnathan",
 "lastName": "Brantley",
 "displayName": "Johnathan Brantley",
-"guid": "288848050dde86862e5b9d5c9f36fc40",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040641/johnathan-brantley",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4040641/johnathan-brantley",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4040641/johnathan-brantley",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4040641/johnathan-brantley",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4040641/johnathan-brantley",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4040641/johnathan-brantley",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040641/johnathan-brantley",
 "text": "Overview"
 }
-],
-"id": "4040641"
+]
 },
 "stats": [
 "5/8",
@@ -541,42 +315,77 @@
 },
 {
 "athlete": {
+"id": "3916103",
 "uid": "s:20~l:23~a:3916103",
+"guid": "3c707e4a9844954980e5fc58bc2b628c",
 "firstName": "Jonathan",
 "lastName": "Banks",
 "displayName": "Jonathan Banks",
-"guid": "3c707e4a9844954980e5fc58bc2b628c",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916103/jonathan-banks",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916103/jonathan-banks",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916103/jonathan-banks",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916103/jonathan-banks",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916103/jonathan-banks",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916103/jonathan-banks",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916103/jonathan-banks",
 "text": "Overview"
 }
-],
-"id": "3916103"
+]
 },
 "stats": [
 "3/5",
@@ -588,7 +397,6 @@
 ]
 }
 ],
-"text": "Tulane Passing",
 "totals": [
 "8/13",
 "71",
@@ -596,65 +404,106 @@
 "0",
 "0",
 "--"
-],
-"descriptions": [
-"Completions/Attempts",
-"Yards",
-"Yards Per Pass Attempt",
-"Touchdowns",
-"Interceptions",
-"Adjusted QBR"
-],
-"labels": [
-"C/ATT",
-"YDS",
-"AVG",
-"TD",
-"INT",
-"QBR"
 ]
 },
 {
 "name": "rushing",
+"keys": [
+"rushingAttempts",
+"rushingYards",
+"yardsPerRushAttempt",
+"rushingTouchdowns",
+"longRushing"
+],
+"text": "Tulane Rushing",
+"labels": [
+"CAR",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Rushing Attempts",
+"Yards",
+"Yards Per Rushing Attempt",
+"Touchdowns",
+"Longest Run"
+],
 "athletes": [
 {
 "athlete": {
+"id": "4040641",
 "uid": "s:20~l:23~a:4040641",
+"guid": "288848050dde86862e5b9d5c9f36fc40",
 "firstName": "Johnathan",
 "lastName": "Brantley",
 "displayName": "Johnathan Brantley",
-"guid": "288848050dde86862e5b9d5c9f36fc40",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040641/johnathan-brantley",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4040641/johnathan-brantley",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4040641/johnathan-brantley",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4040641/johnathan-brantley",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4040641/johnathan-brantley",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4040641/johnathan-brantley",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040641/johnathan-brantley",
 "text": "Overview"
 }
-],
-"id": "4040641"
+]
 },
 "stats": [
 "9",
@@ -666,42 +515,77 @@
 },
 {
 "athlete": {
+"id": "3126246",
 "uid": "s:20~l:23~a:3126246",
+"guid": "0d2e2c06cc3463a0e7a133cb39fffd9d",
 "firstName": "Dontrell",
 "lastName": "Hilliard",
 "displayName": "Dontrell Hilliard",
-"guid": "0d2e2c06cc3463a0e7a133cb39fffd9d",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126246/dontrell-hilliard",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126246/dontrell-hilliard",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126246/dontrell-hilliard",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126246/dontrell-hilliard",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126246/dontrell-hilliard",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126246/dontrell-hilliard",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126246/dontrell-hilliard",
 "text": "Overview"
 }
-],
-"id": "3126246"
+]
 },
 "stats": [
 "15",
@@ -713,42 +597,77 @@
 },
 {
 "athlete": {
+"id": "545762",
 "uid": "s:20~l:23~a:545762",
+"guid": "404aa4864b5f139ba75d36c959937fd4",
 "firstName": "Sherman",
 "lastName": "Badie",
 "displayName": "Sherman Badie",
-"guid": "404aa4864b5f139ba75d36c959937fd4",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545762/sherman-badie",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/545762/sherman-badie",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/545762/sherman-badie",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/545762/sherman-badie",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/545762/sherman-badie",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/545762/sherman-badie",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545762/sherman-badie",
 "text": "Overview"
 }
-],
-"id": "545762"
+]
 },
 "stats": [
 "9",
@@ -760,42 +679,77 @@
 },
 {
 "athlete": {
+"id": "4040640",
 "uid": "s:20~l:23~a:4040640",
+"guid": "9b12fc1572cce49027e7460edf7594a2",
 "firstName": "Darius",
 "lastName": "Bradwell",
 "displayName": "Darius Bradwell",
-"guid": "9b12fc1572cce49027e7460edf7594a2",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040640/darius-bradwell",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4040640/darius-bradwell",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4040640/darius-bradwell",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4040640/darius-bradwell",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4040640/darius-bradwell",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4040640/darius-bradwell",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040640/darius-bradwell",
 "text": "Overview"
 }
-],
-"id": "4040640"
+]
 },
 "stats": [
 "8",
@@ -807,42 +761,77 @@
 },
 {
 "athlete": {
+"id": "3916103",
 "uid": "s:20~l:23~a:3916103",
+"guid": "3c707e4a9844954980e5fc58bc2b628c",
 "firstName": "Jonathan",
 "lastName": "Banks",
 "displayName": "Jonathan Banks",
-"guid": "3c707e4a9844954980e5fc58bc2b628c",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916103/jonathan-banks",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916103/jonathan-banks",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916103/jonathan-banks",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916103/jonathan-banks",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916103/jonathan-banks",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916103/jonathan-banks",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916103/jonathan-banks",
 "text": "Overview"
 }
-],
-"id": "3916103"
+]
 },
 "stats": [
 "3",
@@ -854,42 +843,77 @@
 },
 {
 "athlete": {
+"id": "4243911",
 "uid": "s:20~l:23~a:4243911",
+"guid": "1598ce91fa8595c21c2afc0b7a7205b2",
 "firstName": "Stephon",
 "lastName": "Huderson",
 "displayName": "Stephon Huderson",
-"guid": "1598ce91fa8595c21c2afc0b7a7205b2",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243911/stephon-huderson",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243911/stephon-huderson",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243911/stephon-huderson",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243911/stephon-huderson",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243911/stephon-huderson",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243911/stephon-huderson",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243911/stephon-huderson",
 "text": "Overview"
 }
-],
-"id": "4243911"
+]
 },
 "stats": [
 "1",
@@ -901,12 +925,12 @@
 },
 {
 "athlete": {
+"id": "-7689",
 "uid": "s:20~l:23~a:-7689",
 "firstName": "",
 "lastName": "Team",
 "displayName": " Team",
-"links": [],
-"id": "-7689"
+"links": []
 },
 "stats": [
 "1",
@@ -917,70 +941,112 @@
 ]
 }
 ],
-"text": "Tulane Rushing",
 "totals": [
 "46",
 "191",
 "4.2",
 "2",
 "42"
-],
-"descriptions": [
-"Rushing Attempts",
-"Yards",
-"Yards Per Rushing Attempt",
-"Touchdowns",
-"Longest Run"
-],
-"labels": [
-"CAR",
-"YDS",
-"AVG",
-"TD",
-"LONG"
 ]
 },
 {
 "name": "receiving",
+"keys": [
+"receptions",
+"receivingYards",
+"yardsPerReception",
+"receivingTouchdowns",
+"longReception"
+],
+"text": "Tulane Receiving",
+"labels": [
+"REC",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Receptions",
+"Yards",
+"Yards Per Reception",
+"Touchdowns",
+"Longest Reception"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3126264",
 "uid": "s:20~l:23~a:3126264",
+"guid": "557fd525c275a5550da4aa5df7a124f3",
 "firstName": "Terren",
 "lastName": "Encalade",
 "displayName": "Terren Encalade",
-"guid": "557fd525c275a5550da4aa5df7a124f3",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126264/terren-encalade",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126264/terren-encalade",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126264/terren-encalade",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126264/terren-encalade",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126264/terren-encalade",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126264/terren-encalade",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126264/terren-encalade",
 "text": "Overview"
 }
-],
-"id": "3126264"
+]
 },
 "stats": [
 "5",
@@ -992,42 +1058,77 @@
 },
 {
 "athlete": {
+"id": "4040655",
 "uid": "s:20~l:23~a:4040655",
+"guid": "6890b78776493a5fa8c64d050014d456",
 "firstName": "Darnell",
 "lastName": "Mooney",
 "displayName": "Darnell Mooney",
-"guid": "6890b78776493a5fa8c64d050014d456",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040655/darnell-mooney",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4040655/darnell-mooney",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4040655/darnell-mooney",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4040655/darnell-mooney",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4040655/darnell-mooney",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4040655/darnell-mooney",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040655/darnell-mooney",
 "text": "Overview"
 }
-],
-"id": "4040655"
+]
 },
 "stats": [
 "1",
@@ -1039,42 +1140,77 @@
 },
 {
 "athlete": {
+"id": "3126263",
 "uid": "s:20~l:23~a:3126263",
+"guid": "6d98d6356c77d7b5917582d6d4f2d3de",
 "firstName": "Charles",
 "lastName": "Jones",
 "displayName": "Charles Jones",
-"guid": "6d98d6356c77d7b5917582d6d4f2d3de",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126263/charles-jones",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126263/charles-jones",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126263/charles-jones",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126263/charles-jones",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126263/charles-jones",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126263/charles-jones",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126263/charles-jones",
 "text": "Overview"
 }
-],
-"id": "3126263"
+]
 },
 "stats": [
 "1",
@@ -1086,42 +1222,77 @@
 },
 {
 "athlete": {
+"id": "3126246",
 "uid": "s:20~l:23~a:3126246",
+"guid": "0d2e2c06cc3463a0e7a133cb39fffd9d",
 "firstName": "Dontrell",
 "lastName": "Hilliard",
 "displayName": "Dontrell Hilliard",
-"guid": "0d2e2c06cc3463a0e7a133cb39fffd9d",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126246/dontrell-hilliard",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126246/dontrell-hilliard",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126246/dontrell-hilliard",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126246/dontrell-hilliard",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126246/dontrell-hilliard",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126246/dontrell-hilliard",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126246/dontrell-hilliard",
 "text": "Overview"
 }
-],
-"id": "3126246"
+]
 },
 "stats": [
 "1",
@@ -1132,70 +1303,106 @@
 ]
 }
 ],
-"text": "Tulane Receiving",
 "totals": [
 "8",
 "71",
 "8.9",
 "0",
 "24"
-],
-"descriptions": [
-"Receptions",
-"Yards",
-"Yards Per Reception",
-"Touchdowns",
-"Longest Reception"
-],
-"labels": [
-"REC",
-"YDS",
-"AVG",
-"TD",
-"LONG"
 ]
 },
 {
 "name": "fumbles",
+"keys": [
+"fumbles",
+"fumblesLost",
+"fumblesRecovered"
+],
+"text": "Tulane Fumbles",
+"labels": [
+"FUM",
+"LOST",
+"REC"
+],
+"descriptions": [
+"Fumbles",
+"Fumbles Lost",
+"Fumbles Recovered"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3917058",
 "uid": "s:20~l:23~a:3917058",
+"guid": "c4040ba1c9fd95c424a581105521621f",
 "firstName": "Roderic",
 "lastName": "Teamer",
 "displayName": "Roderic Teamer",
-"guid": "c4040ba1c9fd95c424a581105521621f",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3917058/roderic-teamer",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3917058/roderic-teamer",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3917058/roderic-teamer",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3917058/roderic-teamer",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3917058/roderic-teamer",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3917058/roderic-teamer",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3917058/roderic-teamer",
 "text": "Overview"
 }
-],
-"id": "3917058"
+]
 },
 "stats": [
 "0",
@@ -1204,64 +1411,116 @@
 ]
 }
 ],
-"text": "Tulane Fumbles",
 "totals": [
 "0",
 "0",
 "1"
-],
-"descriptions": [
-"Fumbles",
-"Fumbles Lost",
-"Fumbles Recovered"
-],
-"labels": [
-"FUM",
-"LOST",
-"REC"
 ]
 },
 {
 "name": "defensive",
+"keys": [
+"totalTackles",
+"soloTackles",
+"sacks",
+"tacklesForLoss",
+"passesDefended",
+"hurries",
+"defensiveTouchdowns"
+],
+"text": "Tulane Defensive",
+"labels": [
+"TOT",
+"SOLO",
+"SACKS",
+"TFL",
+"PD",
+"QB HUR",
+"TD"
+],
+"descriptions": [
+"Tackles",
+"Solo Tackles",
+"Sacks",
+"Tackles For Loss",
+"Passes Defended",
+"Quarterback Hurries",
+"Touchdowns"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3126255",
 "uid": "s:20~l:23~a:3126255",
+"guid": "e38840e9e91487ae8b4579414f43872a",
 "firstName": "Rae Juan",
 "lastName": "Marbley",
 "displayName": "Rae Juan Marbley",
-"guid": "e38840e9e91487ae8b4579414f43872a",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126255/rae-juan-marbley",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126255/rae-juan-marbley",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126255/rae-juan-marbley",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126255/rae-juan-marbley",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126255/rae-juan-marbley",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126255/rae-juan-marbley",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126255/rae-juan-marbley",
 "text": "Overview"
 }
-],
-"id": "3126255"
+]
 },
 "stats": [
 "11",
@@ -1275,42 +1534,77 @@
 },
 {
 "athlete": {
+"id": "3126251",
 "uid": "s:20~l:23~a:3126251",
+"guid": "b7fd12fd9a77b138d6ac644505f74a46",
 "firstName": "Zachery",
 "lastName": "Harris",
 "displayName": "Zachery Harris",
-"guid": "b7fd12fd9a77b138d6ac644505f74a46",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126251/zachery-harris",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126251/zachery-harris",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126251/zachery-harris",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126251/zachery-harris",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126251/zachery-harris",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126251/zachery-harris",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126251/zachery-harris",
 "text": "Overview"
 }
-],
-"id": "3126251"
+]
 },
 "stats": [
 "9",
@@ -1324,42 +1618,77 @@
 },
 {
 "athlete": {
+"id": "4243917",
 "uid": "s:20~l:23~a:4243917",
+"guid": "c8a9d1cb8876346a9d9fecdf877e6510",
 "firstName": "Chase",
 "lastName": "Kuerschen",
 "displayName": "Chase Kuerschen",
-"guid": "c8a9d1cb8876346a9d9fecdf877e6510",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243917/chase-kuerschen",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243917/chase-kuerschen",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243917/chase-kuerschen",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243917/chase-kuerschen",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243917/chase-kuerschen",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243917/chase-kuerschen",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243917/chase-kuerschen",
 "text": "Overview"
 }
-],
-"id": "4243917"
+]
 },
 "stats": [
 "8",
@@ -1373,42 +1702,77 @@
 },
 {
 "athlete": {
+"id": "545763",
 "uid": "s:20~l:23~a:545763",
+"guid": "da7db8bca5d7d7e0fc99dff564963f52",
 "firstName": "Jarrod",
 "lastName": "Franklin",
 "displayName": "Jarrod Franklin",
-"guid": "da7db8bca5d7d7e0fc99dff564963f52",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545763/jarrod-franklin",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/545763/jarrod-franklin",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/545763/jarrod-franklin",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/545763/jarrod-franklin",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/545763/jarrod-franklin",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/545763/jarrod-franklin",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545763/jarrod-franklin",
 "text": "Overview"
 }
-],
-"id": "545763"
+]
 },
 "stats": [
 "7",
@@ -1422,42 +1786,77 @@
 },
 {
 "athlete": {
+"id": "545765",
 "uid": "s:20~l:23~a:545765",
+"guid": "9a1a8fe51c9b38cb28ed050c84977e8f",
 "firstName": "Luke",
 "lastName": "Jackson",
 "displayName": "Luke Jackson",
-"guid": "9a1a8fe51c9b38cb28ed050c84977e8f",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545765/luke-jackson",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/545765/luke-jackson",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/545765/luke-jackson",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/545765/luke-jackson",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/545765/luke-jackson",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/545765/luke-jackson",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545765/luke-jackson",
 "text": "Overview"
 }
-],
-"id": "545765"
+]
 },
 "stats": [
 "6",
@@ -1471,42 +1870,77 @@
 },
 {
 "athlete": {
+"id": "3126269",
 "uid": "s:20~l:23~a:3126269",
+"guid": "2fe0f4db753f6d01ce1ecc4b025e79ba",
 "firstName": "Sean",
 "lastName": "Wilson",
 "displayName": "Sean Wilson",
-"guid": "2fe0f4db753f6d01ce1ecc4b025e79ba",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126269/sean-wilson",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126269/sean-wilson",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126269/sean-wilson",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126269/sean-wilson",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126269/sean-wilson",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126269/sean-wilson",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126269/sean-wilson",
 "text": "Overview"
 }
-],
-"id": "3126269"
+]
 },
 "stats": [
 "4",
@@ -1520,42 +1954,77 @@
 },
 {
 "athlete": {
+"id": "545758",
 "uid": "s:20~l:23~a:545758",
+"guid": "a2d272ca7e68df4c4912c5c862fc8055",
 "firstName": "Parry",
 "lastName": "Nickerson",
 "displayName": "Parry Nickerson",
-"guid": "a2d272ca7e68df4c4912c5c862fc8055",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545758/parry-nickerson",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/545758/parry-nickerson",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/545758/parry-nickerson",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/545758/parry-nickerson",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/545758/parry-nickerson",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/545758/parry-nickerson",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545758/parry-nickerson",
 "text": "Overview"
 }
-],
-"id": "545758"
+]
 },
 "stats": [
 "4",
@@ -1569,42 +2038,77 @@
 },
 {
 "athlete": {
+"id": "3917058",
 "uid": "s:20~l:23~a:3917058",
+"guid": "c4040ba1c9fd95c424a581105521621f",
 "firstName": "Roderic",
 "lastName": "Teamer",
 "displayName": "Roderic Teamer",
-"guid": "c4040ba1c9fd95c424a581105521621f",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3917058/roderic-teamer",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3917058/roderic-teamer",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3917058/roderic-teamer",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3917058/roderic-teamer",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3917058/roderic-teamer",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3917058/roderic-teamer",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3917058/roderic-teamer",
 "text": "Overview"
 }
-],
-"id": "3917058"
+]
 },
 "stats": [
 "3",
@@ -1618,42 +2122,77 @@
 },
 {
 "athlete": {
+"id": "545769",
 "uid": "s:20~l:23~a:545769",
+"guid": "ee802244494fa05f817407c60f75c5d7",
 "firstName": "Quinlan",
 "lastName": "Carroll",
 "displayName": "Quinlan Carroll",
-"guid": "ee802244494fa05f817407c60f75c5d7",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545769/quinlan-carroll",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/545769/quinlan-carroll",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/545769/quinlan-carroll",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/545769/quinlan-carroll",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/545769/quinlan-carroll",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/545769/quinlan-carroll",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545769/quinlan-carroll",
 "text": "Overview"
 }
-],
-"id": "545769"
+]
 },
 "stats": [
 "3",
@@ -1667,42 +2206,77 @@
 },
 {
 "athlete": {
+"id": "3126245",
 "uid": "s:20~l:23~a:3126245",
-"firstName": "Donnie",
-"lastName": "Lewis",
-"displayName": "Donnie Lewis",
 "guid": "f4c8752629f06b5b759259c4794fe325",
+"firstName": "Donnie",
+"lastName": "Lewis Jr.",
+"displayName": "Donnie Lewis Jr.",
 "links": [
 {
-"href": "http://www.espn.com/college-football/player/_/id/3126245/donnie-lewis",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3126245/donnie-lewis-jr",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/college-football/player/stats/_/id/3126245/donnie-lewis",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/3126245/donnie-lewis-jr",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/college-football/player/splits/_/id/3126245/donnie-lewis",
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/3126245/donnie-lewis-jr",
 "text": "Splits"
 },
 {
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/3126245/donnie-lewis",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/3126245/donnie-lewis-jr",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/college-football/player/news/_/id/3126245/donnie-lewis",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/3126245/donnie-lewis-jr",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/college-football/player/bio/_/id/3126245/donnie-lewis",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/3126245/donnie-lewis-jr",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/college-football/player/_/id/3126245/donnie-lewis",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3126245/donnie-lewis-jr",
 "text": "Overview"
 }
-],
-"id": "3126245"
+]
 },
 "stats": [
 "2",
@@ -1716,42 +2290,77 @@
 },
 {
 "athlete": {
+"id": "4243923",
 "uid": "s:20~l:23~a:4243923",
-"firstName": "Cameron",
-"lastName": "Sample",
-"displayName": "Cameron Sample",
 "guid": "382818ff8b269b0b65b81aad5d9b9125",
+"firstName": "Cam",
+"lastName": "Sample",
+"displayName": "Cam Sample",
 "links": [
 {
-"href": "http://www.espn.com/college-football/player/_/id/4243923/cameron-sample",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4243923/cam-sample",
 "text": "Player Card"
 },
 {
-"href": "http://www.espn.com/college-football/player/stats/_/id/4243923/cameron-sample",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/4243923/cam-sample",
 "text": "Stats"
 },
 {
-"href": "http://www.espn.com/college-football/player/splits/_/id/4243923/cameron-sample",
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/4243923/cam-sample",
 "text": "Splits"
 },
 {
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/4243923/cameron-sample",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/4243923/cam-sample",
 "text": "Game Log"
 },
 {
-"href": "http://www.espn.com/college-football/player/news/_/id/4243923/cameron-sample",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/4243923/cam-sample",
 "text": "News"
 },
 {
-"href": "http://www.espn.com/college-football/player/bio/_/id/4243923/cameron-sample",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/4243923/cam-sample",
 "text": "Bio"
 },
 {
-"href": "http://www.espn.com/college-football/player/_/id/4243923/cameron-sample",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4243923/cam-sample",
 "text": "Overview"
 }
-],
-"id": "4243923"
+]
 },
 "stats": [
 "2",
@@ -1765,42 +2374,77 @@
 },
 {
 "athlete": {
+"id": "3126256",
 "uid": "s:20~l:23~a:3126256",
+"guid": "927bac8532be2174eb17c12a475f19d6",
 "firstName": "Peter",
 "lastName": "Woullard",
 "displayName": "Peter Woullard",
-"guid": "927bac8532be2174eb17c12a475f19d6",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126256/peter-woullard",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3126256/peter-woullard",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3126256/peter-woullard",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3126256/peter-woullard",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3126256/peter-woullard",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3126256/peter-woullard",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3126256/peter-woullard",
 "text": "Overview"
 }
-],
-"id": "3126256"
+]
 },
 "stats": [
 "2",
@@ -1814,42 +2458,77 @@
 },
 {
 "athlete": {
+"id": "4040662",
 "uid": "s:20~l:23~a:4040662",
+"guid": "4e2f94163a015ed25c22051c17e231d3",
 "firstName": "De'Andre",
 "lastName": "Williams",
 "displayName": "De'Andre Williams",
-"guid": "4e2f94163a015ed25c22051c17e231d3",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040662/deandre-williams",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4040662/deandre-williams",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4040662/deandre-williams",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4040662/deandre-williams",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4040662/deandre-williams",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4040662/deandre-williams",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040662/deandre-williams",
 "text": "Overview"
 }
-],
-"id": "4040662"
+]
 },
 "stats": [
 "1",
@@ -1863,42 +2542,77 @@
 },
 {
 "athlete": {
+"id": "4243918",
 "uid": "s:20~l:23~a:4243918",
+"guid": "62291c303905eb4b6c8064f1da419b45",
 "firstName": "KJ",
 "lastName": "Vault",
 "displayName": "KJ Vault",
-"guid": "62291c303905eb4b6c8064f1da419b45",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243918/kj-vault",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243918/kj-vault",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243918/kj-vault",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243918/kj-vault",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243918/kj-vault",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243918/kj-vault",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243918/kj-vault",
 "text": "Overview"
 }
-],
-"id": "4243918"
+]
 },
 "stats": [
 "1",
@@ -1912,42 +2626,77 @@
 },
 {
 "athlete": {
+"id": "545776",
 "uid": "s:20~l:23~a:545776",
+"guid": "13c234130aa841e2ae3201f73713af72",
 "firstName": "Eldrick",
 "lastName": "Washington",
 "displayName": "Eldrick Washington",
-"guid": "13c234130aa841e2ae3201f73713af72",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545776/eldrick-washington",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/545776/eldrick-washington",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/545776/eldrick-washington",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/545776/eldrick-washington",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/545776/eldrick-washington",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/545776/eldrick-washington",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/545776/eldrick-washington",
 "text": "Overview"
 }
-],
-"id": "545776"
+]
 },
 "stats": [
 "1",
@@ -1961,42 +2710,77 @@
 },
 {
 "athlete": {
+"id": "3917055",
 "uid": "s:20~l:23~a:3917055",
+"guid": "8f79b0b6cc3b3591c28dceed54989399",
 "firstName": "Taris",
 "lastName": "Shenall",
 "displayName": "Taris Shenall",
-"guid": "8f79b0b6cc3b3591c28dceed54989399",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3917055/taris-shenall",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3917055/taris-shenall",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3917055/taris-shenall",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3917055/taris-shenall",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3917055/taris-shenall",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3917055/taris-shenall",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3917055/taris-shenall",
 "text": "Overview"
 }
-],
-"id": "3917055"
+]
 },
 "stats": [
 "1",
@@ -2010,42 +2794,77 @@
 },
 {
 "athlete": {
+"id": "4040642",
 "uid": "s:20~l:23~a:4040642",
+"guid": "fc8a991bdead4aae0f554b820f1a5b1d",
 "firstName": "Larry",
 "lastName": "Bryant",
 "displayName": "Larry Bryant",
-"guid": "fc8a991bdead4aae0f554b820f1a5b1d",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040642/larry-bryant",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4040642/larry-bryant",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4040642/larry-bryant",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4040642/larry-bryant",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4040642/larry-bryant",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4040642/larry-bryant",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4040642/larry-bryant",
 "text": "Overview"
 }
-],
-"id": "4040642"
+]
 },
 "stats": [
 "1",
@@ -2059,42 +2878,77 @@
 },
 {
 "athlete": {
+"id": "4243916",
 "uid": "s:20~l:23~a:4243916",
+"guid": "eabc5e47e9c7f4e99caec16b1a24b966",
 "firstName": "Patrick",
 "lastName": "Johnson",
 "displayName": "Patrick Johnson",
-"guid": "eabc5e47e9c7f4e99caec16b1a24b966",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243916/patrick-johnson",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243916/patrick-johnson",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243916/patrick-johnson",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243916/patrick-johnson",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243916/patrick-johnson",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243916/patrick-johnson",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243916/patrick-johnson",
 "text": "Overview"
 }
-],
-"id": "4243916"
+]
 },
 "stats": [
 "1",
@@ -2107,7 +2961,6 @@
 ]
 }
 ],
-"text": "Tulane Defensive",
 "totals": [
 "67",
 "41",
@@ -2116,150 +2969,130 @@
 "1",
 "1",
 "1"
-],
-"descriptions": [
-"Tackles",
-"Solo Tackles",
-"Sacks",
-"Tackles For Loss",
-"Passes Defended",
-"Quarterback Hurries",
-"Touchdowns"
-],
-"labels": [
-"TOT",
-"SOLO",
-"SACKS",
-"TFL",
-"PD",
-"QB HUR",
-"TD"
 ]
 },
 {
 "name": "interceptions",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:545758",
-"firstName": "Parry",
-"lastName": "Nickerson",
-"displayName": "Parry Nickerson",
-"guid": "a2d272ca7e68df4c4912c5c862fc8055",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/545758/parry-nickerson",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/545758/parry-nickerson",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/545758/parry-nickerson",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/545758/parry-nickerson",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/545758/parry-nickerson",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/545758/parry-nickerson",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/545758/parry-nickerson",
-"text": "Overview"
-}
-],
-"id": "545758"
-},
-"stats": [
-"1",
-"8",
-"0"
-]
-}
+"keys": [
+"interceptions",
+"interceptionYards",
+"interceptionTouchdowns"
 ],
 "text": "Tulane Interceptions",
-"totals": [
-"1",
-"8",
-"0"
+"labels": [
+"INT",
+"YDS",
+"TD"
 ],
 "descriptions": [
 "Interceptions",
 "Yards",
 "Touchdowns"
 ],
-"labels": [
-"INT",
-"YDS",
-"TD"
+"athletes": [
+{
+"athlete": {
+"id": "545758",
+"uid": "s:20~l:23~a:545758",
+"guid": "a2d272ca7e68df4c4912c5c862fc8055",
+"firstName": "Parry",
+"lastName": "Nickerson",
+"displayName": "Parry Nickerson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/545758/parry-nickerson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/545758/parry-nickerson",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/545758/parry-nickerson",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/545758/parry-nickerson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/545758/parry-nickerson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/545758/parry-nickerson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/545758/parry-nickerson",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"8",
+"0"
+]
+}
+],
+"totals": [
+"1",
+"8",
+"0"
 ]
 },
 {
 "name": "kickReturns",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:545762",
-"firstName": "Sherman",
-"lastName": "Badie",
-"displayName": "Sherman Badie",
-"guid": "404aa4864b5f139ba75d36c959937fd4",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/545762/sherman-badie",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/545762/sherman-badie",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/545762/sherman-badie",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/545762/sherman-badie",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/545762/sherman-badie",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/545762/sherman-badie",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/545762/sherman-badie",
-"text": "Overview"
-}
-],
-"id": "545762"
-},
-"stats": [
-"3",
-"64",
-"21.3",
-"29",
-"0"
-]
-}
+"keys": [
+"kickReturns",
+"kickReturnYards",
+"yardsPerKickReturn",
+"longKickReturn",
+"kickReturnTouchdowns"
 ],
 "text": "Tulane Kick Returns",
-"totals": [
-"3",
-"64",
-"21.3",
-"29",
-"0"
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
 ],
 "descriptions": [
 "Kick Returns",
@@ -2268,72 +3101,114 @@
 "Longest Kick Return",
 "Touchdowns"
 ],
+"athletes": [
+{
+"athlete": {
+"id": "545762",
+"uid": "s:20~l:23~a:545762",
+"guid": "404aa4864b5f139ba75d36c959937fd4",
+"firstName": "Sherman",
+"lastName": "Badie",
+"displayName": "Sherman Badie",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/545762/sherman-badie",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/545762/sherman-badie",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/545762/sherman-badie",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/545762/sherman-badie",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/545762/sherman-badie",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/545762/sherman-badie",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/545762/sherman-badie",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3",
+"64",
+"21.3",
+"29",
+"0"
+]
+}
+],
+"totals": [
+"3",
+"64",
+"21.3",
+"29",
+"0"
+]
+},
+{
+"name": "puntReturns",
+"keys": [
+"puntReturns",
+"puntReturnYards",
+"yardsPerPuntReturn",
+"longPuntReturn",
+"puntReturnTouchdowns"
+],
+"text": "Tulane Punt Returns",
 "labels": [
 "NO",
 "YDS",
 "AVG",
 "LONG",
 "TD"
-]
-},
-{
-"name": "puntReturns",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:4040660",
-"firstName": "Jacob",
-"lastName": "Robertson Jr.",
-"displayName": "Jacob Robertson Jr.",
-"guid": "bd458c708353c26472772bb3da5e7cc9",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/4040660/jacob-robertson-jr",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/4040660/jacob-robertson-jr",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/4040660/jacob-robertson-jr",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/4040660/jacob-robertson-jr",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/4040660/jacob-robertson-jr",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/4040660/jacob-robertson-jr",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/4040660/jacob-robertson-jr",
-"text": "Overview"
-}
-],
-"id": "4040660"
-},
-"stats": [
-"1",
-"9",
-"9.0",
-"9",
-"0"
-]
-}
-],
-"text": "Tulane Punt Returns",
-"totals": [
-"1",
-"9",
-"9.0",
-"9",
-"0"
 ],
 "descriptions": [
 "Punt Returns",
@@ -2342,72 +3217,114 @@
 "Longest Punt Return",
 "Touchdowns"
 ],
-"labels": [
-"NO",
-"YDS",
-"AVG",
-"LONG",
-"TD"
+"athletes": [
+{
+"athlete": {
+"id": "4040660",
+"uid": "s:20~l:23~a:4040660",
+"guid": "bd458c708353c26472772bb3da5e7cc9",
+"firstName": "Jacob",
+"lastName": "Robertson Jr.",
+"displayName": "Jacob Robertson Jr.",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4040660/jacob-robertson-jr",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/4040660/jacob-robertson-jr",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/4040660/jacob-robertson-jr",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/4040660/jacob-robertson-jr",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/4040660/jacob-robertson-jr",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/4040660/jacob-robertson-jr",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4040660/jacob-robertson-jr",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"9",
+"9.0",
+"9",
+"0"
+]
+}
+],
+"totals": [
+"1",
+"9",
+"9.0",
+"9",
+"0"
 ]
 },
 {
 "name": "kicking",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:4040657",
-"firstName": "Coby",
-"lastName": "Neenan",
-"displayName": "Coby Neenan",
-"guid": "63f0d7a249db70dd689a805902d59830",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/4040657/coby-neenan",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/4040657/coby-neenan",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/4040657/coby-neenan",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/4040657/coby-neenan",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/4040657/coby-neenan",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/4040657/coby-neenan",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/4040657/coby-neenan",
-"text": "Overview"
-}
-],
-"id": "4040657"
-},
-"stats": [
-"0/0",
-"0.0",
-"0",
-"1/2",
-"1"
-]
-}
+"keys": [
+"fieldGoalsMade/fieldGoalAttempts",
+"fieldGoalPct",
+"longFieldGoalMade",
+"extraPointsMade/extraPointAttempts",
+"totalKickingPoints"
 ],
 "text": "Tulane Kicking",
-"totals": [
-"0/0",
-"0.0",
-"0",
-"1/2",
-"1"
+"labels": [
+"FG",
+"PCT",
+"LONG",
+"XP",
+"PTS"
 ],
 "descriptions": [
 "Field Goals Made/Attempts",
@@ -2416,74 +3333,116 @@
 "Extra Points Made/Attempts",
 "Kicking Points"
 ],
-"labels": [
-"FG",
-"PCT",
-"LONG",
-"XP",
-"PTS"
+"athletes": [
+{
+"athlete": {
+"id": "4040657",
+"uid": "s:20~l:23~a:4040657",
+"guid": "63f0d7a249db70dd689a805902d59830",
+"firstName": "Coby",
+"lastName": "Neenan",
+"displayName": "Coby Neenan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4040657/coby-neenan",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/4040657/coby-neenan",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/4040657/coby-neenan",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/4040657/coby-neenan",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/4040657/coby-neenan",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/4040657/coby-neenan",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4040657/coby-neenan",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"0/0",
+"0.0",
+"0",
+"1/2",
+"1"
+]
+}
+],
+"totals": [
+"0/0",
+"0.0",
+"0",
+"1/2",
+"1"
 ]
 },
 {
 "name": "punting",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:3917046",
-"firstName": "Zachary",
-"lastName": "Block",
-"displayName": "Zachary Block",
-"guid": "c8f3c6d4b3ccfbac937daaff7ab4e147",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/3917046/zachary-block",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/3917046/zachary-block",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/3917046/zachary-block",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/3917046/zachary-block",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/3917046/zachary-block",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/3917046/zachary-block",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/3917046/zachary-block",
-"text": "Overview"
-}
-],
-"id": "3917046"
-},
-"stats": [
-"6",
-"211",
-"35.2",
-"0",
-"0",
-"44"
-]
-}
+"keys": [
+"punts",
+"puntYards",
+"grossAvgPuntYards",
+"touchbacks",
+"puntsInside20",
+"longPunt"
 ],
 "text": "Tulane Punting",
-"totals": [
-"6",
-"211",
-"35.2",
-"0",
-"0",
-"44"
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"TB",
+"In 20",
+"LONG"
 ],
 "descriptions": [
 "Punts",
@@ -2493,73 +3452,218 @@
 "Punts Inside 20",
 "Longest Punt"
 ],
-"labels": [
-"NO",
-"YDS",
-"AVG",
-"TB",
-"In 20",
-"LONG"
+"athletes": [
+{
+"athlete": {
+"id": "3917046",
+"uid": "s:20~l:23~a:3917046",
+"guid": "c8f3c6d4b3ccfbac937daaff7ab4e147",
+"firstName": "Zachary",
+"lastName": "Block",
+"displayName": "Zachary Block",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3917046/zachary-block",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/3917046/zachary-block",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/3917046/zachary-block",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/3917046/zachary-block",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/3917046/zachary-block",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/3917046/zachary-block",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3917046/zachary-block",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"6",
+"211",
+"35.2",
+"0",
+"0",
+"44"
+]
+}
+],
+"totals": [
+"6",
+"211",
+"35.2",
+"0",
+"0",
+"44"
 ]
 }
 ]
 },
 {
 "team": {
-"shortDisplayName": "Midshipmen",
-"uid": "s:20~l:23~t:2426",
-"alternateColor": "b6a77c",
-"color": "131630",
-"displayName": "Navy Midshipmen",
-"name": "Midshipmen",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"location": "Navy",
 "id": "2426",
+"uid": "s:20~l:23~t:2426",
+"slug": "navy-midshipmen",
+"location": "Navy",
+"name": "Midshipmen",
 "abbreviation": "NAVY",
-"slug": "navy-midshipmen"
+"displayName": "Navy Midshipmen",
+"shortDisplayName": "Midshipmen",
+"color": "131630",
+"alternateColor": "b6a77c",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
 },
 "statistics": [
 {
 "name": "passing",
+"keys": [
+"completions/passingAttempts",
+"passingYards",
+"yardsPerPassAttempt",
+"passingTouchdowns",
+"interceptions",
+"adjQBR"
+],
+"text": "Navy Passing",
+"labels": [
+"C/ATT",
+"YDS",
+"AVG",
+"TD",
+"INT",
+"QBR"
+],
+"descriptions": [
+"Completions/Attempts",
+"Yards",
+"Yards Per Pass Attempt",
+"Touchdowns",
+"Interceptions",
+"Adjusted QBR"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3916251",
 "uid": "s:20~l:23~a:3916251",
+"guid": "79ec907a5c132247feb808c2f9c67fbf",
 "firstName": "Zach",
 "lastName": "Abey",
 "displayName": "Zach Abey",
-"guid": "79ec907a5c132247feb808c2f9c67fbf",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916251/zach-abey",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916251/zach-abey",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916251/zach-abey",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916251/zach-abey",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916251/zach-abey",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
 "text": "Overview"
 }
-],
-"id": "3916251"
+]
 },
 "stats": [
 "4/12",
@@ -2571,7 +3675,6 @@
 ]
 }
 ],
-"text": "Navy Passing",
 "totals": [
 "4/12",
 "132",
@@ -2579,65 +3682,106 @@
 "1",
 "1",
 "--"
-],
-"descriptions": [
-"Completions/Attempts",
-"Yards",
-"Yards Per Pass Attempt",
-"Touchdowns",
-"Interceptions",
-"Adjusted QBR"
-],
-"labels": [
-"C/ATT",
-"YDS",
-"AVG",
-"TD",
-"INT",
-"QBR"
 ]
 },
 {
 "name": "rushing",
+"keys": [
+"rushingAttempts",
+"rushingYards",
+"yardsPerRushAttempt",
+"rushingTouchdowns",
+"longRushing"
+],
+"text": "Navy Rushing",
+"labels": [
+"CAR",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Rushing Attempts",
+"Yards",
+"Yards Per Rushing Attempt",
+"Touchdowns",
+"Longest Run"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3916251",
 "uid": "s:20~l:23~a:3916251",
+"guid": "79ec907a5c132247feb808c2f9c67fbf",
 "firstName": "Zach",
 "lastName": "Abey",
 "displayName": "Zach Abey",
-"guid": "79ec907a5c132247feb808c2f9c67fbf",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916251/zach-abey",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916251/zach-abey",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916251/zach-abey",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916251/zach-abey",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916251/zach-abey",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
 "text": "Overview"
 }
-],
-"id": "3916251"
+]
 },
 "stats": [
 "29",
@@ -2649,42 +3793,77 @@
 },
 {
 "athlete": {
+"id": "3125146",
 "uid": "s:20~l:23~a:3125146",
+"guid": "f001ad358b91a848c74f464d77e6c5a0",
 "firstName": "Chris",
 "lastName": "High",
 "displayName": "Chris High",
-"guid": "f001ad358b91a848c74f464d77e6c5a0",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125146/chris-high",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125146/chris-high",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125146/chris-high",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125146/chris-high",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125146/chris-high",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125146/chris-high",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125146/chris-high",
 "text": "Overview"
 }
-],
-"id": "3125146"
+]
 },
 "stats": [
 "14",
@@ -2696,42 +3875,77 @@
 },
 {
 "athlete": {
+"id": "4039436",
 "uid": "s:20~l:23~a:4039436",
+"guid": "c30288e3f9fcebf9900c1b767192baca",
 "firstName": "Malcolm",
 "lastName": "Perry",
 "displayName": "Malcolm Perry",
-"guid": "c30288e3f9fcebf9900c1b767192baca",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039436/malcolm-perry",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4039436/malcolm-perry",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4039436/malcolm-perry",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4039436/malcolm-perry",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4039436/malcolm-perry",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4039436/malcolm-perry",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039436/malcolm-perry",
 "text": "Overview"
 }
-],
-"id": "4039436"
+]
 },
 "stats": [
 "2",
@@ -2743,42 +3957,77 @@
 },
 {
 "athlete": {
+"id": "3125157",
 "uid": "s:20~l:23~a:3125157",
+"guid": "bd46d793001b64e2dc0672e64b1f3838",
 "firstName": "Joshua",
 "lastName": "Walker",
 "displayName": "Joshua Walker",
-"guid": "bd46d793001b64e2dc0672e64b1f3838",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125157/joshua-walker",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125157/joshua-walker",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125157/joshua-walker",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125157/joshua-walker",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125157/joshua-walker",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125157/joshua-walker",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125157/joshua-walker",
 "text": "Overview"
 }
-],
-"id": "3125157"
+]
 },
 "stats": [
 "1",
@@ -2790,42 +4039,77 @@
 },
 {
 "athlete": {
+"id": "3125150",
 "uid": "s:20~l:23~a:3125150",
+"guid": "6375df1aeb2feb7d20880e4ebdda9f52",
 "firstName": "John",
 "lastName": "Brown III",
 "displayName": "John Brown III",
-"guid": "6375df1aeb2feb7d20880e4ebdda9f52",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125150/john-brown-iii",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125150/john-brown-iii",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125150/john-brown-iii",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125150/john-brown-iii",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125150/john-brown-iii",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125150/john-brown-iii",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125150/john-brown-iii",
 "text": "Overview"
 }
-],
-"id": "3125150"
+]
 },
 "stats": [
 "1",
@@ -2837,42 +4121,77 @@
 },
 {
 "athlete": {
+"id": "4243731",
 "uid": "s:20~l:23~a:4243731",
+"guid": "538bdfacd118cc533311182c7ff67eac",
 "firstName": "Nelson",
 "lastName": "Smith",
 "displayName": "Nelson Smith",
-"guid": "538bdfacd118cc533311182c7ff67eac",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243731/nelson-smith",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243731/nelson-smith",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243731/nelson-smith",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243731/nelson-smith",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243731/nelson-smith",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243731/nelson-smith",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243731/nelson-smith",
 "text": "Overview"
 }
-],
-"id": "4243731"
+]
 },
 "stats": [
 "1",
@@ -2884,42 +4203,77 @@
 },
 {
 "athlete": {
+"id": "3916313",
 "uid": "s:20~l:23~a:3916313",
+"guid": "3c6a73030f9139c2d98d3155443c4076",
 "firstName": "Andrew",
 "lastName": "Wood",
 "displayName": "Andrew Wood",
-"guid": "3c6a73030f9139c2d98d3155443c4076",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916313/andrew-wood",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916313/andrew-wood",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916313/andrew-wood",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916313/andrew-wood",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916313/andrew-wood",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916313/andrew-wood",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916313/andrew-wood",
 "text": "Overview"
 }
-],
-"id": "3916313"
+]
 },
 "stats": [
 "0",
@@ -2931,12 +4285,12 @@
 },
 {
 "athlete": {
+"id": "-6810",
 "uid": "s:20~l:23~a:-6810",
 "firstName": "",
 "lastName": "Team",
 "displayName": " Team",
-"links": [],
-"id": "-6810"
+"links": []
 },
 "stats": [
 "2",
@@ -2948,42 +4302,77 @@
 },
 {
 "athlete": {
+"id": "3916305",
 "uid": "s:20~l:23~a:3916305",
+"guid": "6ddcdeb308045ff42cc5d3351a3c4ae4",
 "firstName": "Tre",
 "lastName": "Walker",
 "displayName": "Tre Walker",
-"guid": "6ddcdeb308045ff42cc5d3351a3c4ae4",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916305/tre-walker",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916305/tre-walker",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916305/tre-walker",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916305/tre-walker",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916305/tre-walker",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916305/tre-walker",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916305/tre-walker",
 "text": "Overview"
 }
-],
-"id": "3916305"
+]
 },
 "stats": [
 "2",
@@ -2994,70 +4383,112 @@
 ]
 }
 ],
-"text": "Navy Rushing",
 "totals": [
 "52",
 "194",
 "3.7",
 "2",
 "54"
-],
-"descriptions": [
-"Rushing Attempts",
-"Yards",
-"Yards Per Rushing Attempt",
-"Touchdowns",
-"Longest Run"
-],
-"labels": [
-"CAR",
-"YDS",
-"AVG",
-"TD",
-"LONG"
 ]
 },
 {
 "name": "receiving",
+"keys": [
+"receptions",
+"receivingYards",
+"yardsPerReception",
+"receivingTouchdowns",
+"longReception"
+],
+"text": "Navy Receiving",
+"labels": [
+"REC",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Receptions",
+"Yards",
+"Yards Per Reception",
+"Touchdowns",
+"Longest Reception"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3125185",
 "uid": "s:20~l:23~a:3125185",
+"guid": "78476eebf6b8c79d745d2906e8c9fa57",
 "firstName": "Tyler",
 "lastName": "Carmona",
 "displayName": "Tyler Carmona",
-"guid": "78476eebf6b8c79d745d2906e8c9fa57",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125185/tyler-carmona",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125185/tyler-carmona",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125185/tyler-carmona",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125185/tyler-carmona",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125185/tyler-carmona",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125185/tyler-carmona",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125185/tyler-carmona",
 "text": "Overview"
 }
-],
-"id": "3125185"
+]
 },
 "stats": [
 "1",
@@ -3069,42 +4500,77 @@
 },
 {
 "athlete": {
+"id": "3125154",
 "uid": "s:20~l:23~a:3125154",
+"guid": "f0b198d916fa092bc05c438a8dd1be52",
 "firstName": "Darryl",
 "lastName": "Bonner",
 "displayName": "Darryl Bonner",
-"guid": "f0b198d916fa092bc05c438a8dd1be52",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125154/darryl-bonner",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125154/darryl-bonner",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125154/darryl-bonner",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125154/darryl-bonner",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125154/darryl-bonner",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125154/darryl-bonner",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125154/darryl-bonner",
 "text": "Overview"
 }
-],
-"id": "3125154"
+]
 },
 "stats": [
 "2",
@@ -3116,42 +4582,77 @@
 },
 {
 "athlete": {
+"id": "4039436",
 "uid": "s:20~l:23~a:4039436",
+"guid": "c30288e3f9fcebf9900c1b767192baca",
 "firstName": "Malcolm",
 "lastName": "Perry",
 "displayName": "Malcolm Perry",
-"guid": "c30288e3f9fcebf9900c1b767192baca",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039436/malcolm-perry",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4039436/malcolm-perry",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4039436/malcolm-perry",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4039436/malcolm-perry",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4039436/malcolm-perry",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4039436/malcolm-perry",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039436/malcolm-perry",
 "text": "Overview"
 }
-],
-"id": "4039436"
+]
 },
 "stats": [
 "1",
@@ -3162,70 +4663,106 @@
 ]
 }
 ],
-"text": "Navy Receiving",
 "totals": [
 "4",
 "132",
 "33.0",
 "1",
 "79"
-],
-"descriptions": [
-"Receptions",
-"Yards",
-"Yards Per Reception",
-"Touchdowns",
-"Longest Reception"
-],
-"labels": [
-"REC",
-"YDS",
-"AVG",
-"TD",
-"LONG"
 ]
 },
 {
 "name": "fumbles",
+"keys": [
+"fumbles",
+"fumblesLost",
+"fumblesRecovered"
+],
+"text": "Navy Fumbles",
+"labels": [
+"FUM",
+"LOST",
+"REC"
+],
+"descriptions": [
+"Fumbles",
+"Fumbles Lost",
+"Fumbles Recovered"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3916251",
 "uid": "s:20~l:23~a:3916251",
+"guid": "79ec907a5c132247feb808c2f9c67fbf",
 "firstName": "Zach",
 "lastName": "Abey",
 "displayName": "Zach Abey",
-"guid": "79ec907a5c132247feb808c2f9c67fbf",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916251/zach-abey",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916251/zach-abey",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916251/zach-abey",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916251/zach-abey",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916251/zach-abey",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
 "text": "Overview"
 }
-],
-"id": "3916251"
+]
 },
 "stats": [
 "2",
@@ -3234,64 +4771,116 @@
 ]
 }
 ],
-"text": "Navy Fumbles",
 "totals": [
 "2",
 "1",
 "0"
-],
-"descriptions": [
-"Fumbles",
-"Fumbles Lost",
-"Fumbles Recovered"
-],
-"labels": [
-"FUM",
-"LOST",
-"REC"
 ]
 },
 {
 "name": "defensive",
+"keys": [
+"totalTackles",
+"soloTackles",
+"sacks",
+"tacklesForLoss",
+"passesDefended",
+"hurries",
+"defensiveTouchdowns"
+],
+"text": "Navy Defensive",
+"labels": [
+"TOT",
+"SOLO",
+"SACKS",
+"TFL",
+"PD",
+"QB HUR",
+"TD"
+],
+"descriptions": [
+"Tackles",
+"Solo Tackles",
+"Sacks",
+"Tackles For Loss",
+"Passes Defended",
+"Quarterback Hurries",
+"Touchdowns"
+],
 "athletes": [
 {
 "athlete": {
+"id": "3125186",
 "uid": "s:20~l:23~a:3125186",
+"guid": "e858bdae1d875b7e7e36bda3a4f949a7",
 "firstName": "D.J.",
 "lastName": "Palmore",
 "displayName": "D.J. Palmore",
-"guid": "e858bdae1d875b7e7e36bda3a4f949a7",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125186/dj-palmore",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125186/dj-palmore",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125186/dj-palmore",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125186/dj-palmore",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125186/dj-palmore",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125186/dj-palmore",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125186/dj-palmore",
 "text": "Overview"
 }
-],
-"id": "3125186"
+]
 },
 "stats": [
 "10",
@@ -3305,42 +4894,77 @@
 },
 {
 "athlete": {
+"id": "3125148",
 "uid": "s:20~l:23~a:3125148",
+"guid": "b90414be08edc933344f9ff36c213113",
 "firstName": "Micah",
 "lastName": "Thomas",
 "displayName": "Micah Thomas",
-"guid": "b90414be08edc933344f9ff36c213113",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125148/micah-thomas",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125148/micah-thomas",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125148/micah-thomas",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125148/micah-thomas",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125148/micah-thomas",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125148/micah-thomas",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125148/micah-thomas",
 "text": "Overview"
 }
-],
-"id": "3125148"
+]
 },
 "stats": [
 "9",
@@ -3354,42 +4978,77 @@
 },
 {
 "athlete": {
+"id": "2267927",
 "uid": "s:20~l:23~a:2267927",
+"guid": "1f42bf1af7abdccff04c01253b9ac8b0",
 "firstName": "Sean",
 "lastName": "Williams",
 "displayName": "Sean Williams",
-"guid": "1f42bf1af7abdccff04c01253b9ac8b0",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/2267927/sean-williams",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/2267927/sean-williams",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/2267927/sean-williams",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/2267927/sean-williams",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/2267927/sean-williams",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/2267927/sean-williams",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/2267927/sean-williams",
 "text": "Overview"
 }
-],
-"id": "2267927"
+]
 },
 "stats": [
 "7",
@@ -3403,42 +5062,77 @@
 },
 {
 "athlete": {
+"id": "3916296",
 "uid": "s:20~l:23~a:3916296",
+"guid": "61151a0e699a750f321744781fde3896",
 "firstName": "Hudson",
 "lastName": "Sullivan",
 "displayName": "Hudson Sullivan",
-"guid": "61151a0e699a750f321744781fde3896",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916296/hudson-sullivan",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916296/hudson-sullivan",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916296/hudson-sullivan",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916296/hudson-sullivan",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916296/hudson-sullivan",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916296/hudson-sullivan",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916296/hudson-sullivan",
 "text": "Overview"
 }
-],
-"id": "3916296"
+]
 },
 "stats": [
 "7",
@@ -3452,42 +5146,77 @@
 },
 {
 "athlete": {
+"id": "3125139",
 "uid": "s:20~l:23~a:3125139",
+"guid": "a435e523565cf115fef57b62156d491a",
 "firstName": "Tyris",
 "lastName": "Wooten",
 "displayName": "Tyris Wooten",
-"guid": "a435e523565cf115fef57b62156d491a",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125139/tyris-wooten",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125139/tyris-wooten",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125139/tyris-wooten",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125139/tyris-wooten",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125139/tyris-wooten",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125139/tyris-wooten",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125139/tyris-wooten",
 "text": "Overview"
 }
-],
-"id": "3125139"
+]
 },
 "stats": [
 "4",
@@ -3501,42 +5230,77 @@
 },
 {
 "athlete": {
+"id": "3125171",
 "uid": "s:20~l:23~a:3125171",
+"guid": "7682b5d15fa7901025c84ebce389e191",
 "firstName": "Tyler",
 "lastName": "Sayles",
 "displayName": "Tyler Sayles",
-"guid": "7682b5d15fa7901025c84ebce389e191",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125171/tyler-sayles",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125171/tyler-sayles",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125171/tyler-sayles",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125171/tyler-sayles",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125171/tyler-sayles",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125171/tyler-sayles",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125171/tyler-sayles",
 "text": "Overview"
 }
-],
-"id": "3125171"
+]
 },
 "stats": [
 "4",
@@ -3550,42 +5314,77 @@
 },
 {
 "athlete": {
+"id": "3125140",
 "uid": "s:20~l:23~a:3125140",
+"guid": "8cde00726447f66a522eb95cdb23ca62",
 "firstName": "Jerry",
 "lastName": "Thompson",
 "displayName": "Jerry Thompson",
-"guid": "8cde00726447f66a522eb95cdb23ca62",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125140/jerry-thompson",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125140/jerry-thompson",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125140/jerry-thompson",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125140/jerry-thompson",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125140/jerry-thompson",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125140/jerry-thompson",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125140/jerry-thompson",
 "text": "Overview"
 }
-],
-"id": "3125140"
+]
 },
 "stats": [
 "3",
@@ -3599,38 +5398,77 @@
 },
 {
 "athlete": {
+"id": "3129415",
 "uid": "s:20~l:23~a:3129415",
+"guid": "0a0af4c6090d4ae161074c7cca6d916c",
 "firstName": "Jordan",
 "lastName": "Pittman",
 "displayName": "Jordan Pittman",
-"guid": "0a0af4c6090d4ae161074c7cca6d916c",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3129415/jordan-pittman",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/3129415/jordan-pittman",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3129415/jordan-pittman",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3129415/jordan-pittman",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3129415/jordan-pittman",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3129415/jordan-pittman",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3129415/jordan-pittman",
 "text": "Overview"
 }
-],
-"id": "3129415"
+]
 },
 "stats": [
 "3",
@@ -3644,42 +5482,77 @@
 },
 {
 "athlete": {
+"id": "3916293",
 "uid": "s:20~l:23~a:3916293",
+"guid": "69ac7838f7a5e7b673991b336fbb3277",
 "firstName": "Jarid",
 "lastName": "Ryan",
 "displayName": "Jarid Ryan",
-"guid": "69ac7838f7a5e7b673991b336fbb3277",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916293/jarid-ryan",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916293/jarid-ryan",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916293/jarid-ryan",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916293/jarid-ryan",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916293/jarid-ryan",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916293/jarid-ryan",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916293/jarid-ryan",
 "text": "Overview"
 }
-],
-"id": "3916293"
+]
 },
 "stats": [
 "3",
@@ -3693,42 +5566,77 @@
 },
 {
 "athlete": {
+"id": "4039466",
 "uid": "s:20~l:23~a:4039466",
+"guid": "18b1da9f4a312c8a0ff78b43173be7e7",
 "firstName": "Jackson",
 "lastName": "Pittman",
 "displayName": "Jackson Pittman",
-"guid": "18b1da9f4a312c8a0ff78b43173be7e7",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039466/jackson-pittman",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4039466/jackson-pittman",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4039466/jackson-pittman",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4039466/jackson-pittman",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4039466/jackson-pittman",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4039466/jackson-pittman",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039466/jackson-pittman",
 "text": "Overview"
 }
-],
-"id": "4039466"
+]
 },
 "stats": [
 "3",
@@ -3742,42 +5650,77 @@
 },
 {
 "athlete": {
+"id": "3916303",
 "uid": "s:20~l:23~a:3916303",
+"guid": "8c4195e55e80d5c3208aca09ac7ec574",
 "firstName": "Anthony",
 "lastName": "Villalobos",
 "displayName": "Anthony Villalobos",
-"guid": "8c4195e55e80d5c3208aca09ac7ec574",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916303/anthony-villalobos",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916303/anthony-villalobos",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916303/anthony-villalobos",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916303/anthony-villalobos",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916303/anthony-villalobos",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916303/anthony-villalobos",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916303/anthony-villalobos",
 "text": "Overview"
 }
-],
-"id": "3916303"
+]
 },
 "stats": [
 "3",
@@ -3791,42 +5734,77 @@
 },
 {
 "athlete": {
+"id": "3125147",
 "uid": "s:20~l:23~a:3125147",
+"guid": "f3cb00f7b8ec71ab7b45b71dd4cfb56b",
 "firstName": "Elijah",
 "lastName": "Merchant",
 "displayName": "Elijah Merchant",
-"guid": "f3cb00f7b8ec71ab7b45b71dd4cfb56b",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125147/elijah-merchant",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125147/elijah-merchant",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125147/elijah-merchant",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125147/elijah-merchant",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125147/elijah-merchant",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125147/elijah-merchant",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125147/elijah-merchant",
 "text": "Overview"
 }
-],
-"id": "3125147"
+]
 },
 "stats": [
 "2",
@@ -3840,42 +5818,77 @@
 },
 {
 "athlete": {
+"id": "3125141",
 "uid": "s:20~l:23~a:3125141",
+"guid": "735765032d84f501abd4f32a101f1046",
 "firstName": "Justin",
 "lastName": "Norton",
 "displayName": "Justin Norton",
-"guid": "735765032d84f501abd4f32a101f1046",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125141/justin-norton",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125141/justin-norton",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125141/justin-norton",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125141/justin-norton",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125141/justin-norton",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125141/justin-norton",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125141/justin-norton",
 "text": "Overview"
 }
-],
-"id": "3125141"
+]
 },
 "stats": [
 "2",
@@ -3889,42 +5902,77 @@
 },
 {
 "athlete": {
+"id": "3916276",
 "uid": "s:20~l:23~a:3916276",
+"guid": "91d9ac6d739397bea1724b315197c02d",
 "firstName": "Taylor",
 "lastName": "Heflin",
 "displayName": "Taylor Heflin",
-"guid": "91d9ac6d739397bea1724b315197c02d",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916276/taylor-heflin",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916276/taylor-heflin",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916276/taylor-heflin",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916276/taylor-heflin",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916276/taylor-heflin",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916276/taylor-heflin",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916276/taylor-heflin",
 "text": "Overview"
 }
-],
-"id": "3916276"
+]
 },
 "stats": [
 "2",
@@ -3938,12 +5986,12 @@
 },
 {
 "athlete": {
+"id": "-6810",
 "uid": "s:20~l:23~a:-6810",
 "firstName": "",
 "lastName": "Team",
 "displayName": " Team",
-"links": [],
-"id": "-6810"
+"links": []
 },
 "stats": [
 "1",
@@ -3957,42 +6005,77 @@
 },
 {
 "athlete": {
+"id": "3125179",
 "uid": "s:20~l:23~a:3125179",
+"guid": "9c772c6f2b853542c695192291f22969",
 "firstName": "Myles",
 "lastName": "Davenport",
 "displayName": "Myles Davenport",
-"guid": "9c772c6f2b853542c695192291f22969",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125179/myles-davenport",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125179/myles-davenport",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125179/myles-davenport",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125179/myles-davenport",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125179/myles-davenport",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125179/myles-davenport",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125179/myles-davenport",
 "text": "Overview"
 }
-],
-"id": "3125179"
+]
 },
 "stats": [
 "1",
@@ -4006,42 +6089,77 @@
 },
 {
 "athlete": {
+"id": "3129416",
 "uid": "s:20~l:23~a:3129416",
+"guid": "799a9c8047fcd382284d31717765400a",
 "firstName": "Craig",
 "lastName": "Scott",
 "displayName": "Craig Scott",
-"guid": "799a9c8047fcd382284d31717765400a",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3129416/craig-scott",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3129416/craig-scott",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3129416/craig-scott",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3129416/craig-scott",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3129416/craig-scott",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3129416/craig-scott",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3129416/craig-scott",
 "text": "Overview"
 }
-],
-"id": "3129416"
+]
 },
 "stats": [
 "1",
@@ -4055,42 +6173,77 @@
 },
 {
 "athlete": {
+"id": "4039450",
 "uid": "s:20~l:23~a:4039450",
+"guid": "4e4c9096250a9fa9e8a84558bf343d54",
 "firstName": "Dave",
 "lastName": "Tolentino",
 "displayName": "Dave Tolentino",
-"guid": "4e4c9096250a9fa9e8a84558bf343d54",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039450/dave-tolentino",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4039450/dave-tolentino",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4039450/dave-tolentino",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4039450/dave-tolentino",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4039450/dave-tolentino",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4039450/dave-tolentino",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4039450/dave-tolentino",
 "text": "Overview"
 }
-],
-"id": "4039450"
+]
 },
 "stats": [
 "1",
@@ -4104,42 +6257,77 @@
 },
 {
 "athlete": {
+"id": "4243708",
 "uid": "s:20~l:23~a:4243708",
+"guid": "633b6c2b6fa6fbbf24a546ce9b5876ec",
 "firstName": "Micah",
 "lastName": "Farrar",
 "displayName": "Micah Farrar",
-"guid": "633b6c2b6fa6fbbf24a546ce9b5876ec",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243708/micah-farrar",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243708/micah-farrar",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243708/micah-farrar",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243708/micah-farrar",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243708/micah-farrar",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243708/micah-farrar",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243708/micah-farrar",
 "text": "Overview"
 }
-],
-"id": "4243708"
+]
 },
 "stats": [
 "1",
@@ -4153,42 +6341,77 @@
 },
 {
 "athlete": {
+"id": "4243722",
 "uid": "s:20~l:23~a:4243722",
+"guid": "34a54311695eb2eaeeab3f39d8399522",
 "firstName": "Cameron",
 "lastName": "Kinley",
 "displayName": "Cameron Kinley",
-"guid": "34a54311695eb2eaeeab3f39d8399522",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243722/cameron-kinley",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/4243722/cameron-kinley",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/4243722/cameron-kinley",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/4243722/cameron-kinley",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/4243722/cameron-kinley",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/4243722/cameron-kinley",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/4243722/cameron-kinley",
 "text": "Overview"
 }
-],
-"id": "4243722"
+]
 },
 "stats": [
 "1",
@@ -4202,42 +6425,77 @@
 },
 {
 "athlete": {
+"id": "3125155",
 "uid": "s:20~l:23~a:3125155",
+"guid": "1d7ec098a6b0e98a01412a6e4876a986",
 "firstName": "Brandon",
 "lastName": "Jones",
 "displayName": "Brandon Jones",
-"guid": "1d7ec098a6b0e98a01412a6e4876a986",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125155/brandon-jones",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3125155/brandon-jones",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3125155/brandon-jones",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3125155/brandon-jones",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3125155/brandon-jones",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3125155/brandon-jones",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3125155/brandon-jones",
 "text": "Overview"
 }
-],
-"id": "3125155"
+]
 },
 "stats": [
 "1",
@@ -4251,42 +6509,77 @@
 },
 {
 "athlete": {
+"id": "3916290",
 "uid": "s:20~l:23~a:3916290",
+"guid": "1635b4d68ee09f2027c67677948862e4",
 "firstName": "Jarvis",
 "lastName": "Polu",
 "displayName": "Jarvis Polu",
-"guid": "1635b4d68ee09f2027c67677948862e4",
 "links": [
 {
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916290/jarvis-polu",
 "text": "Player Card"
 },
 {
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/stats/_/id/3916290/jarvis-polu",
 "text": "Stats"
 },
 {
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/splits/_/id/3916290/jarvis-polu",
 "text": "Splits"
 },
 {
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/gamelog/_/id/3916290/jarvis-polu",
 "text": "Game Log"
 },
 {
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/news/_/id/3916290/jarvis-polu",
 "text": "News"
 },
 {
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/bio/_/id/3916290/jarvis-polu",
 "text": "Bio"
 },
 {
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
 "href": "http://www.espn.com/college-football/player/_/id/3916290/jarvis-polu",
 "text": "Overview"
 }
-],
-"id": "3916290"
+]
 },
 "stats": [
 "1",
@@ -4299,7 +6592,6 @@
 ]
 }
 ],
-"text": "Navy Defensive",
 "totals": [
 "70",
 "40",
@@ -4308,100 +6600,45 @@
 "3",
 "1",
 "1"
-],
-"descriptions": [
-"Tackles",
-"Solo Tackles",
-"Sacks",
-"Tackles For Loss",
-"Passes Defended",
-"Quarterback Hurries",
-"Touchdowns"
-],
-"labels": [
-"TOT",
-"SOLO",
-"SACKS",
-"TFL",
-"PD",
-"QB HUR",
-"TD"
 ]
 },
 {
 "name": "interceptions",
-"athletes": [],
+"keys": [
+"interceptions",
+"interceptionYards",
+"interceptionTouchdowns"
+],
 "text": "Navy Interceptions",
-"totals": [],
+"labels": [
+"INT",
+"YDS",
+"TD"
+],
 "descriptions": [
 "Interceptions",
 "Yards",
 "Touchdowns"
 ],
-"labels": [
-"INT",
-"YDS",
-"TD"
-]
+"athletes": [],
+"totals": []
 },
 {
 "name": "kickReturns",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:3916305",
-"firstName": "Tre",
-"lastName": "Walker",
-"displayName": "Tre Walker",
-"guid": "6ddcdeb308045ff42cc5d3351a3c4ae4",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/3916305/tre-walker",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/3916305/tre-walker",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/3916305/tre-walker",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/3916305/tre-walker",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/3916305/tre-walker",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/3916305/tre-walker",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/3916305/tre-walker",
-"text": "Overview"
-}
-],
-"id": "3916305"
-},
-"stats": [
-"2",
-"39",
-"19.5",
-"29",
-"0"
-]
-}
+"keys": [
+"kickReturns",
+"kickReturnYards",
+"yardsPerKickReturn",
+"longKickReturn",
+"kickReturnTouchdowns"
 ],
 "text": "Navy Kick Returns",
-"totals": [
-"2",
-"39",
-"19.5",
-"29",
-"0"
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
 ],
 "descriptions": [
 "Kick Returns",
@@ -4410,19 +6647,115 @@
 "Longest Kick Return",
 "Touchdowns"
 ],
+"athletes": [
+{
+"athlete": {
+"id": "3916305",
+"uid": "s:20~l:23~a:3916305",
+"guid": "6ddcdeb308045ff42cc5d3351a3c4ae4",
+"firstName": "Tre",
+"lastName": "Walker",
+"displayName": "Tre Walker",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3916305/tre-walker",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/3916305/tre-walker",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/3916305/tre-walker",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/3916305/tre-walker",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/3916305/tre-walker",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/3916305/tre-walker",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3916305/tre-walker",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"39",
+"19.5",
+"29",
+"0"
+]
+}
+],
+"totals": [
+"2",
+"39",
+"19.5",
+"29",
+"0"
+]
+},
+{
+"name": "puntReturns",
+"keys": [
+"puntReturns",
+"puntReturnYards",
+"yardsPerPuntReturn",
+"longPuntReturn",
+"puntReturnTouchdowns"
+],
+"text": "Navy Punt Returns",
 "labels": [
 "NO",
 "YDS",
 "AVG",
 "LONG",
 "TD"
-]
-},
-{
-"name": "puntReturns",
-"athletes": [],
-"text": "Navy Punt Returns",
-"totals": [],
+],
 "descriptions": [
 "Punt Returns",
 "Yards",
@@ -4430,72 +6763,25 @@
 "Longest Punt Return",
 "Touchdowns"
 ],
-"labels": [
-"NO",
-"YDS",
-"AVG",
-"LONG",
-"TD"
-]
+"athletes": [],
+"totals": []
 },
 {
 "name": "kicking",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:3916285",
-"firstName": "Bennett",
-"lastName": "Moehring",
-"displayName": "Bennett Moehring",
-"guid": "6d038801a99114a7028647b39a862551",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/3916285/bennett-moehring",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/3916285/bennett-moehring",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/3916285/bennett-moehring",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/3916285/bennett-moehring",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/3916285/bennett-moehring",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/3916285/bennett-moehring",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/3916285/bennett-moehring",
-"text": "Overview"
-}
-],
-"id": "3916285"
-},
-"stats": [
-"0/0",
-"0.0",
-"0",
-"3/3",
-"3"
-]
-}
+"keys": [
+"fieldGoalsMade/fieldGoalAttempts",
+"fieldGoalPct",
+"longFieldGoalMade",
+"extraPointsMade/extraPointAttempts",
+"totalKickingPoints"
 ],
 "text": "Navy Kicking",
-"totals": [
-"0/0",
-"0.0",
-"0",
-"3/3",
-"3"
+"labels": [
+"FG",
+"PCT",
+"LONG",
+"XP",
+"PTS"
 ],
 "descriptions": [
 "Field Goals Made/Attempts",
@@ -4504,74 +6790,116 @@
 "Extra Points Made/Attempts",
 "Kicking Points"
 ],
-"labels": [
-"FG",
-"PCT",
-"LONG",
-"XP",
-"PTS"
+"athletes": [
+{
+"athlete": {
+"id": "3916285",
+"uid": "s:20~l:23~a:3916285",
+"guid": "6d038801a99114a7028647b39a862551",
+"firstName": "Bennett",
+"lastName": "Moehring",
+"displayName": "Bennett Moehring",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3916285/bennett-moehring",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/3916285/bennett-moehring",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/3916285/bennett-moehring",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/3916285/bennett-moehring",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/3916285/bennett-moehring",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/3916285/bennett-moehring",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3916285/bennett-moehring",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"0/0",
+"0.0",
+"0",
+"3/3",
+"3"
+]
+}
+],
+"totals": [
+"0/0",
+"0.0",
+"0",
+"3/3",
+"3"
 ]
 },
 {
 "name": "punting",
-"athletes": [
-{
-"athlete": {
-"uid": "s:20~l:23~a:4039465",
-"firstName": "Owen",
-"lastName": "White",
-"displayName": "Owen White",
-"guid": "a18d9994758e0bde69a4f66cd852ebbb",
-"links": [
-{
-"href": "http://www.espn.com/college-football/player/_/id/4039465/owen-white",
-"text": "Player Card"
-},
-{
-"href": "http://www.espn.com/college-football/player/stats/_/id/4039465/owen-white",
-"text": "Stats"
-},
-{
-"href": "http://www.espn.com/college-football/player/splits/_/id/4039465/owen-white",
-"text": "Splits"
-},
-{
-"href": "http://www.espn.com/college-football/player/gamelog/_/id/4039465/owen-white",
-"text": "Game Log"
-},
-{
-"href": "http://www.espn.com/college-football/player/news/_/id/4039465/owen-white",
-"text": "News"
-},
-{
-"href": "http://www.espn.com/college-football/player/bio/_/id/4039465/owen-white",
-"text": "Bio"
-},
-{
-"href": "http://www.espn.com/college-football/player/_/id/4039465/owen-white",
-"text": "Overview"
-}
-],
-"id": "4039465"
-},
-"stats": [
-"5",
-"203",
-"40.6",
-"0",
-"0",
-"45"
-]
-}
+"keys": [
+"punts",
+"puntYards",
+"grossAvgPuntYards",
+"touchbacks",
+"puntsInside20",
+"longPunt"
 ],
 "text": "Navy Punting",
-"totals": [
-"5",
-"203",
-"40.6",
-"0",
-"0",
-"45"
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"TB",
+"In 20",
+"LONG"
 ],
 "descriptions": [
 "Punts",
@@ -4581,27 +6909,855 @@
 "Punts Inside 20",
 "Longest Punt"
 ],
-"labels": [
-"NO",
-"YDS",
-"AVG",
-"TB",
-"In 20",
-"LONG"
+"athletes": [
+{
+"athlete": {
+"id": "4039465",
+"uid": "s:20~l:23~a:4039465",
+"guid": "a18d9994758e0bde69a4f66cd852ebbb",
+"firstName": "Owen",
+"lastName": "White",
+"displayName": "Owen White",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4039465/owen-white",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/4039465/owen-white",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/4039465/owen-white",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/4039465/owen-white",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/4039465/owen-white",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/4039465/owen-white",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4039465/owen-white",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"5",
+"203",
+"40.6",
+"0",
+"0",
+"45"
+]
+}
+],
+"totals": [
+"5",
+"203",
+"40.6",
+"0",
+"0",
+"45"
 ]
 }
 ]
 }
 ]
 },
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 900.0
+}
+},
+"gameInfo": {
+"venue": {
+"id": "3852",
+"fullName": "Navy-Marine Corps Memorial Stadium",
+"address": {
+"city": "Annapolis",
+"state": "MD",
+"zipCode": "21401"
+},
+"capacity": 34000,
+"grass": false,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/college-football/day/3852.jpg",
+"width": 2000,
+"height": 1125,
+"alt": "",
+"rel": [
+"full",
+"day"
+]
+},
+{
+"href": "https://a.espncdn.com/i/venues/college-football/day/interior/3852.jpg",
+"width": 2000,
+"height": 1125,
+"alt": "",
+"rel": [
+"full",
+"day",
+"interior"
+]
+}
+]
+},
+"attendance": 30420
+},
+"drives": {},
+"leaders": [
+{
+"team": {
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"displayName": "Navy Midshipmen",
+"abbreviation": "NAVY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+},
+"leaders": [
+{
+"name": "passingYards",
+"displayName": "Passing Yards",
+"leaders": [
+{
+"displayValue": "4-12, 132 YDS, 1 TD, 1 INT",
+"athlete": {
+"id": "3916251",
+"uid": "s:20~l:23~a:3916251",
+"guid": "79ec907a5c132247feb808c2f9c67fbf",
+"lastName": "Abey",
+"fullName": "Zach Abey",
+"displayName": "Zach Abey",
+"shortName": "Z. Abey",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/college-football/players/full/3916251.png",
+"alt": "Zach Abey"
+},
+"jersey": "9",
+"position": {
+"abbreviation": "WR"
+}
+}
+}
+]
+},
+{
+"name": "rushingYards",
+"displayName": "Rushing Yards",
+"leaders": [
+{
+"displayValue": "29 CAR, 108 YDS",
+"athlete": {
+"id": "3916251",
+"uid": "s:20~l:23~a:3916251",
+"guid": "79ec907a5c132247feb808c2f9c67fbf",
+"lastName": "Abey",
+"fullName": "Zach Abey",
+"displayName": "Zach Abey",
+"shortName": "Z. Abey",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3916251/zach-abey",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/college-football/players/full/3916251.png",
+"alt": "Zach Abey"
+},
+"jersey": "9",
+"position": {
+"abbreviation": "WR"
+}
+}
+}
+]
+},
+{
+"name": "receivingYards",
+"displayName": "Receiving Yards",
+"leaders": [
+{
+"displayValue": "1 REC, 79 YDS, 1 TD",
+"athlete": {
+"id": "3125185",
+"uid": "s:20~l:23~a:3125185",
+"guid": "78476eebf6b8c79d745d2906e8c9fa57",
+"lastName": "Carmona",
+"fullName": "Tyler Carmona",
+"displayName": "Tyler Carmona",
+"shortName": "T. Carmona",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3125185/tyler-carmona",
+"text": "Player Card"
+}
+],
+"jersey": "88",
+"position": {
+"abbreviation": "TE"
+}
+}
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"displayName": "Tulane Green Wave",
+"abbreviation": "TULN",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+},
+"leaders": [
+{
+"name": "passingYards",
+"displayName": "Passing Yards",
+"leaders": [
+{
+"displayValue": "5-8, 58 YDS",
+"athlete": {
+"id": "4040641",
+"uid": "s:20~l:23~a:4040641",
+"guid": "288848050dde86862e5b9d5c9f36fc40",
+"lastName": "Brantley",
+"fullName": "Johnathan Brantley",
+"displayName": "Johnathan Brantley",
+"shortName": "J. Brantley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4040641/johnathan-brantley",
+"text": "Player Card"
+}
+],
+"jersey": "11",
+"position": {
+"abbreviation": "QB"
+}
+}
+}
+]
+},
+{
+"name": "rushingYards",
+"displayName": "Rushing Yards",
+"leaders": [
+{
+"displayValue": "9 CAR, 73 YDS, 1 TD",
+"athlete": {
+"id": "4040641",
+"uid": "s:20~l:23~a:4040641",
+"guid": "288848050dde86862e5b9d5c9f36fc40",
+"lastName": "Brantley",
+"fullName": "Johnathan Brantley",
+"displayName": "Johnathan Brantley",
+"shortName": "J. Brantley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/4040641/johnathan-brantley",
+"text": "Player Card"
+}
+],
+"jersey": "11",
+"position": {
+"abbreviation": "QB"
+}
+}
+}
+]
+},
+{
+"name": "receivingYards",
+"displayName": "Receiving Yards",
+"leaders": [
+{
+"displayValue": "5 REC, 39 YDS",
+"athlete": {
+"id": "3126264",
+"uid": "s:20~l:23~a:3126264",
+"guid": "557fd525c275a5550da4aa5df7a124f3",
+"lastName": "Encalade",
+"fullName": "Terren Encalade",
+"displayName": "Terren Encalade",
+"shortName": "T. Encalade",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/3126264/terren-encalade",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/college-football/players/full/3126264.png",
+"alt": "Terren Encalade"
+},
+"jersey": "5",
+"position": {
+"abbreviation": "WR"
+}
+}
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "2426",
+"gameProjection": "68.5",
+"teamChanceLoss": "31.5"
+},
+"awayTeam": {
+"id": "2655",
+"gameProjection": "31.5",
+"teamChanceLoss": "68.5"
+}
+},
+"pickcenter": [
+{
+"provider": {
+"id": "1004",
+"name": "consensus",
+"priority": 0
+},
+"details": "NAVY -8.5",
+"overUnder": 49.5,
+"spread": -8.5,
+"awayTeamOdds": {
+"winPercentage": 24.0,
+"favorite": false,
+"underdog": true,
+"moneyLine": 300,
+"spreadOdds": -111.0,
+"teamId": "2655"
+},
+"homeTeamOdds": {
+"winPercentage": 76.0,
+"favorite": true,
+"underdog": false,
+"moneyLine": -363,
+"spreadOdds": -108.0,
+"teamId": "2426"
+},
+"links": []
+},
+{
+"provider": {
+"id": "1003",
+"name": "numberfire",
+"priority": 0
+},
+"details": "NAVY -9.5",
+"overUnder": 48.5,
+"spread": -9.5,
+"awayTeamOdds": {
+"averageScore": 20.58,
+"winPercentage": 11.41,
+"favorite": false,
+"underdog": true,
+"moneyLine": 270,
+"moneyLineOdds": 11.41,
+"spreadOdds": 36.22,
+"spreadReturn": -0.308,
+"teamId": "2655"
+},
+"homeTeamOdds": {
+"averageScore": 35.21,
+"winPercentage": 88.59,
+"favorite": true,
+"underdog": false,
+"moneyLine": -325,
+"moneyLineOdds": 88.59,
+"spreadOdds": 63.78,
+"spreadReturn": 0.218,
+"teamId": "2426"
+},
+"links": []
+},
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"details": "NAVY -8.0",
+"overUnder": 49.5,
+"spread": -8.0,
+"awayTeamOdds": {
+"averageScore": 18.2,
+"favorite": false,
+"underdog": true,
+"moneyLine": 278,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"spreadOdds": -110.0,
+"teamId": "2655"
+},
+"homeTeamOdds": {
+"averageScore": 29.3,
+"favorite": true,
+"underdog": false,
+"moneyLine": -325,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"spreadOdds": -102.0,
+"teamId": "2426"
+},
+"links": []
+}
+],
+"againstTheSpread": [
+{
+"team": {
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"displayName": "Tulane Green Wave",
+"abbreviation": "TULN",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"displayName": "Navy Midshipmen",
+"abbreviation": "NAVY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
 "header": {
+"id": "400941794",
 "uid": "s:20~l:23~e:400941794",
-"week": 2,
+"season": {
+"year": 2017,
+"type": 2
+},
 "timeValid": true,
+"competitions": [
+{
+"id": "400941794",
+"uid": "s:20~l:23~e:400941794~c:400941794",
+"date": "2017-09-09T19:30Z",
+"neutralSite": false,
+"conferenceCompetition": true,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"order": 0,
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"location": "Navy",
+"name": "Midshipmen",
+"nickname": "Navy",
+"abbreviation": "NAVY",
+"displayName": "Navy Midshipmen",
+"color": "131630",
+"alternateColor": "b6a77c",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-05-26T17:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-05-26T17:09Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"text": "Clubhouse"
+}
+]
+},
+"score": "23",
+"linescores": [
+{
+"displayValue": "7"
+},
+{
+"displayValue": "7"
+},
+{
+"displayValue": "9"
+},
+{
+"displayValue": "0"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"type": "home",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"type": "vsconf",
+"summary": "1-0",
+"displayValue": "1-0"
+}
+],
+"possession": false
+},
+{
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"order": 1,
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"location": "Tulane",
+"name": "Green Wave",
+"nickname": "Tulane",
+"abbreviation": "TULN",
+"displayName": "Tulane Green Wave",
+"color": "005837",
+"alternateColor": "3baf29",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2655.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"text": "Clubhouse"
+}
+]
+},
+"score": "21",
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "13"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "8"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "1-1",
+"displayValue": "1-1"
+},
+{
+"type": "road",
+"summary": "0-1",
+"displayValue": "0-1"
+},
+{
+"type": "vsconf",
+"summary": "0-1",
+"displayValue": "0-1"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [
+{
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "CBSSN"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"groups": {
+"id": "151",
+"name": "American Athletic Conference",
+"abbreviation": "aac",
+"shortName": "American",
+"midsizeName": "American"
+}
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/400941794",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/recap?gameId=400941794",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "http://www.espn.com/college-football/boxscore/_/gameId/400941794",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/matchup?gameId=400941794",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 2,
 "league": {
+"id": "23",
 "uid": "s:20~l:23",
-"midsizeName": "NCAA Football",
 "name": "NCAA - Football",
+"abbreviation": "NCAAF",
+"midsizeName": "NCAA Football",
+"slug": "college-football",
+"isTournament": false,
 "links": [
 {
 "rel": [
@@ -4724,900 +7880,27 @@
 "href": "https://www.espn.com/college-football/injuries",
 "text": "Injuries"
 }
-],
-"id": "23",
-"abbreviation": "NCAAF",
-"slug": "college-football",
-"isTournament": false
+]
+}
 },
-"competitions": [
+"scoringPlays": [
 {
-"date": "2017-09-09T19:30Z",
-"commentaryAvailable": false,
-"conferenceCompetition": true,
-"liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "CBSSN"
-},
+"id": "4009417941",
 "type": {
-"id": "1",
-"shortName": "TV"
+"id": "68",
+"text": "Rushing Touchdown",
+"abbreviation": "TD"
 },
-"lang": "en",
-"region": "us"
-}
-],
-"groups": {
-"midsizeName": "American",
-"name": "American Athletic Conference",
-"id": "151",
-"abbreviation": "aac",
-"shortName": "American"
+"text": "Chris High 9 Yd Run (Bennett Moehring Kick)",
+"awayScore": 0,
+"homeScore": 7,
+"period": {
+"number": 1
 },
-"playByPlaySource": "none",
-"uid": "s:20~l:23~e:400941794~c:400941794",
-"competitors": [
-{
-"uid": "s:20~l:23~t:2426",
-"homeAway": "home",
-"score": "23",
-"winner": true,
-"record": [
-{
-"summary": "2-0",
-"displayValue": "2-0",
-"type": "total"
+"clock": {
+"value": 488.0,
+"displayValue": "8:08"
 },
-{
-"summary": "1-0",
-"displayValue": "1-0",
-"type": "home"
-},
-{
-"summary": "1-0",
-"displayValue": "1-0",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "2426",
-"team": {
-"uid": "s:20~l:23~t:2426",
-"alternateColor": "b6a77c",
-"color": "131630",
-"displayName": "Navy Midshipmen",
-"name": "Midshipmen",
-"nickname": "Navy",
-"location": "Navy",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"text": "Clubhouse"
-}
-],
-"id": "2426",
-"abbreviation": "NAVY",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "7"
-},
-{
-"displayValue": "7"
-},
-{
-"displayValue": "9"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 0
-},
-{
-"uid": "s:20~l:23~t:2655",
-"homeAway": "away",
-"score": "21",
-"winner": false,
-"record": [
-{
-"summary": "1-1",
-"displayValue": "1-1",
-"type": "total"
-},
-{
-"summary": "0-1",
-"displayValue": "0-1",
-"type": "road"
-},
-{
-"summary": "0-1",
-"displayValue": "0-1",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "2655",
-"team": {
-"uid": "s:20~l:23~t:2655",
-"alternateColor": "3baf29",
-"color": "005837",
-"displayName": "Tulane Green Wave",
-"name": "Green Wave",
-"nickname": "Tulane",
-"location": "Tulane",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
-"text": "Clubhouse"
-}
-],
-"id": "2655",
-"abbreviation": "TULN",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2655.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "0"
-},
-{
-"displayValue": "13"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "8"
-}
-],
-"order": 1
-}
-],
-"onWatchESPN": false,
-"boxscoreAvailable": true,
-"id": "400941794",
-"neutralSite": false,
-"recent": false,
-"boxscoreSource": "full",
-"status": {
-"type": {
-"name": "STATUS_FINAL",
-"description": "Final",
-"id": "3",
-"state": "post",
-"completed": true,
-"detail": "Final",
-"shortDetail": "Final"
-}
-}
-}
-],
-"season": {
-"year": 2017,
-"type": 2
-},
-"links": [
-{
-"isExternal": false,
-"shortText": "Summary",
-"rel": [
-"summary",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/game/_/gameId/400941794",
-"text": "Gamecast",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Recap",
-"rel": [
-"recap",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/recap?gameId=400941794",
-"text": "Recap",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Box Score",
-"rel": [
-"boxscore",
-"desktop",
-"event"
-],
-"href": "http://www.espn.com/college-football/boxscore/_/gameId/400941794",
-"text": "Box Score",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Team Stats",
-"rel": [
-"teamstats",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/matchup?gameId=400941794",
-"text": "Team Stats",
-"isPremium": false
-}
-],
-"id": "400941794"
-},
-"broadcasts": [],
-"videos": [],
-"playByPlaySource": "none",
-"standings": {
-"fullViewLink": {
-"text": "Full Standings",
-"href": "http://www.espn.com/college-football/standings"
-},
-"groups": [
-{
-"header": "2020 American Athletic Conference Standings",
-"standings": {
-"entries": [
-{
-"uid": "s:20~l:23~t:2132",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "9-1",
-"displayValue": "9-1",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2132/cincinnati-bearcats",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-"height": 500
-}
-],
-"team": "Cincinnati",
-"id": "2132"
-},
-{
-"uid": "s:20~l:23~t:202",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "6-3",
-"displayValue": "6-3",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "6-0",
-"displayValue": "6-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/202/tulsa-golden-hurricane",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-"height": 500
-}
-],
-"team": "Tulsa",
-"id": "202"
-},
-{
-"uid": "s:20~l:23~t:235",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "8-3",
-"displayValue": "8-3",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-"height": 500
-}
-],
-"team": "Memphis",
-"id": "235"
-},
-{
-"uid": "s:20~l:23~t:2116",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "6-4",
-"displayValue": "6-4",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "5-3",
-"displayValue": "5-3",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2116/ucf-knights",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-"height": 500
-}
-],
-"team": "UCF",
-"id": "2116"
-},
-{
-"uid": "s:20~l:23~t:2567",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "7-3",
-"displayValue": "7-3",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "4-3",
-"displayValue": "4-3",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2567/smu-mustangs",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-"height": 500
-}
-],
-"team": "SMU",
-"id": "2567"
-},
-{
-"uid": "s:20~l:23~t:248",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "3-5",
-"displayValue": "3-5",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-3",
-"displayValue": "3-3",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-"height": 500
-}
-],
-"team": "Houston",
-"id": "248"
-},
-{
-"uid": "s:20~l:23~t:2426",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "3-7",
-"displayValue": "3-7",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-4",
-"displayValue": "3-4",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"height": 500
-}
-],
-"team": "Navy",
-"id": "2426"
-},
-{
-"uid": "s:20~l:23~t:2655",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "6-6",
-"displayValue": "6-6",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-5",
-"displayValue": "3-5",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"height": 500
-}
-],
-"team": "Tulane",
-"id": "2655"
-},
-{
-"uid": "s:20~l:23~t:151",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "3-6",
-"displayValue": "3-6",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "3-5",
-"displayValue": "3-5",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/151/east-carolina-pirates",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
-"height": 500
-}
-],
-"team": "East Carolina",
-"id": "151"
-},
-{
-"uid": "s:20~l:23~t:218",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "1-6",
-"displayValue": "1-6",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-6",
-"displayValue": "1-6",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/218/temple-owls",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-"height": 500
-}
-],
-"team": "Temple",
-"id": "218"
-},
-{
-"uid": "s:20~l:23~t:58",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "1-8",
-"displayValue": "1-8",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-7",
-"displayValue": "0-7",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/58/south-florida-bulls",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-"height": 500
-}
-],
-"team": "South Florida",
-"id": "58"
-}
-]
-}
-}
-]
-},
-"timeouts": {
-"2426": {
-"1": [],
-"2": []
-},
-"2655": {
-"1": [],
-"2": []
-}
-},
-"pickcenter": [
-{
-"provider": {
-"id": "1004",
-"name": "consensus",
-"priority": 0
-},
-"details": "NAVY -8.5",
-"overUnder": 49.5,
-"spread": -8.5,
-"awayTeamOdds": {
-"winPercentage": 24.0,
-"favorite": false,
-"underdog": true,
-"moneyLine": 300,
-"spreadOdds": -111.0,
-"teamId": "2655"
-},
-"homeTeamOdds": {
-"winPercentage": 76.0,
-"favorite": true,
-"underdog": false,
-"moneyLine": -363,
-"spreadOdds": -108.0,
-"teamId": "2426"
-},
-"links": []
-},
-{
-"provider": {
-"id": "1003",
-"name": "numberfire",
-"priority": 0
-},
-"details": "NAVY -9.5",
-"overUnder": 48.5,
-"spread": -9.5,
-"awayTeamOdds": {
-"averageScore": 20.58,
-"winPercentage": 11.41,
-"favorite": false,
-"underdog": true,
-"moneyLine": 270,
-"spreadOdds": 36.22,
-"spreadReturn": -0.308,
-"teamId": "2655"
-},
-"homeTeamOdds": {
-"averageScore": 35.21,
-"winPercentage": 88.59,
-"favorite": true,
-"underdog": false,
-"moneyLine": -325,
-"spreadOdds": 63.78,
-"spreadReturn": 0.218,
-"teamId": "2426"
-},
-"links": []
-},
-{
-"provider": {
-"id": "1002",
-"name": "teamrankings",
-"priority": 0
-},
-"details": "NAVY -8.0",
-"overUnder": 49.5,
-"spread": -8.0,
-"awayTeamOdds": {
-"averageScore": 18.2,
-"favorite": false,
-"underdog": true,
-"moneyLine": 278,
-"spreadRecord": {
-"wins": 7,
-"losses": 4,
-"pushes": 0,
-"summary": "7-4-0"
-},
-"spreadOdds": -110.0,
-"teamId": "2655"
-},
-"homeTeamOdds": {
-"averageScore": 29.3,
-"favorite": true,
-"underdog": false,
-"moneyLine": -325,
-"spreadRecord": {
-"wins": 4,
-"losses": 6,
-"pushes": 0,
-"summary": "4-6-0"
-},
-"spreadOdds": -102.0,
-"teamId": "2426"
-},
-"links": []
-}
-],
-"againstTheSpread": [
-{
-"team": {
-"id": "2655",
-"uid": "s:20~l:23~t:2655",
-"displayName": "Tulane Green Wave",
-"abbreviation": "TULN",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
-},
-"records": []
-},
-{
 "team": {
 "id": "2426",
 "uid": "s:20~l:23~t:2426",
@@ -5635,245 +7918,740 @@
 ],
 "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
 },
-"records": []
-}
-],
-"odds": [],
-"predictor": {
-"header": "Matchup Predictor",
-"homeTeam": {
-"id": "2426",
-"gameProjection": "68.5",
-"teamChanceLoss": "31.5"
-},
-"awayTeam": {
-"id": "2655",
-"gameProjection": "31.5",
-"teamChanceLoss": "68.5"
+"scoringType": {
+"name": "touchdown",
+"displayName": "Touchdown",
+"abbreviation": "TD"
 }
 },
-"espnWP": [],
-"gameInfo": {
-"date": "2017-09-09T19:30Z",
-"commentaryAvailable": false,
-"conferenceCompetition": true,
-"liveAvailable": false,
-"broadcasts": [
 {
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "CBSSN"
-},
+"id": "4009417942",
 "type": {
-"id": "1",
-"shortName": "TV"
+"id": "39",
+"text": "Fumble Return Touchdown",
+"abbreviation": "TD"
 },
-"lang": "en",
-"region": "us"
-}
-],
-"groups": {
-"midsizeName": "American",
-"name": "American Athletic Conference",
-"id": "151",
-"abbreviation": "aac",
-"shortName": "American"
+"text": "Roderic Teamer 52 Yd Fumble Return (Coby Neenan Kick)",
+"awayScore": 7,
+"homeScore": 7,
+"period": {
+"number": 2
 },
-"playByPlaySource": "none",
-"uid": "s:20~l:23~e:400941794~c:400941794",
-"competitors": [
-{
-"uid": "s:20~l:23~t:2426",
-"homeAway": "home",
-"score": "23",
-"winner": true,
-"record": [
-{
-"summary": "2-0",
-"displayValue": "2-0",
-"type": "total"
+"clock": {
+"value": 754.0,
+"displayValue": "12:34"
 },
-{
-"summary": "1-0",
-"displayValue": "1-0",
-"type": "home"
-},
-{
-"summary": "1-0",
-"displayValue": "1-0",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "2426",
 "team": {
-"uid": "s:20~l:23~t:2426",
-"alternateColor": "b6a77c",
-"color": "131630",
-"displayName": "Navy Midshipmen",
-"name": "Midshipmen",
-"nickname": "Navy",
-"location": "Navy",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
-"text": "Clubhouse"
-}
-],
-"id": "2426",
-"abbreviation": "NAVY",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "7"
-},
-{
-"displayValue": "7"
-},
-{
-"displayValue": "9"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 0
-},
-{
-"uid": "s:20~l:23~t:2655",
-"homeAway": "away",
-"score": "21",
-"winner": false,
-"record": [
-{
-"summary": "1-1",
-"displayValue": "1-1",
-"type": "total"
-},
-{
-"summary": "0-1",
-"displayValue": "0-1",
-"type": "road"
-},
-{
-"summary": "0-1",
-"displayValue": "0-1",
-"type": "vsconf"
-}
-],
-"possession": false,
 "id": "2655",
-"team": {
 "uid": "s:20~l:23~t:2655",
-"alternateColor": "3baf29",
-"color": "005837",
 "displayName": "Tulane Green Wave",
-"name": "Green Wave",
-"nickname": "Tulane",
-"location": "Tulane",
+"abbreviation": "TULN",
 "links": [
 {
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
 "href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
 "text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
+"text": "Schedule"
 }
 ],
-"id": "2655",
-"abbreviation": "TULN",
-"logos": [
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+},
+"scoringType": {
+"name": "touchdown",
+"displayName": "Touchdown",
+"abbreviation": "TD"
+}
+},
 {
+"id": "4009417943",
+"type": {
+"id": "68",
+"text": "Rushing Touchdown",
+"abbreviation": "TD"
+},
+"text": "Johnathan Brantley 3 Yd Run (Coby Neenan PAT failed)",
+"awayScore": 13,
+"homeScore": 7,
+"period": {
+"number": 2
+},
+"clock": {
+"value": 253.0,
+"displayValue": "4:13"
+},
+"team": {
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"displayName": "Tulane Green Wave",
+"abbreviation": "TULN",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+},
+"scoringType": {
+"name": "touchdown",
+"displayName": "Touchdown",
+"abbreviation": "TD"
+}
+},
+{
+"id": "4009417944",
+"type": {
+"id": "67",
+"text": "Passing Touchdown",
+"abbreviation": "TD"
+},
+"text": "Tyler Carmona 79 Yd pass from Zach Abey (Bennett Moehring Kick)",
+"awayScore": 13,
+"homeScore": 14,
+"period": {
+"number": 2
+},
+"clock": {
+"value": 196.0,
+"displayValue": "3:16"
+},
+"team": {
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"displayName": "Navy Midshipmen",
+"abbreviation": "NAVY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+},
+"scoringType": {
+"name": "touchdown",
+"displayName": "Touchdown",
+"abbreviation": "TD"
+}
+},
+{
+"id": "4009417945",
+"type": {
+"id": "39",
+"text": "Fumble Return Touchdown",
+"abbreviation": "TD"
+},
+"text": "Andrew Wood 1 Yd Fumble Return (Bennett Moehring Kick)",
+"awayScore": 13,
+"homeScore": 21,
+"period": {
+"number": 3
+},
+"clock": {
+"value": 510.0,
+"displayValue": "8:30"
+},
+"team": {
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"displayName": "Navy Midshipmen",
+"abbreviation": "NAVY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+},
+"scoringType": {
+"name": "touchdown",
+"displayName": "Touchdown",
+"abbreviation": "TD"
+}
+},
+{
+"id": "4009417946",
+"type": {
+"id": "20",
+"text": "Safety",
+"abbreviation": "SF"
+},
+"text": "Team Safety",
+"awayScore": 13,
+"homeScore": 23,
+"period": {
+"number": 3
+},
+"clock": {
+"value": 431.0,
+"displayValue": "7:11"
+},
+"team": {
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"displayName": "Navy Midshipmen",
+"abbreviation": "NAVY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2426",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+},
+"scoringType": {
+"name": "safety",
+"displayName": "Safety",
+"abbreviation": "SF"
+}
+},
+{
+"id": "4009417947",
+"type": {
+"id": "68",
+"text": "Rushing Touchdown",
+"abbreviation": "TD"
+},
+"text": "Dontrell Hilliard 1 Yd Run (Johnathan Brantley Pass to Charles Jones II for Two-Point Conversion)",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 4
+},
+"clock": {
+"value": 776.0,
+"displayValue": "12:56"
+},
+"team": {
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"displayName": "Tulane Green Wave",
+"abbreviation": "TULN",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2655",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+},
+"scoringType": {
+"name": "touchdown",
+"displayName": "Touchdown",
+"abbreviation": "TD"
+}
+}
+],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Cincinnati",
+"link": "https://www.espn.com/college-football/team/_/id/2132/cincinnati-bearcats",
+"id": "2132",
+"uid": "s:20~l:23~t:2132",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "13-1",
+"displayValue": "13-1"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-0",
+"displayValue": "8-0"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2655.png",
-"height": 500
+"lastUpdated": "2020-05-26T17:12Z"
 }
 ]
 },
-"linescores": [
 {
-"displayValue": "0"
+"team": "Houston",
+"link": "https://www.espn.com/college-football/team/_/id/248/houston-cougars",
+"id": "248",
+"uid": "s:20~l:23~t:248",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "12-2",
+"displayValue": "12-2"
 },
 {
-"displayValue": "13"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "8"
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "8-0",
+"displayValue": "8-0"
 }
 ],
-"order": 1
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-09-17T18:37Z"
+}
+]
+},
+{
+"team": "UCF",
+"link": "https://www.espn.com/college-football/team/_/id/2116/ucf-knights",
+"id": "2116",
+"uid": "s:20~l:23~t:2116",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-4",
+"displayValue": "9-4"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-3",
+"displayValue": "5-3"
 }
 ],
-"onWatchESPN": false,
-"boxscoreAvailable": true,
-"id": "400941794",
-"neutralSite": false,
-"recent": false,
-"boxscoreSource": "full",
-"status": {
-"type": {
-"name": "STATUS_FINAL",
-"description": "Final",
-"id": "3",
-"state": "post",
-"completed": true,
-"detail": "Final",
-"shortDetail": "Final"
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
 }
-}
+]
 },
-"season": {
-"year": 2017,
-"type": 2
+{
+"team": "East Carolina",
+"link": "https://www.espn.com/college-football/team/_/id/151/east-carolina-pirates",
+"id": "151",
+"uid": "s:20~l:23~t:151",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-5",
+"displayValue": "7-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-3",
+"displayValue": "5-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Tulsa",
+"link": "https://www.espn.com/college-football/team/_/id/202/tulsa-golden-hurricane",
+"id": "202",
+"uid": "s:20~l:23~t:202",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-6",
+"displayValue": "7-6"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-3",
+"displayValue": "5-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-06-25T17:44Z"
+}
+]
+},
+{
+"team": "SMU",
+"link": "https://www.espn.com/college-football/team/_/id/2567/smu-mustangs",
+"id": "2567",
+"uid": "s:20~l:23~t:2567",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-4",
+"displayValue": "8-4"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Memphis",
+"link": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers",
+"id": "235",
+"uid": "s:20~l:23~t:235",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-6",
+"displayValue": "6-6"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-06-25T16:07Z"
+}
+]
+},
+{
+"team": "Navy",
+"link": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen",
+"id": "2426",
+"uid": "s:20~l:23~t:2426",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "4-8",
+"displayValue": "4-8"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-05-26T17:08Z"
+}
+]
+},
+{
+"team": "Tulane",
+"link": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave",
+"id": "2655",
+"uid": "s:20~l:23~t:2655",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-10",
+"displayValue": "2-10"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-7",
+"displayValue": "1-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "South Florida",
+"link": "https://www.espn.com/college-football/team/_/id/58/south-florida-bulls",
+"id": "58",
+"uid": "s:20~l:23~t:58",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-10",
+"displayValue": "2-10"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-7",
+"displayValue": "1-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Temple",
+"link": "https://www.espn.com/college-football/team/_/id/218/temple-owls",
+"id": "218",
+"uid": "s:20~l:23~t:218",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-9",
+"displayValue": "3-9"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "1-7",
+"displayValue": "1-7"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-06-16T17:05Z"
+}
+]
+}
+]
+},
+"header": "2021 American Athletic Conference Standings"
+}
+]
 }
 }

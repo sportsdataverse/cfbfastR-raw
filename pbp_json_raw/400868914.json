@@ -1,40 +1,35 @@
 {
-"gameId": 400868914,
-"drives": {},
-"plays": [],
-"scoringPlays": [],
-"winprobability": [],
 "boxscore": {
 "teams": [
 {
 "team": {
-"shortDisplayName": "Black Knights",
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"location": "Army",
 "id": "349",
+"uid": "s:20~l:23~t:349",
+"slug": "army-black-knights",
+"location": "Army",
+"name": "Black Knights",
 "abbreviation": "ARMY",
-"slug": "army-black-knights"
+"displayName": "Army Black Knights",
+"shortDisplayName": "Black Knights",
+"color": "ce9c00",
+"alternateColor": "231f20",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
 },
 "statistics": []
 },
 {
 "team": {
-"shortDisplayName": "Blue Devils",
-"uid": "s:20~l:23~t:150",
-"alternateColor": "f1f2f3",
-"color": "001A57",
-"displayName": "Duke Blue Devils",
-"name": "Blue Devils",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"location": "Duke",
 "id": "150",
+"uid": "s:20~l:23~t:150",
+"slug": "duke-blue-devils",
+"location": "Duke",
+"name": "Blue Devils",
 "abbreviation": "DUKE",
-"slug": "duke-blue-devils"
+"displayName": "Duke Blue Devils",
+"shortDisplayName": "Blue Devils",
+"color": "001A57",
+"alternateColor": "f1f2f3",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
 },
 "statistics": []
 }
@@ -42,46 +37,574 @@
 "players": [
 {
 "team": {
-"shortDisplayName": "Black Knights",
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"location": "Army",
 "id": "349",
+"uid": "s:20~l:23~t:349",
+"slug": "army-black-knights",
+"location": "Army",
+"name": "Black Knights",
 "abbreviation": "ARMY",
-"slug": "army-black-knights"
+"displayName": "Army Black Knights",
+"shortDisplayName": "Black Knights",
+"color": "ce9c00",
+"alternateColor": "231f20",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
 },
 "statistics": []
 },
 {
 "team": {
-"shortDisplayName": "Blue Devils",
-"uid": "s:20~l:23~t:150",
-"alternateColor": "f1f2f3",
-"color": "001A57",
-"displayName": "Duke Blue Devils",
-"name": "Blue Devils",
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"location": "Duke",
 "id": "150",
+"uid": "s:20~l:23~t:150",
+"slug": "duke-blue-devils",
+"location": "Duke",
+"name": "Blue Devils",
 "abbreviation": "DUKE",
-"slug": "duke-blue-devils"
+"displayName": "Duke Blue Devils",
+"shortDisplayName": "Blue Devils",
+"color": "001A57",
+"alternateColor": "f1f2f3",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
 },
 "statistics": []
 }
 ]
 },
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 900.0
+}
+},
+"gameInfo": {
+"venue": {
+"id": "3982",
+"fullName": "Wallace Wade Stadium",
+"address": {
+"city": "Durham",
+"state": "NC",
+"zipCode": "27708"
+},
+"capacity": 40004,
+"grass": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/college-football/day/3982.jpg",
+"width": 2000,
+"height": 1125,
+"alt": "",
+"rel": [
+"full",
+"day"
+]
+},
+{
+"href": "https://a.espncdn.com/i/venues/college-football/day/interior/3982.jpg",
+"width": 2000,
+"height": 1125,
+"alt": "",
+"rel": [
+"full",
+"day",
+"interior"
+]
+}
+]
+},
+"attendance": 20613
+},
+"drives": {},
+"leaders": [
+{
+"team": {
+"id": "150",
+"uid": "s:20~l:23~t:150",
+"displayName": "Duke Blue Devils",
+"abbreviation": "DUKE",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/150",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+},
+"leaders": []
+},
+{
+"team": {
+"id": "349",
+"uid": "s:20~l:23~t:349",
+"displayName": "Army Black Knights",
+"abbreviation": "ARMY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/349",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+},
+"leaders": []
+}
+],
+"broadcasts": [
+{
+"type": {
+"id": "4",
+"shortName": "Web",
+"longName": "Web",
+"slug": "web"
+},
+"station": "ACCNE",
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"callLetters": "ACCNX",
+"name": "ACC Network Extra",
+"shortName": "ACCNX"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"predictor": {
+"header": "Matchup Predictor",
+"homeTeam": {
+"id": "150",
+"gameProjection": "58.5",
+"teamChanceLoss": "41.5"
+},
+"awayTeam": {
+"id": "349",
+"gameProjection": "41.5",
+"teamChanceLoss": "58.5"
+}
+},
+"pickcenter": [
+{
+"provider": {
+"id": "1004",
+"name": "consensus",
+"priority": 0
+},
+"details": "DUKE -6.0",
+"spread": -6.0,
+"awayTeamOdds": {
+"winPercentage": 53.0,
+"favorite": false,
+"underdog": true,
+"teamId": "349"
+},
+"homeTeamOdds": {
+"winPercentage": 47.0,
+"favorite": true,
+"underdog": false,
+"teamId": "150"
+},
+"links": []
+},
+{
+"provider": {
+"id": "1003",
+"name": "numberfire",
+"priority": 0
+},
+"details": "DUKE -6.0",
+"overUnder": 43.5,
+"spread": -6.0,
+"awayTeamOdds": {
+"averageScore": 30.51,
+"winPercentage": 46.8,
+"favorite": false,
+"underdog": true,
+"moneyLine": 210,
+"moneyLineOdds": 46.8,
+"spreadOdds": 64.14,
+"spreadReturn": 0.225,
+"teamId": "349"
+},
+"homeTeamOdds": {
+"averageScore": 31.43,
+"winPercentage": 53.2,
+"favorite": true,
+"underdog": false,
+"moneyLine": -250,
+"moneyLineOdds": 53.2,
+"spreadOdds": 33.66,
+"spreadReturn": -0.357,
+"teamId": "150"
+},
+"links": []
+},
+{
+"provider": {
+"id": "1002",
+"name": "teamrankings",
+"priority": 0
+},
+"details": "DUKE -5.5",
+"overUnder": 43.0,
+"spread": -5.5,
+"awayTeamOdds": {
+"averageScore": 19.2,
+"favorite": false,
+"underdog": true,
+"moneyLine": 211,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"spreadOdds": -106.0,
+"teamId": "349"
+},
+"homeTeamOdds": {
+"averageScore": 24.8,
+"favorite": true,
+"underdog": false,
+"moneyLine": -242,
+"spreadRecord": {
+"wins": 0,
+"losses": 0,
+"pushes": 0,
+"summary": "0-0-0"
+},
+"spreadOdds": -106.0,
+"teamId": "150"
+},
+"links": []
+}
+],
+"againstTheSpread": [
+{
+"team": {
+"id": "349",
+"uid": "s:20~l:23~t:349",
+"displayName": "Army Black Knights",
+"abbreviation": "ARMY",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/349",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+},
+"records": []
+},
+{
+"team": {
+"id": "150",
+"uid": "s:20~l:23~t:150",
+"displayName": "Duke Blue Devils",
+"abbreviation": "DUKE",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/150",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
 "header": {
+"id": "400868914",
 "uid": "s:20~l:23~e:400868914",
-"week": 6,
+"season": {
+"year": 2016,
+"type": 2
+},
 "timeValid": true,
+"competitions": [
+{
+"id": "400868914",
+"uid": "s:20~l:23~e:400868914~c:400868914",
+"date": "2016-10-08T19:30Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": false,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"onWatchESPN": true,
+"recent": false,
+"boxscoreSource": "none",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "150",
+"uid": "s:20~l:23~t:150",
+"order": 0,
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "150",
+"uid": "s:20~l:23~t:150",
+"location": "Duke",
+"name": "Blue Devils",
+"nickname": "Duke",
+"abbreviation": "DUKE",
+"displayName": "Duke Blue Devils",
+"color": "001A57",
+"alternateColor": "f1f2f3",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
+"text": "Clubhouse"
+}
+]
+},
+"score": "13",
+"linescores": [
+{
+"displayValue": "7"
+},
+{
+"displayValue": "6"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "3-3",
+"displayValue": "3-3"
+},
+{
+"type": "home",
+"summary": "2-2",
+"displayValue": "2-2"
+},
+{
+"type": "vsconf",
+"summary": "0-2",
+"displayValue": "0-2"
+}
+],
+"possession": false
+},
+{
+"id": "349",
+"uid": "s:20~l:23~t:349",
+"order": 1,
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "349",
+"uid": "s:20~l:23~t:349",
+"location": "Army",
+"name": "Black Knights",
+"nickname": "Army",
+"abbreviation": "ARMY",
+"displayName": "Army Black Knights",
+"color": "ce9c00",
+"alternateColor": "231f20",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+"text": "Clubhouse"
+}
+]
+},
+"score": "6",
+"linescores": [
+{
+"displayValue": "0"
+},
+{
+"displayValue": "6"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "0"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "3-2",
+"displayValue": "3-2"
+},
+{
+"type": "road",
+"summary": "2-2",
+"displayValue": "2-2"
+},
+{
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [
+{
+"type": {
+"id": "4",
+"shortName": "Web"
+},
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ACCNX"
+},
+"lang": "en",
+"region": "us"
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/400868914",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/recap?gameId=400868914",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"videos",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/video?gameId=400868914",
+"text": "Videos",
+"shortText": "Videos",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 6,
 "league": {
+"id": "23",
 "uid": "s:20~l:23",
-"midsizeName": "NCAA Football",
 "name": "NCAA - Football",
+"abbreviation": "NCAAF",
+"midsizeName": "NCAA Football",
+"slug": "college-football",
+"isTournament": false,
 "links": [
 {
 "rel": [
@@ -204,332 +727,82 @@
 "href": "https://www.espn.com/college-football/injuries",
 "text": "Injuries"
 }
-],
-"id": "23",
-"abbreviation": "NCAAF",
-"slug": "college-football",
-"isTournament": false
-},
-"competitions": [
-{
-"date": "2016-10-08T19:30Z",
-"commentaryAvailable": false,
-"conferenceCompetition": false,
-"liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ACCNX"
-},
-"type": {
-"id": "4",
-"shortName": "Web"
-},
-"lang": "en",
-"region": "us"
-}
-],
-"playByPlaySource": "none",
-"uid": "s:20~l:23~e:400868914~c:400868914",
-"competitors": [
-{
-"uid": "s:20~l:23~t:150",
-"homeAway": "home",
-"score": "13",
-"winner": true,
-"record": [
-{
-"summary": "3-3",
-"displayValue": "3-3",
-"type": "total"
-},
-{
-"summary": "2-2",
-"displayValue": "2-2",
-"type": "home"
-},
-{
-"summary": "0-2",
-"displayValue": "0-2",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "150",
-"team": {
-"uid": "s:20~l:23~t:150",
-"alternateColor": "f1f2f3",
-"color": "001A57",
-"displayName": "Duke Blue Devils",
-"name": "Blue Devils",
-"nickname": "Duke",
-"location": "Duke",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
-"text": "Clubhouse"
-}
-],
-"id": "150",
-"abbreviation": "DUKE",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
-"height": 500
-}
 ]
-},
-"linescores": [
-{
-"displayValue": "7"
-},
-{
-"displayValue": "6"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "0"
 }
-],
-"order": 0
 },
-{
-"uid": "s:20~l:23~t:349",
-"homeAway": "away",
-"score": "6",
-"winner": false,
-"record": [
-{
-"summary": "3-2",
-"displayValue": "3-2",
-"type": "total"
-},
-{
-"summary": "2-2",
-"displayValue": "2-2",
-"type": "road"
-},
-{
-"summary": "0-0",
-"displayValue": "0-0",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "349",
-"team": {
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"nickname": "Army",
-"location": "Army",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"text": "Clubhouse"
-}
-],
-"id": "349",
-"abbreviation": "ARMY",
-"logos": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "0"
-},
-{
-"displayValue": "6"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 1
-}
-],
-"onWatchESPN": true,
-"boxscoreAvailable": false,
-"id": "400868914",
-"neutralSite": false,
-"recent": false,
-"boxscoreSource": "none",
-"status": {
-"type": {
-"name": "STATUS_FINAL",
-"description": "Final",
-"id": "3",
-"state": "post",
-"completed": true,
-"detail": "Final",
-"shortDetail": "Final"
-}
-}
-}
-],
-"season": {
-"year": 2016,
-"type": 2
-},
-"links": [
-{
-"isExternal": false,
-"shortText": "Summary",
-"rel": [
-"summary",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/game/_/gameId/400868914",
-"text": "Gamecast",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Recap",
-"rel": [
-"recap",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/recap?gameId=400868914",
-"text": "Recap",
-"isPremium": false
-},
-{
-"isExternal": false,
-"shortText": "Videos",
-"rel": [
-"videos",
-"desktop",
-"event"
-],
-"href": "https://www.espn.com/college-football/video?gameId=400868914",
-"text": "Videos",
-"isPremium": false
-}
-],
-"id": "400868914"
-},
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"station": "ACCNE",
-"media": {
-"callLetters": "ACCNX",
-"name": "ACC Network Extra",
-"shortName": "ACCNX"
-},
-"type": {
-"id": "4",
-"shortName": "Web",
-"slug": "web",
-"longName": "Web"
-},
-"lang": "en",
-"region": "us"
-}
-],
+"scoringPlays": [],
 "videos": [
 {
-"cerebroId": "57f94d9be4b05698d1de5cab",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.jpg",
+"source": "espn",
+"id": 17746482,
+"headline": "Duke fumble recovery sets up Blue Devils in red zone",
+"description": "Andy Davidson run for 5 yds to the Army 9 Andy Davidson fumbled, forced by Corbin McCarthy, recovered by Duke Dylan Singleton",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_f9266089-7458-4481-a2cd-c24a7470f079"
+},
+"cerebroId": "57f94d9be4b05698d1de5cab",
+"lastModified": "2016-10-08T19:49:32Z",
+"originalPublishDate": "2016-10-08T19:43:41Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T19:43:41Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Andy Davidson run for 5 yds to the Army 9 Andy Davidson fumbled, forced by Corbin McCarthy, recovered by Duke Dylan Singleton",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_f9266089-7458-4481-a2cd-c24a7470f079",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 50,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T19:43:41Z",
+"duration": 50,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746482"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746482&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dbfbUP"
+"href": "http://www.espn.com/video/clip?id=17746482"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746482&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746482&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746482&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -538,80 +811,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746482"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079/evc_NCF_20161008_Army_vs_Duke_f926608974584481a2cdc24a7470f079_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746482,
-"lastModified": "2016-10-08T19:49:32Z",
-"headline": "Duke fumble recovery sets up Blue Devils in red zone"
 },
 {
-"cerebroId": "57f94e1be4b05698d1de5cb5",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.jpg",
+"source": "espn",
+"id": 17746489,
+"headline": "P. Boehme 3-yard TD pass to E. Schneider",
+"description": "Parker Boehme pass complete to Erich Schneider for 3 yds for a TD",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_5183c651-dd21-4311-af55-f101f7febd71"
+},
+"cerebroId": "57f94e1be4b05698d1de5cb5",
+"lastModified": "2016-10-08T19:51:37Z",
+"originalPublishDate": "2016-10-08T19:45:49Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T19:45:49Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Parker Boehme pass complete to Erich Schneider for 3 yds for a TD",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_5183c651-dd21-4311-af55-f101f7febd71",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 56,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T19:45:49Z",
+"duration": 56,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746489"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746489&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dSDfdA"
+"href": "http://www.espn.com/video/clip?id=17746489"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746489&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746489&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746489&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -620,80 +893,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746489"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71/evc_NCF_20161008_Army_vs_Duke_5183c651dd214311af55f101f7febd71_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746489,
-"lastModified": "2016-10-08T19:51:37Z",
-"headline": "P. Boehme 3-yard TD pass to E. Schneider"
 },
 {
-"cerebroId": "57f950ede4b05698d1de5d4e",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.jpg",
+"source": "espn",
+"id": 17746534,
+"headline": "Army recovers fumble after delivering booming hit",
+"description": "Army's Rhyan England throws his body directly into Duke QB Daniel Jones which forces him to let go of the ball and subsequently be recovered by Army.",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_59bc76b5-0963-4010-8247-d10da48e65ca"
+},
+"cerebroId": "57f950ede4b05698d1de5d4e",
+"lastModified": "2016-10-08T20:30:44Z",
+"originalPublishDate": "2016-10-08T19:57:52Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T19:57:52Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Army's Rhyan England throws his body directly into Duke QB Daniel Jones which forces him to let go of the ball and subsequently be recovered by Army.",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_59bc76b5-0963-4010-8247-d10da48e65ca",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 59,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T19:57:52Z",
+"duration": 59,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746534"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746534&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dbg67T"
+"href": "http://www.espn.com/video/clip?id=17746534"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746534&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746534&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746534&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -702,80 +975,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746534"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca/evc_NCF_20161008_Army_vs_Duke_59bc76b5096340108247d10da48e65ca_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746534,
-"lastModified": "2016-10-08T20:30:44Z",
-"headline": "Army recovers fumble after delivering booming hit"
 },
 {
-"cerebroId": "57f95408e4b05698d1de5d98",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.jpg",
+"source": "espn",
+"id": 17746568,
+"headline": "Duke stuffs Army on 4th and 1",
+"description": "Ahmad Bradshaw run for a loss of 6 yards to the Army 32",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_bfeb9f91-f4e0-46ad-b326-93c104610396"
+},
+"cerebroId": "57f95408e4b05698d1de5d98",
+"lastModified": "2016-10-08T20:17:06Z",
+"originalPublishDate": "2016-10-08T20:11:06Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T20:11:06Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Ahmad Bradshaw run for a loss of 6 yards to the Army 32",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_bfeb9f91-f4e0-46ad-b326-93c104610396",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 47,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T20:11:06Z",
+"duration": 47,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746568"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746568&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dAmpCy"
+"href": "http://www.espn.com/video/clip?id=17746568"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746568&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746568&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746568&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -784,80 +1057,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746568"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396/evc_NCF_20161008_Army_vs_Duke_bfeb9f91f4e046adb32693c104610396_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746568,
-"lastModified": "2016-10-08T20:17:06Z",
-"headline": "Duke stuffs Army on 4th and 1"
 },
 {
-"cerebroId": "57f9553be4b05698d1de5db1",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.jpg",
+"source": "espn",
+"id": 17746574,
+"headline": "D. Jones 22-yard TD pass to A. Young",
+"description": "Daniel Jones pass complete to Aaron Young for 22 yds for a TD",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_d0df3565-3667-4cb1-b722-bab4950f3fc0"
+},
+"cerebroId": "57f9553be4b05698d1de5db1",
+"lastModified": "2016-10-08T20:22:34Z",
+"originalPublishDate": "2016-10-08T20:16:14Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T20:16:14Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Daniel Jones pass complete to Aaron Young for 22 yds for a TD",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_d0df3565-3667-4cb1-b722-bab4950f3fc0",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 36,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T20:16:14Z",
+"duration": 36,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746574"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746574&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dAniuL"
+"href": "http://www.espn.com/video/clip?id=17746574"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746574&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746574&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746574&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -866,80 +1139,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746574"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0/evc_NCF_20161008_Army_vs_Duke_d0df356536674cb1b722bab4950f3fc0_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746574,
-"lastModified": "2016-10-08T20:22:34Z",
-"headline": "D. Jones 22-yard TD pass to A. Young"
 },
 {
-"cerebroId": "57f957fbe4b05698d1de5e31",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.jpg",
+"source": "espn",
+"id": 17746769,
+"headline": "Army blocks punt to set up offense in Duke territory",
+"description": "Austin Parker punt blocked by Jaylon McClinton blocked by Jaylon McClinton",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_e74cadd0-3d60-4e33-84d0-b962eb3f6b5f"
+},
+"cerebroId": "57f957fbe4b05698d1de5e31",
+"lastModified": "2016-10-08T20:34:20Z",
+"originalPublishDate": "2016-10-08T20:27:58Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T20:27:58Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Austin Parker punt blocked by Jaylon McClinton blocked by Jaylon McClinton",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_e74cadd0-3d60-4e33-84d0-b962eb3f6b5f",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 54,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T20:27:58Z",
+"duration": 54,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746769"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746769&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dbhN5h"
+"href": "http://www.espn.com/video/clip?id=17746769"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746769&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746769&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746769&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -948,80 +1221,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746769"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f/evc_NCF_20161008_Army_vs_Duke_e74cadd03d604e3384d0b962eb3f6b5f_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746769,
-"lastModified": "2016-10-08T20:34:20Z",
-"headline": "Army blocks punt to set up offense in Duke territory"
 },
 {
-"cerebroId": "57f958e8e4b05698d1de5e48",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.jpg",
+"source": "espn",
+"id": 17746803,
+"headline": "Duke makes another 4th down stop to prevent Army from scoring",
+"description": "John Trainor run for a loss of 5 yards to the Duke 9",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_38e77914-fa0b-4a0b-85b1-c70c622e158e"
+},
+"cerebroId": "57f958e8e4b05698d1de5e48",
+"lastModified": "2016-10-08T20:37:39Z",
+"originalPublishDate": "2016-10-08T20:31:55Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T20:31:55Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "John Trainor run for a loss of 5 yards to the Duke 9",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_38e77914-fa0b-4a0b-85b1-c70c622e158e",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 33,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T20:31:55Z",
+"duration": 33,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746803"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746803&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dbjiQR"
+"href": "http://www.espn.com/video/clip?id=17746803"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746803&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746803&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746803&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1030,80 +1303,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746803"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e/evc_NCF_20161008_Army_vs_Duke_38e77914fa0b4a0b85b1c70c622e158e_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746803,
-"lastModified": "2016-10-08T20:37:39Z",
-"headline": "Duke makes another 4th down stop to prevent Army from scoring"
 },
 {
-"cerebroId": "57f95b96e4b05698d1de5ed7",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.jpg",
+"source": "espn",
+"id": 17746852,
+"headline": "A. Davidson 45-yard TD run",
+"description": "Andy Davidson run for 45 yds for a TD",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_75988b40-1de1-4a2a-a3f5-984b7831d91c"
+},
+"cerebroId": "57f95b96e4b05698d1de5ed7",
+"lastModified": "2016-10-08T20:48:59Z",
+"originalPublishDate": "2016-10-08T20:43:21Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T20:43:21Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Andy Davidson run for 45 yds for a TD",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_75988b40-1de1-4a2a-a3f5-984b7831d91c",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 18,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T20:43:21Z",
+"duration": 18,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17746852"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17746852&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2d2ZgVw"
+"href": "http://www.espn.com/video/clip?id=17746852"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17746852&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17746852&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17746852&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1112,80 +1385,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17746852"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c/evc_NCF_20161008_Army_vs_Duke_75988b401de14a2aa3f5984b7831d91c_360p30_1464k.mp4"
 }
 }
-},
-"id": 17746852,
-"lastModified": "2016-10-08T20:48:59Z",
-"headline": "A. Davidson 45-yard TD run"
 },
 {
-"cerebroId": "57f96923e4b05698d1de604d",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.jpg",
+"source": "espn",
+"id": 17747224,
+"headline": "Duke stops Army again on 4th down",
+"description": "Ahmad Bradshaw run for no gain to the 50 yard line",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_27cfe9eb-6834-4e38-8455-8f2136e0f0f1"
+},
+"cerebroId": "57f96923e4b05698d1de604d",
+"lastModified": "2016-10-08T21:47:52Z",
+"originalPublishDate": "2016-10-08T21:41:09Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T21:41:09Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Ahmad Bradshaw run for no gain to the 50 yard line",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_27cfe9eb-6834-4e38-8455-8f2136e0f0f1",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 61,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T21:41:09Z",
+"duration": 61,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17747224"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17747224&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dSOnah"
+"href": "http://www.espn.com/video/clip?id=17747224"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17747224&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17747224&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17747224&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1194,80 +1467,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17747224"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1/evc_NCF_20161008_Army_vs_Duke_27cfe9eb68344e3884558f2136e0f0f1_360p30_1464k.mp4"
 }
 }
-},
-"id": 17747224,
-"lastModified": "2016-10-08T21:47:52Z",
-"headline": "Duke stops Army again on 4th down"
 },
 {
-"cerebroId": "57f96db7e4b05698d1de610e",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.jpg",
+"source": "espn",
+"id": 17747395,
+"headline": "A. Davidson fights off defenders with stiff arm during 39-yard run",
+"description": "Andy Davidson run for 39 yds to the Army 44 for a 1ST down",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_73b04c5f-9b58-4ed9-9fbc-7da8b4fac047"
+},
+"cerebroId": "57f96db7e4b05698d1de610e",
+"lastModified": "2016-10-08T22:06:39Z",
+"originalPublishDate": "2016-10-08T22:00:41Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T22:00:41Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Andy Davidson run for 39 yds to the Army 44 for a 1ST down",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_73b04c5f-9b58-4ed9-9fbc-7da8b4fac047",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 42,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T22:00:41Z",
+"duration": 42,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17747395"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17747395&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dbqHzv"
+"href": "http://www.espn.com/video/clip?id=17747395"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17747395&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17747395&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17747395&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1276,80 +1549,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17747395"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047/evc_NCF_20161008_Army_vs_Duke_73b04c5f9b584ed99fbc7da8b4fac047_360p30_1464k.mp4"
 }
 }
-},
-"id": 17747395,
-"lastModified": "2016-10-08T22:06:39Z",
-"headline": "A. Davidson fights off defenders with stiff arm during 39-yard run"
 },
 {
-"cerebroId": "57f96e84e4b05698d1de6123",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.jpg",
+"source": "espn",
+"id": 17747426,
+"headline": "Duke defender flips Army runner with hit",
+"description": "Duke's Breon Border sniffs out the Army run play and hits the Black Knights' John Trainor when he gets the ball, causing Trainor to flip to the ground for a 3-yard loss.",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "Final Game Highlight",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_166ca2f9-1438-435a-b217-92b2c4c8684f"
+},
+"cerebroId": "57f96e84e4b05698d1de6123",
+"lastModified": "2016-10-08T22:48:03Z",
+"originalPublishDate": "2016-10-08T22:04:06Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T22:04:06Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Duke's Breon Border sniffs out the Army run play and hits the Black Knights' John Trainor when he gets the ball, causing Trainor to flip to the ground for a 3-yard loss.",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_166ca2f9-1438-435a-b217-92b2c4c8684f",
-"coverageType": "Final Game Highlight",
-"sportName": "ncf"
-},
-"duration": 41,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T22:04:06Z",
+"duration": 41,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17747426"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17747426&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dAvhYR"
+"href": "http://www.espn.com/video/clip?id=17747426"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17747426&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17747426&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17747426&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1358,80 +1631,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17747426"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f/evc_NCF_20161008_Army_vs_Duke_166ca2f91438435ab21792b2c4c8684f_360p30_1464k.mp4"
 }
 }
-},
-"id": 17747426,
-"lastModified": "2016-10-08T22:48:03Z",
-"headline": "Duke defender flips Army runner with hit"
 },
 {
-"cerebroId": "57f9717de4b05698d1de617e",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.jpg",
+"source": "espn",
+"id": 17747531,
+"headline": "Duke recovers fumble with Army driving",
+"description": "Ahmad Bradshaw run for no gain to the Duke 31 Ahmad Bradshaw fumbled, recovered by Duke Alonzo Saxton II",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_25edae63-9d68-4b4a-8cb2-231dfef9c772"
+},
+"cerebroId": "57f9717de4b05698d1de617e",
+"lastModified": "2016-10-08T22:22:33Z",
+"originalPublishDate": "2016-10-08T22:16:47Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T22:16:47Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Ahmad Bradshaw run for no gain to the Duke 31 Ahmad Bradshaw fumbled, recovered by Duke Alonzo Saxton II",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_25edae63-9d68-4b4a-8cb2-231dfef9c772",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 48,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T22:16:47Z",
+"duration": 48,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17747531"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17747531&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dSQn2u"
+"href": "http://www.espn.com/video/clip?id=17747531"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17747531&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17747531&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17747531&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1440,80 +1713,80 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17747531"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772/evc_NCF_20161008_Army_vs_Duke_25edae639d684b4a8cb2231dfef9c772_360p30_1464k.mp4"
 }
 }
-},
-"id": 17747531,
-"lastModified": "2016-10-08T22:22:33Z",
-"headline": "Duke recovers fumble with Army driving"
 },
 {
-"cerebroId": "57f9745ee4b05698d1de6224",
-"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.jpg",
+"source": "espn",
+"id": 17747630,
+"headline": "Duke intercepts pass late in 4th Quarter",
+"description": "Ahmad Bradshaw pass intercepted Deondre Singleton return for no gain to the Duke 41",
 "ad": {
 "sport": "ncf",
 "bundle": "ncf_instant_replays"
 },
+"tracking": {
+"sportName": "ncf",
+"leagueName": "NCAA Football",
+"coverageType": "OnePlay",
+"trackingName": "evc_NCF_20161008_Army_vs_Duke_93ef5636-c1e7-4ab5-9c08-dc276a3e32b4"
+},
+"cerebroId": "57f9745ee4b05698d1de6224",
+"lastModified": "2016-10-08T22:34:59Z",
+"originalPublishDate": "2016-10-08T22:29:04Z",
 "timeRestrictions": {
 "embargoDate": "2016-10-08T22:29:04Z",
 "expirationDate": "2030-12-31T05:00:00Z"
 },
-"description": "Ahmad Bradshaw pass intercepted Deondre Singleton return for no gain to the Duke 41",
-"source": "espn",
-"tracking": {
-"leagueName": "NCAA Football",
-"trackingName": "evc_NCF_20161008_Army_vs_Duke_93ef5636-c1e7-4ab5-9c08-dc276a3e32b4",
-"coverageType": "OnePlay",
-"sportName": "ncf"
-},
-"duration": 58,
 "deviceRestrictions": {
+"type": "whitelist",
 "devices": [
 "desktop",
 "settop",
 "handset",
 "tablet"
-],
-"type": "whitelist"
+]
 },
-"originalPublishDate": "2016-10-08T22:29:04Z",
+"duration": 58,
+"thumbnail": "https://a.espncdn.com/media/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.jpg",
 "links": {
+"api": {
+"self": {
+"href": "http://api.espn.com/v1/video/clips/17747630"
+}
+},
 "web": {
+"href": "http://www.espn.com/video/clip?id=17747630&ex_cid=espnapi_internal",
 "short": {
-"href": "https://es.pn/2dbrXCX"
+"href": "http://www.espn.com/video/clip?id=17747630"
 },
 "self": {
-"href": "http://espn.go.com/video/clip?id=17747630&ex_cid=espnapi_internal"
+"href": "http://www.espn.com/video/clip?id=17747630&ex_cid=espnapi_internal"
+}
 },
-"href": "http://espn.go.com/video/clip?id=17747630&ex_cid=espnapi_internal"
+"source": {
+"mezzanine": {
+"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.mp4"
+},
+"flash": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.smil"
+},
+"hds": {
+"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_rel.smil/manifest.f4m"
+},
+"HLS": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.smil/master.m3u8",
+"HD": {
+"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.smil/master.m3u8"
+}
+},
+"HD": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_720p30_2896k.mp4"
+},
+"full": {
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_360p30_1464k.mp4"
+},
+"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_360p30_1464k.mp4"
 },
 "mobile": {
 "alert": {
@@ -1522,43 +1795,10 @@
 "source": {
 "href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.mp4"
 }
-},
-"api": {
-"self": {
-"href": "http://api.espn.com/v1/video/clips/17747630"
-}
-},
-"source": {
-"mezzanine": {
-"href": "https://media.video-origin.espn.com/espnvideo/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.mp4"
-},
-"hds": {
-"href": "https://hds.video-cdn.espn.com/z/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_rel.smil/manifest.f4m"
-},
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_360p30_1464k.mp4",
-"HD": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_720p30_2896k.mp4"
-},
-"HLS": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.smil/master.m3u8",
-"HD": {
-"href": "https://espnpackaging-vh.akamaihd.net/i/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.smil/master.m3u8"
-}
-},
-"flash": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4.smil"
-},
-"full": {
-"href": "https://media.video-cdn.espn.com/motion/fastclipper/2016/1008/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4/evc_NCF_20161008_Army_vs_Duke_93ef5636c1e74ab59c08dc276a3e32b4_360p30_1464k.mp4"
 }
 }
-},
-"id": 17747630,
-"lastModified": "2016-10-08T22:34:59Z",
-"headline": "Duke intercepts pass late in 4th Quarter"
 }
 ],
-"playByPlaySource": "none",
 "standings": {
 "fullViewLink": {
 "text": "Full Standings",
@@ -1566,1236 +1806,935 @@
 },
 "groups": [
 {
-"header": "2020 FBS Independents Standings",
 "standings": {
 "entries": [
 {
-"uid": "s:20~l:23~t:2335",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "10-1",
-"displayValue": "10-1",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-0",
-"displayValue": "1-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-"height": 500
-}
-],
-"team": "Liberty",
-"id": "2335"
-},
-{
-"uid": "s:20~l:23~t:252",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "11-1",
-"displayValue": "11-1",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/252/byu-cougars",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-"height": 500
-}
-],
-"team": "BYU",
-"id": "252"
-},
-{
-"uid": "s:20~l:23~t:349",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "9-3",
-"displayValue": "9-3",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"height": 500
-}
-],
-"team": "Army",
-"id": "349"
-},
-{
-"uid": "s:20~l:23~t:166",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-0",
-"displayValue": "0-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/166/new-mexico-state-aggies",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-"height": 500
-}
-],
-"team": "New Mexico State",
-"id": "166"
-},
-{
-"uid": "s:20~l:23~t:113",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "0-4",
-"displayValue": "0-4",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "0-1",
-"displayValue": "0-1",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/113/umass-minutemen",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-"height": 500
-}
-],
-"team": "UMass",
-"id": "113"
-}
-]
-}
-},
-{
-"header": "2020 Atlantic Coast Conference Standings",
-"standings": {
-"entries": [
-{
+"team": "Notre Dame",
+"link": "https://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish",
+"id": "87",
 "uid": "s:20~l:23~t:87",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "10-2",
-"displayValue": "10-2",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-2",
+"displayValue": "11-2"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "9-0",
-"displayValue": "9-0",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish",
 "logo": [
 {
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-"height": 500
-}
-],
-"team": "Notre Dame",
-"id": "87"
-},
-{
-"uid": "s:20~l:23~t:228",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "10-2",
-"displayValue": "10-2",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "8-1",
-"displayValue": "8-1",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/228/clemson-tigers",
-"logo": [
-{
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "Clemson",
-"id": "228"
+]
 },
 {
-"uid": "s:20~l:23~t:2390",
+"team": "BYU",
+"link": "https://www.espn.com/college-football/team/_/id/252/byu-cougars",
+"id": "252",
+"uid": "s:20~l:23~t:252",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "8-3",
-"displayValue": "8-3",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-3",
+"displayValue": "10-3"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "7-2",
-"displayValue": "7-2",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/2390/miami-hurricanes",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-"height": 500
+"lastUpdated": "2020-07-21T17:26Z"
 }
-],
-"team": "Miami",
-"id": "2390"
+]
 },
 {
-"uid": "s:20~l:23~t:153",
+"team": "Army",
+"link": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
+"id": "349",
+"uid": "s:20~l:23~t:349",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "8-4",
-"displayValue": "8-4",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-4",
+"displayValue": "9-4"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/153/north-carolina-tar-heels",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "North Carolina",
-"id": "153"
+]
 },
 {
-"uid": "s:20~l:23~t:152",
+"team": "Liberty",
+"link": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames",
+"id": "2335",
+"uid": "s:20~l:23~t:2335",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "8-4",
-"displayValue": "8-4",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "8-5",
+"displayValue": "8-5"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "7-3",
-"displayValue": "7-3",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/152/nc-state-wolfpack",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "NC State",
-"id": "152"
+]
 },
 {
-"uid": "s:20~l:23~t:103",
+"team": "New Mexico State",
+"link": "https://www.espn.com/college-football/team/_/id/166/new-mexico-state-aggies",
+"id": "166",
+"uid": "s:20~l:23~t:166",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "6-5",
-"displayValue": "6-5",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "2-10",
+"displayValue": "2-10"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/103/boston-college-eagles",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "Boston College",
-"id": "103"
+]
 },
 {
-"uid": "s:20~l:23~t:221",
+"team": "UMass",
+"link": "https://www.espn.com/college-football/team/_/id/113/umass-minutemen",
+"id": "113",
+"uid": "s:20~l:23~t:113",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "6-5",
-"displayValue": "6-5",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-11",
+"displayValue": "1-11"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/221/pittsburgh-panthers",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-"height": 500
+"lastUpdated": "2021-01-14T22:35Z"
 }
-],
-"team": "Pittsburgh",
-"id": "221"
+]
 },
 {
-"uid": "s:20~l:23~t:259",
+"team": "UConn",
+"link": "https://www.espn.com/college-football/team/_/id/41/uconn-huskies",
+"id": "41",
+"uid": "s:20~l:23~t:41",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "5-6",
-"displayValue": "5-6",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "1-11",
+"displayValue": "1-11"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "5-5",
-"displayValue": "5-5",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/259/virginia-tech-hokies",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "Virginia Tech",
-"id": "259"
+]
+}
+]
+},
+"header": "2021 FBS Independents Standings"
 },
 {
-"uid": "s:20~l:23~t:258",
-"stats": [
+"divisions": [
 {
-"shortDisplayName": "OVER",
-"summary": "5-5",
-"displayValue": "5-5",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
+"header": "Atlantic Coast Conference - Atlantic",
+"standings": {
+"entries": [
 {
-"shortDisplayName": "CONF",
-"summary": "4-5",
-"displayValue": "4-5",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/258/virginia-cavaliers",
-"logo": [
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-"height": 500
-}
-],
-"team": "Virginia",
-"id": "258"
-},
-{
+"team": "Wake Forest",
+"link": "https://www.espn.com/college-football/team/_/id/154/wake-forest-demon-deacons",
+"id": "154",
 "uid": "s:20~l:23~t:154",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "4-5",
-"displayValue": "4-5",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-3",
+"displayValue": "11-3"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "3-4",
-"displayValue": "3-4",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-1",
+"displayValue": "7-1"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/154/wake-forest-demon-deacons",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-"height": 500
+"lastUpdated": "2019-07-29T16:39Z"
 }
-],
-"team": "Wake Forest",
-"id": "154"
+]
 },
 {
-"uid": "s:20~l:23~t:59",
+"team": "NC State",
+"link": "https://www.espn.com/college-football/team/_/id/152/nc-state-wolfpack",
+"id": "152",
+"uid": "s:20~l:23~t:152",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "3-7",
-"displayValue": "3-7",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "9-3",
+"displayValue": "9-3"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "3-6",
-"displayValue": "3-6",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "6-2",
+"displayValue": "6-2"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/59/georgia-tech-yellow-jackets",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-"height": 500
+"lastUpdated": "2018-09-05T22:10Z"
 }
-],
-"team": "Georgia Tech",
-"id": "59"
+]
 },
 {
+"team": "Clemson",
+"link": "https://www.espn.com/college-football/team/_/id/228/clemson-tigers",
+"id": "228",
+"uid": "s:20~l:23~t:228",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "10-3",
+"displayValue": "10-3"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "6-2",
+"displayValue": "6-2"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Louisville",
+"link": "https://www.espn.com/college-football/team/_/id/97/louisville-cardinals",
+"id": "97",
 "uid": "s:20~l:23~t:97",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "4-7",
-"displayValue": "4-7",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-7",
+"displayValue": "6-7"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "3-7",
-"displayValue": "3-7",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/97/louisville-cardinals",
 "logo": [
 {
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "Louisville",
-"id": "97"
+]
 },
 {
+"team": "Florida State",
+"link": "https://www.espn.com/college-football/team/_/id/52/florida-state-seminoles",
+"id": "52",
 "uid": "s:20~l:23~t:52",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "3-6",
-"displayValue": "3-6",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-7",
+"displayValue": "5-7"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "2-6",
-"displayValue": "2-6",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/52/florida-state-seminoles",
 "logo": [
 {
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-"height": 500
-}
-],
-"team": "Florida State",
-"id": "52"
-},
-{
-"uid": "s:20~l:23~t:150",
-"stats": [
-{
-"shortDisplayName": "OVER",
-"summary": "2-9",
-"displayValue": "2-9",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
-"id": "0",
-"abbreviation": "overall",
-"type": "total"
-},
-{
-"shortDisplayName": "CONF",
-"summary": "1-9",
-"displayValue": "1-9",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
-"id": "9",
-"abbreviation": "CONF",
-"type": "vsconf"
-}
-],
-"link": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
-"logo": [
-{
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
-],
-"team": "Duke",
-"id": "150"
+]
 },
 {
+"team": "Syracuse",
+"link": "https://www.espn.com/college-football/team/_/id/183/syracuse-orange",
+"id": "183",
 "uid": "s:20~l:23~t:183",
 "stats": [
 {
-"shortDisplayName": "OVER",
-"summary": "1-10",
-"displayValue": "1-10",
-"displayName": "Overall",
-"name": "overall",
-"description": "Overall Record",
 "id": "0",
+"name": "overall",
 "abbreviation": "overall",
-"type": "total"
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "5-7",
+"displayValue": "5-7"
 },
 {
-"shortDisplayName": "CONF",
-"summary": "1-9",
-"displayValue": "1-9",
-"displayName": "vs. Conference",
-"name": "vsConf",
-"description": "Conference Record",
 "id": "9",
+"name": "vsConf",
 "abbreviation": "CONF",
-"type": "vsconf"
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
 }
 ],
-"link": "https://www.espn.com/college-football/team/_/id/183/syracuse-orange",
 "logo": [
 {
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-"height": 500
-}
-],
-"team": "Syracuse",
-"id": "183"
-}
-]
-}
-}
-]
-},
-"timeouts": {
-"150": {
-"1": [],
-"2": []
-},
-"349": {
-"1": [],
-"2": []
-}
-},
-"pickcenter": [
-{
-"provider": {
-"id": "1004",
-"name": "consensus",
-"priority": 0
-},
-"details": "DUKE -6.0",
-"spread": -6.0,
-"awayTeamOdds": {
-"winPercentage": 53.0,
-"favorite": false,
-"underdog": true,
-"teamId": "349"
-},
-"homeTeamOdds": {
-"winPercentage": 47.0,
-"favorite": true,
-"underdog": false,
-"teamId": "150"
-},
-"links": []
-},
-{
-"provider": {
-"id": "1003",
-"name": "numberfire",
-"priority": 0
-},
-"details": "DUKE -6.0",
-"overUnder": 43.5,
-"spread": -6.0,
-"awayTeamOdds": {
-"averageScore": 30.51,
-"winPercentage": 46.8,
-"favorite": false,
-"underdog": true,
-"moneyLine": 210,
-"spreadOdds": 64.14,
-"spreadReturn": 0.225,
-"teamId": "349"
-},
-"homeTeamOdds": {
-"averageScore": 31.43,
-"winPercentage": 53.2,
-"favorite": true,
-"underdog": false,
-"moneyLine": -250,
-"spreadOdds": 33.66,
-"spreadReturn": -0.357,
-"teamId": "150"
-},
-"links": []
-},
-{
-"provider": {
-"id": "1002",
-"name": "teamrankings",
-"priority": 0
-},
-"details": "DUKE -5.5",
-"overUnder": 43.0,
-"spread": -5.5,
-"awayTeamOdds": {
-"averageScore": 19.2,
-"favorite": false,
-"underdog": true,
-"moneyLine": 211,
-"spreadRecord": {
-"wins": 7,
-"losses": 4,
-"pushes": 0,
-"summary": "7-4-0"
-},
-"spreadOdds": -106.0,
-"teamId": "349"
-},
-"homeTeamOdds": {
-"averageScore": 24.8,
-"favorite": true,
-"underdog": false,
-"moneyLine": -242,
-"spreadRecord": {
-"wins": 4,
-"losses": 6,
-"pushes": 0,
-"summary": "4-6-0"
-},
-"spreadOdds": -106.0,
-"teamId": "150"
-},
-"links": []
-}
-],
-"againstTheSpread": [
-{
-"team": {
-"id": "349",
-"uid": "s:20~l:23~t:349",
-"displayName": "Army Black Knights",
-"abbreviation": "ARMY",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/349",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
-},
-"records": []
-},
-{
-"team": {
-"id": "150",
-"uid": "s:20~l:23~t:150",
-"displayName": "Duke Blue Devils",
-"abbreviation": "DUKE",
-"links": [
-{
-"href": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
-"text": "Clubhouse"
-},
-{
-"href": "http://www.espn.com/college-football/team/schedule/_/id/150",
-"text": "Schedule"
-}
-],
-"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
-},
-"records": []
-}
-],
-"odds": [],
-"predictor": {
-"header": "Matchup Predictor",
-"homeTeam": {
-"id": "150",
-"gameProjection": "58.5",
-"teamChanceLoss": "41.5"
-},
-"awayTeam": {
-"id": "349",
-"gameProjection": "41.5",
-"teamChanceLoss": "58.5"
-}
-},
-"espnWP": [],
-"gameInfo": {
-"date": "2016-10-08T19:30Z",
-"commentaryAvailable": false,
-"conferenceCompetition": false,
-"liveAvailable": false,
-"broadcasts": [
-{
-"market": {
-"id": "1",
-"type": "National"
-},
-"media": {
-"shortName": "ACCNX"
-},
-"type": {
-"id": "4",
-"shortName": "Web"
-},
-"lang": "en",
-"region": "us"
-}
-],
-"playByPlaySource": "none",
-"uid": "s:20~l:23~e:400868914~c:400868914",
-"competitors": [
-{
-"uid": "s:20~l:23~t:150",
-"homeAway": "home",
-"score": "13",
-"winner": true,
-"record": [
-{
-"summary": "3-3",
-"displayValue": "3-3",
-"type": "total"
-},
-{
-"summary": "2-2",
-"displayValue": "2-2",
-"type": "home"
-},
-{
-"summary": "0-2",
-"displayValue": "0-2",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "150",
-"team": {
-"uid": "s:20~l:23~t:150",
-"alternateColor": "f1f2f3",
-"color": "001A57",
-"displayName": "Duke Blue Devils",
-"name": "Blue Devils",
-"nickname": "Duke",
-"location": "Duke",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
-"text": "Clubhouse"
-}
-],
-"id": "150",
-"abbreviation": "DUKE",
-"logos": [
-{
 "width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
+"lastUpdated": "2019-07-24T15:33Z"
+}
+]
+},
+{
+"team": "Boston College",
+"link": "https://www.espn.com/college-football/team/_/id/103/boston-college-eagles",
+"id": "103",
+"uid": "s:20~l:23~t:103",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-6",
+"displayValue": "6-6"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+}
+]
+}
+},
+{
+"header": "Atlantic Coast Conference - Coastal",
+"standings": {
+"entries": [
+{
+"team": "Pittsburgh",
+"link": "https://www.espn.com/college-football/team/_/id/221/pittsburgh-panthers",
+"id": "221",
+"uid": "s:20~l:23~t:221",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "11-3",
+"displayValue": "11-3"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "7-1",
+"displayValue": "7-1"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-07-16T14:48Z"
+}
+]
+},
+{
+"team": "Miami",
+"link": "https://www.espn.com/college-football/team/_/id/2390/miami-hurricanes",
+"id": "2390",
+"uid": "s:20~l:23~t:2390",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "7-5",
+"displayValue": "7-5"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "5-3",
+"displayValue": "5-3"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-11-19T19:02Z"
+}
+]
+},
+{
+"team": "Virginia Tech",
+"link": "https://www.espn.com/college-football/team/_/id/259/virginia-tech-hokies",
+"id": "259",
+"uid": "s:20~l:23~t:259",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-7",
+"displayValue": "6-7"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2019-01-23T21:39Z"
+}
+]
+},
+{
+"team": "Virginia",
+"link": "https://www.espn.com/college-football/team/_/id/258/virginia-cavaliers",
+"id": "258",
+"uid": "s:20~l:23~t:258",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-6",
+"displayValue": "6-6"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "4-4",
+"displayValue": "4-4"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-09-16T19:21Z"
+}
+]
+},
+{
+"team": "North Carolina",
+"link": "https://www.espn.com/college-football/team/_/id/153/north-carolina-tar-heels",
+"id": "153",
+"uid": "s:20~l:23~t:153",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "6-7",
+"displayValue": "6-7"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "3-5",
+"displayValue": "3-5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Georgia Tech",
+"link": "https://www.espn.com/college-football/team/_/id/59/georgia-tech-yellow-jackets",
+"id": "59",
+"uid": "s:20~l:23~t:59",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-9",
+"displayValue": "3-9"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "2-6",
+"displayValue": "2-6"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+{
+"team": "Duke",
+"link": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
+"id": "150",
+"uid": "s:20~l:23~t:150",
+"stats": [
+{
+"id": "0",
+"name": "overall",
+"abbreviation": "overall",
+"displayName": "Overall",
+"shortDisplayName": "OVER",
+"description": "Overall Record",
+"type": "total",
+"summary": "3-9",
+"displayValue": "3-9"
+},
+{
+"id": "9",
+"name": "vsConf",
+"abbreviation": "CONF",
+"displayName": "vs. Conference",
+"shortDisplayName": "CONF",
+"description": "Conference Record",
+"type": "vsconf",
+"summary": "0-8",
+"displayValue": "0-8"
+}
+],
+"logo": [
+{
 "href": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-"height": 500
-},
-{
 "width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/150.png",
-"height": 500
-}
-]
-},
-"linescores": [
-{
-"displayValue": "7"
-},
-{
-"displayValue": "6"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "0"
-}
-],
-"order": 0
-},
-{
-"uid": "s:20~l:23~t:349",
-"homeAway": "away",
-"score": "6",
-"winner": false,
-"record": [
-{
-"summary": "3-2",
-"displayValue": "3-2",
-"type": "total"
-},
-{
-"summary": "2-2",
-"displayValue": "2-2",
-"type": "road"
-},
-{
-"summary": "0-0",
-"displayValue": "0-0",
-"type": "vsconf"
-}
-],
-"possession": false,
-"id": "349",
-"team": {
-"uid": "s:20~l:23~t:349",
-"alternateColor": "231f20",
-"color": "ce9c00",
-"displayName": "Army Black Knights",
-"name": "Black Knights",
-"nickname": "Army",
-"location": "Army",
-"links": [
-{
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/college-football/team/_/id/349/army-black-knights",
-"text": "Clubhouse"
-}
-],
-"id": "349",
-"abbreviation": "ARMY",
-"logos": [
-{
-"width": 500,
+"height": 500,
 "alt": "",
 "rel": [
 "full",
 "default"
 ],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-"height": 500
-},
-{
-"width": 500,
-"alt": "",
-"rel": [
-"full",
-"dark"
-],
-"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/349.png",
-"height": 500
+"lastUpdated": "2018-06-05T12:08Z"
 }
 ]
-},
-"linescores": [
-{
-"displayValue": "0"
-},
-{
-"displayValue": "6"
-},
-{
-"displayValue": "0"
-},
-{
-"displayValue": "0"
+}
+]
+}
 }
 ],
-"order": 1
+"header": "2021 Atlantic Coast Conference Standings",
+"href": "https://www.espn.com/college-football/standings/_/group/1/view/fbs-i-a"
 }
-],
-"onWatchESPN": true,
-"boxscoreAvailable": false,
-"id": "400868914",
-"neutralSite": false,
-"recent": false,
-"boxscoreSource": "none",
-"status": {
-"type": {
-"name": "STATUS_FINAL",
-"description": "Final",
-"id": "3",
-"state": "post",
-"completed": true,
-"detail": "Final",
-"shortDetail": "Final"
-}
-}
-},
-"season": {
-"year": 2016,
-"type": 2
+]
 }
 }

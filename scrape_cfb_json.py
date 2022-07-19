@@ -16,7 +16,7 @@ from play_handler import PlayProcess, process_cfb_raw_for_gop
 path_to_raw = "pbp_json_raw"
 path_to_final = "pbp_json_final"
 def main():
-    years_arr = range(2002,2021)
+    years_arr = range(2008,2021)
     schedule = pd.read_parquet('cfb_schedule_master.parquet', engine='auto', columns=None)
     schedule["game_id"] = schedule["game_id"].astype(int)
     print(schedule.columns)
@@ -71,19 +71,19 @@ def main():
             fp = "{}{}.json".format(path_to_raw_json, game)
             with open(fp,'w') as f:
                 json.dump(g, f, indent=0, sort_keys=False)
-            #     time.sleep(1)
-            # if processed_data.playByPlaySource != "none":
-            #     processed_data.run_processing_pipeline()
-            #     tmp_json = processed_data.plays_json.to_json(orient="records")
+                time.sleep(1)
+            # if g['playByPlaySource'] != "none":
+            #     g.run_processing_pipeline()
+            #     tmp_json = g.plays_json.to_json(orient="records")
             #     jsonified_df = json.loads(tmp_json)
             #     g['plays'] = jsonified_df
-            #     print(processed_data.plays_json.index.size)
-            #     if processed_data.plays_json.index.size > 50:
-            #         box = processed_data.create_box_score()
+            #     print(g.plays_json.index.size)
+            #     if g.plays_json.index.size > 50:
+            #         box = g.create_box_score()
             #     else:
             #         box = np.array([]).tolist()
 
-            #     result = process_cfb_raw_for_gop(game, g, jsonified_df, box)
+            #     # result = process_cfb_raw_for_gop(game, g, jsonified_df, box)
             #     g["box_score"] = box
             #     fp = "{}/{}.json".format(path_to_final, game)
             #     with open(fp,'w') as f:
