@@ -24,7 +24,7 @@ from pathlib import Path
 from tqdm import tqdm
 warnings.filterwarnings("ignore")
 
-logging.basicConfig(level=logging.INFO, filename = 'cfbfastR_cfb_raw_logfile.txt')
+logging.basicConfig(level=logging.INFO, filename = "cfbfastR_cfb_raw_logfile.txt")
 logger = logging.getLogger(__name__)
 
 path_to_raw = "cfb/json/raw"
@@ -81,7 +81,7 @@ def download_game(game, process, path_to_raw, path_to_final):
             jsonified_df = json.loads(tmp_json)
 
             box = {}
-            if pbp.get('header').get('competitions')[0].get('playByPlaySource', "none") != "none":
+            if pbp.get("header").get("competitions")[0].get("playByPlaySource", "none") != "none":
                 box = processed_data.create_box_score()
 
             result = {
@@ -89,26 +89,26 @@ def download_game(game, process, path_to_raw, path_to_final):
                 "count" : len(jsonified_df),
                 "plays" : jsonified_df,
                 "advBoxScore" : box,
-                "homeTeamId": pbp['header']['competitions'][0]['competitors'][0]['team']['id'],
-                "awayTeamId": pbp['header']['competitions'][0]['competitors'][1]['team']['id'],
-                "drives" : pbp['drives'],
-                "scoringPlays" : np.array(pbp['scoringPlays']).tolist(),
-                "winprobability" : np.array(pbp['winprobability']).tolist(),
-                "boxScore" : pbp['boxscore'],
-                "homeTeamSpread" : np.array(pbp['homeTeamSpread']).tolist(),
-                "overUnder" : np.array(pbp['overUnder']).tolist(),
-                "header" : pbp['header'],
-                "broadcasts" : np.array(pbp['broadcasts']).tolist(),
-                "videos" : np.array(pbp['videos']).tolist(),
-                "standings" : pbp['standings'],
-                "pickcenter" : np.array(pbp['pickcenter']).tolist(),
-                "espnWinProbability" : np.array(pbp['espnWP']).tolist(),
-                "gameInfo" : np.array(pbp['gameInfo']).tolist(),
-                "season" : np.array(pbp['season']).tolist()
+                "homeTeamId": pbp["header"]["competitions"][0]["competitors"][0]["team"]["id"],
+                "awayTeamId": pbp["header"]["competitions"][0]["competitors"][1]["team"]["id"],
+                "drives" : pbp["drives"],
+                "scoringPlays" : np.array(pbp["scoringPlays"]).tolist(),
+                "winprobability" : np.array(pbp["winprobability"]).tolist(),
+                "boxScore" : pbp["boxscore"],
+                "homeTeamSpread" : np.array(pbp["homeTeamSpread"]).tolist(),
+                "overUnder" : np.array(pbp["overUnder"]).tolist(),
+                "header" : pbp["header"],
+                "broadcasts" : np.array(pbp["broadcasts"]).tolist(),
+                "videos" : np.array(pbp["videos"]).tolist(),
+                "standings" : pbp["standings"],
+                "pickcenter" : np.array(pbp["pickcenter"]).tolist(),
+                "espnWinProbability" : np.array(pbp["espnWP"]).tolist(),
+                "gameInfo" : np.array(pbp["gameInfo"]).tolist(),
+                "season" : np.array(pbp["season"]).tolist()
             }
 
             fp = "{}{}.json".format(path_to_final_json, game)
-            with open(fp,'w') as f:
+            with open(fp,"w") as f:
                 json.dump(result, f, indent = 0, sort_keys = False)
         except (FileNotFoundError) as e:
             logger.exception(f"FileNotFoundError: game_id = {game}\n {traceback.format_exc()}")
@@ -151,7 +151,7 @@ def postprocessing(game_id):
     jsonified_df = json.loads(tmp_json)
 
     box = {}
-    if pbp.get('header').get('competitions')[0].get('playByPlaySource', "none") != "none":
+    if pbp.get("header").get("competitions")[0].get("playByPlaySource", "none") != "none":
         box = processed_data.create_box_score()
 
     result = {
@@ -159,22 +159,22 @@ def postprocessing(game_id):
         "count" : len(jsonified_df),
         "plays" : jsonified_df,
         "advBoxScore" : box,
-        "homeTeamId": pbp['header']['competitions'][0]['competitors'][0]['team']['id'],
-        "awayTeamId": pbp['header']['competitions'][0]['competitors'][1]['team']['id'],
-        "drives" : pbp['drives'],
-        "scoringPlays" : np.array(pbp['scoringPlays']).tolist(),
-        "winprobability" : np.array(pbp['winprobability']).tolist(),
-        "boxScore" : pbp['boxscore'],
-        "homeTeamSpread" : np.array(pbp['homeTeamSpread']).tolist(),
-        "overUnder" : np.array(pbp['overUnder']).tolist(),
-        "header" : pbp['header'],
-        "broadcasts" : np.array(pbp['broadcasts']).tolist(),
-        "videos" : np.array(pbp['videos']).tolist(),
-        "standings" : pbp['standings'],
-        "pickcenter" : np.array(pbp['pickcenter']).tolist(),
-        "espnWinProbability" : np.array(pbp['espnWP']).tolist(),
-        "gameInfo" : np.array(pbp['gameInfo']).tolist(),
-        "season" : np.array(pbp['season']).tolist()
+        "homeTeamId": pbp["header"]["competitions"][0]["competitors"][0]["team"]["id"],
+        "awayTeamId": pbp["header"]["competitions"][0]["competitors"][1]["team"]["id"],
+        "drives" : pbp["drives"],
+        "scoringPlays" : np.array(pbp["scoringPlays"]).tolist(),
+        "winprobability" : np.array(pbp["winprobability"]).tolist(),
+        "boxScore" : pbp["boxscore"],
+        "homeTeamSpread" : np.array(pbp["homeTeamSpread"]).tolist(),
+        "overUnder" : np.array(pbp["overUnder"]).tolist(),
+        "header" : pbp["header"],
+        "broadcasts" : np.array(pbp["broadcasts"]).tolist(),
+        "videos" : np.array(pbp["videos"]).tolist(),
+        "standings" : pbp["standings"],
+        "pickcenter" : np.array(pbp["pickcenter"]).tolist(),
+        "espnWinProbability" : np.array(pbp["espnWP"]).tolist(),
+        "gameInfo" : np.array(pbp["gameInfo"]).tolist(),
+        "season" : np.array(pbp["season"]).tolist()
     }
     return result
 
@@ -192,16 +192,16 @@ def main():
     years_arr = range(start_year, end_year + 1)
 
     for year in years_arr:
-        schedule = pd.read_parquet(f"{path_to_schedules}/parquet/cfb_schedules_{year}.parquet", engine = 'auto', columns = None)
+        schedule = pd.read_parquet(f"{path_to_schedules}/parquet/cfb_schedule_{year}.parquet", engine = "auto", columns = None)
         schedule = schedule.sort_values(by = ["season", "season_type"], ascending = True)
         schedule["game_id"] = schedule["game_id"].astype(int)
         schedule = schedule[schedule["status_type_completed"] == True]
         if args.rescrape == False:
             game_files = [int(game_file.replace(".json", "")) for game_file in os.listdir(path_to_final)]
             schedule = schedule[~schedule["game_id"].isin(game_files)]
-        schedule = schedule[schedule['season']>=2004]
+        schedule = schedule[schedule["season"]>=2004]
         logger.info(f"Scraping CFB PBP for {year}...")
-        games = schedule[(schedule['season']==year)].reset_index()['game_id']
+        games = schedule[(schedule["season"]==year)].reset_index()["game_id"]
 
         if len(games) == 0:
             logger.info(f"{len(games)} Games to be scraped, skipping")
