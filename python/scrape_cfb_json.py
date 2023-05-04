@@ -74,7 +74,7 @@ def download_game(game, process, path_to_raw, path_to_final):
         pass
     if process == True:
         try:
-            processed_data = CFBPlayProcess(gameId = game_id)
+            processed_data = CFBPlayProcess(gameId = game)
             pbp = processed_data.espn_cfb_pbp()
             processed_data.run_processing_pipeline()
             tmp_json = processed_data.plays_json.to_json(orient="records")
@@ -85,7 +85,7 @@ def download_game(game, process, path_to_raw, path_to_final):
                 box = processed_data.create_box_score()
 
             result = {
-                "id": game_id,
+                "id": int(game),
                 "count" : len(jsonified_df),
                 "plays" : jsonified_df,
                 "advBoxScore" : box,

@@ -63,3 +63,162 @@ INFO:__main__:Scraping CFB schedules for year 2022...
 INFO:__main__:0.3345610022544861 minutes to download 1 years of season schedules.
 INFO:__main__:Scraping CFB PBP for 2022...
 INFO:__main__:Number of Games: 896
+INFO:__main__:Scraping CFB schedules for year 2022...
+INFO:__main__:0.3339670181274414 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2022...
+INFO:__main__:Number of Games: 896
+ERROR:__main__:TypeError: game_id = 401403857
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:TypeError: game_id = 401403896
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:TypeError: game_id = 401426603
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:KeyError: game_id =  game_id = 401405147
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:TypeError: game_id = 401426611
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:TypeError: game_id = 401403952
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:TypeError: game_id = 401442038
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO:__main__:55.232316585381824 minutes to download 896 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2022...
