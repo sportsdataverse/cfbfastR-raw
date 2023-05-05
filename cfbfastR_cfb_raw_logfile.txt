@@ -2663,3 +2663,101 @@ Traceback (most recent call last):
 KeyError: 'period.number'
 INFO:__main__:53.35250333547592 minutes to download 884 game play-by-plays.
 INFO:__main__:Finished CFB PBP for 2008...
+INFO:__main__:Scraping CFB schedules for year 2009...
+INFO:__main__:0.98457932472229 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2009...
+INFO:__main__:Number of Games: 888
+ERROR:__main__:DecodeError: game_id = 292550295
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 85, in download_game
+    box = processed_data.create_box_score()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 4958, in create_box_score
+    dtest_qbr = DMatrix(pass_qbr[qbr_vars])
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 575, in inner_f
+    return f(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 686, in __init__
+    handle, feature_names, feature_types = dispatch_data_backend(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 889, in dispatch_data_backend
+    return _from_pandas_df(data, enable_categorical, missing, threads,
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 344, in _from_pandas_df
+    data, feature_names, feature_types = _transform_pandas_df(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 282, in _transform_pandas_df
+    _invalid_dataframe_dtype(data)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 246, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category.  When
+categorical type is supplied, DMatrix parameter `enable_categorical` must
+be set to `True`. Invalid columns:qbr_epa, sack_epa, pass_epa, rush_epa, pen_epa, spread
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 85, in download_game
+    box = processed_data.create_box_score()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 4958, in create_box_score
+    dtest_qbr = DMatrix(pass_qbr[qbr_vars])
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 575, in inner_f
+    return f(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 686, in __init__
+    handle, feature_names, feature_types = dispatch_data_backend(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 889, in dispatch_data_backend
+    return _from_pandas_df(data, enable_categorical, missing, threads,
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 344, in _from_pandas_df
+    data, feature_names, feature_types = _transform_pandas_df(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 282, in _transform_pandas_df
+    _invalid_dataframe_dtype(data)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 246, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category.  When
+categorical type is supplied, DMatrix parameter `enable_categorical` must
+be set to `True`. Invalid columns:qbr_epa, sack_epa, pass_epa, rush_epa, pen_epa, spread
+ERROR:__main__:KeyError: game_id =  game_id = 292620024
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'start.downDistanceText'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 675, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["start.downDistanceText"]
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'start.downDistanceText'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'start.downDistanceText'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 675, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["start.downDistanceText"]
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'start.downDistanceText'
+INFO:__main__:55.60898118813832 minutes to download 888 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2009...
