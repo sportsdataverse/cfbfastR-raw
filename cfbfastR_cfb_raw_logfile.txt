@@ -1373,3 +1373,43 @@ Traceback (most recent call last):
 TypeError: the JSON object must be str, bytes or bytearray, not NoneType
 INFO:__main__:37.429990450541176 minutes to download 571 game play-by-plays.
 INFO:__main__:Finished CFB PBP for 2020...
+INFO:__main__:Scraping CFB schedules for year 2021...
+INFO:__main__:1.2604698300361634 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2021...
+INFO:__main__:Number of Games: 901
+ERROR:__main__:TypeError: game_id = 401310712
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:TypeError: game_id = 401308837
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO:__main__:56.5902478257815 minutes to download 901 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2021...
