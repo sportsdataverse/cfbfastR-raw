@@ -856,3 +856,26 @@ Traceback (most recent call last):
 ValueError: could not convert string to float: ''
 INFO:__main__:59.94796494245529 minutes to download 906 game play-by-plays.
 INFO:__main__:Finished CFB PBP for 2016...
+INFO:__main__:Scraping CFB schedules for year 2017...
+INFO:__main__:2.771655821800232 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2017...
+INFO:__main__:Number of Games: 897
+ERROR:__main__:TypeError: game_id = 400938644
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO:__main__:58.2033805290858 minutes to download 897 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2017...
