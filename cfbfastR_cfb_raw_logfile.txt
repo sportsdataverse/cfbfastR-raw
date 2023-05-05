@@ -396,3 +396,463 @@ Traceback (most recent call last):
 ValueError: could not convert string to float: ''
 INFO:__main__:57.5787561694781 minutes to download 900 game play-by-plays.
 INFO:__main__:Finished CFB PBP for 2015...
+INFO:__main__:Scraping CFB schedules for year 2016...
+INFO:__main__:1.528969983259837 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2016...
+INFO:__main__:Number of Games: 906
+ERROR:__main__:DecodeError: game_id = 400869507
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869810
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:TypeError: game_id = 400869432
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 78, in download_game
+    pbp = processed_data.espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:DecodeError: game_id = 400869633
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400868996
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869439
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869214
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869216
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:TypeError: game_id = 400869469
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 56, in download_game
+    g = CFBPlayProcess(gameId = game, raw = True).espn_cfb_pbp()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 77, in espn_cfb_pbp
+    summary = json.loads(summary_resp)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR:__main__:DecodeError: game_id = 400869316
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869040
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869552
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869482
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869408
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869649
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400922862
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400868955
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869072
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400926948
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400869858
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400903611
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+ERROR:__main__:DecodeError: game_id = 400876099
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 146, in __helper_cfb_pbp_drives
+    awayTeamAbbrev, awayTeamNameAlt = self.__helper_cfb_pbp(pbp_txt)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 768, in __helper_cfb_pbp
+    pbp_txt["overUnder"] = float(overUnder)
+ValueError: could not convert string to float: ''
+INFO:__main__:59.94796494245529 minutes to download 906 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2016...
