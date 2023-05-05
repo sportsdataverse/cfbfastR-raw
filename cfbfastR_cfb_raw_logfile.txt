@@ -2771,3 +2771,366 @@ INFO:__main__:Scraping CFB schedules for year 2011...
 INFO:__main__:1.3438068707784017 minutes to download 1 years of season schedules.
 INFO:__main__:Scraping CFB PBP for 2011...
 INFO:__main__:Number of Games: 917
+INFO:__main__:Scraping CFB schedules for year 2012...
+INFO:__main__:1.1204916715621949 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2012...
+INFO:__main__:Number of Games: 916
+ERROR:__main__:KeyError: game_id =  game_id = 400368353
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:KeyError: game_id =  game_id = 400433825
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:KeyError: game_id =  game_id = 400434781
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:KeyError: game_id =  game_id = 400434775
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:KeyError: game_id =  game_id = 400434085
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:KeyError: game_id =  game_id = 400434615
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+ERROR:__main__:KeyError: game_id =  game_id = 400434780
+ Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'period.number'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 79, in download_game
+    processed_data.run_processing_pipeline()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 5310, in run_processing_pipeline
+    pbp_txt = self.__helper_cfb_pbp_drives(self.json)
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 152, in __helper_cfb_pbp_drives
+    pbp_txt = self.__helper_cfb_pbp_features(pbp_txt, \
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 221, in __helper_cfb_pbp_features
+    pbp_txt["plays"]["period.number"] = pbp_txt["plays"]["period.number"].apply(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/frame.py", line 3804, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'period.number'
+INFO:__main__:57.25701782306035 minutes to download 916 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2012...
