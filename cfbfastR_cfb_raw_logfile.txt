@@ -2451,3 +2451,50 @@ Traceback (most recent call last):
 KeyError: 'period.number'
 INFO:__main__:39.2029837290446 minutes to download 801 game play-by-plays.
 INFO:__main__:Finished CFB PBP for 2005...
+INFO:__main__:Scraping CFB schedules for year 2006...
+INFO:__main__:1.5111455202102662 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping CFB PBP for 2006...
+INFO:__main__:Number of Games: 874
+ERROR:__main__:DecodeError: game_id = 262590059
+ Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 85, in download_game
+    box = processed_data.create_box_score()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 4958, in create_box_score
+    dtest_qbr = DMatrix(pass_qbr[qbr_vars])
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 575, in inner_f
+    return f(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 686, in __init__
+    handle, feature_names, feature_types = dispatch_data_backend(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 889, in dispatch_data_backend
+    return _from_pandas_df(data, enable_categorical, missing, threads,
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 344, in _from_pandas_df
+    data, feature_names, feature_types = _transform_pandas_df(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 282, in _transform_pandas_df
+    _invalid_dataframe_dtype(data)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 246, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category.  When
+categorical type is supplied, DMatrix parameter `enable_categorical` must
+be set to `True`. Invalid columns:qbr_epa, sack_epa, pass_epa, rush_epa, pen_epa, spread
+Traceback (most recent call last):
+  File "python/scrape_cfb_json.py", line 85, in download_game
+    box = processed_data.create_box_score()
+  File "/mnt/sdv_repos/sdv-py/sportsdataverse/cfb/cfb_pbp.py", line 4958, in create_box_score
+    dtest_qbr = DMatrix(pass_qbr[qbr_vars])
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 575, in inner_f
+    return f(**kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/core.py", line 686, in __init__
+    handle, feature_names, feature_types = dispatch_data_backend(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 889, in dispatch_data_backend
+    return _from_pandas_df(data, enable_categorical, missing, threads,
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 344, in _from_pandas_df
+    data, feature_names, feature_types = _transform_pandas_df(
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 282, in _transform_pandas_df
+    _invalid_dataframe_dtype(data)
+  File "/usr/local/lib/python3.8/dist-packages/xgboost/data.py", line 246, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category.  When
+categorical type is supplied, DMatrix parameter `enable_categorical` must
+be set to `True`. Invalid columns:qbr_epa, sack_epa, pass_epa, rush_epa, pen_epa, spread
+INFO:__main__:43.08814738988876 minutes to download 874 game play-by-plays.
+INFO:__main__:Finished CFB PBP for 2006...
