@@ -1,0 +1,1737 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "2229",
+"uid": "s:20~l:23~t:2229",
+"slug": "florida-intl-golden-panthers",
+"location": "Florida Intl",
+"name": "Golden Panthers",
+"abbreviation": "FIU",
+"displayName": "Florida Intl Golden Panthers",
+"shortDisplayName": "Golden Panthers",
+"color": "001538",
+"alternateColor": "c5960c",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png"
+},
+"statistics": []
+},
+{
+"team": {
+"id": "2617",
+"uid": "s:20~l:23~t:2617",
+"slug": "stephen-f-austin-lumberjacks",
+"location": "Stephen F Austin",
+"name": "Lumberjacks",
+"abbreviation": "SFA",
+"displayName": "Stephen F Austin Lumberjacks",
+"shortDisplayName": "Lumberjacks",
+"color": "393996",
+"alternateColor": "bec0c2",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png"
+},
+"statistics": [
+{
+"name": "firstDowns",
+"displayValue": "20",
+"label": "1st Downs"
+},
+{
+"name": "thirdDownEff",
+"displayValue": "0-0",
+"label": "3rd down efficiency"
+},
+{
+"name": "fourthDownEff",
+"displayValue": "0-0",
+"label": "4th down efficiency"
+},
+{
+"name": "totalYards",
+"displayValue": "403",
+"label": "Total Yards"
+},
+{
+"name": "netPassingYards",
+"displayValue": "303",
+"label": "Passing"
+},
+{
+"name": "completionAttempts",
+"displayValue": "24-42",
+"label": "Comp-Att"
+},
+{
+"name": "yardsPerPass",
+"displayValue": "7.4",
+"label": "Yards per pass"
+},
+{
+"name": "rushingYards",
+"displayValue": "92",
+"label": "Rushing"
+},
+{
+"name": "rushingAttempts",
+"displayValue": "33",
+"label": "Rushing Attempts"
+},
+{
+"name": "yardsPerRushAttempt",
+"displayValue": "2.8",
+"label": "Yards per rush"
+},
+{
+"name": "totalPenaltiesYards",
+"displayValue": "4-30",
+"label": "Penalties"
+},
+{
+"name": "turnovers",
+"displayValue": "0",
+"label": "Turnovers"
+},
+{
+"name": "fumblesLost",
+"displayValue": "0",
+"label": "Fumbles lost"
+},
+{
+"name": "interceptions",
+"displayValue": "0",
+"label": "Interceptions thrown"
+},
+{
+"name": "possessionTime",
+"displayValue": "16:19",
+"label": "Possession"
+}
+]
+}
+],
+"players": [
+{
+"team": {
+"id": "2229",
+"uid": "s:20~l:23~t:2229",
+"slug": "florida-intl-golden-panthers",
+"location": "Florida Intl",
+"name": "Golden Panthers",
+"abbreviation": "FIU",
+"displayName": "Florida Intl Golden Panthers",
+"shortDisplayName": "Golden Panthers",
+"color": "001538",
+"alternateColor": "c5960c",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png"
+},
+"statistics": []
+},
+{
+"team": {
+"id": "2617",
+"uid": "s:20~l:23~t:2617",
+"slug": "stephen-f-austin-lumberjacks",
+"location": "Stephen F Austin",
+"name": "Lumberjacks",
+"abbreviation": "SFA",
+"displayName": "Stephen F Austin Lumberjacks",
+"shortDisplayName": "Lumberjacks",
+"color": "393996",
+"alternateColor": "bec0c2",
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png"
+},
+"statistics": [
+{
+"name": "passing",
+"keys": [
+"completions/passingAttempts",
+"passingYards",
+"yardsPerPassAttempt",
+"passingTouchdowns",
+"interceptions",
+"adjQBR"
+],
+"text": "Stephen F Austin Passing",
+"labels": [
+"C/ATT",
+"YDS",
+"AVG",
+"TD",
+"INT"
+],
+"descriptions": [
+"Completions/Attempts",
+"Yards",
+"Yards Per Pass Attempt",
+"Touchdowns",
+"Interceptions"
+],
+"athletes": [
+{
+"athlete": {
+"id": "121824",
+"uid": "s:20~l:23~a:121824",
+"guid": "8c4ed797983a34cca8d55d2635cc53e4",
+"firstName": "Zeke",
+"lastName": "Dixon",
+"displayName": "Zeke Dixon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/121824/zeke-dixon",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/121824/zeke-dixon",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/121824/zeke-dixon",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/121824/zeke-dixon",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/121824/zeke-dixon",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/121824/zeke-dixon",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/121824/zeke-dixon",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"3/3",
+"17",
+"5.7",
+"0",
+"0"
+]
+}
+],
+"totals": [
+"24/42",
+"303",
+"7.4",
+"0",
+"0"
+]
+},
+{
+"name": "rushing",
+"keys": [
+"rushingAttempts",
+"rushingYards",
+"yardsPerRushAttempt",
+"rushingTouchdowns",
+"longRushing"
+],
+"text": "Stephen F Austin Rushing",
+"labels": [
+"CAR",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Rushing Attempts",
+"Yards",
+"Yards Per Rushing Attempt",
+"Touchdowns",
+"Longest Run"
+],
+"athletes": [
+{
+"athlete": {
+"id": "162351",
+"uid": "s:20~l:23~a:162351",
+"guid": "487118e51d69d03cd003b767bcbfda06",
+"firstName": "Louie",
+"lastName": "Runnels",
+"displayName": "Louie Runnels",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/162351/louie-runnels",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/162351/louie-runnels",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/162351/louie-runnels",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/162351/louie-runnels",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/162351/louie-runnels",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/162351/louie-runnels",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/162351/louie-runnels",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"4",
+"24",
+"6.0",
+"1",
+"0"
+]
+},
+{
+"athlete": {
+"id": "121824",
+"uid": "s:20~l:23~a:121824",
+"guid": "8c4ed797983a34cca8d55d2635cc53e4",
+"firstName": "Zeke",
+"lastName": "Dixon",
+"displayName": "Zeke Dixon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/121824/zeke-dixon",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/121824/zeke-dixon",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/121824/zeke-dixon",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/121824/zeke-dixon",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/121824/zeke-dixon",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/121824/zeke-dixon",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/121824/zeke-dixon",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"-7",
+"-7.0",
+"0",
+"0"
+]
+}
+],
+"totals": [
+"33",
+"92",
+"2.8",
+"1",
+"0"
+]
+},
+{
+"name": "receiving",
+"keys": [
+"receptions",
+"receivingYards",
+"yardsPerReception",
+"receivingTouchdowns",
+"longReception"
+],
+"text": "Stephen F Austin Receiving",
+"labels": [
+"REC",
+"YDS",
+"AVG",
+"TD",
+"LONG"
+],
+"descriptions": [
+"Receptions",
+"Yards",
+"Yards Per Reception",
+"Touchdowns",
+"Longest Reception"
+],
+"athletes": [
+{
+"athlete": {
+"id": "137790",
+"uid": "s:20~l:23~a:137790",
+"guid": "becc1aa35f010c9412e77b73e9f690f8",
+"firstName": "Carl",
+"lastName": "Price",
+"displayName": "Carl Price",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/137790/carl-price",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/137790/carl-price",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/137790/carl-price",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/137790/carl-price",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/137790/carl-price",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/137790/carl-price",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/137790/carl-price",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"31",
+"15.5",
+"0",
+"0"
+]
+},
+{
+"athlete": {
+"id": "162351",
+"uid": "s:20~l:23~a:162351",
+"guid": "487118e51d69d03cd003b767bcbfda06",
+"firstName": "Louie",
+"lastName": "Runnels",
+"displayName": "Louie Runnels",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/162351/louie-runnels",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/162351/louie-runnels",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/162351/louie-runnels",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/162351/louie-runnels",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/162351/louie-runnels",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/162351/louie-runnels",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/162351/louie-runnels",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"16",
+"16.0",
+"0",
+"0"
+]
+},
+{
+"athlete": {
+"id": "151105",
+"uid": "s:20~l:23~a:151105",
+"guid": "710331fc0547f05495ce6a664b8ef18b",
+"firstName": "Cedric",
+"lastName": "Reescano",
+"displayName": "Cedric Reescano",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/151105/cedric-reescano",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/151105/cedric-reescano",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/151105/cedric-reescano",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/151105/cedric-reescano",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/151105/cedric-reescano",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/151105/cedric-reescano",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/151105/cedric-reescano",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"15",
+"15.0",
+"0",
+"0"
+]
+},
+{
+"athlete": {
+"id": "151108",
+"uid": "s:20~l:23~a:151108",
+"guid": "d0a2fc6bc65bf58d8f17021876e53b7b",
+"firstName": "Michael",
+"lastName": "Motte",
+"displayName": "Michael Motte",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/151108/michael-motte",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/151108/michael-motte",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/151108/michael-motte",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/151108/michael-motte",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/151108/michael-motte",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/151108/michael-motte",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/151108/michael-motte",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"2",
+"15",
+"7.5",
+"0",
+"0"
+]
+},
+{
+"athlete": {
+"id": "137759",
+"uid": "s:20~l:23~a:137759",
+"guid": "89c408ac1b948a6c7fcff2e2587157fd",
+"firstName": "Matt",
+"lastName": "Bodley",
+"displayName": "Matt Bodley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/137759/matt-bodley",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/stats/_/id/137759/matt-bodley",
+"text": "Stats"
+},
+{
+"rel": [
+"splits",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/splits/_/id/137759/matt-bodley",
+"text": "Splits"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/gamelog/_/id/137759/matt-bodley",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/news/_/id/137759/matt-bodley",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/bio/_/id/137759/matt-bodley",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/137759/matt-bodley",
+"text": "Overview"
+}
+]
+},
+"stats": [
+"1",
+"6",
+"6.0",
+"0",
+"0"
+]
+}
+],
+"totals": [
+"7",
+"83",
+"11.9",
+"0",
+"0"
+]
+},
+{
+"name": "interceptions",
+"keys": [
+"interceptions",
+"interceptionYards",
+"interceptionTouchdowns"
+],
+"text": "Stephen F Austin Interceptions",
+"labels": [
+"INT",
+"YDS",
+"TD"
+],
+"descriptions": [
+"Interceptions",
+"Yards",
+"Touchdowns"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "kickReturns",
+"keys": [
+"kickReturns",
+"kickReturnYards",
+"yardsPerKickReturn",
+"longKickReturn",
+"kickReturnTouchdowns"
+],
+"text": "Stephen F Austin Kick Returns",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
+],
+"descriptions": [
+"Kick Returns",
+"Yards",
+"Yards Per Kick Return",
+"Longest Kick Return",
+"Touchdowns"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "puntReturns",
+"keys": [
+"puntReturns",
+"puntReturnYards",
+"yardsPerPuntReturn",
+"longPuntReturn",
+"puntReturnTouchdowns"
+],
+"text": "Stephen F Austin Punt Returns",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"LONG",
+"TD"
+],
+"descriptions": [
+"Punt Returns",
+"Yards",
+"Yards Per Punt Return",
+"Longest Punt Return",
+"Touchdowns"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "kicking",
+"keys": [
+"fieldGoalsMade/fieldGoalAttempts",
+"fieldGoalPct",
+"longFieldGoalMade",
+"extraPointsMade/extraPointAttempts",
+"totalKickingPoints"
+],
+"text": "Stephen F Austin Kicking",
+"labels": [
+"FG",
+"PCT",
+"LONG",
+"XP",
+"PTS"
+],
+"descriptions": [
+"Field Goals Made/Attempts",
+"Field Goal Percentage",
+"Longest Field Goal Made",
+"Extra Points Made/Attempts",
+"Kicking Points"
+],
+"athletes": [],
+"totals": []
+},
+{
+"name": "punting",
+"keys": [
+"punts",
+"puntYards",
+"grossAvgPuntYards",
+"touchbacks",
+"puntsInside20",
+"longPunt"
+],
+"text": "Stephen F Austin Punting",
+"labels": [
+"NO",
+"YDS",
+"AVG",
+"TB",
+"In 20",
+"LONG"
+],
+"descriptions": [
+"Punts",
+"Yards",
+"Average Punt Yards",
+"Touchbacks",
+"Punts Inside 20",
+"Longest Punt"
+],
+"athletes": [],
+"totals": []
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 900.0
+},
+"overtime": {
+"periods": 0,
+"displayName": "untimed",
+"slug": "untimed"
+}
+},
+"gameInfo": {
+"venue": {
+"id": "3756",
+"fullName": "Homer Bryce Stadium",
+"address": {
+"city": "Nacogdoches",
+"state": "TX",
+"zipCode": "75961"
+},
+"capacity": 14575,
+"grass": false,
+"images": []
+},
+"attendance": 4131
+},
+"drives": {},
+"leaders": [
+{
+"team": {
+"id": "2617",
+"uid": "s:20~l:23~t:2617",
+"displayName": "Stephen F Austin Lumberjacks",
+"abbreviation": "SFA",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2617/stephen-f-austin-lumberjacks",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2617",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2617.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"leaders": [
+{
+"name": "passingYards",
+"displayName": "Passing Yards",
+"leaders": [
+{
+"displayValue": "3-3, 17 YDS",
+"athlete": {
+"id": "121824",
+"uid": "s:20~l:23~a:121824",
+"guid": "8c4ed797983a34cca8d55d2635cc53e4",
+"lastName": "Dixon",
+"fullName": "Zeke Dixon",
+"displayName": "Zeke Dixon",
+"shortName": "Z. Dixon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/121824/zeke-dixon",
+"text": "Player Card"
+}
+],
+"jersey": "3  ",
+"position": {
+"abbreviation": "QB"
+}
+}
+}
+]
+},
+{
+"name": "rushingYards",
+"displayName": "Rushing Yards",
+"leaders": [
+{
+"displayValue": "4 CAR, 24 YDS, 1 TD",
+"athlete": {
+"id": "162351",
+"uid": "s:20~l:23~a:162351",
+"guid": "487118e51d69d03cd003b767bcbfda06",
+"lastName": "Runnels",
+"fullName": "Louie Runnels",
+"displayName": "Louie Runnels",
+"shortName": "L. Runnels",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/162351/louie-runnels",
+"text": "Player Card"
+}
+],
+"jersey": "31 ",
+"position": {
+"abbreviation": "RB"
+}
+}
+}
+]
+},
+{
+"name": "receivingYards",
+"displayName": "Receiving Yards",
+"leaders": [
+{
+"displayValue": "2 REC, 31 YDS",
+"athlete": {
+"id": "137790",
+"uid": "s:20~l:23~a:137790",
+"guid": "becc1aa35f010c9412e77b73e9f690f8",
+"lastName": "Price",
+"fullName": "Carl Price",
+"displayName": "Carl Price",
+"shortName": "C. Price",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/college-football/player/_/id/137790/carl-price",
+"text": "Player Card"
+}
+],
+"jersey": "83 ",
+"position": {
+"abbreviation": "WR"
+}
+}
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "2229",
+"uid": "s:20~l:23~t:2229",
+"displayName": "Florida Intl Golden Panthers",
+"abbreviation": "FIU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2229/florida-international-panthers",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2229",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2229.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"leaders": []
+}
+],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "2229",
+"uid": "s:20~l:23~t:2229",
+"displayName": "Florida Intl Golden Panthers",
+"abbreviation": "FIU",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2229/florida-international-panthers",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2229",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2229.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "2617",
+"uid": "s:20~l:23~t:2617",
+"displayName": "Stephen F Austin Lumberjacks",
+"abbreviation": "SFA",
+"links": [
+{
+"href": "https://www.espn.com/college-football/team/_/id/2617/stephen-f-austin-lumberjacks",
+"text": "Clubhouse"
+},
+{
+"href": "http://www.espn.com/college-football/team/schedule/_/id/2617",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2617.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "242832617",
+"uid": "s:20~l:23~e:242832617",
+"season": {
+"year": 2004,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "242832617",
+"uid": "s:20~l:23~e:242832617~c:242832617",
+"date": "2004-10-10T00:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "2617",
+"uid": "s:20~l:23~t:2617",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "2617",
+"uid": "s:20~l:23~t:2617",
+"location": "Stephen F Austin",
+"name": "Lumberjacks",
+"nickname": "SF Austin",
+"abbreviation": "SFA",
+"displayName": "Stephen F Austin Lumberjacks",
+"color": "393996",
+"alternateColor": "bec0c2",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2617.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2617/stephen-f-austin-lumberjacks",
+"text": "Clubhouse"
+}
+]
+},
+"score": "24",
+"linescores": [
+{
+"displayValue": "3"
+},
+{
+"displayValue": "7"
+},
+{
+"displayValue": "0"
+},
+{
+"displayValue": "14"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "4-1",
+"displayValue": "4-1"
+},
+{
+"type": "home",
+"summary": "3-1",
+"displayValue": "3-1"
+},
+{
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"possession": false
+},
+{
+"id": "2229",
+"uid": "s:20~l:23~t:2229",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "2229",
+"uid": "s:20~l:23~t:2229",
+"location": "Florida Intl",
+"name": "Golden Panthers",
+"nickname": "FIU",
+"abbreviation": "FIU",
+"displayName": "Florida Intl Golden Panthers",
+"color": "001538",
+"alternateColor": "c5960c",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2229.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:08Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/college-football/team/_/id/2229/florida-international-panthers",
+"text": "Clubhouse"
+}
+]
+},
+"score": "31",
+"linescores": [
+{
+"displayValue": "7"
+},
+{
+"displayValue": "10"
+},
+{
+"displayValue": "14"
+},
+{
+"displayValue": "0"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "2-1",
+"displayValue": "2-1"
+},
+{
+"type": "road",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"type": "vsconf",
+"summary": "0-0",
+"displayValue": "0-0"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": []
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/game/_/gameId/242832617",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/boxscore/_/gameId/242832617",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/college-football/matchup?gameId=242832617",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 7,
+"league": {
+"id": "23",
+"uid": "s:20~l:23",
+"name": "NCAA - Football",
+"abbreviation": "NCAAF",
+"midsizeName": "NCAA Football",
+"slug": "college-football",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/college-football/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/college-football/injuries",
+"text": "Injuries"
+}
+]
+},
+"gameNote": ""
+},
+"scoringPlays": [],
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/college-football/standings"
+},
+"groups": []
+}
+}
